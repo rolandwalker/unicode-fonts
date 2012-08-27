@@ -257,3 +257,9 @@ Chinese and Arabic Scripts
 If you are using a language written in Chinese or Arabic script,
 try customizing `unicode-fonts-skip-font-groups` to control which
 script you see, and send a friendly bug report.
+
+Compatibility and Requirements
+------------------------------
+Tested only on GNU Emacs version 24.1
+
+Requires dynamic-fonts.el, ucs-utils.el

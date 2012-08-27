@@ -253,9 +253,11 @@
 ;;
 ;;       Conakry                       ; N'ko
 ;;
-;; Compatibility
+;; Compatibility and Requirements
 ;;
 ;;    Tested only on GNU Emacs version 24.1
+;;
+;;    Requires dynamic-fonts.el, ucs-utils.el
 ;;
 ;; Bugs
 ;;
