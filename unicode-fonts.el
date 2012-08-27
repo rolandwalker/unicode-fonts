@@ -374,9 +374,15 @@
 (autoload 'dynamic-fonts-font-exists-p            "dynamic-fonts"  "Test whether FONT-NAME (a string or font object) exists.")
 (autoload 'dynamic-fonts-read-font-name           "dynamic-fonts"  "Read a font name using `completing-read'.")
 (autoload 'dynamic-fonts-lenient-font-name-equal  "dynamic-fonts"  "Leniently match two strings, FONT-NAME-A and FONT-NAME-B.")
+(autoload 'dynamic-fonts-first-existing-font      "dynamic-fonts"  "Return the (normalized) first existing font name from FONT-NAMES.")
+(autoload 'dynamic-fonts-font-name-from-xlfd      "dynamic-fonts"  "Return the font-family name from XLFD, a string.")
 
 (autoload 'ucs-utils-char                         "ucs-utils"      "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name                  "ucs-utils"      "Return a prettified UCS name for CHAR.")
+
+(declare-function remove-if     "cl-seq.el")
+(declare-function remove-if-not "cl-seq.el")
+(declare-function member*       "cl-seq.el")
 
 ;;; constants
 
@@ -3486,6 +3492,7 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
 ;; mangle-whitespace: t
 ;; require-final-newline: t
 ;; coding: utf-8
+;; byte-compile-warnings: (not cl-functions)
 ;; End:
 ;;
 ;; LocalWords: cleartype Consolas Ethiopic Samyak BabelStone Symbola
