@@ -2836,6 +2836,7 @@ these mappings."
 
 ;;; utility functions
 
+;;;###autoload
 (defun unicode-fonts-first-existing-font (font-names)
   "Return the (normalized) first existing font name from FONT-NAMES.
 
@@ -2848,6 +2849,7 @@ not checked."
                                                     (member* x unicode-fonts-skipped-fonts-computed :test 'dynamic-fonts-lenient-font-name-equal))
                                                 font-names)))
 
+;;;###autoload
 (defun unicode-fonts-font-exists-p (font-name &optional point-size strict)
   "Run `unicode-fonts-font-exists-p' with a limited scope.
 
@@ -2931,6 +2933,7 @@ error."
         (push name unicode-fonts-skipped-fonts-computed))
       (delete-dups unicode-fonts-skipped-fonts-computed))))
 
+;;;###autoload
 (defun unicode-fonts-read-block-name (&optional ido)
   "Read a Unicode block name using `completing-read'.
 
