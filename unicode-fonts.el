@@ -2977,7 +2977,7 @@ Use `ido-completing-read' if IDO is set."
           (callf concat font-name "-" font-size))
         (unless (and (stringp font-name)
                      (> (length font-name) 0))
-          (setq font-name (format "%s" (font-xlfd-name (car char-font-info))))))
+          (setq font-name (dynamic-fonts-font-name-from-xlfd (font-xlfd-name font)))))
       (setq block-name
            (catch 'bn
              (dolist (cell unicode-fonts-blocks)
