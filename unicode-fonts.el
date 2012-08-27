@@ -4,8 +4,8 @@
 ;;
 ;; Author: Roland Walker walker@pobox.com
 ;; URL: https://github.com/rolandwalker/unicode-fonts.el
-;; Version: 0.3.1
-;; Last-Updated: 23 Aug 2012
+;; Version: 0.3.2
+;; Last-Updated: 27 Aug 2012
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n
 ;; Package-Requires: ((dynamic-fonts "0.5.1") (ucs-utils "0.6.0") (persistent-soft "0.8.0") (pcache "0.2.3"))
@@ -1156,7 +1156,7 @@
 ;;;###autoload
 (defgroup unicode-fonts nil
   "Configure Unicode fonts."
-  :version "0.3.1"
+  :version "0.3.2"
   :link '(emacs-commentary-link "unicode-fonts")
   :prefix "unicode-fonts-"
   :group 'extensions)
