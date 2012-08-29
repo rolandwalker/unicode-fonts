@@ -262,4 +262,4 @@ Compatibility and Requirements
 ------------------------------
 Tested only on GNU Emacs version 24.1
 
-Requires dynamic-fonts.el, ucs-utils.el
+Requires [dynamic-fonts.el](http://github.com/rolandwalker/dynamic-fonts), [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
