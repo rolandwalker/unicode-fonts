@@ -3,7 +3,8 @@
 ;; Copyright (c) 2012 Roland Walker
 ;;
 ;; Author: Roland Walker walker@pobox.com
-;; URL: https://github.com/rolandwalker/unicode-fonts.el
+;; Homepage: http://github.com/rolandwalker/unicode-fonts
+;; URL: http://raw.github.com/rolandwalker/unicode-fonts/master/unicode-fonts.el
 ;; Version: 0.3.2
 ;; Last-Updated: 27 Aug 2012
 ;; EmacsWiki: UnicodeFonts
