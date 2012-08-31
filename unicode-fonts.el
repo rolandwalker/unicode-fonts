@@ -1178,8 +1178,8 @@ and the font backend used by your Emacs build.
 
 This defaults to nil when using the Cocoa or native Mac font
 backends on OS X, t otherwise."
-  :group 'unicode-fonts-tweaks
-  :type 'boolean)
+  :type 'boolean
+  :group 'unicode-fonts-tweaks)
 
 (defcustom unicode-fonts-existence-checks 'all
   "How unicode-fonts will dynamically check fonts at startup.
@@ -1287,8 +1287,8 @@ Leave the list empty for no per-group exclusions."
 
 Leaving this off allows you to see the impact of this
 library on startup time."
-  :group 'unicode-fonts
-  :type 'boolean)
+  :type 'boolean
+  :group 'unicode-fonts)
 
 (defcustom unicode-fonts-fallback-font-list '("Symbola" "Quivira")
   "Candidates for a general fallback font.
