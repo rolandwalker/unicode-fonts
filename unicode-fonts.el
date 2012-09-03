@@ -1162,7 +1162,8 @@
   :version "0.3.2"
   :link '(emacs-commentary-link "unicode-fonts")
   :prefix "unicode-fonts-"
-  :group 'extensions)
+  :group 'i18n
+  :group 'faces)
 
 ;;;###autoload
 (defgroup unicode-fonts-tweaks nil
