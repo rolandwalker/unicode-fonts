@@ -370,9 +370,8 @@
 
 ;;; requires
 
-;; for callf, callf2, let*, remove-if-not, member*, incf
-(eval-when-compile
-  (require 'cl))
+;; for callf, callf2, member*, incf, remove-if, remove-if-not
+(require 'cl)
 
 (autoload 'dynamic-fonts-font-exists-p            "dynamic-fonts"  "Test whether FONT-NAME (a string or font object) exists.")
 (autoload 'dynamic-fonts-read-font-name           "dynamic-fonts"  "Read a font name using `completing-read'.")
@@ -382,10 +381,6 @@
 
 (autoload 'ucs-utils-char                         "ucs-utils"      "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name                  "ucs-utils"      "Return a prettified UCS name for CHAR.")
-
-(declare-function remove-if     "cl-seq.el")
-(declare-function remove-if-not "cl-seq.el")
-(declare-function member*       "cl-seq.el")
 
 ;;; constants
 
