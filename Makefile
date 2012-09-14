@@ -11,5 +11,8 @@ EMACS_FLAGS=-Q --batch
 build :
 	$(EMACS) $(EMACS_FLAGS) -f batch-byte-compile *.el
 
+test :
+	@echo no tests defined
+
 clean :
 	@rm -f *.elc *~ */*.elc */*~
