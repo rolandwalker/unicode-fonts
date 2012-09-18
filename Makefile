@@ -8,11 +8,16 @@ EMACS=emacs
 # EMACS=/usr/bin/emacs
 EMACS_FLAGS=-Q --batch
 
+WORK_DIR=$(shell pwd)
+
 build :
 	$(EMACS) $(EMACS_FLAGS) -f batch-byte-compile *.el
 
 test :
 	@echo no tests defined
 
+autoloads :
+	$(EMACS) $(EMACS_FLAGS) --eval '(let ((generated-autoload-file "$(WORK_DIR)/loaddefs.el")) (update-directory-autoloads "$(WORK_DIR)"))'
+
 clean :
-	@rm -f *.elc *~ */*.elc */*~
+	@rm -f loaddefs.el *.elc *~ */*.elc */*~
