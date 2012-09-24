@@ -17,27 +17,27 @@
 ;;
 ;; Quickstart:
 ;;
-;;    Configure an extended Latin font for your default face, such
-;;    as Monaco, Consolas, or DejaVu Sans Mono.
+;;     Configure an extended Latin font for your default face, such
+;;     as Monaco, Consolas, or DejaVu Sans Mono.
 ;;
-;;    Install these fonts
+;;     Install these fonts
 ;;
-;;       http://users.teilar.gr/~g1951d/Symbola702.zip
-;;       http://www.quivira-font.com/files/Quivira.ttf
-;;       http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2
+;;        http://users.teilar.gr/~g1951d/Symbola702.zip
+;;        http://www.quivira-font.com/files/Quivira.ttf
+;;        http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2
 ;;
-;;    Remove Unifont from your system.
+;;     Remove Unifont from your system.
 ;;
-;;    (require 'unicode-fonts)
+;;     (require 'unicode-fonts)
 ;;
-;;    (unicode-fonts-setup)
+;;     (unicode-fonts-setup)
 ;;
 ;; Testing:
 ;;
-;;    C-h h                                         ; M-x view-hello-file
-;;    M-x list-charset-chars RET unicode-bmp RET    ; search for 210x
-;;    M-x list-charset-chars RET unicode-smp RET    ; if your backend supports astral chars
-;;    M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET
+;;     C-h h                                         ; M-x view-hello-file
+;;     M-x list-charset-chars RET unicode-bmp RET    ; search for 210x
+;;     M-x list-charset-chars RET unicode-smp RET    ; if your backend supports astral chars
+;;     M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET
 ;;
 ;; Explanation:
 ;;
@@ -55,15 +55,15 @@
 ;; ranges into logical groups called "blocks".  This library configures
 ;; Emacs in a Unicode-friendly way by providing mappings from
 ;;
-;;    each Unicode block  ---to--->   a font with good coverage
+;;     each Unicode block  ---to--->   a font with good coverage
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
 ;;
-;;    (require 'unicode-fonts)
-;;    (unicode-fonts-setup)
+;;     (require 'unicode-fonts)
+;;     (unicode-fonts-setup)
 ;;
 ;; See important notes about startup speed below.
 ;;
@@ -75,15 +75,15 @@
 ;;
 ;; From http://dejavu-fonts.org/wiki/Download
 ;;
-;;    DejaVu Sans, DejaVu Sans Mono
+;;     DejaVu Sans, DejaVu Sans Mono
 ;;
 ;; From http://www.quivira-font.com/downloads.php
 ;;
-;;    Quivira
+;;     Quivira
 ;;
 ;; From http://users.teilar.gr/~g1951d/
 ;;
-;;    Symbola
+;;     Symbola
 ;;
 ;; Many non-free fonts are referenced by the default settings.
 ;; However, free alternatives are also given wherever possible, and
@@ -94,10 +94,10 @@
 ;; face, no separate mappings are provided for the following Unicode
 ;; blocks:
 ;;
-;;    Latin Extended Additional
-;;    Latin Extended-A
-;;    Latin-1 Supplement
-;;    Spacing Modifier Letters
+;;     Latin Extended Additional
+;;     Latin Extended-A
+;;     Latin-1 Supplement
+;;     Spacing Modifier Letters
 ;;
 ;; It is also recommended to remove GNU Unifont from your system.
 ;; Unifont is very useful for debugging, but not useful for reading.
@@ -109,11 +109,11 @@
 ;; further increase startup speed, enter the customization interface
 ;; and
 ;;
-;;    1. Remove fonts from `unicode-fonts-block-font-mapping'
-;;       which are not present on your system.
+;;     1. Remove fonts from `unicode-fonts-block-font-mapping'
+;;        which are not present on your system.
 ;;
-;;    2. Disable blocks in `unicode-fonts-block-font-mapping'
-;;       which you are not interested in displaying.
+;;     2. Disable blocks in `unicode-fonts-block-font-mapping'
+;;        which you are not interested in displaying.
 ;;
 ;; If you are using a language written in Chinese or Arabic script,
 ;; try customizing `unicode-fonts-skip-font-groups' to control which
@@ -121,214 +121,214 @@
 ;;
 ;; See Also
 ;;
-;;    M-x customize-group RET unicode-fonts RET
-;;    M-x customize-variable RET unicode-fonts-block-font-mapping RET
+;;     M-x customize-group RET unicode-fonts RET
+;;     M-x customize-variable RET unicode-fonts-block-font-mapping RET
 ;;
 ;; Notes
 ;;
-;;  Free fonts recognized by this package may be downloaded
-;;  from the following locations:
+;; Free fonts recognized by this package may be downloaded
+;; from the following locations:
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download
+;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download
 ;;
-;;       Doulos SIL                    ; Extended European and diacritics
+;;         Doulos SIL                    ; Extended European and diacritics
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download
+;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download
 ;;
-;;       Gentium Plus                  ; Greek
+;;         Gentium Plus                  ; Greek
 ;;
-;;    From http://users.teilar.gr/~g1951d/
+;;     From http://users.teilar.gr/~g1951d/
 ;;
-;;       Aegean, Aegyptus, Akkadian    ; Ancient languages
-;;       Analecta                      ; Ancient languages, Deseret
-;;       Musica                        ; Musical Symbols
+;;         Aegean, Aegyptus, Akkadian    ; Ancient languages
+;;         Analecta                      ; Ancient languages, Deseret
+;;         Musica                        ; Musical Symbols
 ;;
-;;    From http://www.wazu.jp/gallery/views/View_MPH2BDamase.html
+;;     From http://www.wazu.jp/gallery/views/View_MPH2BDamase.html
 ;;
-;;       MPH 2B Damase                 ; Arabic, Armenian, Buginese, Cherokee, Georgian,
-;;                                     ; Glagolitic, Hanunoo, Kharoshthi, Limbu, Osmanya,
-;;                                     ; Shavian, Syloti Nagri, Tai Le, Thaana
+;;         MPH 2B Damase                 ; Arabic, Armenian, Buginese, Cherokee, Georgian,
+;;                                       ; Glagolitic, Hanunoo, Kharoshthi, Limbu, Osmanya,
+;;                                       ; Shavian, Syloti Nagri, Tai Le, Thaana
 ;;
-;;    From http://wenq.org/enindex.cgi?Home
+;;     From http://wenq.org/enindex.cgi?Home
 ;;
-;;       WenQuanYi Zen Hei             ; CJK (Simplified Chinese)
+;;         WenQuanYi Zen Hei             ; CJK (Simplified Chinese)
 ;;
-;;    From http://babelstone.co.uk/Fonts/
+;;     From http://babelstone.co.uk/Fonts/
 ;;
-;;       BabelStone Han                ; CJK (Simplified Chinese)
-;;       BabelStone Phags-pa Book      ; Phags-pa
+;;         BabelStone Han                ; CJK (Simplified Chinese)
+;;         BabelStone Phags-pa Book      ; Phags-pa
 ;;
-;;    From http://kldp.net/projects/unfonts/
+;;     From http://kldp.net/projects/unfonts/
 ;;
-;;       Un Batang                     ; CJK (Hangul)
+;;         Un Batang                     ; CJK (Hangul)
 ;;
-;;    From http://sourceforge.jp/projects/hanazono-font/releases/
+;;     From http://sourceforge.jp/projects/hanazono-font/releases/
 ;;
-;;       Hana Min A, Hana Min B        ; CJK (Japanese)
+;;         Hana Min A, Hana Min B        ; CJK (Japanese)
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=SILYi_home
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=SILYi_home
 ;;
-;;       Nuosu SIL                     ; CJK (Yi)
+;;         Nuosu SIL                     ; CJK (Yi)
 ;;
-;;    From http://www.daicing.com/manchu/index.php?page=fonts-downloads
+;;     From http://www.daicing.com/manchu/index.php?page=fonts-downloads
 ;;
-;;       Daicing Xiaokai               ; Mongolian
+;;         Daicing Xiaokai               ; Mongolian
 ;;
-;;    From http://www.library.gov.bt/IT/fonts.html
+;;     From http://www.library.gov.bt/IT/fonts.html
 ;;
-;;       Jomolhari                     ; Tibetan
+;;         Jomolhari                     ; Tibetan
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=
 ;;
-;;       Padauk                        ; Myanmar
+;;         Padauk                        ; Myanmar
 ;;
-;;    From http://sarovar.org/projects/samyak/
+;;     From http://sarovar.org/projects/samyak/
 ;;
-;;       Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
+;;         Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
 ;;
-;;    From http://guca.sourceforge.net/typography/fonts/anmoluni/
+;;     From http://guca.sourceforge.net/typography/fonts/anmoluni/
 ;;
-;;       AnmolUni                      ; Gurmukhi
+;;         AnmolUni                      ; Gurmukhi
 ;;
-;;    From http://brahmi.sourceforge.net/downloads2.html
+;;     From http://brahmi.sourceforge.net/downloads2.html
 ;;
-;;       Kedage                        ; Kannada
+;;         Kedage                        ; Kannada
 ;;
-;;    From http://www.omicronlab.com/bangla-fonts.html
+;;     From http://www.omicronlab.com/bangla-fonts.html
 ;;
-;;       Mukti Narrow                  ; Bengali
+;;         Mukti Narrow                  ; Bengali
 ;;
-;;    From http://www.kamban.com.au/downloads.html
+;;     From http://www.kamban.com.au/downloads.html
 ;;
-;;       Akshar Unicode                ; Sinhala
+;;         Akshar Unicode                ; Sinhala
 ;;
-;;    From http://tabish.freeshell.org/eeyek/download.html
+;;     From http://tabish.freeshell.org/eeyek/download.html
 ;;
-;;       Eeyek Unicode                 ; Meetei Mayek
+;;         Eeyek Unicode                 ; Meetei Mayek
 ;;
-;;    From http://scripts.sil.org/CMS/scripts/page.php?&item_id=Mondulkiri
+;;     From http://scripts.sil.org/CMS/scripts/page.php?&item_id=Mondulkiri
 ;;
-;;       Khmer Mondulkiri              ; Khmer
+;;         Khmer Mondulkiri              ; Khmer
 ;;
-;;    From http://www.laoscript.net/downloads/
+;;     From http://www.laoscript.net/downloads/
 ;;
-;;       Saysettha MX                  ; Lao
+;;         Saysettha MX                  ; Lao
 ;;
-;;    From http://www.geocities.jp/simsheart_alif/taithamunicode.html
+;;     From http://www.geocities.jp/simsheart_alif/taithamunicode.html
 ;;
-;;       Lanna Alif                    ; Tai Tham
+;;         Lanna Alif                    ; Tai Tham
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DaiBannaSIL
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DaiBannaSIL
 ;;
-;;       Dai Banna SIL                 ; New Tai Lue
+;;         Dai Banna SIL                 ; New Tai Lue
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?item_id=TaiHeritage
+;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=TaiHeritage
 ;;
-;;       Tai Heritage Pro              ; Tai Viet
+;;         Tai Heritage Pro              ; Tai Viet
 ;;
-;;    From http://sabilulungan.org/aksara/
+;;     From http://sabilulungan.org/aksara/
 ;;
-;;       Sundanese Unicode             ; Sundanese
+;;         Sundanese Unicode             ; Sundanese
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts
 ;;
-;;       Scheherazade                  ; Arabic
+;;         Scheherazade                  ; Arabic
 ;;
-;;    From http://www.farsiweb.ir/wiki/Persian_fonts
+;;     From http://www.farsiweb.ir/wiki/Persian_fonts
 ;;
-;;       Koodak                        ; Arabic (Farsi)
+;;         Koodak                        ; Arabic (Farsi)
 ;;
-;;    From http://openfontlibrary.org/font/ahuramazda/
+;;     From http://openfontlibrary.org/font/ahuramazda/
 ;;
-;;       Ahuramzda                     ; Avestan
+;;         Ahuramzda                     ; Avestan
 ;;
-;;    From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=AbyssinicaSIL
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=AbyssinicaSIL
 ;;
-;;       Abyssinica SIL                ; Ethiopic
+;;         Abyssinica SIL                ; Ethiopic
 ;;
-;;    From http://www.bethmardutho.org/index.php/resources/fonts.html
+;;     From http://www.bethmardutho.org/index.php/resources/fonts.html
 ;;
-;;       Estrangelo Nisibin            ; Syriac
+;;         Estrangelo Nisibin            ; Syriac
 ;;
-;;    From http://www.evertype.com/fonts/nko/
+;;     From http://www.evertype.com/fonts/nko/
 ;;
-;;       Conakry                       ; N'ko
+;;         Conakry                       ; N'ko
 ;;
 ;; Compatibility and Requirements
 ;;
-;;    Tested on GNU Emacs versions 23.3 and 24.1
+;;     Tested on GNU Emacs versions 23.3 and 24.1
 ;;
-;;    Requires font-utils.el, ucs-utils.el
+;;     Requires font-utils.el, ucs-utils.el
 ;;
 ;; Bugs
 ;;
-;;    The default choice of font for each code block balances coverage
-;;    versus appearance.  This is necessarily subjective.
+;;     The default choice of font for each code block balances coverage
+;;     versus appearance.  This is necessarily subjective.
 ;;
-;;    Checking for font availability is slow.  This library can
-;;    add anywhere between 0.1 - 10 secs to startup time.  It is
-;;    slowest under X11.  Some per-architecture limitations are
-;;    documented in font-utils.el
+;;     Checking for font availability is slow.  This library can
+;;     add anywhere between 0.1 - 10 secs to startup time.  It is
+;;     slowest under X11.  Some per-architecture limitations are
+;;     documented in font-utils.el
 ;;
-;;    Calling `set-fontset-font' can easily crash Emacs.  There is a
-;;    workaround, but it may not be sufficient on all platforms.
-;;    Tested on Cocoa Emacs, Native Mac Emacs, X11/XQuartz,
-;;    MS Windows XP.
+;;     Calling `set-fontset-font' can easily crash Emacs.  There is a
+;;     workaround, but it may not be sufficient on all platforms.
+;;     Tested on Cocoa Emacs, Native Mac Emacs, X11/XQuartz,
+;;     MS Windows XP.
 ;;
-;;    Glyph-by-glyph fallthrough happens differently depending on the
-;;    font backend.  On Cocoa Emacs, glyph-by-glyph fallthrough does not
-;;    occur, and manual per-glyph overrides are required to maximize
-;;    coverage.  Fallthrough works on MS Windows, but not perfectly.
-;;    X11/FreeType behaves most predictably.
+;;     Glyph-by-glyph fallthrough happens differently depending on the
+;;     font backend.  On Cocoa Emacs, glyph-by-glyph fallthrough does not
+;;     occur, and manual per-glyph overrides are required to maximize
+;;     coverage.  Fallthrough works on MS Windows, but not perfectly.
+;;     X11/FreeType behaves most predictably.
 ;;
-;;    The following ranges cannot be overridden within the
-;;    "fontset-default" fontset:
+;;     The following ranges cannot be overridden within the
+;;     "fontset-default" fontset:
 ;;
-;;       Latin Extended Additional
-;;       Latin Extended-B
-;;       Spacing Modifier Letters
+;;         Latin Extended Additional
+;;         Latin Extended-B
+;;         Spacing Modifier Letters
 ;;
-;;    `unicode-fonts-overrides-mapping' shows some order-dependence,
-;;    which must indicate a bug in this code.
+;;     `unicode-fonts-overrides-mapping' shows some order-dependence,
+;;     which must indicate a bug in this code.
 ;;
-;;    A number of the entries in `unicode-fonts-overrides-mapping'
-;;    are workarounds for the font Monaco, and therefore specific
-;;    to OS X.
+;;     A number of the entries in `unicode-fonts-overrides-mapping'
+;;     are workarounds for the font Monaco, and therefore specific
+;;     to OS X.
 ;;
-;;    Widths of alternate fonts do not act as expected on MS Windows.
-;;    For example, DejaVu Sans Mono box-drawing characters may use
-;;    a different width than the default font.
+;;     Widths of alternate fonts do not act as expected on MS Windows.
+;;     For example, DejaVu Sans Mono box-drawing characters may use
+;;     a different width than the default font.
 ;;
 ;; TODO
 ;;
-;;    @@@@@@@ test again on windows with new font-utils
+;;     @@@@@@@ test again on windows with new font-utils
 ;;
-;;    (set-language-environment "UTF-8") ?
+;;     (set-language-environment "UTF-8") ?
 ;;
-;;    add coverage comments to all mapping entries
+;;     add coverage comments to all mapping entries
 ;;
-;;    Remove very old Microsoft entries (eg Monotype.com which was
-;;    renamed Andale)
+;;     Remove very old Microsoft entries (eg Monotype.com which was
+;;     renamed Andale)
 ;;
-;;    Recognize the default font and make smarter choices when it is
-;;    one of the provided mappings.  (On Cocoa, the default font is
-;;    returned when font-info fails, which is not a good thing
-;;    overall.)
+;;     Recognize the default font and make smarter choices when it is
+;;     one of the provided mappings.  (On Cocoa, the default font is
+;;     returned when font-info fails, which is not a good thing
+;;     overall.)
 ;;
-;;    For every font, list font version and unicode blocks which are
-;;    complete.
+;;     For every font, list font version and unicode blocks which are
+;;     complete.
 ;;
-;;    Note all decorative fonts
+;;     Note all decorative fonts
 ;;
-;;    Get Windows 8 font listing
+;;     Get Windows 8 font listing
 ;;
-;;    Adobe international fonts which are supplied with Reader
+;;     Adobe international fonts which are supplied with Reader
 ;;
-;;    Apple fonts which could not be mapped
-;;       Wawati TC
-;;       Weibei TC
-;;       Weibei SC
-;;       Wawati SC
+;;     Apple fonts which could not be mapped
+;;         Wawati TC
+;;         Weibei TC
+;;         Weibei SC
+;;         Wawati SC
 ;;
 ;;; License
 ;;
@@ -379,8 +379,8 @@
 (autoload 'font-utils-first-existing-font      "font-utils"  "Return the (normalized) first existing font name from FONT-NAMES.")
 (autoload 'font-utils-name-from-xlfd           "font-utils"  "Return the font-family name from XLFD, a string.")
 
-(autoload 'ucs-utils-char                         "ucs-utils"      "Return the character corresponding to NAME, a UCS name.")
-(autoload 'ucs-utils-pretty-name                  "ucs-utils"      "Return a prettified UCS name for CHAR.")
+(autoload 'ucs-utils-char                      "ucs-utils"   "Return the character corresponding to NAME, a UCS name.")
+(autoload 'ucs-utils-pretty-name               "ucs-utils"   "Return a prettified UCS name for CHAR.")
 
 ;;; constants
 
