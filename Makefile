@@ -7,6 +7,7 @@ EMACS=emacs
 # EMACS=/opt/local/bin/emacs
 # EMACS=/usr/bin/emacs
 EMACS_FLAGS=-Q --batch
+TESTS=
 
 CURL=curl
 WORK_DIR=$(shell pwd)
@@ -106,7 +107,7 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-autoloa
 	    $(EMACS) $(EMACS_FLAGS) -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib --eval \
 	    "(flet ((ert--print-backtrace (&rest args)       \
 	      (insert \"no backtrace in batch mode\")))      \
-	       (ert-run-tests-batch-and-exit))" || exit 1;   \
+	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
 	done)
 
 clean :
