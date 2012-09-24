@@ -3256,7 +3256,8 @@ buffer instead of sending it to the *Messages* log."
         (counter 0)
         (all-override-ranges nil))
     (when insert
-      (setq message-function 'message-insert))
+      (require 'alert)
+      (setq message-function 'alert-message-insert))
 
     ;; known fonts
     (setq reporter (make-progress-reporter "Checking fonts for duplicates ... " 0 (length known-fonts)))
