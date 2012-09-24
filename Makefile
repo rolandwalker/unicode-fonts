@@ -26,6 +26,8 @@ TEST_DEP_4a=ucs-utils-6.0-delta
 TEST_DEP_4a_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
 TEST_DEP_5=font-utils
 TEST_DEP_5_URL=https://raw.github.com/rolandwalker/font-utils/2740e21b3768bcd811a6009aa55a22b81cce9936/font-utils.el
+TEST_DEP_6=alert
+TEST_DEP_6_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
 
 build :
 	$(EMACS) $(EMACS_FLAGS) --eval             \
@@ -83,6 +85,15 @@ test-dep-5 :
 	      (require '$(TEST_DEP_5)))"                  || \
 	(echo "Can't load test dependency $(TEST_DEP_5).el, run 'make downloads' to fetch it" ; exit 1)
 
+test-dep-6 :
+	@cd $(TEST_DIR)                                   && \
+	$(EMACS) $(EMACS_FLAGS)  -L . -L .. --eval           \
+	    "(progn                                          \
+	      (setq package-load-list '(($(TEST_DEP_6) t)))  \
+	      (when (fboundp 'package-initialize)            \
+	       (package-initialize))                         \
+	      (require '$(TEST_DEP_6)))"                  || \
+	(echo "Can't load test dependency $(TEST_DEP_6).el, run 'make downloads' to fetch it" ; exit 1)
 
 downloads :
 	$(CURL) '$(TEST_DEP_1_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
@@ -91,6 +102,7 @@ downloads :
 	$(CURL) '$(TEST_DEP_4_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
 	$(CURL) '$(TEST_DEP_4a_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
 	$(CURL) '$(TEST_DEP_5_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
+	$(CURL) '$(TEST_DEP_6_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
 
 autoloads :
 	$(EMACS) $(EMACS_FLAGS) --eval                       \
@@ -101,7 +113,7 @@ autoloads :
 test-autoloads : autoloads
 	@$(EMACS) $(EMACS_FLAGS) -l "./$(AUTOLOADS_FILE)" || echo "failed to load autoloads: $(AUTOLOADS_FILE)"
 
-test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-autoloads
+test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-autoloads
 	@cd $(TEST_DIR)                                   && \
 	(for test_lib in *-test.el; do                       \
 	    $(EMACS) $(EMACS_FLAGS) -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib --eval \
@@ -113,5 +125,5 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-autoloa
 clean :
 	@rm -f $(AUTOLOADS_FILE) *.elc *~ */*.elc */*~ $(TEST_DIR)/$(TEST_DEP_1).el $(TEST_DIR)/$(TEST_DEP_2).el \
 	    $(TEST_DIR)/$(TEST_DEP_3).el $(TEST_DIR)/$(TEST_DEP_4).el $(TEST_DIR)/$(TEST_DEP_4a).el              \
-	    $(TEST_DIR)/$(TEST_DEP_5).el
+	    $(TEST_DIR)/$(TEST_DEP_5).el $(TEST_DIR)/$(TEST_DEP_6).el
 	@rm -rf '$(TEST_DIR)/$(TEST_DATADIR)'
