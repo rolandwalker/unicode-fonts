@@ -2856,12 +2856,12 @@ not checked."
 
 ;;;###autoload
 (defun unicode-fonts-font-exists-p (font-name &optional point-size strict)
-  "Run `unicode-fonts-font-exists-p' with a limited scope.
+  "Run `font-utils-exists-p' with a limited scope.
 
 The scope is defined by `unicode-fonts-restrict-to-fonts'.
 
 FONT-NAME, POINT-SIZE, and STRICT are as documented at
-`unicode-fonts-font-exists-p'."
+`font-utils-exists-p'."
   (font-utils-exists-p font-name point-size strict unicode-fonts-restrict-to-fonts))
 
 (defsubst unicode-fonts--create-char-range (range)
