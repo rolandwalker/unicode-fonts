@@ -24,8 +24,8 @@ TEST_DEP_4=ucs-utils
 TEST_DEP_4_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils.el
 TEST_DEP_4a=ucs-utils-6.0-delta
 TEST_DEP_4a_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
-TEST_DEP_5=dynamic-fonts
-TEST_DEP_5_URL=https://raw.github.com/rolandwalker/dynamic-fonts/72f905d7fd9910d32e683fcdcf313f5a840a21df/dynamic-fonts.el
+TEST_DEP_5=font-utils
+TEST_DEP_5_URL=https://raw.github.com/rolandwalker/font-utils/2740e21b3768bcd811a6009aa55a22b81cce9936/font-utils.el
 
 build :
 	$(EMACS) $(EMACS_FLAGS) --eval             \

@@ -9,7 +9,7 @@
 ;; Last-Updated: 14 Sep 2012
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
-;; Package-Requires: ((dynamic-fonts "0.5.1") (ucs-utils "0.6.0") (persistent-soft "0.8.0") (pcache "0.2.3"))
+;; Package-Requires: ((font-utils "0.6.1") (ucs-utils "0.6.0") (persistent-soft "0.8.0") (pcache "0.2.3"))
 ;;
 ;; Simplified BSD License
 ;;
@@ -258,7 +258,7 @@
 ;;
 ;;    Tested on GNU Emacs versions 23.3 and 24.1
 ;;
-;;    Requires dynamic-fonts.el, ucs-utils.el
+;;    Requires font-utils.el, ucs-utils.el
 ;;
 ;; Bugs
 ;;
@@ -268,7 +268,7 @@
 ;;    Checking for font availability is slow.  This library can
 ;;    add anywhere between 0.1 - 10 secs to startup time.  It is
 ;;    slowest under X11.  Some per-architecture limitations are
-;;    documented in dynamic-fonts.el
+;;    documented in font-utils.el
 ;;
 ;;    Calling `set-fontset-font' can easily crash Emacs.  There is a
 ;;    workaround, but it may not be sufficient on all platforms.
@@ -301,7 +301,7 @@
 ;;
 ;; TODO
 ;;
-;;    @@@@@@@ test again on windows with new dynamic-fonts
+;;    @@@@@@@ test again on windows with new font-utils
 ;;
 ;;    (set-language-environment "UTF-8") ?
 ;;
@@ -373,11 +373,11 @@
 ;; for callf, callf2, member*, incf, remove-if, remove-if-not
 (require 'cl)
 
-(autoload 'dynamic-fonts-font-exists-p            "dynamic-fonts"  "Test whether FONT-NAME (a string or font object) exists.")
-(autoload 'dynamic-fonts-read-font-name           "dynamic-fonts"  "Read a font name using `completing-read'.")
-(autoload 'dynamic-fonts-lenient-font-name-equal  "dynamic-fonts"  "Leniently match two strings, FONT-NAME-A and FONT-NAME-B.")
-(autoload 'dynamic-fonts-first-existing-font      "dynamic-fonts"  "Return the (normalized) first existing font name from FONT-NAMES.")
-(autoload 'dynamic-fonts-font-name-from-xlfd      "dynamic-fonts"  "Return the font-family name from XLFD, a string.")
+(autoload 'font-utils-exists-p                 "font-utils"  "Test whether FONT-NAME (a string or font object) exists.")
+(autoload 'font-utils-read-name                "font-utils"  "Read a font name using `completing-read'.")
+(autoload 'font-utils-lenient-name-equal       "font-utils"  "Leniently match two strings, FONT-NAME-A and FONT-NAME-B.")
+(autoload 'font-utils-first-existing-font      "font-utils"  "Return the (normalized) first existing font name from FONT-NAMES.")
+(autoload 'font-utils-name-from-xlfd           "font-utils"  "Return the font-family name from XLFD, a string.")
 
 (autoload 'ucs-utils-char                         "ucs-utils"      "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name                  "ucs-utils"      "Return a prettified UCS name for CHAR.")
@@ -2850,8 +2850,8 @@ font-name format.
 
 The font existence-check is lazy; fonts after the first hit are
 not checked."
-  (dynamic-fonts-first-existing-font (remove-if #'(lambda (x)
-                                                    (member* x unicode-fonts-skipped-fonts-computed :test 'dynamic-fonts-lenient-font-name-equal))
+  (font-utils-first-existing-font (remove-if #'(lambda (x)
+                                                    (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal))
                                                 font-names)))
 
 ;;;###autoload
@@ -2862,7 +2862,7 @@ The scope is defined by `unicode-fonts-restrict-to-fonts'.
 
 FONT-NAME, POINT-SIZE, and STRICT are as documented at
 `unicode-fonts-font-exists-p'."
-  (dynamic-fonts-font-exists-p font-name point-size strict unicode-fonts-restrict-to-fonts))
+  (font-utils-exists-p font-name point-size strict unicode-fonts-restrict-to-fonts))
 
 (defsubst unicode-fonts--create-char-range (range)
   "Create a numeric character range from RANGE.
@@ -2982,7 +2982,7 @@ Use `ido-completing-read' if IDO is set."
           (callf concat font-name "-" font-size))
         (unless (and (stringp font-name)
                      (> (length font-name) 0))
-          (setq font-name (dynamic-fonts-font-name-from-xlfd (font-xlfd-name font)))))
+          (setq font-name (font-utils-name-from-xlfd (font-xlfd-name font)))))
       (setq block-name
            (catch 'bn
              (dolist (cell unicode-fonts-blocks)
@@ -3009,7 +3009,7 @@ Temporarily change the font used for BLOCK-NAME to FONT-NAME.
 To permanently change the font for BLOCK-NAME, use the
 customization interface."
   (callf or block-name (unicode-fonts-read-block-name 'ido))
-  (callf or font-name (dynamic-fonts-read-font-name 'ido))
+  (callf or font-name (font-utils-read-name 'ido))
   (assert (assoc-string block-name unicode-fonts-blocks 'case-fold) nil "No such block")
   (assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
   (when (y-or-n-p (propertize "Really risk crashing Emacs?" 'face 'highlight))
@@ -3024,7 +3024,7 @@ customization interface."
   "Calling this command can crash Emacs.
 
 Temporarily change the font used for all blocks to FONT-NAME."
-  (callf or font-name (dynamic-fonts-read-font-name 'ido))
+  (callf or font-name (font-utils-read-name 'ido))
   (assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
   (when (y-or-n-p (propertize "Really risk crashing Emacs?" 'face 'highlight))
     (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) unicode-fonts-fontset-names))
@@ -3234,11 +3234,11 @@ See also: `list-charset-chars'."
 
 Returns a list of duplicates when there is more than one
 occurrence, otherwise nil."
-  (let ((matches (copy-list (member* font-name font-list :test 'dynamic-fonts-lenient-font-name-equal)))
+  (let ((matches (copy-list (member* font-name font-list :test 'font-utils-lenient-name-equal)))
         (hit nil)
         (dupes nil))
     (push (pop matches) dupes)
-    (while (setq hit (copy-list (member* font-name matches :test 'dynamic-fonts-lenient-font-name-equal)))
+    (while (setq hit (copy-list (member* font-name matches :test 'font-utils-lenient-name-equal)))
       (push (pop hit) dupes)
       (setq matches hit))
     (when (> (length dupes) 1)
@@ -3278,7 +3278,7 @@ buffer instead of sending it to the *Messages* log."
              (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) (cadr cell)))
              (existing-fonts (remove-if-not 'unicode-fonts-font-exists-p all-fonts))
              (existing-unskipped-fonts (remove-if #'(lambda (x)
-                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'dynamic-fonts-lenient-font-name-equal)) existing-fonts))
+                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
              (best-font (pop existing-unskipped-fonts))
              (licenses nil))
         (funcall message-function "\n-----\nBlock %s\n-----" block-name)
@@ -3310,7 +3310,7 @@ buffer instead of sending it to the *Messages* log."
              (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) (car (last cell))))
              (existing-fonts (remove-if-not 'unicode-fonts-font-exists-p all-fonts))
              (existing-unskipped-fonts (remove-if #'(lambda (x)
-                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'dynamic-fonts-lenient-font-name-equal)) existing-fonts))
+                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
              (best-font (pop existing-unskipped-fonts))
              (licenses nil))
         (funcall message-function "\n-----\nOverride %s\n-----" (list (car cell) (cadr cell)))
@@ -3390,7 +3390,7 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
       ;; first, install fallback mapping
       (let* ((fonts (remove-if #'(lambda (x)
                                    (member* x unicode-fonts-skipped-fonts-computed
-                                            :test 'dynamic-fonts-lenient-font-name-equal))
+                                            :test 'font-utils-lenient-name-equal))
                                unicode-fonts-fallback-font-list))
              (best-font nil))
         (cond
@@ -3418,7 +3418,7 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
                (char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold)))
                (fonts (remove-if #'(lambda (x)
                                      (member* x unicode-fonts-skipped-fonts-computed
-                                              :test 'dynamic-fonts-lenient-font-name-equal))
+                                              :test 'font-utils-lenient-name-equal))
                                  (cadr cell)))
                (best-font nil))
         (when char-range
@@ -3452,7 +3452,7 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
           (let* ((char-range (unicode-fonts--create-char-range (list (car cell) (cadr cell))))
                  (fonts (remove-if #'(lambda (x)
                                        (member* x unicode-fonts-skipped-fonts-computed
-                                                :test 'dynamic-fonts-lenient-font-name-equal))
+                                                :test 'font-utils-lenient-name-equal))
                                    (car (last cell))))
                  (best-font nil))
             (when char-range

@@ -7,13 +7,13 @@
   (setq package-load-list '((pcache t)
                             (persistent-soft t)
                             (ucs-utils t)
-                            (dynamic-fonts t)))
+                            (font-utils t)))
   (when (fboundp 'package-initialize)
     (package-initialize)))
 
 (require 'persistent-soft)
 (require 'ucs-utils)
-(require 'dynamic-fonts)
+(require 'font-utils)
 (require 'unicode-fonts)
 
 ;;; this is a stub - no tests defined
