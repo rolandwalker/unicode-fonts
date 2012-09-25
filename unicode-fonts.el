@@ -3492,7 +3492,7 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
 ;; mangle-whitespace: t
 ;; require-final-newline: t
 ;; coding: utf-8
-;; byte-compile-warnings: (not cl-functions)
+;; byte-compile-warnings: (not cl-functions redefine)
 ;; End:
 ;;
 ;; LocalWords: cleartype Consolas Ethiopic Samyak BabelStone Symbola
