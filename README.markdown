@@ -59,8 +59,10 @@ and makes the settings available via the customization interface.
 To use unicode-fonts, place the unicode-fonts.el file somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
 
-	(require 'unicode-fonts)
-	(unicode-fonts-setup)
+```lisp
+(require 'unicode-fonts)
+(unicode-fonts-setup)
+```
 
 See important notes about startup speed below.
 
