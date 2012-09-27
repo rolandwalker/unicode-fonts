@@ -28,6 +28,7 @@
                             (persistent-soft t)
                             (ucs-utils t)
                             (font-utils t)
+                            (string-utils t)
                             (alert t)))
   (when (fboundp 'package-initialize)
     (package-initialize)))
@@ -35,6 +36,7 @@
 (require 'persistent-soft)
 (require 'ucs-utils)
 (require 'font-utils)
+(require 'string-utils)
 (require 'alert)
 (require 'unicode-fonts)
 

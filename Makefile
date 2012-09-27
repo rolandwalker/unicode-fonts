@@ -42,9 +42,12 @@ TEST_DEP_4a_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-
 TEST_DEP_5=font-utils
 TEST_DEP_5_STABLE_URL=https://raw.github.com/rolandwalker/font-utils/2740e21b3768bcd811a6009aa55a22b81cce9936/font-utils.el
 TEST_DEP_5_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font-utils.el
-TEST_DEP_6=alert
-TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
-TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
+TEST_DEP_6=string-utils
+TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/cefb98ecf8257f69d8288929fc0425f145484452/string-utils.el
+TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
+TEST_DEP_7=alert
+TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
+TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 build :
 	$(EMACS) $(EMACS_BATCH) --eval             \
@@ -112,6 +115,17 @@ test-dep-6 :
 	      (require '$(TEST_DEP_6)))"                  || \
 	(echo "Can't load test dependency $(TEST_DEP_6).el, run 'make downloads' to fetch it" ; exit 1)
 
+test-dep-7 :
+	@cd $(TEST_DIR)                                   && \
+	$(EMACS) $(EMACS_BATCH)  -L . -L .. --eval           \
+	    "(progn                                          \
+	      (setq package-load-list '(($(TEST_DEP_6) t)    \
+	                                ($(TEST_DEP_7) t)))  \
+	      (when (fboundp 'package-initialize)            \
+	       (package-initialize))                         \
+	      (require '$(TEST_DEP_7)))"                  || \
+	(echo "Can't load test dependency $(TEST_DEP_7).el, run 'make downloads' to fetch it" ; exit 1)
+
 downloads :
 	$(CURL) '$(TEST_DEP_1_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
 	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
@@ -120,6 +134,7 @@ downloads :
 	$(CURL) '$(TEST_DEP_4a_STABLE_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
 	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
 	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
+	$(CURL) '$(TEST_DEP_7_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
 
 downloads-latest :
 	$(CURL) '$(TEST_DEP_1_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
@@ -129,6 +144,7 @@ downloads-latest :
 	$(CURL) '$(TEST_DEP_4a_LATEST_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
 	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
 	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
+	$(CURL) '$(TEST_DEP_7_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
 
 autoloads :
 	$(EMACS) $(EMACS_BATCH) --eval                       \
@@ -139,7 +155,7 @@ autoloads :
 test-autoloads : autoloads
 	@$(EMACS) $(EMACS_BATCH) -l "./$(AUTOLOADS_FILE)" || echo "failed to load autoloads: $(AUTOLOADS_FILE)"
 
-test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-autoloads
+test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads
 	@cd $(TEST_DIR)                                   && \
 	(for test_lib in *-test.el; do                       \
 	    $(EMACS) $(EMACS_BATCH) -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib --eval \
@@ -148,7 +164,7 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 t
 	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
 	done)
 
-test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-autoloads
+test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads
 	@cd $(TEST_DIR)                                               && \
 	(for test_lib in *-test.el; do                                   \
 	    $(INTERACTIVE_EMACS) $(EMACS_CLEAN) --eval                   \
@@ -175,7 +191,7 @@ test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 
 clean :
 	@rm -f $(AUTOLOADS_FILE) *.elc *~ */*.elc */*~ $(TEST_DIR)/$(TEST_DEP_1).el $(TEST_DIR)/$(TEST_DEP_2).el \
 	    $(TEST_DIR)/$(TEST_DEP_3).el $(TEST_DIR)/$(TEST_DEP_4).el $(TEST_DIR)/$(TEST_DEP_4a).el              \
-	    $(TEST_DIR)/$(TEST_DEP_5).el $(TEST_DIR)/$(TEST_DEP_6).el
+	    $(TEST_DIR)/$(TEST_DEP_5).el $(TEST_DIR)/$(TEST_DEP_6).el $(TEST_DIR)/$(TEST_DEP_7).el
 	@rm -rf '$(TEST_DIR)/$(TEST_DATADIR)'
 
 edit :
