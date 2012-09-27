@@ -2,12 +2,14 @@
 
 unicode-fonts
 =============
+
 Configure Unicode fonts for Emacs.
 
 ![Using the Native Mac backend](https://raw.github.com/rolandwalker/unicode-fonts/master/native_mac_backend.png)
 
 Quickstart
 ----------
+
 * Remove Unifont from your system.
 
 * Install these fonts
@@ -24,6 +26,7 @@ Quickstart
 
 Testing
 -------
+
 	C-h h                                         ; M-x view-hello-file
 
 	M-x list-charset-chars RET unicode-bmp RET    ; search for eg 210x
@@ -34,6 +37,7 @@ Testing
 
 Overview
 --------
+
 Emacs maintains font mappings on a per-glyph basis, meaning
 that multiple fonts are used at the same time (transparently) to
 display any character for which you have a font.  Furthermore,
@@ -62,6 +66,7 @@ See important notes about startup speed below.
 
 Minimum Useful Fonts
 --------------------
+
 To gain any benefit from the library, you must have fonts with good
 Unicode support installed on your system.  If you are running a
 recent version of OS X or Microsoft Windows, you already own some
@@ -85,6 +90,7 @@ Unifont is very useful for debugging, but not useful for reading.
 
 Startup Speed
 -------------
+
 The default options favor correctness and completeness over speed, and can
 add **many** **seconds** to startup time in GUI mode.  Note that when
 possible a font cache is kept between sessions, so try starting Emacs a
@@ -97,6 +103,7 @@ speed, enter the customization interface and
 
 Unmapped Blocks
 ---------------
+
 On the assumption that an extended Latin font such as Monaco,
 Consolas, or DejaVu Sans Mono is already being used for the default
 face, no separate mappings are provided for the following Unicode
@@ -109,6 +116,7 @@ blocks:
 
 Bugs
 ----
+
 Calling `set-fontset-font` can easily crash Emacs.  There is a
 workaround, but it may not be sufficient on all platforms.
 Tested on Cocoa Emacs, Native Mac Emacs, X11/XQuartz,
@@ -120,6 +128,7 @@ different width than the default font.
 
 Free International and Symbol Fonts
 -----------------------------------
+
 Free fonts recognized by this package may be downloaded
 from the following locations:
 
@@ -250,18 +259,21 @@ From [http://www.evertype.com/fonts/nko/](http://www.evertype.com/fonts/nko/)
 
 Non-free Fonts
 --------------
+
 Many non-free fonts are referenced by the default settings.
 However, free alternatives are also given wherever possible, and
 patches are of course accepted to improve every case.
 
 Chinese and Arabic Scripts
 --------------------------
+
 If you are using a language written in Chinese or Arabic script,
 try customizing `unicode-fonts-skip-font-groups` to control which
 script you see, and send a friendly bug report.
 
 Compatibility and Requirements
 ------------------------------
+
 Tested on GNU Emacs versions 23.3 and 24.1
 
 Requires [fonts-utils.el](http://github.com/rolandwalker/font-utils), [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
