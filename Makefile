@@ -25,19 +25,26 @@ AUTOLOADS_FILE=$(PACKAGE_NAME)-loaddefs.el
 TEST_DIR=ert-tests
 TEST_DATADIR=pcache
 TEST_DEP_1=ert
-TEST_DEP_1_URL=http://bzr.savannah.gnu.org/lh/emacs/emacs-24/download/head:/ert.el-20110112160650-056hnl9qhpjvjicy-2/ert.el
+TEST_DEP_1_STABLE_URL=http://bzr.savannah.gnu.org/lh/emacs/emacs-24/download/head:/ert.el-20110112160650-056hnl9qhpjvjicy-2/ert.el
+TEST_DEP_1_LATEST_URL=https://raw.github.com/emacsmirror/emacs/master/lisp/emacs-lisp/ert.el
 TEST_DEP_2=pcache
-TEST_DEP_2_URL=https://raw.github.com/sigma/pcache/fa8f863546e2e8f2fc0a70f5cc766a7f584e01b6/pcache.el
+TEST_DEP_2_STABLE_URL=https://raw.github.com/sigma/pcache/fa8f863546e2e8f2fc0a70f5cc766a7f584e01b6/pcache.el
+TEST_DEP_2_LATEST_URL=https://raw.github.com/sigma/pcache/master/pcache.el
 TEST_DEP_3=persistent-soft
-TEST_DEP_3_URL=https://raw.github.com/rolandwalker/persistent-soft/374a63e3cf116f5d2902aa8b253b8c9de298f0a4/persistent-soft.el
+TEST_DEP_3_STABLE_URL=https://raw.github.com/rolandwalker/persistent-soft/374a63e3cf116f5d2902aa8b253b8c9de298f0a4/persistent-soft.el
+TEST_DEP_3_LATEST_URL=https://raw.github.com/rolandwalker/persistent-soft/master/persistent-soft.el
 TEST_DEP_4=ucs-utils
-TEST_DEP_4_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils.el
+TEST_DEP_4_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils.el
+TEST_DEP_4_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils.el
 TEST_DEP_4a=ucs-utils-6.0-delta
-TEST_DEP_4a_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
+TEST_DEP_4a_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
+TEST_DEP_4a_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils-6.0-delta.el
 TEST_DEP_5=font-utils
-TEST_DEP_5_URL=https://raw.github.com/rolandwalker/font-utils/2740e21b3768bcd811a6009aa55a22b81cce9936/font-utils.el
+TEST_DEP_5_STABLE_URL=https://raw.github.com/rolandwalker/font-utils/2740e21b3768bcd811a6009aa55a22b81cce9936/font-utils.el
+TEST_DEP_5_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font-utils.el
 TEST_DEP_6=alert
-TEST_DEP_6_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
+TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
+TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 build :
 	$(EMACS) $(EMACS_BATCH) --eval             \
@@ -106,13 +113,22 @@ test-dep-6 :
 	(echo "Can't load test dependency $(TEST_DEP_6).el, run 'make downloads' to fetch it" ; exit 1)
 
 downloads :
-	$(CURL) '$(TEST_DEP_1_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
-	$(CURL) '$(TEST_DEP_2_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
-	$(CURL) '$(TEST_DEP_3_URL)'  > $(TEST_DIR)/$(TEST_DEP_3).el
-	$(CURL) '$(TEST_DEP_4_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
-	$(CURL) '$(TEST_DEP_4a_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
-	$(CURL) '$(TEST_DEP_5_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
-	$(CURL) '$(TEST_DEP_6_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
+	$(CURL) '$(TEST_DEP_1_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
+	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
+	$(CURL) '$(TEST_DEP_3_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_3).el
+	$(CURL) '$(TEST_DEP_4_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
+	$(CURL) '$(TEST_DEP_4a_STABLE_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
+	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
+	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
+
+downloads-latest :
+	$(CURL) '$(TEST_DEP_1_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
+	$(CURL) '$(TEST_DEP_2_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
+	$(CURL) '$(TEST_DEP_3_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_3).el
+	$(CURL) '$(TEST_DEP_4_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
+	$(CURL) '$(TEST_DEP_4a_LATEST_URL)' > $(TEST_DIR)/$(TEST_DEP_4a).el
+	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
+	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
 
 autoloads :
 	$(EMACS) $(EMACS_BATCH) --eval                       \
