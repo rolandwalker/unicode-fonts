@@ -3339,28 +3339,7 @@ buffer instead of sending it to the *Messages* log."
           )))
     (progress-reporter-done reporter)))
 
-;;; main entry point
-
-;;;###autoload
-(defun unicode-fonts-setup (&optional fontset-names)
-  "Set up Unicode fonts for FONTSET-NAMES.
-
-FONTSET-NAMES must be a list of strings.  Fontset names
-which do not currently exist will be ignored.  The
-default value is `unicode-fonts-fontset-names'."
-  (interactive)
-  (unicode-fonts-compute-skipped-fonts)
-  (callf or fontset-names unicode-fonts-fontset-names)
-  (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
-    ;; Cocoa Emacs often crashes if this is run more than once for a fontset
-    (unless (member fontset-name unicode-fonts-setup-done)
-      (push fontset-name unicode-fonts-setup-done)
-      (if (and (memq window-system '(ns))
-               (not after-init-time))
-          ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
-          ;; seems more logical than after-init-hook, but s-l-h appears to have already happened.
-          (add-hook 'after-init-hook `(lambda () (unicode-fonts--setup-1 ,fontset-name)))
-        (unicode-fonts--setup-1 fontset-name)))))
+;;; driver for setup
 
 (defun unicode-fonts--setup-1 (fontset-name)
   "Driver for `unicode-fonts-setup'.
@@ -3481,6 +3460,29 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
                                       (cons font "iso10646-1") nil 'append))))))
             (unless unicode-fonts-less-feedback
               (progress-reporter-done reporter))))))
+
+;;; main entry point
+
+;;;###autoload
+(defun unicode-fonts-setup (&optional fontset-names)
+  "Set up Unicode fonts for FONTSET-NAMES.
+
+FONTSET-NAMES must be a list of strings.  Fontset names
+which do not currently exist will be ignored.  The
+default value is `unicode-fonts-fontset-names'."
+  (interactive)
+  (unicode-fonts-compute-skipped-fonts)
+  (callf or fontset-names unicode-fonts-fontset-names)
+  (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
+    ;; Cocoa Emacs often crashes if this is run more than once for a fontset
+    (unless (member fontset-name unicode-fonts-setup-done)
+      (push fontset-name unicode-fonts-setup-done)
+      (if (and (memq window-system '(ns))
+               (not after-init-time))
+          ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
+          ;; seems more logical than after-init-hook, but s-l-h appears to have already happened.
+          (add-hook 'after-init-hook `(lambda () (unicode-fonts--setup-1 ,fontset-name)))
+        (unicode-fonts--setup-1 fontset-name)))))
 
 (provide 'unicode-fonts)
 
