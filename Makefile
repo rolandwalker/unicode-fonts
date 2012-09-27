@@ -6,6 +6,13 @@ EMACS=emacs
 # EMACS=/usr/local/bin/emacs
 # EMACS=/opt/local/bin/emacs
 # EMACS=/usr/bin/emacs
+
+INTERACTIVE_EMACS=/usr/local/bin/emacs
+# can't find an OS X variant that works correctly for interactive tests:
+# INTERACTIVE_EMACS=open -a Emacs.app --new --args
+# INTERACTIVE_EMACS=/Applications/Emacs.app/Contents/MacOS/Emacs
+# INTERACTIVE_EMACS=/Applications/Emacs.app/Contents/MacOS/bin/emacs
+
 EMACS_CLEAN=-Q
 EMACS_BATCH=$(EMACS_CLEAN) --batch
 TESTS=
@@ -123,6 +130,30 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 t
 	    "(flet ((ert--print-backtrace (&rest args)       \
 	      (insert \"no backtrace in batch mode\")))      \
 	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
+	done)
+
+test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-autoloads
+	@cd $(TEST_DIR)                                               && \
+	(for test_lib in *-test.el; do                                   \
+	    $(INTERACTIVE_EMACS) $(EMACS_CLEAN) --eval                   \
+	    "(progn                                                      \
+	      (cd \"$(WORK_DIR)/$(TEST_DIR)\")                           \
+	      (setq dired-use-ls-dired nil)                              \
+	      (setq frame-title-format \"TEST SESSION $(PACKAGE_NAME)\") \
+	      (setq enable-local-variables :safe))"                      \
+	    -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib              \
+	    --visit $$test_lib --eval                                    \
+	    "(progn                                                      \
+	      (when (> (length \"$(TESTS)\") 0)                          \
+	       (push \"\\\"$(TESTS)\\\"\" ert--selector-history))        \
+	      (setq buffer-read-only t)                                  \
+	      (setq cursor-in-echo-area t)                               \
+	      (call-interactively 'ert-run-tests-interactively)          \
+	      (ding)                                                     \
+	      (when (y-or-n-p \"PRESS Y TO QUIT THIS TEST SESSION\")     \
+	       (with-current-buffer \"*ert*\"                            \
+	        (kill-emacs                                              \
+	         (if (re-search-forward \"^Failed:[^\\n]+unexpected\" 500 t) 1 0)))))" || exit 1; \
 	done)
 
 clean :
