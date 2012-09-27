@@ -23,9 +23,15 @@ env:
   - EMACS=emacs23
   - EMACS=emacs24
   - EMACS=emacs-snapshot
+before_script:
+  - if [ "$EMACS" = 'emacs-snapshot' ]; then
+        # get bleeding-edge dependencies to go with snapshot
+        make downloads-latest;
+    else
+        make downloads;
+    fi
 script:
   $EMACS --version &&
-  make downloads &&
   make test EMACS=$EMACS
 notifications:
   email: false
