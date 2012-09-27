@@ -9,7 +9,7 @@ EMACS=emacs
 EMACS_FLAGS=-Q --batch
 TESTS=
 
-CURL=curl
+CURL=curl --silent
 EDITOR=runemacs -no_wait
 WORK_DIR=$(shell pwd)
 AUTOLOADS_FILE=$(shell basename `pwd`)-loaddefs.el
