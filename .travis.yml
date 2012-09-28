@@ -25,7 +25,6 @@ env:
   - EMACS=emacs-snapshot
 before_script:
   - if [ "$EMACS" = 'emacs-snapshot' ]; then
-        # get bleeding-edge dependencies to go with snapshot
         make downloads-latest;
     else
         make downloads;
