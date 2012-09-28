@@ -154,7 +154,7 @@ autoloads :
 	      (update-directory-autoloads \"$(WORK_DIR)\"))"
 
 test-autoloads : autoloads
-	@$(EMACS) $(EMACS_BATCH) -l "./$(AUTOLOADS_FILE)"           || \
+	@$(EMACS) $(EMACS_BATCH) -L . -l "./$(AUTOLOADS_FILE)"      || \
 	 ( echo "failed to load autoloads: $(AUTOLOADS_FILE)" && false )
 
 test-travis :
