@@ -22,6 +22,7 @@ EDITOR=runemacs -no_wait
 WORK_DIR=$(shell pwd)
 PACKAGE_NAME=$(shell basename $(WORK_DIR))
 AUTOLOADS_FILE=$(PACKAGE_NAME)-loaddefs.el
+TRAVIS_FILE=.travis.yml
 TEST_DIR=ert-tests
 TEST_DATADIR=pcache
 TEST_DEP_1=ert
@@ -155,7 +156,10 @@ autoloads :
 test-autoloads : autoloads
 	@$(EMACS) $(EMACS_BATCH) -l "./$(AUTOLOADS_FILE)" || echo "failed to load autoloads: $(AUTOLOADS_FILE)"
 
-test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads
+test-travis :
+	@if test -z "$$TRAVIS" && test -e $(TRAVIS_FILE); then travis-lint $(TRAVIS_FILE); fi
+
+test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
 	@cd $(TEST_DIR)                                   && \
 	(for test_lib in *-test.el; do                       \
 	    $(EMACS) $(EMACS_BATCH) -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib --eval \
@@ -164,7 +168,7 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 t
 	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
 	done)
 
-test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads
+test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
 	@cd $(TEST_DIR)                                               && \
 	(for test_lib in *-test.el; do                                   \
 	    $(INTERACTIVE_EMACS) $(EMACS_CLEAN) --eval                   \
