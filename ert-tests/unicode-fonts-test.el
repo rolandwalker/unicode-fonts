@@ -89,7 +89,7 @@
 
 (ert-deftest unicode-fonts-debug-insert-block-01 nil
   (should (equal (decode-char 'ucs #x2201)
-                 (with-current-buffer "*scratch*"
+                 (with-temp-buffer
                    (delete-region (point-min) (point-max))
                    (goto-char (point-min))
                    (unicode-fonts-debug-insert-block "Mathematical Operators")
@@ -103,7 +103,7 @@
 
 (ert-deftest unicode-fonts-debug-validate-data-01 nil
   (should
-   (with-current-buffer "*scratch*"
+   (with-temp-buffer
      (delete-region (point-min) (point-max))
      (goto-char (point-min))
      (unicode-fonts-debug-validate-data 'insert)
