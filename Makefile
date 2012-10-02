@@ -183,7 +183,7 @@ test-interactive : test-prep
 	    "(progn                                                      \
 	      (cd \"$(WORK_DIR)/$(TEST_DIR)\")                           \
 	      (setq dired-use-ls-dired nil)                              \
-	      (setq frame-title-format \"TEST SESSION $(PACKAGE_NAME)\") \
+	      (setq frame-title-format \"TEST SESSION $$test_lib\")      \
 	      (setq enable-local-variables :safe))"                      \
 	    -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib              \
 	    --visit $$test_lib --eval                                    \
