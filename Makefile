@@ -51,8 +51,9 @@ TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c06
 TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 .PHONY : build downloads downloads-latest autoloads test-autoloads test-travis \
-         test test-interactive clean edit test-dep-1 test-dep-2 test-dep-3     \
-         test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-dep-8 test-dep-9
+         test test-prep test-batch test-interactive clean edit test-dep-1      \
+         test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7     \
+         test-dep-8 test-dep-9
 
 build :
 	$(EMACS) $(EMACS_BATCH) --eval             \
@@ -164,7 +165,9 @@ test-autoloads : autoloads
 test-travis :
 	@if test -z "$$TRAVIS" && test -e $(TRAVIS_FILE); then travis-lint $(TRAVIS_FILE); fi
 
-test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
+test-prep : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
+
+test-batch :
 	@cd $(TEST_DIR)                                   && \
 	(for test_lib in *-test.el; do                       \
 	    $(EMACS) $(EMACS_BATCH) -L . -L .. -l cl -l $(TEST_DEP_1) -l $$test_lib --eval \
@@ -173,7 +176,7 @@ test : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 t
 	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
 	done)
 
-test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
+test-interactive : test-prep
 	@cd $(TEST_DIR)                                               && \
 	(for test_lib in *-test.el; do                                   \
 	    $(INTERACTIVE_EMACS) $(EMACS_CLEAN) --eval                   \
@@ -196,6 +199,8 @@ test-interactive : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 
 	        (kill-emacs                                              \
 	         (if (re-search-forward \"^Failed:[^\\n]+unexpected\" 500 t) 1 0)))))" || exit 1; \
 	done)
+
+test : test-prep test-batch
 
 clean :
 	@rm -f $(AUTOLOADS_FILE) *.elc *~ */*.elc */*~ $(TEST_DIR)/$(TEST_DEP_1).el $(TEST_DIR)/$(TEST_DEP_2).el \
