@@ -51,9 +51,9 @@ TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c06
 TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 .PHONY : build downloads downloads-latest autoloads test-autoloads test-travis \
-         test test-prep test-batch test-interactive clean edit test-dep-1      \
-         test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7     \
-         test-dep-8 test-dep-9
+         test test-prep test-batch test-interactive test-tests clean edit      \
+         test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6     \
+         test-dep-7 test-dep-8 test-dep-9
 
 build :
 	$(EMACS) $(EMACS_BATCH) --eval             \
@@ -165,7 +165,10 @@ test-autoloads : autoloads
 test-travis :
 	@if test -z "$$TRAVIS" && test -e $(TRAVIS_FILE); then travis-lint $(TRAVIS_FILE); fi
 
-test-prep : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis
+test-tests :
+	@perl -ne 'if (m/^\s*\(\s*ert-deftest\s*(\S+)/) {die "$$1 test name duplicated in $$ARGV\n" if $$dupes{$$1}++}' $(TEST_DIR)/*-test.el
+
+test-prep : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis test-tests
 
 test-batch :
 	@cd $(TEST_DIR)                                   && \
