@@ -368,6 +368,10 @@
 ;; interpreted as representing official policies, either expressed
 ;; or implied, of Roland Walker.
 ;;
+;; No rights are claimed over data created by the Unicode
+;; Consortium, which are included here under the terms of
+;; the Unicode Terms of Use.
+;;
 ;;; Code:
 ;;
 
