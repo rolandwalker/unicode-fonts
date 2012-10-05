@@ -18,6 +18,7 @@ RESOLVED_INTERACTIVE_EMACS=$(shell readlink `which "$(INTERACTIVE_EMACS)"` || ec
 
 EMACS_CLEAN=-Q
 EMACS_BATCH=$(EMACS_CLEAN) --batch
+# TESTS can be overridden to specify a subset of tests
 TESTS=
 
 CURL=curl --silent
