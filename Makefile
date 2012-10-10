@@ -152,26 +152,26 @@ test-dep-8 :
 	(echo "Can't load test dependency $(TEST_DEP_8).el, run 'make downloads' to fetch it" ; exit 1)
 
 downloads :
-	$(CURL) '$(TEST_DEP_1_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
-	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
-	$(CURL) '$(TEST_DEP_3_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_3).el
-	$(CURL) '$(TEST_DEP_4_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
+	$(CURL) '$(TEST_DEP_1_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_1).el'
+	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_2).el'
+	$(CURL) '$(TEST_DEP_3_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_3).el'
+	$(CURL) '$(TEST_DEP_4_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_4).el'
 	$(CURL) '$(TEST_DEP_4a_STABLE_URL)' > '$(TEST_DIR)/$(TEST_DEP_4a).el'
-	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
-	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
-	$(CURL) '$(TEST_DEP_7_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
-	$(CURL) '$(TEST_DEP_8_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_8).el
+	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_5).el'
+	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_6).el'
+	$(CURL) '$(TEST_DEP_7_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_7).el'
+	$(CURL) '$(TEST_DEP_8_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_8).el'
 
 downloads-latest :
-	$(CURL) '$(TEST_DEP_1_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
-	$(CURL) '$(TEST_DEP_2_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
-	$(CURL) '$(TEST_DEP_3_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_3).el
-	$(CURL) '$(TEST_DEP_4_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_4).el
+	$(CURL) '$(TEST_DEP_1_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_1).el'
+	$(CURL) '$(TEST_DEP_2_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_2).el'
+	$(CURL) '$(TEST_DEP_3_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_3).el'
+	$(CURL) '$(TEST_DEP_4_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_4).el'
 	$(CURL) '$(TEST_DEP_4a_LATEST_URL)' > '$(TEST_DIR)/$(TEST_DEP_4a).el'
-	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
-	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
-	$(CURL) '$(TEST_DEP_7_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
-	$(CURL) '$(TEST_DEP_8_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_8).el
+	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_5).el'
+	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_6).el'
+	$(CURL) '$(TEST_DEP_7_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_7).el'
+	$(CURL) '$(TEST_DEP_8_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_8).el'
 
 autoloads :
 	$(RESOLVED_EMACS) $(EMACS_BATCH) --eval              \
