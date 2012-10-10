@@ -5,8 +5,8 @@
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-fonts
 ;; URL: http://raw.github.com/rolandwalker/unicode-fonts/master/unicode-fonts.el
-;; Version: 0.3.3
-;; Last-Updated: 14 Sep 2012
+;; Version: 0.3.4
+;; Last-Updated: 10 Oct 2012
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
 ;; Package-Requires: ((font-utils "0.6.6") (ucs-utils "0.7.2") (persistent-soft "0.8.6") (pcache "0.2.3"))
@@ -1161,7 +1161,7 @@
 ;;;###autoload
 (defgroup unicode-fonts nil
   "Configure Unicode fonts."
-  :version "0.3.3"
+  :version "0.3.4"
   :link '(emacs-commentary-link "unicode-fonts")
   :prefix "unicode-fonts-"
   :group 'i18n
