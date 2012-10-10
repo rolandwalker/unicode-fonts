@@ -99,6 +99,61 @@
                        (char-after)
                      (delete-region (point-min) (point-max)))))))
 
+
+;;; unicode-fonts-check-duplicate-fonts
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-01 nil
+  (should-not
+    (unicode-fonts-debug-check-duplicate-fonts "Courier" '(
+                                                           "Courier"
+                                                           "Times New Roman"
+                                                           ))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-02 nil
+  (should-not
+    (unicode-fonts-debug-check-duplicate-fonts "Courier" '(
+                                                           "Courier"
+                                                           ))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-03 nil
+  (should
+   (equal '("Courier" "Courier")
+          (unicode-fonts-debug-check-duplicate-fonts "Courier" '(
+                                                                 "Courier"
+                                                                 "Courier"
+                                                                 )))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-04 nil
+  (should-not
+   (unicode-fonts-debug-check-duplicate-fonts "Dai Banna SIL Book" '(
+                                                                     "Dai Banna SIL Book"
+                                                                     "Dai Banna SIL Book:style=Regular"
+                                                                     ))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-05 nil
+  (should-not
+   (unicode-fonts-debug-check-duplicate-fonts "Dai Banna SIL Book:style=Regular" '(
+                                                                                   "Dai Banna SIL Book"
+                                                                                   "Dai Banna SIL Book"
+                                                                                   ))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-06 nil
+  (should-not
+   (unicode-fonts-debug-check-duplicate-fonts "Dai Banna SIL Book:style=Regular" '(
+                                                                                   "Dai Banna SIL Book:style=Regular"
+                                                                                   ))))
+
+(ert-deftest unicode-fonts-check-duplicate-fonts-07 nil
+  (should
+   (equal '("Dai Banna SIL Book:style=Regular" "Dai Banna SIL Book:style=Regular")
+    (unicode-fonts-debug-check-duplicate-fonts "Dai Banna SIL Book:style=Regular" '(
+                                                                                    "Dai Banna SIL Book"
+                                                                                    "Dai Banna SIL Book:style=Regular"
+                                                                                    "Dai Banna SIL Book:style=Regular"
+                                                                                    )))))
+
+
+
 ;;; unicode-fonts-debug-validate-data
 
 (ert-deftest unicode-fonts-debug-validate-data-01 nil

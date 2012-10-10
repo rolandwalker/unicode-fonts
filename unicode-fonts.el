@@ -3238,18 +3238,42 @@ See also: `list-charset-chars'."
          (push-mark (point) t t)
          (goto-char posn))))))
 
+;; todo quickfix, port to font-utils version after update
+(defun unicode-fonts--is-qualified-variant (font-name-1 font-name-2)
+  "Test whether FONT-NAME-1 and FONT-NAME-2 are qualified variants of the same font.
+
+Qualifications are fontconfig-style specifications added to a
+font name, such as \":width=condensed\"."
+  (save-match-data
+    (let ((base-name-1 (replace-regexp-in-string "\\(?:-[0-9]+\\|:.+\\)\\'" "" font-name-1))
+          (base-name-2 (replace-regexp-in-string "\\(?:-[0-9]+\\|:.+\\)\\'" "" font-name-2)))
+      (cond
+        ((and (equal base-name-1 font-name-1)
+              (equal base-name-2 font-name-2))
+         nil)
+        ((not (font-utils-lenient-name-equal base-name-1 base-name-2))
+         nil)
+        ((not (equal (downcase font-name-1) (downcase font-name-2)))
+         t)
+        (t
+         nil)))))
+
 (defun unicode-fonts-debug-check-duplicate-fonts (font-name font-list)
   "Test whether FONT-NAME occurs more than once in FONT-LIST.
 
 Returns a list of duplicates when there is more than one
 occurrence, otherwise nil."
   (let ((matches (copy-list (member* font-name font-list :test 'font-utils-lenient-name-equal)))
-        (hit nil)
+        (hits nil)
         (dupes nil))
+    (setq matches (sort matches #'(lambda (a b)
+                                    (equal a font-name))))
     (push (pop matches) dupes)
-    (while (setq hit (copy-list (member* font-name matches :test 'font-utils-lenient-name-equal)))
-      (push (pop hit) dupes)
-      (setq matches hit))
+    (while (setq hits (copy-list (member* font-name matches :test 'font-utils-lenient-name-equal)))
+      (let ((hit (pop hits)))
+        (unless (unicode-fonts--is-qualified-variant font-name hit)
+          (push hit dupes)))
+      (setq matches hits))
     (when (> (length dupes) 1)
       dupes)))
 
@@ -3285,20 +3309,22 @@ buffer instead of sending it to the *Messages* log."
       (progress-reporter-update reporter (incf counter))
       (let* ((block-name (car cell))
              (char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold)))
-             (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) (cadr cell)))
+             (all-fonts-with-qualifiers (cadr cell))
+             (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) all-fonts-with-qualifiers))
              (existing-fonts (remove-if-not 'unicode-fonts-font-exists-p all-fonts))
              (existing-unskipped-fonts (remove-if #'(lambda (x)
                                                       (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
              (best-font (pop existing-unskipped-fonts))
              (licenses nil))
         (funcall message-function "\n-----\nBlock %s\n-----" block-name)
-        (dolist (font all-fonts)
-          (when (setq dupes (unicode-fonts-debug-check-duplicate-fonts font all-fonts))
-            (funcall message-function "ERROR: font occurs at least twice in block: %s" dupes))
-          (let ((plist (cdr (assoc-string font unicode-fonts-known-font-characteristics))))
-            (if plist
-                (setq licenses (append licenses (plist-get plist :licenses)))
-              (funcall message-function "ERROR: Font %s is not listed" font))))
+        (dolist (qualified-font all-fonts-with-qualifiers)
+          (let ((font (replace-regexp-in-string ":.*\\'" "" qualified-font)))
+            (when (setq dupes (unicode-fonts-debug-check-duplicate-fonts qualified-font all-fonts-with-qualifiers))
+              (funcall message-function "ERROR: font occurs at least twice in block: %s" dupes))
+            (let ((plist (cdr (assoc-string font unicode-fonts-known-font-characteristics))))
+              (if plist
+                  (setq licenses (append licenses (plist-get plist :licenses)))
+                (funcall message-function "ERROR: Font %s is not listed" font)))))
         (unless (memq 'microsoft licenses)
           (funcall message-function "No Microsoft font for block %s" block-name))
         (unless (memq 'free licenses)
