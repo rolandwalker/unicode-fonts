@@ -108,8 +108,8 @@
      (goto-char (point-min))
      (unicode-fonts-debug-validate-data 'insert)
      (goto-char (point-min))
-     (when (re-search-forward "^ERROR" nil t)
-       (error "data failed validation"))
+     (when (re-search-forward "^ERROR[: \t]*\\([^\n]*\\)" nil t)
+       (error "data failed validation: %s" (match-string 1)))
      (delete-region (point-min) (point-max))
      t)))
 
