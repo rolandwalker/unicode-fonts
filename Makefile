@@ -47,12 +47,15 @@ TEST_DEP_4a_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-
 TEST_DEP_5=font-utils
 TEST_DEP_5_STABLE_URL=https://raw.github.com/rolandwalker/font-utils/89ef667af8bd4ea3b369f8bf1e53d6fd18ada570/font-utils.el
 TEST_DEP_5_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font-utils.el
-TEST_DEP_6=string-utils
-TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/cefb98ecf8257f69d8288929fc0425f145484452/string-utils.el
-TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
-TEST_DEP_7=alert
-TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
-TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
+TEST_DEP_6=list-utils
+TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/list-utils/a34f1d5c0be3faadd76680509e958797a60c0a41/list-utils.el
+TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/list-utils/master/list-utils.el
+TEST_DEP_7=string-utils
+TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/cefb98ecf8257f69d8288929fc0425f145484452/string-utils.el
+TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
+TEST_DEP_8=alert
+TEST_DEP_8_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
+TEST_DEP_8_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 .PHONY : build downloads downloads-latest autoloads test-autoloads test-travis \
  test test-prep test-batch test-interactive test-tests clean edit run-pristine \
@@ -136,6 +139,18 @@ test-dep-7 :
 	      (require '$(TEST_DEP_7)))"                  || \
 	(echo "Can't load test dependency $(TEST_DEP_7).el, run 'make downloads' to fetch it" ; exit 1)
 
+test-dep-8 :
+	@cd '$(TEST_DIR)'                                 && \
+	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
+	    "(progn                                          \
+	      (setq package-load-list '(($(TEST_DEP_6) t)    \
+	                                ($(TEST_DEP_7) t)    \
+	                                ($(TEST_DEP_8) t)))  \
+	      (when (fboundp 'package-initialize)            \
+	       (package-initialize))                         \
+	      (require '$(TEST_DEP_8)))"                  || \
+	(echo "Can't load test dependency $(TEST_DEP_8).el, run 'make downloads' to fetch it" ; exit 1)
+
 downloads :
 	$(CURL) '$(TEST_DEP_1_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
 	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_2).el
@@ -145,6 +160,7 @@ downloads :
 	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
 	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
 	$(CURL) '$(TEST_DEP_7_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
+	$(CURL) '$(TEST_DEP_8_STABLE_URL)'  > $(TEST_DIR)/$(TEST_DEP_8).el
 
 downloads-latest :
 	$(CURL) '$(TEST_DEP_1_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_1).el
@@ -155,6 +171,7 @@ downloads-latest :
 	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_5).el
 	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_6).el
 	$(CURL) '$(TEST_DEP_7_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_7).el
+	$(CURL) '$(TEST_DEP_8_LATEST_URL)'  > $(TEST_DIR)/$(TEST_DEP_8).el
 
 autoloads :
 	$(RESOLVED_EMACS) $(EMACS_BATCH) --eval              \
@@ -172,7 +189,7 @@ test-travis :
 test-tests :
 	@perl -ne 'if (m/^\s*\(\s*ert-deftest\s*(\S+)/) {die "$$1 test name duplicated in $$ARGV\n" if $$dupes{$$1}++}' '$(TEST_DIR)/'*-test.el
 
-test-prep : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-autoloads test-travis test-tests
+test-prep : build test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-dep-8 test-autoloads test-travis test-tests
 
 test-batch :
 	@cd '$(TEST_DIR)'                                 && \
@@ -242,7 +259,8 @@ run-pristine-local :
 clean :
 	@rm -f '$(AUTOLOADS_FILE)' *.elc *~ */*.elc */*~ '$(TEST_DIR)/$(TEST_DEP_1).el' '$(TEST_DIR)/$(TEST_DEP_2).el' \
 	    '$(TEST_DIR)/$(TEST_DEP_3).el' '$(TEST_DIR)/$(TEST_DEP_4).el' '$(TEST_DIR)/$(TEST_DEP_4a).el'              \
-	    '$(TEST_DIR)/$(TEST_DEP_5).el' '$(TEST_DIR)/$(TEST_DEP_6).el' '$(TEST_DIR)/$(TEST_DEP_7).el'
+	    '$(TEST_DIR)/$(TEST_DEP_5).el' '$(TEST_DIR)/$(TEST_DEP_6).el' '$(TEST_DIR)/$(TEST_DEP_7).el'               \
+	    '$(TEST_DIR)/$(TEST_DEP_8).el'
 	@rm -rf '$(TEST_DIR)/$(TEST_DATADIR)'
 
 edit :
