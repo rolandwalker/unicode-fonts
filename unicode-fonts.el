@@ -9,7 +9,7 @@
 ;; Last-Updated: 10 Oct 2012
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
-;; Package-Requires: ((font-utils "0.6.6") (ucs-utils "0.7.2") (persistent-soft "0.8.6") (pcache "0.2.3"))
+;; Package-Requires: ((font-utils "0.6.8") (ucs-utils "0.7.2") (persistent-soft "0.8.6") (pcache "0.2.3"))
 ;;
 ;; Simplified BSD License
 ;;
@@ -385,6 +385,7 @@
 (autoload 'font-utils-lenient-name-equal       "font-utils"  "Leniently match two strings, FONT-NAME-A and FONT-NAME-B.")
 (autoload 'font-utils-first-existing-font      "font-utils"  "Return the (normalized) first existing font name from FONT-NAMES.")
 (autoload 'font-utils-name-from-xlfd           "font-utils"  "Return the font-family name from XLFD, a string.")
+(autoload 'font-utils-is-qualified-variant     "font-utils"  "Test whether FONT-NAME-1 and FONT-NAME-2 are qualified variants of the same font.")
 
 (autoload 'ucs-utils-char                      "ucs-utils"   "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name               "ucs-utils"   "Return a prettified UCS name for CHAR.")
@@ -3238,26 +3239,6 @@ See also: `list-charset-chars'."
          (push-mark (point) t t)
          (goto-char posn))))))
 
-;; todo quickfix, port to font-utils version after update
-(defun unicode-fonts--is-qualified-variant (font-name-1 font-name-2)
-  "Test whether FONT-NAME-1 and FONT-NAME-2 are qualified variants of the same font.
-
-Qualifications are fontconfig-style specifications added to a
-font name, such as \":width=condensed\"."
-  (save-match-data
-    (let ((base-name-1 (replace-regexp-in-string "\\(?:-[0-9]+\\|:.+\\)\\'" "" font-name-1))
-          (base-name-2 (replace-regexp-in-string "\\(?:-[0-9]+\\|:.+\\)\\'" "" font-name-2)))
-      (cond
-        ((and (equal base-name-1 font-name-1)
-              (equal base-name-2 font-name-2))
-         nil)
-        ((not (font-utils-lenient-name-equal base-name-1 base-name-2))
-         nil)
-        ((not (equal (downcase font-name-1) (downcase font-name-2)))
-         t)
-        (t
-         nil)))))
-
 (defun unicode-fonts-debug-check-duplicate-fonts (font-name font-list)
   "Test whether FONT-NAME occurs more than once in FONT-LIST.
 
@@ -3271,7 +3252,7 @@ occurrence, otherwise nil."
     (push (pop matches) dupes)
     (while (setq hits (copy-list (member* font-name matches :test 'font-utils-lenient-name-equal)))
       (let ((hit (pop hits)))
-        (unless (unicode-fonts--is-qualified-variant font-name hit)
+        (unless (font-utils-is-qualified-variant font-name hit)
           (push hit dupes)))
       (setq matches hits))
     (when (> (length dupes) 1)
