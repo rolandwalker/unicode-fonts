@@ -2321,6 +2321,7 @@ Set to nil to disable."
                                                          ))
     ("New Tai Lue"                                      (
                                                          "Dai Banna SIL Book"
+                                                         "Dai Banna SIL Book:style=Regular"
                                                          ))
     ("Number Forms"                                     (
                                                          "DejaVu Sans:width=condensed"  ; 55/58
@@ -2372,6 +2373,7 @@ Set to nil to disable."
     ("Phags-pa"                                         (
                                                          "Microsoft PhagsPa"
                                                          "BabelStone Phags-pa Book"     ; 56/56
+                                                         "BabelStone Phags-pa Book:style=Regular"
                                                          "Code2000"                     ; 56/56
                                                          ))
     ("Phaistos Disc"                                    (
