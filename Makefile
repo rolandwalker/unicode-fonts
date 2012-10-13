@@ -20,6 +20,7 @@ EMACS_CLEAN=-Q
 EMACS_BATCH=$(EMACS_CLEAN) --batch
 # TESTS can be overridden to specify a subset of tests
 TESTS=
+WIKI_USERNAME=roland.walker
 
 CURL=curl --silent
 EDITOR=runemacs -no_wait
@@ -59,8 +60,9 @@ TEST_DEP_8_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
 
 .PHONY : build downloads downloads-latest autoloads test-autoloads test-travis \
  test test-prep test-batch test-interactive test-tests clean edit run-pristine \
- run-pristine-local test-dep-1 test-dep-2 test-dep-3 test-dep-4 test-dep-5     \
- test-dep-6 test-dep-7 test-dep-8 test-dep-9
+ run-pristine-local upload-github upload-wiki upload-marmalade test-dep-1      \
+ test-dep-2 test-dep-3 test-dep-4 test-dep-5 test-dep-6 test-dep-7 test-dep-8  \
+ test-dep-9
 
 build :
 	$(RESOLVED_EMACS) $(EMACS_BATCH) --eval    \
@@ -265,3 +267,25 @@ clean :
 
 edit :
 	@$(EDITOR) `git ls-files`
+
+upload-github :
+	@git push origin master
+
+upload-wiki :
+	@git diff --quiet '$(PACKAGE_NAME).el'         || \
+	 ( git --no-pager diff '$(PACKAGE_NAME).el';      \
+	   echo "Outstanding edits - do a git stash";     \
+	   false )
+	@$(RESOLVED_EMACS) $(EMACS_BATCH) --eval          \
+	 "(progn                                          \
+	   (setq package-load-list '((yaoddmuse t)))      \
+	   (when (fboundp 'package-initialize)            \
+	    (package-initialize))                         \
+	   (require 'yaoddmuse)                           \
+	   (setq yaoddmuse-username \"$(WIKI_USERNAME)\") \
+	   (yaoddmuse-post-file                           \
+	    \"$(PACKAGE_NAME).el\"                        \
+	    yaoddmuse-default-wiki                        \
+	    \"$(PACKAGE_NAME).el\"                        \
+	    \"updated version\") \
+	   (sleep-for 5))"
