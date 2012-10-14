@@ -11,6 +11,8 @@
 
 ;;; todo
 ;;;
+;;; interactive tests with prompting
+;;;
 ;;; why does unicode-fonts-debug-insert-block-01 set off
 ;;; the very lengthy duplicates check?
 ;;;
