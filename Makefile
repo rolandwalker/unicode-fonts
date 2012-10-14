@@ -36,21 +36,21 @@ TEST_DEP_1_LATEST_URL=https://raw.github.com/emacsmirror/emacs/master/lisp/emacs
 TEST_DEP_2=pcache
 TEST_DEP_2_STABLE_URL=https://raw.github.com/sigma/pcache/fa8f863546e2e8f2fc0a70f5cc766a7f584e01b6/pcache.el
 TEST_DEP_2_LATEST_URL=https://raw.github.com/sigma/pcache/master/pcache.el
-TEST_DEP_3=persistent-soft
-TEST_DEP_3_STABLE_URL=https://raw.github.com/rolandwalker/persistent-soft/de0d196c94a7d124d0acfa13228648d74cf2315f/persistent-soft.el
-TEST_DEP_3_LATEST_URL=https://raw.github.com/rolandwalker/persistent-soft/master/persistent-soft.el
-TEST_DEP_4=ucs-utils
-TEST_DEP_4_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/98578ca47b96c3505a092e40bfb6f4eb253a6827/ucs-utils.el
-TEST_DEP_4_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils.el
-TEST_DEP_4a=ucs-utils-6.0-delta
-TEST_DEP_4a_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
-TEST_DEP_4a_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils-6.0-delta.el
-TEST_DEP_5=font-utils
-TEST_DEP_5_STABLE_URL=https://raw.github.com/rolandwalker/font-utils/a7bda8bbc065480c85f0bd19cd1338627a5d3fc7/font-utils.el
-TEST_DEP_5_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font-utils.el
-TEST_DEP_6=list-utils
-TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/list-utils/a34f1d5c0be3faadd76680509e958797a60c0a41/list-utils.el
-TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/list-utils/master/list-utils.el
+TEST_DEP_3=list-utils
+TEST_DEP_3_STABLE_URL=https://raw.github.com/rolandwalker/list-utils/a34f1d5c0be3faadd76680509e958797a60c0a41/list-utils.el
+TEST_DEP_3_LATEST_URL=https://raw.github.com/rolandwalker/list-utils/master/list-utils.el
+TEST_DEP_4=persistent-soft
+TEST_DEP_4_STABLE_URL=https://raw.github.com/rolandwalker/persistent-soft/de0d196c94a7d124d0acfa13228648d74cf2315f/persistent-soft.el
+TEST_DEP_4_LATEST_URL=https://raw.github.com/rolandwalker/persistent-soft/master/persistent-soft.el
+TEST_DEP_5=ucs-utils
+TEST_DEP_5_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/98578ca47b96c3505a092e40bfb6f4eb253a6827/ucs-utils.el
+TEST_DEP_5_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils.el
+TEST_DEP_5a=ucs-utils-6.0-delta
+TEST_DEP_5a_STABLE_URL=https://raw.github.com/rolandwalker/ucs-utils/cf38ef555fc30d9aefaf3675ebd969948b71496a/ucs-utils-6.0-delta.el
+TEST_DEP_5a_LATEST_URL=https://raw.github.com/rolandwalker/ucs-utils/master/ucs-utils-6.0-delta.el
+TEST_DEP_6=font-utils
+TEST_DEP_6_STABLE_URL=https://raw.github.com/rolandwalker/font-utils/a7bda8bbc065480c85f0bd19cd1338627a5d3fc7/font-utils.el
+TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font-utils.el
 TEST_DEP_7=string-utils
 TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/cefb98ecf8257f69d8288929fc0425f145484452/string-utils.el
 TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
@@ -89,8 +89,7 @@ test-dep-3 :
 	@cd '$(TEST_DIR)'                                 && \
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
-	      (setq package-load-list '(($(TEST_DEP_2) t)    \
-	                                ($(TEST_DEP_3) t)))  \
+	      (setq package-load-list '(($(TEST_DEP_3) t)))  \
 	      (when (fboundp 'package-initialize)            \
 	       (package-initialize))                         \
 	      (require '$(TEST_DEP_3)))"                  || \
@@ -101,8 +100,8 @@ test-dep-4 :
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
 	      (setq package-load-list '(($(TEST_DEP_2) t)    \
-	                                ($(TEST_DEP_3) t)    \
-	                                ($(TEST_DEP_4) t)))  \
+					($(TEST_DEP_3) t)    \
+					($(TEST_DEP_4) t)))  \
 	      (when (fboundp 'package-initialize)            \
 	       (package-initialize))                         \
 	      (require '$(TEST_DEP_4)))"                  || \
@@ -113,8 +112,9 @@ test-dep-5 :
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
 	      (setq package-load-list '(($(TEST_DEP_2) t)    \
-	                                ($(TEST_DEP_3) t)    \
-	                                ($(TEST_DEP_5) t)))  \
+					($(TEST_DEP_3) t)    \
+					($(TEST_DEP_4) t)    \
+					($(TEST_DEP_5) t)))  \
 	      (when (fboundp 'package-initialize)            \
 	       (package-initialize))                         \
 	      (require '$(TEST_DEP_5)))"                  || \
@@ -124,7 +124,10 @@ test-dep-6 :
 	@cd '$(TEST_DIR)'                                 && \
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
-	      (setq package-load-list '(($(TEST_DEP_6) t)))  \
+	      (setq package-load-list '(($(TEST_DEP_2) t)    \
+					($(TEST_DEP_3) t)    \
+					($(TEST_DEP_4) t)    \
+					($(TEST_DEP_6) t)))  \
 	      (when (fboundp 'package-initialize)            \
 	       (package-initialize))                         \
 	      (require '$(TEST_DEP_6)))"                  || \
@@ -134,7 +137,7 @@ test-dep-7 :
 	@cd '$(TEST_DIR)'                                 && \
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
-	      (setq package-load-list '(($(TEST_DEP_6) t)    \
+	      (setq package-load-list '(($(TEST_DEP_3) t)    \
 	                                ($(TEST_DEP_7) t)))  \
 	      (when (fboundp 'package-initialize)            \
 	       (package-initialize))                         \
@@ -145,7 +148,7 @@ test-dep-8 :
 	@cd '$(TEST_DIR)'                                 && \
 	$(RESOLVED_EMACS) $(EMACS_BATCH)  -L . -L .. --eval  \
 	    "(progn                                          \
-	      (setq package-load-list '(($(TEST_DEP_6) t)    \
+	      (setq package-load-list '(($(TEST_DEP_3) t)    \
 	                                ($(TEST_DEP_7) t)    \
 	                                ($(TEST_DEP_8) t)))  \
 	      (when (fboundp 'package-initialize)            \
@@ -158,8 +161,8 @@ downloads :
 	$(CURL) '$(TEST_DEP_2_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_2).el'
 	$(CURL) '$(TEST_DEP_3_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_3).el'
 	$(CURL) '$(TEST_DEP_4_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_4).el'
-	$(CURL) '$(TEST_DEP_4a_STABLE_URL)' > '$(TEST_DIR)/$(TEST_DEP_4a).el'
 	$(CURL) '$(TEST_DEP_5_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_5).el'
+	$(CURL) '$(TEST_DEP_5a_STABLE_URL)' > '$(TEST_DIR)/$(TEST_DEP_5a).el'
 	$(CURL) '$(TEST_DEP_6_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_6).el'
 	$(CURL) '$(TEST_DEP_7_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_7).el'
 	$(CURL) '$(TEST_DEP_8_STABLE_URL)'  > '$(TEST_DIR)/$(TEST_DEP_8).el'
@@ -169,8 +172,8 @@ downloads-latest :
 	$(CURL) '$(TEST_DEP_2_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_2).el'
 	$(CURL) '$(TEST_DEP_3_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_3).el'
 	$(CURL) '$(TEST_DEP_4_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_4).el'
-	$(CURL) '$(TEST_DEP_4a_LATEST_URL)' > '$(TEST_DIR)/$(TEST_DEP_4a).el'
 	$(CURL) '$(TEST_DEP_5_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_5).el'
+	$(CURL) '$(TEST_DEP_5a_LATEST_URL)' > '$(TEST_DIR)/$(TEST_DEP_5a).el'
 	$(CURL) '$(TEST_DEP_6_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_6).el'
 	$(CURL) '$(TEST_DEP_7_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_7).el'
 	$(CURL) '$(TEST_DEP_8_LATEST_URL)'  > '$(TEST_DIR)/$(TEST_DEP_8).el'
@@ -261,7 +264,7 @@ run-pristine-local :
 clean :
 	@rm -f '$(AUTOLOADS_FILE)' *.elc *~ */*.elc */*~  && \
 	cd '$(TEST_DIR)'                                  && \
-	rm -f './$(TEST_DEP_1).el' './$(TEST_DEP_2).el' './$(TEST_DEP_3).el' './$(TEST_DEP_4).el' './$(TEST_DEP_4a).el'   \
+	rm -f './$(TEST_DEP_1).el' './$(TEST_DEP_2).el' './$(TEST_DEP_3).el' './$(TEST_DEP_4).el' './$(TEST_DEP_5a).el'   \
 	      './$(TEST_DEP_5).el' './$(TEST_DEP_6).el' './$(TEST_DEP_7).el' './$(TEST_DEP_8).el' './$(TEST_DEP_9).el' && \
 	if test -n '$(TEST_DATADIR)'; then rm -rf './$(TEST_DATADIR)'; fi
 

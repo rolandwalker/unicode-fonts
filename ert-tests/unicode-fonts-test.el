@@ -34,10 +34,10 @@
   (when (fboundp 'package-initialize)
     (package-initialize)))
 
+(require 'list-utils)
 (require 'persistent-soft)
 (require 'ucs-utils)
 (require 'font-utils)
-(require 'list-utils)
 (require 'string-utils)
 (require 'alert)
 (require 'unicode-fonts)
