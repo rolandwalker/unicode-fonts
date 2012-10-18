@@ -262,8 +262,8 @@ run-pristine-local :
 	 -L . -L .. -l '$(PACKAGE_NAME)' .
 
 clean :
-	@rm -f '$(AUTOLOADS_FILE)' *.elc *~ */*.elc */*~  && \
-	cd '$(TEST_DIR)'                                  && \
+	@rm -f '$(AUTOLOADS_FILE)' *.elc *~ */*.elc */*~ .DS_Store */.DS_Store *.bak */*.bak && \
+	cd '$(TEST_DIR)'                                                                     && \
 	rm -f './$(TEST_DEP_1).el' './$(TEST_DEP_2).el' './$(TEST_DEP_3).el' './$(TEST_DEP_4).el' './$(TEST_DEP_5a).el'   \
 	      './$(TEST_DEP_5).el' './$(TEST_DEP_6).el' './$(TEST_DEP_7).el' './$(TEST_DEP_8).el' './$(TEST_DEP_9).el' && \
 	if test -n '$(TEST_DATADIR)'; then rm -rf './$(TEST_DATADIR)'; fi
