@@ -72,9 +72,9 @@ build :
 	      (batch-byte-compile))" *.el
 
 not-dirty :
-	@git diff --quiet '$(PACKAGE_NAME).el' 'plugins/$(PACKAGE_NAME)'*.el || \
-	 ( git --no-pager diff '$(PACKAGE_NAME).el';      \
-	   echo "Uncommitted edits - do a git stash";     \
+	@git diff --quiet '$(PACKAGE_NAME).el'     || \
+	 ( git --no-pager diff '$(PACKAGE_NAME).el';  \
+	   echo "Uncommitted edits - do a git stash"; \
 	   false )
 
 pkg-version :
