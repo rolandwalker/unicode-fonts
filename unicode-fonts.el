@@ -376,7 +376,7 @@
 ;;; Code:
 ;;
 
-;;; requires
+;;; requirements
 
 ;; for callf, callf2, member*, incf, remove-if, remove-if-not
 (require 'cl)
