@@ -47,13 +47,14 @@
 ;; Emacs does this out of the box.
 ;;
 ;; However, font mappings via fontsets are a bit difficult to
-;; configure.  Furthermore, the default setup does not always pick the
-;; most legible fonts.  As the manual warns, the choice of font
+;; configure.  In addition, the default setup does not always pick
+;; the most legible fonts.  As the manual warns, the choice of font
 ;; actually displayed for a non-ASCII character is "somewhat random".
 ;;
-;; Unicode provides a way to organize font mappings: it divides character
-;; ranges into logical groups called "blocks".  This library configures
-;; Emacs in a Unicode-friendly way by providing mappings from
+;; The Unicode standard provides a way to organize font mappings: it
+;; divides character ranges into logical groups called "blocks".  This
+;; library configures Emacs in a Unicode-friendly way by providing
+;; mappings from
 ;;
 ;;     each Unicode block  ---to--->   a font with good coverage
 ;;
