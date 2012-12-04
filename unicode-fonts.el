@@ -2848,8 +2848,6 @@ these mappings."
 ;; note: variable outside unicode-fonts- namespace
 (defvar unicode-block-history                 nil "History of Unicode blocks entered in the minibuffer.")
 
-;;; compatibility functions
-
 ;;; utility functions
 
 ;;;###autoload
