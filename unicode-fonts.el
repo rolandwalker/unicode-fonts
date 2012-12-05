@@ -1164,7 +1164,9 @@
 (defgroup unicode-fonts nil
   "Configure Unicode fonts."
   :version "0.3.4"
-  :link '(emacs-commentary-link "unicode-fonts")
+  :link '(emacs-commentary-link :tag "Commentary" "unicode-fonts")
+  :link '(url-link :tag "Github" "http://github.com/rolandwalker/unicode-fonts")
+  :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/UnicodeFonts")
   :prefix "unicode-fonts-"
   :group 'i18n
   :group 'faces)
