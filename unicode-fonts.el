@@ -5035,7 +5035,7 @@ and regenerated."
 ;;; main entry point
 
 ;;;###autoload
-(defun unicode-fonts-setup (&optional fontset-names regenerate)
+(defun unicode-fonts--setup-0 (&optional fontset-names regenerate frame)
   "Set up Unicode fonts for FONTSET-NAMES.
 
 Optional FONTSET-NAMES must be a list of strings.  Fontset names
@@ -5043,7 +5043,10 @@ which do not currently exist will be ignored.  The default value
 is `unicode-fonts-fontset-names'.
 
 Optional REGENERATE requests that the disk cache be invalidated
-and regenerated."
+and regenerated.
+
+FRAME must be a graphical frame. Default is the selected
+frame."
   (interactive)
   (unicode-fonts-compute-skipped-fonts)
   (callf or fontset-names unicode-fonts-fontset-names)
@@ -5055,7 +5058,28 @@ and regenerated."
           ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
           ;; seems more logical than after-init-hook, but s-l-h appears to have already happened.
           (add-hook 'after-init-hook `(lambda () (unicode-fonts--setup-1 ,fontset-name)))
+        (when frame (select-frame frame))
         (unicode-fonts--setup-1 fontset-name regenerate)))))
+
+;;; main entry point
+
+;;;###autoload
+(defun unicode-fonts-setup (&optional fontset-names regenerate)
+  "Set up Unicode fonts for FONTSET-NAMES.
+
+FONTSET-NAMES must be a list of strings.  Fontset names
+which do not currently exist will be ignored.  The
+default value is `unicode-fonts-fontset-names'."
+  (interactive)
+  (add-hook 'after-init-hook
+            `(lambda ()
+               (if (display-multi-font-p)
+                   (unicode-fonts--setup-0 ,fontset-names ,regenerate)
+                 ;; The initial frame does not support fonts (emacs --daemon or -nw).
+                 ;; Defer until a graphical frame is created.
+                 (add-hook 'after-make-frame-functions
+                           (lambda (frame)
+                             (unicode-fonts--setup-0 ,fontset-names ,regenerate frame)))))))
 
 (provide 'unicode-fonts)
 
