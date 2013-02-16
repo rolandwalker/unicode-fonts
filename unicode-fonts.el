@@ -5029,7 +5029,8 @@ and regenerated."
       '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))
     ;; clean up the evaluated code, as it may be very large
     (setq unicode-fonts--instructions
-          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))))
+          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
+    (push fontset-name unicode-fonts-setup-done)))
 
 ;;; main entry point
 
@@ -5049,7 +5050,6 @@ and regenerated."
   (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
     ;; Cocoa Emacs often crashes if this is run more than once for a fontset
     (unless (member fontset-name unicode-fonts-setup-done)
-      (push fontset-name unicode-fonts-setup-done)
       (if (and (memq window-system '(ns))
                (not after-init-time))
           ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
