@@ -3271,8 +3271,8 @@ buffer instead of sending it to the *Messages* log."
         (counter 0)
         (all-override-ranges nil))
     (when insert
-      (require 'alert)
-      (setq message-function 'alert-message-insert))
+      (require 'express)
+      (setq message-function 'express-message-insert))
 
     ;; known fonts
     (setq reporter (make-progress-reporter "Checking fonts for duplicates ... " 0 (length known-fonts)))

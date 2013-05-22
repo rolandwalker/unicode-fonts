@@ -55,9 +55,9 @@ TEST_DEP_6_LATEST_URL=https://raw.github.com/rolandwalker/font-utils/master/font
 TEST_DEP_7=string-utils
 TEST_DEP_7_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/cefb98ecf8257f69d8288929fc0425f145484452/string-utils.el
 TEST_DEP_7_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
-TEST_DEP_8=alert
-TEST_DEP_8_STABLE_URL=https://raw.github.com/rolandwalker/alert/2ca3458f91618c060ba48e9c48570a2039555b09/alert.el
-TEST_DEP_8_LATEST_URL=https://raw.github.com/rolandwalker/alert/master/alert.el
+TEST_DEP_8=express
+TEST_DEP_8_STABLE_URL=https://raw.github.com/rolandwalker/express/88d4c5fe5545d3889ae862d49a8f79b5ac7b3465/express.el
+TEST_DEP_8_LATEST_URL=https://raw.github.com/rolandwalker/express/master/express.el
 
 .PHONY : build dist not-dirty pkg-version downloads downloads-latest autoloads \
  test-autoloads test-travis test test-prep test-batch test-interactive         \

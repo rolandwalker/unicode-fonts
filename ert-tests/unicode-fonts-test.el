@@ -32,7 +32,7 @@
                             (font-utils t)
                             (list-utils t)
                             (string-utils t)
-                            (alert t)))
+                            (express t)))
   (when (fboundp 'package-initialize)
     (package-initialize)))
 
@@ -41,7 +41,7 @@
 (require 'ucs-utils)
 (require 'font-utils)
 (require 'string-utils)
-(require 'alert)
+(require 'express)
 (require 'unicode-fonts)
 
 ;;; unicode-fonts-font-exists-p
