@@ -94,7 +94,9 @@ install:
         sudo apt-get -qq remove emacs emacs23-bin-common emacs23-common emacs23-nox &&
         sudo apt-get -qq install libjpeg62 xaw3dg &&
         sudo apt-get -qq -f install &&
-        sudo dpkg -i emacs22_22.2-0ubuntu9_i386.deb emacs22-bin-common_22.2-0ubuntu9_i386.deb emacs22-common_22.2-0ubuntu9_all.deb emacs22-el_22.2-0ubuntu9_all.deb emacs22-gtk_22.2-0ubuntu9_i386.deb &&
+        sudo dpkg -i emacs22-common_22.2-0ubuntu9_all.deb emacs22-el_22.2-0ubuntu9_all.deb &&
+        sudo dpkg -i --force-depends emacs22-bin-common_22.2-0ubuntu9_i386.deb &&
+        sudo dpkg -i emacs22_22.2-0ubuntu9_i386.deb emacs22-gtk_22.2-0ubuntu9_i386.deb &&
         sudo update-alternatives --set emacs22 /usr/bin/emacs22-gtk;
     fi
   - if [ "$EMACS" = 'emacs23' ]; then
