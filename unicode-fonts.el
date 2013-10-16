@@ -305,8 +305,6 @@
 ;;
 ;; TODO
 ;;
-;;     @@@@@@@ test again on windows with new font-utils
-;;
 ;;     (set-language-environment "UTF-8") ?
 ;;
 ;;     add coverage comments to all mapping entries
