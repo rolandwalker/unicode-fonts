@@ -40,18 +40,11 @@ env:
 ###
 ### allowing failures
 ###
-### note that global variables must be included again
-### verbatim
-###
 
 matrix:
   allow_failures:
-    - env:
-        - EMACS=emacs22
-        - SOME_TOKEN=some_value
-    - env:
-        - EMACS=emacs-snapshot
-        - SOME_TOKEN=some_value
+    - env: EMACS=emacs22
+    - env: EMACS=emacs-snapshot
 
 ###
 ### limit build attempts to defined branches
