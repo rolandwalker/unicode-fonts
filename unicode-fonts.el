@@ -407,7 +407,7 @@
     ("unicode-ssp"         #xE0000   #xEFFFF)           ; plane  14
     ("unicode-pua-a"       #xF0000   #xFFFFF)           ; plane  15
     ("unicode-pua-b"       #x100000  #x10FFFF))         ; plane  16
-  "Alist of Unicode 6.1 planes.")
+  "Alist of Unicode 6.3 planes.")
 
 (defconst unicode-fonts-blocks
   '(("Aegean Numbers"                                  #x10100  #x1013F)
@@ -630,7 +630,7 @@
     ("Yi Radicals"                                     #xA490   #xA4CF)
     ("Yi Syllables"                                    #xA000   #xA48F)
     ("Yijing Hexagram Symbols"                         #x4DC0   #x4DFF))
-  "Alist of Unicode 6.1 blocks.")
+  "Alist of Unicode 6.3 blocks.")
 
 (defvar unicode-fonts-known-font-characteristics
   '(("Abadi MT Condensed"             :licenses (microsoft))
