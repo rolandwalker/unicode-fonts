@@ -259,6 +259,10 @@
 ;;
 ;;         Ribeng                        ; Chakma
 ;;
+;;     From http://www.virtualvinodh.com/downloads
+;;
+;;         Adinatha Tamil Brahmi         ; Brahmi
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -631,6 +635,7 @@
 (defvar unicode-fonts-known-font-characteristics
   '(("Abadi MT Condensed"             :licenses (microsoft))
     ("Abyssinica SIL"                 :licenses (free))
+    ("Adinatha Tamil Brahmi"          :licenses (free))
     ("Adobe Arabic"                   :licenses (adobe) :arabic 'standard)
     ("Adobe Hebrew"                   :licenses (adobe))
     ("Adobe Minion Web"               :licenses (microsoft))
@@ -709,7 +714,6 @@
     ("Bookshelf Symbol 7"             :licenses (microsoft))
     ("Bradley Hand ITC"               :licenses (microsoft))
     ("Braggadocio"                    :licenses (microsoft))
-    ("Brahmi"                         :licenses (free))
     ("BriemScript"                    :licenses (microsoft))
     ("Britannic Bold"                 :licenses (microsoft))
     ("Broadway"                       :licenses (microsoft))
@@ -1485,7 +1489,9 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
-    ;; ("Brahmi"                                        (""))
+    ("Brahmi"                                           (
+                                                         "Adinatha Tamil Brahmi"        ; 45/108
+                                                         ))
     ("Braille Patterns"                                 (
                                                          "Quivira"
                                                          "DejaVu Sans:width=condensed"
