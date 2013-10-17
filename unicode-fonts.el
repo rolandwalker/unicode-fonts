@@ -1962,7 +1962,9 @@ Set to nil to disable."
     ("Hangul Jamo Extended-A"                           (
                                                          "UnBatang"
                                                          ))
-    ;; ("Hangul Jamo Extended-B"                        (""))                           ; todo
+    ("Hangul Jamo Extended-B"                           (
+                                                         "UnBatang"                     ; 68/72
+                                                         ))
     ("Hangul Jamo"                                      (
                                                          "UnBatang"                     ; 186/186
                                                          "WenQuanYi Zen Hei Mono"       ; 146/186
