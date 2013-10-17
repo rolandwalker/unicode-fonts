@@ -255,6 +255,10 @@
 ;;
 ;;         Conakry                       ; N'ko
 ;;
+;;     From http://uni.hilledu.com/download-ribenguni
+;;
+;;         Ribeng                        ; Chakma
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -1042,6 +1046,7 @@
     ("Ransom"                         :licenses (microsoft))
     ("Ravie"                          :licenses (microsoft))
     ("RefSpecialty"                   :licenses (microsoft))
+    ("Ribeng"                         :licenses (free))
     ("Rockwell Condensed"             :licenses (microsoft))
     ("Rockwell"                       :licenses (microsoft))
     ("Rod"                            :licenses (microsoft))
@@ -1650,7 +1655,9 @@ Set to nil to disable."
                                                          "Aegean"
                                                          "Quivira"
                                                          ))
-    ;; ("Chakma"                                        (""))                           ; todo
+    ("Chakma"                                           (
+                                                         "Ribeng"                       ; 67/67
+                                                         ))
     ("Cham"                                             (                               ; todo quality free alternative
                                                          "Code2000"
                                                          ))
