@@ -22,9 +22,9 @@
 ;;
 ;;     Install these fonts
 ;;
-;;        http://users.teilar.gr/~g1951d/Symbola706.zip
-;;        http://www.quivira-font.com/files/Quivira.ttf
-;;        http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2
+;;         http://users.teilar.gr/~g1951d/Symbola706.zip
+;;         http://www.quivira-font.com/files/Quivira.ttf
+;;         http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2
 ;;
 ;;     Remove Unifont from your system.
 ;;
