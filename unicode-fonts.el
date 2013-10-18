@@ -1374,23 +1374,23 @@ Set to nil to disable."
                                                          "Andalus"
                                                          "Arabic Typesetting"
                                                          "Adobe Arabic"                 ; 171/611
-                                                         "DecoType Naskh"               ; 57/611
-                                                         "Al Bayan"                     ; 62/611
-                                                         "DejaVu Sans Mono"             ; 72/611
-                                                         "DejaVu Sans:width=condensed"  ; 98/611
-                                                         "MPH 2B Damase"                ; 24/611
+                                                         "DecoType Naskh"               ;  57/611
+                                                         "Al Bayan"                     ;  62/611
+                                                         "DejaVu Sans Mono"             ;  72/611
+                                                         "DejaVu Sans:width=condensed"  ;  98/611
+                                                         "MPH 2B Damase"                ;  24/611
                                                          "Code2000"                     ; 155/611
                                                          ))
     ("Arabic Presentation Forms-B"                      (
-                                                         "DejaVu Sans Mono"             ; 140/140
-                                                         "Geeza Pro"                    ; 140/140
-                                                         "Adobe Arabic"                 ; 125/140
+                                                         "DejaVu Sans Mono"             ; 140/141
+                                                         "Geeza Pro"                    ; 140/141
+                                                         "Adobe Arabic"                 ; 125/141
                                                          "Arial Unicode MS"
                                                          "Microsoft Sans Serif"
                                                          "Kufi Standard GK"
-                                                         "DejaVu Sans:width=condensed"  ; 140/140
-                                                         "DecoType Naskh"               ; 89/140
+                                                         "DejaVu Sans:width=condensed"  ; 140/141
                                                          "FreeMono"                     ; 141/141
+                                                         "DecoType Naskh"               ;  89/141
                                                          ))
     ("Arabic Supplement"                                (
                                                          "Courier New"
@@ -1411,11 +1411,11 @@ Set to nil to disable."
                                                          "Courier New"
                                                          "Simplified Arabic Fixed"
                                                          "Simplified Arabic"
-                                                         "Adobe Arabic"                 ; 209/252
+                                                         "Adobe Arabic"                 ; 209/254
                                                          "Geeza Pro"
-                                                         "Baghdad"                      ; 81/252
+                                                         "Baghdad"                      ;  81/254
                                                          "Damascus"
-                                                         "Al Bayan"                     ; 79/252
+                                                         "Al Bayan"                     ;  79/254
                                                          "Andalus"
                                                          "Arabic Typesetting"
                                                          "Traditional Arabic"
@@ -1750,7 +1750,7 @@ Set to nil to disable."
                                                          ))
     ("Currency Symbols"                                 (
                                                          "Monaco"
-                                                         "Consolas"                     ; 22/
+                                                         "Consolas"                     ; 22/27
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
                                                          "Noto Sans"                    ; 23/27
