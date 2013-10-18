@@ -1347,6 +1347,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 52/58
                                                          ))
     ("Ancient Greek Musical Notation"                   (
                                                          "Musica"
@@ -1389,6 +1390,7 @@ Set to nil to disable."
                                                          "Kufi Standard GK"
                                                          "DejaVu Sans:width=condensed"  ; 140/140
                                                          "DecoType Naskh"               ; 89/140
+                                                         "FreeMono"                     ; 141/141
                                                          ))
     ("Arabic Supplement"                                (
                                                          "Courier New"
@@ -1428,6 +1430,7 @@ Set to nil to disable."
                                                          "Kufi Standard GK"
                                                          "DecoType Naskh"
                                                          "Koodak"
+                                                         "FreeMono"                     ; 212/254
                                                          ))
     ("Armenian"                                         (
                                                          "Mshtakan"
@@ -1436,6 +1439,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "MPH 2B Damase"
                                                          "Arial Unicode MS"
+                                                         "FreeMono"                     ; 87/87
                                                          ))
     ("Arrows"                                           (
                                                          "DejaVu Sans Mono"
@@ -1445,6 +1449,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ;  77/112
                                                          ))
     ("Avestan"                                          (
                                                          "Ahuramzda"
@@ -1466,6 +1471,7 @@ Set to nil to disable."
                                                          ))
     ("Block Elements"                                   (
                                                          "DejaVu Sans Mono"
+                                                         "FreeMono"                     ; 32/32
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"
                                                          "Symbola"
@@ -1497,6 +1503,7 @@ Set to nil to disable."
                                                          ))
     ("Box Drawing"                                      (
                                                          "DejaVu Sans Mono"
+                                                         "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
                                                          "Symbola"
                                                          "Quivira"
@@ -1509,6 +1516,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"
                                                          "Symbola"
+                                                         "FreeMono"                     ; 256/256
                                                          ))
     ("Buginese"                                         (
                                                          "MPH 2B Damase"
@@ -1683,6 +1691,7 @@ Set to nil to disable."
                                                          "Plantagenet Cherokee"
                                                          "MPH 2B Damase"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 85/85
                                                          ))
     ("Combining Diacritical Marks Supplement"           (
                                                          "Consolas"                     ; 13/128
@@ -1709,6 +1718,7 @@ Set to nil to disable."
                                                          "Microsoft Sans Serif"
                                                          "Arial"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 112/112
                                                          ))
     ("Combining Half Marks"                             (
                                                          "Monaco"
@@ -1723,6 +1733,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 39/39
                                                          ))
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
@@ -1746,6 +1757,7 @@ Set to nil to disable."
                                                          "Apple Symbols"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 23/27
                                                          ))
     ("Cypriot Syllabary"                                (
                                                          "Aegean"
@@ -1780,6 +1792,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 226/256
                                                          "Doulos SIL"                   ; 220/256
                                                          "Symbola"                      ; 256/256
+                                                         "FreeMono"                     ; 251/256
                                                          "Charcoal CY"                  ; 94/256
                                                          "Geneva CY"                    ; 94/256
                                                          ))
@@ -1880,6 +1893,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 101/111
                                                          ))
     ("Geometric Shapes"                                 (
                                                          "DejaVu Sans Mono"
@@ -1887,6 +1901,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 96/96
                                                          ))
     ("Georgian Supplement"                              (
                                                          "DejaVu Serif:width=condensed" ; 83/88
@@ -1925,6 +1940,7 @@ Set to nil to disable."
                                                          "Tahoma"
                                                          "Doulos SIL"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 233/233
                                                          ))
     ("Greek and Coptic"                                 (
                                                          "Consolas"                     ; 127/134
@@ -2058,6 +2074,7 @@ Set to nil to disable."
                                                          "Microsoft Sans Serif"
                                                          "Symbola"                      ; 96/96
                                                          "Quivira"                      ; 96/96
+                                                         "FreeMono"                     ; 96/96
                                                          ))
     ("Ideographic Description Characters"               (
                                                          "SimHei"
@@ -2274,6 +2291,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
                                                          "Quivira"                      ; 256/256
+                                                         "FreeMono"                     ; 242/256
                                                          ))
     ;; ("Meetei Mayek Extensions"                       ("")                            ; todo
     ("Meetei Mayek"                                     (
@@ -2367,6 +2385,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 58/58
                                                          "Quivira"                      ; 58/58
                                                          "Code2000"                     ; 54/58
+                                                         "FreeMono"                     ; 45/58
                                                          ))
     ("Ogham"                                            (
                                                          "DejaVu Sans:width=condensed"
@@ -2379,6 +2398,7 @@ Set to nil to disable."
                                                          "Aegean"
                                                          "Quivira"
                                                          "Code2001"                     ; 35/35
+                                                         "FreeMono"                     ; 35/35
                                                          ))
     ("Old Persian"                                      (
                                                          "Aegean"
@@ -2396,6 +2416,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 11/11
                                                          ))
     ("Oriya"                                            (
                                                          "Oriya Sangam MN"
@@ -2454,6 +2475,7 @@ Set to nil to disable."
     ;; ("Rumi Numeral Symbols"                          (""))
     ("Runic"                                            (
                                                          "Quivira"
+                                                         "FreeMono"                     ; 81/81
                                                          ))
     ("Samaritan"                                        (
                                                          "Quivira"
@@ -2498,6 +2520,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 5/5
                                                          "BabelStone Han"               ; 5/5
                                                          ))
     ;; ("Sundanese Supplement"                          ())                             ; todo
@@ -2510,6 +2533,7 @@ Set to nil to disable."
                                                          "Consolas"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 34/42
                                                          ))
     ("Supplemental Arrows-A"                            (
                                                          "Apple Symbols"
@@ -2517,6 +2541,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "FreeMono"                     ; 10/16
                                                          ))
     ("Supplemental Arrows-B"                            (
                                                          "Apple Symbols"
