@@ -9,7 +9,7 @@
 ;; Last-Updated: 22 May 2013
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
-;; Package-Requires: ((font-utils "0.6.8") (ucs-utils "0.7.2") (persistent-soft "0.8.6") (pcache "0.2.3"))
+;; Package-Requires: ((font-utils "0.6.8") (ucs-utils "0.7.4") (persistent-soft "0.8.6") (pcache "0.2.3"))
 ;;
 ;; Simplified BSD License
 ;;
@@ -2700,7 +2700,8 @@ are given, each is tried in order."
     ("Circled Times"                                  "Circled Times"                               ("Arial Unicode MS"                  ))
 
     ;; Currency Symbols block
-    ("Livre Tournois Sign"                            #x20CF                                        ("Symbola"                           ))
+    ("Livre Tournois Sign"                            "Turkish Lira Sign"                           ("Symbola"                           ))
+    (#x20BB                                           #x20CF                                        ("Symbola"                           ))
     ("Drachma Sign"                                   "Drachma Sign"                                ("DejaVu Sans Mono"                  ))
     ("German Penny Sign"                              "German Penny Sign"                           ("DejaVu Sans Mono"                  ))
     ("New Sheqel Sign"                                "New Sheqel Sign"                             ("DejaVu Sans Mono"                  ))
