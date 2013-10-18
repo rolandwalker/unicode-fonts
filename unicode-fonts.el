@@ -277,6 +277,10 @@
 ;;
 ;;         FreeMono, etc (FreeFont)      ; Kayah Li (and others)
 ;;
+;;     From http://ulikozok.com/aksara-batak/batak-font/
+;;
+;;         Batak-Unicode                 ; Batak
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -1471,7 +1475,9 @@ Set to nil to disable."
     ;; ("Bamum Supplement"                              (""))                           ; todo
     ;; ("Bamum"                                         (""))                           ; todo
     ;; ("Basic Latin"                                   (""))                           ; covered by the default font
-    ;; ("Batak"                                         (""))                           ; todo
+    ("Batak"                                            (
+                                                         "Batak-Unicode"                ; 56/56
+                                                         ))
     ("Bengali"                                          (
                                                          "Bangla Sangam MN"
                                                          "Vrinda"
