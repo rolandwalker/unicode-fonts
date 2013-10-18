@@ -1292,7 +1292,7 @@ Leave the list empty for no per-group exclusions."
                (const :tag "Free"                                free)
                (const :tag "Non-free"                            non-free)
                (const :tag "Decorative"                          decorative)
-               (const :tag "Low Quality Glyphs"                  low-quality-qlyphs)
+               (const :tag "Low Quality Glyphs"                  low-quality-glyphs)
                (const :tag "Buggy Display Before Vista"          buggy-before-vista))
   :group 'unicode-fonts-tweaks)
 
