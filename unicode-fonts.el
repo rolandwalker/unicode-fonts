@@ -267,6 +267,10 @@
 ;;
 ;;         Noto Sans                     ; Turkish Lira Sign (and others)
 ;;
+;;     From http://ftp.gnu.org/gnu/freefont/
+;;
+;;         FreeMono, etc (FreeFont)      ; Kayah Li (and others)
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -815,6 +819,9 @@
     ("Forte"                          :licenses (microsoft))
     ("FrankRuehl"                     :licenses (microsoft))
     ("Franklin Gothic"                :licenses (microsoft))
+    ("FreeMono"                       :licenses (free))
+    ("FreeSans"                       :licenses (free))
+    ("FreeSerif"                      :licenses (free))
     ("FreesiaUPC"                     :licenses (microsoft))
     ("Freestyle Script"               :licenses (microsoft))
     ("French Script MT"               :licenses (microsoft))
@@ -2136,8 +2143,9 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 96/96
                                                          ))
-    ("Kayah Li"                                         (                               ; todo quality free alternative
+    ("Kayah Li"                                         (
                                                          "Code2000"
+                                                         "FreeMono"                     ; 48/48
                                                          ))
     ("Kharoshthi"                                       (
                                                          "MPH 2B Damase"
