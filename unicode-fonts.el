@@ -263,6 +263,10 @@
 ;;
 ;;         Adinatha Tamil Brahmi         ; Brahmi
 ;;
+;;     From https://code.google.com/p/noto/
+;;
+;;         Noto Sans                     ; Turkish Lira Sign (and others)
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -1009,6 +1013,7 @@
     ("Niagara Solid"                  :licenses (microsoft))
     ("Niagara"                        :licenses (microsoft))
     ("Noteworthy"                     :licenses (apple))
+    ("Noto Sans"                      :licenses (free))
     ("Nuosu SIL"                      :licenses (free))
     ("Nyala"                          :licenses (microsoft))
     ("OCR A Extended"                 :licenses (microsoft))
@@ -1688,6 +1693,7 @@ Set to nil to disable."
     ("Combining Diacritical Marks"                      (
                                                          "Monaco"
                                                          "Consolas"
+                                                         "Noto Sans"                    ; 112/112
                                                          "Cambria Math"                 ; 110/112
                                                          "Courier New"
                                                          "DejaVu Sans:width=condensed"
@@ -1729,6 +1735,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 22/
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
+                                                         "Noto Sans"                    ; 23/27
                                                          "Apple Symbols"
                                                          "Symbola"
                                                          "Quivira"
@@ -1746,6 +1753,7 @@ Set to nil to disable."
     ("Cyrillic Supplement"                              (
                                                          "Consolas"                     ; 20/40
                                                          "Courier New"
+                                                         "Noto Sans"                    ; 40/40
                                                          "Calibri"
                                                          "DejaVu Sans:width=condensed"
                                                          "Doulos SIL"                   ; 34/40
@@ -1757,6 +1765,7 @@ Set to nil to disable."
                                                          "Monaco"                       ; 191/256
                                                          "DejaVu Sans Mono"             ; 180/256
                                                          "DejaVu Sans:width=condensed"  ; 256/256
+                                                         "Noto Sans"                    ; 256/256
                                                          "Courier New"                  ; 118/256
                                                          "Calibri"                      ; 255/256
                                                          "Microsoft Sans Serif"         ; 246/256
@@ -1899,6 +1908,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 232/233
                                                          "DejaVu Sans Mono"
                                                          "Courier New"
+                                                         "Noto Sans"                    ; 233/233
                                                          "DejaVu Sans:width=condensed"
                                                          "Microsoft Sans Serif"
                                                          "Gentium Plus Compact"
@@ -1912,6 +1922,7 @@ Set to nil to disable."
     ("Greek and Coptic"                                 (
                                                          "Consolas"                     ; 127/134
                                                          "DejaVu Sans Mono"             ; 110/134
+                                                         "Noto Sans"                    ; 127/134
                                                          "DejaVu Sans:width=condensed"  ; 134/134
                                                          "Calibri"                      ; 127/134
                                                          "Microsoft Sans Serif"         ; 112/134
@@ -2033,6 +2044,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 96/96
                                                          "DejaVu Sans Mono"             ; 96/96
                                                          "Courier New"
+                                                         "Noto Sans"                    ; 96/96
                                                          "Arial Unicode MS"
                                                          "Arial"
                                                          "Tahoma"
@@ -2177,6 +2189,7 @@ Set to nil to disable."
     ;;                                                  ))
     ("Latin Extended-C"                                 (
                                                          "DejaVu Sans:width=condensed"
+                                                         "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
                                                          "Quivira"
                                                          ))
@@ -2406,6 +2419,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 64/64
                                                          "Calibri"                      ; 64/64
                                                          "Courier New"                  ; 64/64 ; todo a better OSX choice
+                                                         "Noto Sans"                    ; 64/64
                                                          "Quivira"                      ; 64/64
                                                          "DejaVu Sans Mono"             ; 37/64
                                                          "DejaVu Sans:width=condensed"  ; 38/64
@@ -2415,6 +2429,7 @@ Set to nil to disable."
                                                          "Monaco"
                                                          "Consolas"                     ; 128/128
                                                          "Calibri"                      ; 128/128
+                                                         "Noto Sans"                    ; 128/128
                                                          "Quivira"                      ; 128/128
                                                          "Courier New"                  ; 128/128
                                                          "DejaVu Sans:width=condensed"
@@ -2700,7 +2715,7 @@ are given, each is tried in order."
     ("Circled Times"                                  "Circled Times"                               ("Arial Unicode MS"                  ))
 
     ;; Currency Symbols block
-    ("Livre Tournois Sign"                            "Turkish Lira Sign"                           ("Symbola"                           ))
+    ("Livre Tournois Sign"                            "Turkish Lira Sign"                           ("Symbola" "Noto Sans"               ))
     (#x20BB                                           #x20CF                                        ("Symbola"                           ))
     ("Drachma Sign"                                   "Drachma Sign"                                ("DejaVu Sans Mono"                  ))
     ("German Penny Sign"                              "German Penny Sign"                           ("DejaVu Sans Mono"                  ))
