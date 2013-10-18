@@ -120,6 +120,12 @@
 ;; try customizing `unicode-fonts-skip-font-groups' to control which
 ;; script you see, and send a friendly bug report.
 ;;
+;; Color Emoji are enabled by default when using the Native Mac port
+;; on OS X.  This can be disabled by customizing each relevant mapping,
+;; or by turning off all multicolor glyphs here:
+;;
+;;     M-x customize-variable RET unicode-fonts-skip-font-groups RET
+;;
 ;; See Also
 ;;
 ;;     M-x customize-group RET unicode-fonts RET
@@ -673,7 +679,7 @@
     ("Apple Braille"                  :licenses (apple))
     ("Apple Casual"                   :licenses (apple))
     ("Apple Chancery"                 :licenses (apple))
-    ("Apple Color Emoji"              :licenses (apple))
+    ("Apple Color Emoji"              :licenses (apple) :color multi)
     ("Apple Gothic"                   :licenses (apple))
     ("Apple LiGothic"                 :licenses (apple) :chinese traditional)
     ("Apple LiSung"                   :licenses (apple) :chinese traditional)
@@ -1261,10 +1267,14 @@ Leave the list empty for no per-font exclusions."
   :type '(repeat string)
   :group 'unicode-fonts-tweaks)
 
-(defcustom unicode-fonts-skip-font-groups (if (and (eq window-system 'w32)
-                                                   (< window-system-version 6))
-                                              '(buggy-before-vista decorative low-quality-glyphs)
-                                            '(decorative low-quality-glyphs))
+(defcustom unicode-fonts-skip-font-groups (cond
+                                            ((and (eq window-system 'w32)
+                                                  (< window-system-version 6))
+                                             '(buggy-before-vista decorative low-quality-glyphs multicolor))
+                                            ((eq window-system 'mac)
+                                             '(decorative low-quality-glyphs))
+                                            (t
+                                             '(decorative low-quality-glyphs multicolor)))
   "Skip over groups of fonts listed here.
 
 This can be used to speed startup time, and also to enforce
@@ -1289,6 +1299,7 @@ Leave the list empty for no per-group exclusions."
                (const :tag "Non-ClearType"                       non-cleartype)
                (const :tag "Available only from Apple"           apple-only)
                (const :tag "Available from Apple and others"     apple)
+               (const :tag "Multicolor Glyphs"                   multicolor)
                (const :tag "Free"                                free)
                (const :tag "Non-free"                            non-free)
                (const :tag "Decorative"                          decorative)
@@ -1814,7 +1825,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          ))
     ("Dingbats"                                         (
-                                                         ;; "Apple Color Emoji"
+                                                         "Apple Color Emoji"
                                                          "DejaVu Sans Mono"             ; 144/191
                                                          "Zapf Dingbats"                ; 174/191
                                                          "DejaVu Sans:width=condensed"  ; 174/191
@@ -1832,7 +1843,7 @@ Set to nil to disable."
                                                          "Aegyptus"
                                                          ))
     ("Emoticons"                                        (
-                                                         ;; "Apple Color Emoji"
+                                                         "Apple Color Emoji"
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
@@ -2319,7 +2330,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 128/128
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
-                                                         ;; "Apple Color Emoji"         ; 533/533
+                                                         "Apple Color Emoji"            ; 533/533
                                                          "Symbola"                      ; 533/533
                                                          "Quivira"                      ; 157/533
                                                          ))
@@ -2646,7 +2657,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Transport and Map Symbols"                        (
-                                                         ;; "Apple Color Emoji"
+                                                         "Apple Color Emoji"
                                                          "Symbola"
                                                          ))
     ("Ugaritic"                                         (
@@ -2984,6 +2995,9 @@ error."
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'apple-only unicode-fonts-skip-font-groups)
                  (equal '(apple) (plist-get props :licenses)))
+        (push name unicode-fonts-skipped-fonts-computed))
+      (when (and (memq 'multicolor unicode-fonts-skip-font-groups)
+                 (eq 'multi (plist-get props :color)))
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'microsoft unicode-fonts-skip-font-groups)
                  (memq 'microsoft (plist-get props :licenses)))

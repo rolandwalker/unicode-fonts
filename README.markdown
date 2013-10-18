@@ -117,6 +117,15 @@ blocks:
 	Latin-1 Supplement
 	Spacing Modifier Letters
 
+Emoji
+----
+
+Color Emoji are enabled by default when using the Native Mac port
+on OS X.  This can be disabled by customizing each relevant mapping,
+or by turning off all multicolor glyphs here:
+
+	M-x customize-variable RET unicode-fonts-skip-font-groups RET
+
 Bugs
 ----
 
