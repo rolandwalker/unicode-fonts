@@ -352,8 +352,6 @@
 ;;
 ;;     (set-language-environment "UTF-8") ?
 ;;
-;;     add coverage comments to all mapping entries
-;;
 ;;     Remove very old Microsoft entries (eg Monotype.com which was
 ;;     renamed Andale)
 ;;
