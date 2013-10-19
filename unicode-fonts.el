@@ -296,6 +296,10 @@
 ;;
 ;;         Cardo                         ; Historical Languages
 ;;
+;;     From http://sourceforge.net/projects/junicode/files/junicode/
+;;
+;;         Junicode                      ; Historical Languages
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -919,6 +923,7 @@
     ("Jokerman"                       :licenses (microsoft))
     ("Jomolhari"                      :licenses (free))
     ("Juice ITC"                      :licenses (microsoft))
+    ("Junicode"                       :licenses (free))
     ("Kai"                            :licenses (apple) :chinese simplified)
     ("KaiTi"                          :licenses (microsoft))
     ("Kailasa"                        :licenses (apple))
@@ -1743,6 +1748,7 @@ Set to nil to disable."
                                                          "Tahoma"                       ; 13/128
                                                          "Code2000"                     ; 13/128
                                                          "Cardo"                        ; 28/43
+                                                         "Junicode"                     ; 26/43
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
@@ -1757,6 +1763,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "DejaVu Sans Mono"
                                                          "Cardo"                        ; 112/112
+                                                         "Junicode"                     ; 109/112
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
                                                          "Arial"
@@ -1887,6 +1894,7 @@ Set to nil to disable."
                                                          ;; "Aqua Kana"
                                                          "Arial Unicode MS"
                                                          "Quivira"
+                                                         "Junicode"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          ))
     ("Enclosed CJK Letters and Months"                  (
@@ -1967,6 +1975,7 @@ Set to nil to disable."
     ("Gothic"                                           (
                                                          "Analecta"
                                                          "Quivira"
+                                                         "Junicode"                     ; 27/27
                                                          "Code2001"                     ; 27/27
                                                          ))
     ("Greek Extended"                                   (
@@ -1976,6 +1985,7 @@ Set to nil to disable."
                                                          "Noto Sans"                    ; 233/233
                                                          "DejaVu Sans:width=condensed"
                                                          "Cardo"                        ; 233/233
+                                                         "Junicode"                     ; 233/233
                                                          "Microsoft Sans Serif"
                                                          "Gentium Plus Compact"
                                                          "Gentium Plus"
@@ -2270,6 +2280,7 @@ Set to nil to disable."
     ("Latin Extended-D"                                 (
                                                          "Quivira"
                                                          "Code2000"
+                                                         "Junicode"                     ;  97/134
                                                          "Cardo"                        ;  93/134
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
@@ -2439,6 +2450,7 @@ Set to nil to disable."
     ("Number Forms"                                     (
                                                          "DejaVu Sans:width=condensed"  ; 55/58
                                                          "Arial Unicode MS"             ; 48/58
+                                                         "Junicode"                     ; 58/58
                                                          "Symbola"                      ; 58/58
                                                          "Quivira"                      ; 58/58
                                                          "Code2000"                     ; 54/58
@@ -2533,6 +2545,7 @@ Set to nil to disable."
     ;; ("Rumi Numeral Symbols"                          (""))
     ("Runic"                                            (
                                                          "Quivira"
+                                                         "Junicode"                     ; 81/81
                                                          "FreeMono"                     ; 81/81
                                                          "Cardo"                        ; 81/81
                                                          ))
