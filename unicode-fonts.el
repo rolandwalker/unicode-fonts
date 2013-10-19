@@ -2544,9 +2544,9 @@ Set to nil to disable."
                                                          ))
     ;; ("Rumi Numeral Symbols"                          (""))
     ("Runic"                                            (
-                                                         "Quivira"
                                                          "Junicode"                     ; 81/81
                                                          "FreeMono"                     ; 81/81
+                                                         "Quivira"
                                                          "Cardo"                        ; 81/81
                                                          ))
     ("Samaritan"                                        (
