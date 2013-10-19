@@ -1233,7 +1233,7 @@
                                               (eq window-system 'mac)))
   "Whether the 'prepend argument to `set-fontset-font' works.
 
-Whether this argument works is depending on your operating system
+Whether this argument works is dependent on your operating system
 and the font backend used by your Emacs build.
 
 This defaults to nil when using the Cocoa or native Mac font
