@@ -2615,6 +2615,8 @@ Set to nil to disable."
     ("Superscripts and Subscripts"                      (
                                                          "Cambria Math"                 ; 32/42
                                                          "Consolas"
+                                                         "DejaVu Sans Mono"             ; 42/42
+                                                         "DejaVu Sans:width=condensed"  ; 42/42
                                                          "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 34/42
