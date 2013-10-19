@@ -1365,7 +1365,7 @@ Set to nil to disable."
 
 (defcustom unicode-fonts-block-font-mapping
   '(("Aegean Numbers"                                   (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 57/57
                                                          "Quivira"
                                                          ))
     ("Alchemical Symbols"                               (
@@ -1386,11 +1386,11 @@ Set to nil to disable."
                                                          ))
     ("Ancient Greek Numbers"                            (
                                                          "Apple Symbols"
-                                                         "Aegean"
+                                                         "Aegean"                       ; 75/75
                                                          "Quivira"
                                                          ))
     ("Ancient Symbols"                                  (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 12/12
                                                          "Quivira"
                                                          ))
     ;; ("Arabic Extended-A"                             (""))                           ; todo
@@ -1710,7 +1710,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 222/222
                                                          ))
     ("Carian"                                           (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 49/49
                                                          "Quivira"
                                                          ))
     ("Chakma"                                           (
@@ -1792,7 +1792,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 23/27
                                                          ))
     ("Cypriot Syllabary"                                (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 55/55
                                                          "Code2001"                     ; 55/55
                                                          ))
     ("Cyrillic Extended-A"                              (
@@ -2280,11 +2280,11 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          ))
     ("Linear B Ideograms"                               (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 123/123
                                                          "Code2001"                     ; 123/123
                                                          ))
     ("Linear B Syllabary"                               (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 88/88
                                                          "Code2001"                     ; 88/88
                                                          ))
     ("Lisu"                                             (
@@ -2294,11 +2294,11 @@ Set to nil to disable."
                                                          ))
     ;; ("Low Surrogates"                                (""))                           ; no displayable characters
     ("Lycian"                                           (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 29/29
                                                          "Quivira"
                                                          ))
     ("Lydian"                                           (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 27/27
                                                          "Quivira"
                                                          ))
     ("Mahjong Tiles"                                    (
@@ -2435,13 +2435,13 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Old Italic"                                       (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 35/35
                                                          "Quivira"
                                                          "Code2001"                     ; 35/35
                                                          "FreeMono"                     ; 35/35
                                                          ))
     ("Old Persian"                                      (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 50/50
                                                          "Code2001"                     ; 50/50
                                                          ))
     ("Old South Arabian"                                (
@@ -2476,11 +2476,11 @@ Set to nil to disable."
                                                          "Code2000"                     ; 56/56
                                                          ))
     ("Phaistos Disc"                                    (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 46/46
                                                          "Code2001"                     ; 46/46
                                                          ))
     ("Phoenician"                                       (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 29/29
                                                          "Quivira"
                                                          "Code2001"                     ; 27/29
                                                          ))
@@ -2691,7 +2691,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          ))
     ("Ugaritic"                                         (
-                                                         "Aegean"
+                                                         "Aegean"                       ; 31/31
                                                          "Code2001"                     ; 31/31
                                                          ))
     ("Unified Canadian Aboriginal Syllabics Extended"   (
