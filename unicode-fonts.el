@@ -1741,14 +1741,14 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 85/85
                                                          ))
     ("Combining Diacritical Marks Supplement"           (
+                                                         "Cardo"                        ; 28/43
                                                          "FreeSerif"                    ; 33/43
+                                                         "Junicode"                     ; 26/43
                                                          "Doulos SIL"                   ; 14/128
                                                          "DejaVu Sans:width=condensed"  ;  6/128
-                                                         "Segoe UI"                     ;  6/128
                                                          "Noto Sans"                    ; 13/43
+                                                         "Segoe UI"                     ; 13/128
                                                          "Code2000"                     ; 13/128
-                                                         "Cardo"                        ; 28/43
-                                                         "Junicode"                     ; 26/43
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
