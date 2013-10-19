@@ -285,6 +285,10 @@
 ;;
 ;;         Mingzat                       ; Lepcha
 ;;
+;;     From http://phjamr.github.io/miao.html#install
+;;
+;;         Miao Unicode                  ; Miao
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -976,6 +980,7 @@
     ("Maduram"                        :licenses (free))
     ("Magneto"                        :licenses (microsoft))
     ("Maiandra GD"                    :licenses (microsoft))
+    ("Miao Unicode"                   :licenses (free))
     ("Malayalam MN"                   :licenses (apple))
     ("Malayalam Sangam MN"            :licenses (apple))
     ("Malgun Gothic"                  :licenses (microsoft))
@@ -2328,7 +2333,9 @@ Set to nil to disable."
     ("Meroitic Hieroglyphs"                             (
                                                          "Aegyptus"
                                                          ))
-    ;; ("Miao"                                          (""))                           ; todo
+    ("Miao"                                             (
+                                                         "Miao Unicode"                 ; 133/133
+                                                         ))
     ("Miscellaneous Mathematical Symbols-A"             (
                                                          "Apple Symbols"
                                                          "Symbola"                      ; 48/48
