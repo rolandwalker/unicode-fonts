@@ -2466,6 +2466,7 @@ Set to nil to disable."
     ("Old Italic"                                       (
                                                          "Aegean"                       ; 35/35
                                                          "Quivira"
+                                                         "DejaVu Sans:width=condensed"  ; 35/35
                                                          "Cardo"                        ; 35/35
                                                          "Code2001"                     ; 35/35
                                                          "FreeMono"                     ; 35/35
