@@ -1741,12 +1741,9 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 85/85
                                                          ))
     ("Combining Diacritical Marks Supplement"           (
-                                                         "Consolas"                     ; 13/128
-                                                         "Courier New"                  ;  4/128
                                                          "Doulos SIL"                   ; 14/128
                                                          "DejaVu Sans:width=condensed"  ;  6/128
                                                          "Segoe UI"                     ;  6/128
-                                                         "Tahoma"                       ; 13/128
                                                          "Code2000"                     ; 13/128
                                                          "Cardo"                        ; 28/43
                                                          "Junicode"                     ; 26/43
