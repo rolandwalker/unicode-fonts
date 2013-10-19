@@ -1978,6 +1978,8 @@ Set to nil to disable."
                                                          "Analecta"
                                                          "Quivira"
                                                          "Junicode"                     ; 27/27
+                                                         "MPH 2B Damase"                ; 27/27
+                                                         "FreeSerif"                    ; 27/27
                                                          "Code2001"                     ; 27/27
                                                          ))
     ("Greek Extended"                                   (
