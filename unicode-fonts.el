@@ -292,6 +292,10 @@
 ;;
 ;;         Miao Unicode                  ; Miao, Lisu
 ;;
+;;     From http://scholarsfonts.net/cardofnt.html
+;;
+;;         Cardo                         ; Historical Languages
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -756,6 +760,7 @@
     ("Cambria Math"                   :licenses (microsoft) :cleartype t :buggy-before-vista t)
     ("Cambria"                        :licenses (microsoft))
     ("Candara"                        :licenses (microsoft))
+    ("Cardo"                          :licenses (free))
     ("Cariadings"                     :licenses (microsoft))
     ("Castellar"                      :licenses (microsoft))
     ("Centaur"                        :licenses (microsoft))
@@ -1376,20 +1381,24 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
                                                          "Quivira"
+                                                         "Cardo"                        ; 58/58
                                                          "FreeMono"                     ; 52/58
                                                          ))
     ("Ancient Greek Musical Notation"                   (
                                                          "Musica"
                                                          "Aegean"                       ; 70/70
+                                                         "Cardo"                        ; 70/70
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
     ("Ancient Greek Numbers"                            (
                                                          "Apple Symbols"
+                                                         "Cardo"                        ; 75/75
                                                          "Aegean"                       ; 75/75
                                                          "Quivira"
                                                          ))
     ("Ancient Symbols"                                  (
+                                                         "Cardo"                        ; 12/12
                                                          "Aegean"                       ; 12/12
                                                          "Quivira"
                                                          ))
@@ -1733,6 +1742,7 @@ Set to nil to disable."
                                                          "Segoe UI"                     ;  6/128
                                                          "Tahoma"                       ; 13/128
                                                          "Code2000"                     ; 13/128
+                                                         "Cardo"                        ; 28/43
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
@@ -1746,6 +1756,7 @@ Set to nil to disable."
                                                          "Courier New"
                                                          "DejaVu Sans:width=condensed"
                                                          "DejaVu Sans Mono"
+                                                         "Cardo"                        ; 112/112
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
                                                          "Arial"
@@ -1964,6 +1975,7 @@ Set to nil to disable."
                                                          "Courier New"
                                                          "Noto Sans"                    ; 233/233
                                                          "DejaVu Sans:width=condensed"
+                                                         "Cardo"                        ; 233/233
                                                          "Microsoft Sans Serif"
                                                          "Gentium Plus Compact"
                                                          "Gentium Plus"
@@ -1986,6 +1998,7 @@ Set to nil to disable."
                                                          "Gentium Plus"
                                                          "Lucida Console"               ; 73/134
                                                          "Arial Unicode MS"             ; 105/134
+                                                         "Cardo"                        ; 134/134
                                                          "Aegean"                       ; 134/134
                                                          "Symbola"                      ; 134/134
                                                          "Quivira"                      ; 134/134
@@ -2073,6 +2086,7 @@ Set to nil to disable."
                                                          "Levenim MT"
                                                          "Narkisim"
                                                          "Rod"
+                                                         "Cardo"                        ; 87/87
                                                          "Courier New"
                                                          "Adobe Hebrew"                 ; 54/87
                                                          "Microsoft Sans Serif"
@@ -2106,6 +2120,7 @@ Set to nil to disable."
                                                          "Arial"
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
+                                                         "Cardo"                        ; 96/96
                                                          "Symbola"                      ; 96/96
                                                          "Quivira"                      ; 96/96
                                                          "FreeMono"                     ; 96/96
@@ -2255,6 +2270,7 @@ Set to nil to disable."
     ("Latin Extended-D"                                 (
                                                          "Quivira"
                                                          "Code2000"
+                                                         "Cardo"                        ;  93/134
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
@@ -2372,6 +2388,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Cardo"                        ;  31/256
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Apple Symbols"
@@ -2437,6 +2454,7 @@ Set to nil to disable."
     ("Old Italic"                                       (
                                                          "Aegean"                       ; 35/35
                                                          "Quivira"
+                                                         "Cardo"                        ; 35/35
                                                          "Code2001"                     ; 35/35
                                                          "FreeMono"                     ; 35/35
                                                          ))
@@ -2516,6 +2534,7 @@ Set to nil to disable."
     ("Runic"                                            (
                                                          "Quivira"
                                                          "FreeMono"                     ; 81/81
+                                                         "Cardo"                        ; 81/81
                                                          ))
     ("Samaritan"                                        (
                                                          "Quivira"
@@ -2596,6 +2615,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 256/256
                                                          ))
     ("Supplemental Punctuation"                         (
+                                                         "Cardo"                        ; 43/60
                                                          "Aegean"                       ; 43/60
                                                          "Symbola"
                                                          "Quivira"
