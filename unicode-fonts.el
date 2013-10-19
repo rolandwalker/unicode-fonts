@@ -2284,6 +2284,9 @@ Set to nil to disable."
     ("Latin Extended-D"                                 (
                                                          "Quivira"
                                                          "Code2000"
+                                                         "FreeMono"                     ;   5/134  ; this will give poor results if existence-checks is set to 'first
+                                                         "DejaVu Sans Mono"             ;  14/134
+                                                         "DejaVu Sans:width=condensed"  ;  62/134
                                                          "Junicode"                     ;  97/134
                                                          "Cardo"                        ;  93/134
                                                          ))
