@@ -1895,7 +1895,9 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Quivira"
                                                          "Junicode"                     ; 160/160
+                                                         "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
+                                                         "WenQuanYi Zen Hei Mono"       ; 160/160
                                                          ))
     ("Enclosed CJK Letters and Months"                  (
                                                          "WenQuanYi Zen Hei Mono"       ; 202/254
