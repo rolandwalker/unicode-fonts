@@ -123,7 +123,7 @@ before_script:
 ###
 
 script:
-  "$EMACS" --version && ( test "$EMACS" != "emacs22" && make test EMACS="$EMACS" || make test-batch EMACS="$EMACS" )
+  $EMACS --version && ( test "$EMACS" != "emacs22" && make test EMACS="$EMACS" || make test-batch EMACS="$EMACS" )
 
 ###
 ### settings
