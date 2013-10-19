@@ -2550,7 +2550,43 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
-    ;; ("Private Use Area"                              (""))
+    ;; ("Private Use Area"                              (
+    ;;                                                   "UnBatang"                     ; 2,048/6,400
+    ;;                                                   "Jomolhari"                    ; 1,537/6,400
+    ;;                                                   "Code2000"                     ; 1,373/6,400 conflicts MUFI
+    ;;                                                   "Siddhanta"                    ; 1,292/6,400
+    ;;                                                   "Cardo"                        ; 1,209/6,400 MUFI
+    ;;                                                   "Unidings"                     ; 1,024/6,400 conflicts MUFI
+    ;;                                                   "Junicode"                     ;   841/6,400 MUFI
+    ;;                                                   "BabelStone Han"               ;   665/6,400
+    ;;                                                   "Quivira"                      ;   589/6,400
+    ;;                                                   "Code2001"                     ;   362/6,400
+    ;;                                                   "MS Reference Sans Serif"      ;   312/6,400
+    ;;                                                   "Doulos SIL"                   ;   229/6,400
+    ;;                                                   "Webdings"                     ;   223/6,400
+    ;;                                                   "Wingdings"                    ;   223/6,400
+    ;;                                                   "Wingdings 2"                  ;   217/6,400
+    ;;                                                   "Wingdings 3"                  ;   208/6,400
+    ;;                                                   "Symbol"                       ;   188/6,400
+    ;;                                                   "MS Reference Specialty"       ;   170/6,400
+    ;;                                                   "Abyssinica SIL"               ;   137/6,400
+    ;;                                                   "Bookshelf Symbol 7"           ;   111/6,400
+    ;;                                                   "Lanna Alif"                   ;    94/6,400
+    ;;                                                   "Aksara Bali"                  ;    53/6,400
+    ;;                                                   "MPH 2B Damase"                ;    49/6,400
+    ;;                                                   "Arial Unicode MS"             ;    43/6,400
+    ;;                                                   "Marlett"                      ;    35/6,400
+    ;;                                                   "DejaVu Sans"                  ;    31/6,400
+    ;;                                                   "Lucida Console"               ;    23/6,400
+    ;;                                                   "Hacen Sudan"                  ;    20/6,400
+    ;;                                                   "Lucida Sans Unicode"          ;    16/6,400
+    ;;                                                   "Samyak Devanagari"            ;    10/6,400
+    ;;                                                   "Khmer Mondulkiri"             ;    10/6,400
+    ;;                                                   "Khmer Busra MOE"              ;    10/6,400
+    ;;                                                   "Khmer Busra"                  ;    10/6,400
+    ;;                                                   "BabelStone Phags-pa Book"     ;     7/6,400
+    ;;                                                   "Samyak"                       ;     6/6,400
+    ;;                                                   ))
     ("Rejang"                                           (                               ; todo quality free alternative
                                                          "Code2000"
                                                          ))
