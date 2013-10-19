@@ -2685,7 +2685,17 @@ Set to nil to disable."
                                                          "Quivira"                      ; 60/60
                                                          "Code2000"                     ; 49/60
                                                          ))
-    ;; ("Supplementary Private Use Area-A"              (""))
+    ;; ("Supplementary Private Use Area-A"              (
+    ;;                                                   "Aegean"                       ; 3,600/65,534
+    ;;                                                   "Aegyptus"                     ; 7,243/65,534
+    ;;                                                   "Jomolhari"                    ;   659/65,534
+    ;;                                                   "Cardo"                        ;   480/65,534 MUFI
+    ;;                                                   "Code2001"                     ;   292/65,534
+    ;;                                                   "Symbola"                      ;   190/65,534
+    ;;                                                   "Analecta"                     ;   102/65,534
+    ;;                                                   "Musica"                       ;    43/65,534
+    ;;                                                   "Akkadian"                     ;    17/65,534
+    ;;                                                   ))
     ;; ("Supplementary Private Use Area-B"              (""))
     ("Syloti Nagri"                                     (
                                                          "MPH 2B Damase"
