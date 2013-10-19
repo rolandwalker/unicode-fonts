@@ -281,6 +281,10 @@
 ;;
 ;;         Batak-Unicode                 ; Batak
 ;;
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat
+;;
+;;         Mingzat                       ; Lepcha
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : no, at the time of writing
@@ -999,6 +1003,7 @@
     ("Microsoft YaHei"                :chinese simplified :licenses (microsoft))
     ("Microsoft Yi Baiti"             :licenses (microsoft))
     ("MingLiU"                        :spacing mono :chinese traditional :licenses (microsoft))
+    ("Mingzat"                        :licenses (free))
     ("Minion Web"                     :licenses (microsoft))
     ("Miriam Fixed"                   :spacing mono :licenses (microsoft))
     ("Miriam"                         :licenses (microsoft))
@@ -2247,7 +2252,9 @@ Set to nil to disable."
     ;;                                                   "DejaVu Sans:width=condensed"
     ;;                                                   "Quivira"
     ;;                                                  ))
-    ;; ("Lepcha"                                        (""))                           ; todo
+    ("Lepcha"                                           (
+                                                         "Mingzat"                      ; 74/74
+                                                         ))
     ("Letterlike Symbols"                               (
                                                          "Apple Symbols"                ; 77/80
                                                          "Cambria Math"                 ; 67/80
