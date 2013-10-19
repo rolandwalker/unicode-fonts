@@ -2640,6 +2640,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 256/256
                                                          ))
     ("Supplemental Punctuation"                         (
+                                                         "DejaVu Sans Mono"             ;  6/60  ; this will give poor results if existence-checks is set to 'first
                                                          "Cardo"                        ; 43/60
                                                          "Aegean"                       ; 43/60
                                                          "Symbola"
