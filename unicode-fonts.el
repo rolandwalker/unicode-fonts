@@ -60,6 +60,9 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
+;; This library provides font mappings for 208 of the 219 blocks in
+;; the Unicode 6.3 standard.
+;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
 ;;
