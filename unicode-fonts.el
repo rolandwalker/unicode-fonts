@@ -2004,8 +2004,8 @@ Set to nil to disable."
     ("Greek and Coptic"                                 (
                                                          "Consolas"                     ; 127/134
                                                          "DejaVu Sans Mono"             ; 110/134
-                                                         "Noto Sans"                    ; 127/134
                                                          "DejaVu Sans:width=condensed"  ; 134/134
+                                                         "Noto Sans"                    ; 127/134
                                                          "Calibri"                      ; 127/134
                                                          "Microsoft Sans Serif"         ; 112/134
                                                          "Gentium Plus Compact"
