@@ -1404,6 +1404,7 @@ Set to nil to disable."
                                                          ))
     ("Ancient Symbols"                                  (
                                                          "Cardo"                        ; 12/12
+                                                         "Analecta"                     ; 12/12
                                                          "Aegean"                       ; 12/12
                                                          "Quivira"
                                                          ))
