@@ -2613,8 +2613,8 @@ Set to nil to disable."
                                                          "Hacen Sudan"
                                                          ))
     ("Superscripts and Subscripts"                      (
-                                                         "Cambria Math"                 ; 32/42
                                                          "Consolas"
+                                                         "Cambria Math"                 ; 32/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
                                                          "Symbola"
