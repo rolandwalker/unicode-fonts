@@ -1383,10 +1383,10 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Alphabetic Presentation Forms"                    (
-                                                         "DejaVu Sans:width=condensed"
-                                                         "Arial Unicode MS"
+                                                         "DejaVu Sans:width=condensed"  ; 58/58
+                                                         "Arial Unicode MS"             ; 57/58
                                                          "Cardo"                        ; 58/58
-                                                         "Quivira"
+                                                         "Quivira"                      ; 58/58
                                                          "FreeMono"                     ; 52/58
                                                          ))
     ("Ancient Greek Musical Notation"                   (
@@ -1406,7 +1406,7 @@ Set to nil to disable."
                                                          "Cardo"                        ; 12/12
                                                          "Analecta"                     ; 12/12
                                                          "Aegean"                       ; 12/12
-                                                         "Quivira"
+                                                         "Quivira"                      ; 12/12
                                                          ))
     ;; ("Arabic Extended-A"                             (""))                           ; todo
     ;; ("Arabic Mathematical Alphabetic Symbols"        (""))                           ; todo
@@ -1744,11 +1744,11 @@ Set to nil to disable."
                                                          "Cardo"                        ; 28/43
                                                          "FreeSerif"                    ; 33/43
                                                          "Junicode"                     ; 26/43
-                                                         "Doulos SIL"                   ; 14/128
-                                                         "DejaVu Sans:width=condensed"  ;  6/128
+                                                         "Doulos SIL"                   ; 14/43
+                                                         "DejaVu Sans:width=condensed"  ;  6/43
                                                          "Noto Sans"                    ; 13/43
-                                                         "Segoe UI"                     ; 13/128
-                                                         "Code2000"                     ; 13/128
+                                                         "Segoe UI"                     ; 13/43
+                                                         "Code2000"                     ; 13/43
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
@@ -1893,8 +1893,8 @@ Set to nil to disable."
     ("Enclosed Alphanumerics"                           (
                                                          ;; "Aqua Kana"
                                                          "Junicode"                     ; 160/160
-                                                         "Arial Unicode MS"
-                                                         "Quivira"
+                                                         "Arial Unicode MS"             ; 139/160
+                                                         "Quivira"                      ; 160/160
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          "WenQuanYi Zen Hei Mono"       ; 160/160
@@ -1975,12 +1975,12 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Gothic"                                           (
-                                                         "Analecta"
+                                                         "Analecta"                     ; 27/27
                                                          "Junicode"                     ; 27/27
                                                          "MPH 2B Damase"                ; 27/27
                                                          "FreeSerif"                    ; 27/27
                                                          "Code2001"                     ; 27/27
-                                                         "Quivira"
+                                                         "Quivira"                      ; 27/27
                                                          ))
     ("Greek Extended"                                   (
                                                          "Consolas"                     ; 232/233
@@ -2287,8 +2287,8 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ;  62/134
                                                          "Junicode"                     ;  97/134
                                                          "Cardo"                        ;  93/134
-                                                         "Quivira"
-                                                         "Code2000"
+                                                         "Quivira"                      ; 134/134
+                                                         "Code2000"                     ; 114/134
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
@@ -2402,12 +2402,12 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Miscellaneous Symbols"                            (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 256/256
                                                          "DejaVu Sans Mono"             ; 149/256
                                                          "DejaVu Sans:width=condensed"  ; 187/256
-                                                         "Arial Unicode MS"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Arial Unicode MS"             ; 106/256
+                                                         "Symbola"                      ; 220/256
+                                                         "Quivira"                      ; 256/256
                                                          "MS Reference Sans Serif"      ;  33/256
                                                          "Cardo"                        ;  31/256
                                                          "Code2000"                     ; 183/256
@@ -2479,7 +2479,7 @@ Set to nil to disable."
                                                          "Cardo"                        ; 35/35
                                                          "Code2001"                     ; 35/35
                                                          "Aegean"                       ; 35/35
-                                                         "Quivira"
+                                                         "Quivira"                      ; 35/35
                                                          "FreeMono"                     ; 35/35
                                                          ))
     ("Old Persian"                                      (
@@ -2558,7 +2558,7 @@ Set to nil to disable."
     ("Runic"                                            (
                                                          "Junicode"                     ; 81/81
                                                          "FreeMono"                     ; 81/81
-                                                         "Quivira"
+                                                         "Quivira"                      ; 81/81
                                                          "Cardo"                        ; 81/81
                                                          ))
     ("Samaritan"                                        (
@@ -2613,12 +2613,12 @@ Set to nil to disable."
                                                          "Hacen Sudan"
                                                          ))
     ("Superscripts and Subscripts"                      (
-                                                         "Consolas"
-                                                         "Cambria Math"                 ; 32/42
+                                                         "Consolas"                     ; 27/42
+                                                         "Cambria Math"                 ; 28/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Symbola"                      ; 42/42
+                                                         "Quivira"                      ; 42/42
                                                          "FreeMono"                     ; 34/42
                                                          ))
     ("Supplemental Arrows-A"                            (
@@ -2645,9 +2645,9 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ;  6/60  ; this will give poor results if existence-checks is set to 'first
                                                          "Cardo"                        ; 43/60
                                                          "Aegean"                       ; 43/60
-                                                         "Symbola"
-                                                         "Quivira"
-                                                         "Code2000"
+                                                         "Symbola"                      ; 60/60
+                                                         "Quivira"                      ; 60/60
+                                                         "Code2000"                     ; 49/60
                                                          ))
     ;; ("Supplementary Private Use Area-A"              (""))
     ;; ("Supplementary Private Use Area-B"              (""))
