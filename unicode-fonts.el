@@ -2464,11 +2464,11 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Old Italic"                                       (
-                                                         "Aegean"                       ; 35/35
-                                                         "Quivira"
                                                          "DejaVu Sans:width=condensed"  ; 35/35
                                                          "Cardo"                        ; 35/35
                                                          "Code2001"                     ; 35/35
+                                                         "Aegean"                       ; 35/35
+                                                         "Quivira"
                                                          "FreeMono"                     ; 35/35
                                                          ))
     ("Old Persian"                                      (
