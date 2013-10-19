@@ -1822,8 +1822,8 @@ Set to nil to disable."
     ("Cyrillic Supplement"                              (
                                                          "Consolas"                     ; 20/40
                                                          "Courier New"
-                                                         "Noto Sans"                    ; 40/40
                                                          "Calibri"
+                                                         "Noto Sans"                    ; 40/40
                                                          "DejaVu Sans:width=condensed"
                                                          "Doulos SIL"                   ; 34/40
                                                          "Symbola"
