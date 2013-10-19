@@ -1892,9 +1892,9 @@ Set to nil to disable."
                                                          ))
     ("Enclosed Alphanumerics"                           (
                                                          ;; "Aqua Kana"
+                                                         "Junicode"                     ; 160/160
                                                          "Arial Unicode MS"
                                                          "Quivira"
-                                                         "Junicode"                     ; 160/160
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          "WenQuanYi Zen Hei Mono"       ; 160/160
