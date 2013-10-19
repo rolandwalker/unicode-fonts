@@ -1380,6 +1380,7 @@ Set to nil to disable."
                                                          ))
     ("Ancient Greek Musical Notation"                   (
                                                          "Musica"
+                                                         "Aegean"                       ; 70/70
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
@@ -1970,6 +1971,7 @@ Set to nil to disable."
                                                          "Arial"
                                                          "Tahoma"
                                                          "Doulos SIL"
+                                                         "Aegean"                       ; 233/233
                                                          "Quivira"
                                                          "FreeMono"                     ; 233/233
                                                          ))
@@ -1984,6 +1986,7 @@ Set to nil to disable."
                                                          "Gentium Plus"
                                                          "Lucida Console"               ; 73/134
                                                          "Arial Unicode MS"             ; 105/134
+                                                         "Aegean"                       ; 134/134
                                                          "Symbola"                      ; 134/134
                                                          "Quivira"                      ; 134/134
                                                          ))
@@ -2593,6 +2596,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 256/256
                                                          ))
     ("Supplemental Punctuation"                         (
+                                                         "Aegean"                       ; 43/60
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
