@@ -2403,10 +2403,14 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Symbols"                            (
                                                          "Apple Symbols"
+                                                         "DejaVu Sans Mono"             ; 149/256
+                                                         "DejaVu Sans:width=condensed"  ; 187/256
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "MS Reference Sans Serif"      ;  33/256
                                                          "Cardo"                        ;  31/256
+                                                         "Code2000"                     ; 183/256
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Apple Symbols"
