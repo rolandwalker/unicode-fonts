@@ -1385,8 +1385,8 @@ Set to nil to disable."
     ("Alphabetic Presentation Forms"                    (
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
-                                                         "Quivira"
                                                          "Cardo"                        ; 58/58
+                                                         "Quivira"
                                                          "FreeMono"                     ; 52/58
                                                          ))
     ("Ancient Greek Musical Notation"                   (
