@@ -287,7 +287,7 @@
 ;;
 ;;     From http://phjamr.github.io/miao.html#install
 ;;
-;;         Miao Unicode                  ; Miao
+;;         Miao Unicode                  ; Miao, Lisu
 ;;
 ;; Compatibility and Requirements
 ;;
@@ -953,6 +953,7 @@
     ("LiSong Pro"                     :licenses (apple) :chinese traditional)
     ("Libian SC"                      :licenses (apple) :chinese simplified)
     ("LilyUPC"                        :licenses (microsoft))
+    ("Lisu Unicode"                   :licenses (free))
     ("Lucida Blackletter"             :licenses (microsoft))
     ("Lucida Bright Math"             :licenses (microsoft))
     ("Lucida Bright"                  :licenses (microsoft))
@@ -2281,7 +2282,9 @@ Set to nil to disable."
                                                          "Code2001"                     ; 88/88
                                                          ))
     ("Lisu"                                             (
-                                                         "Quivira"
+                                                         "Miao Unicode"                 ; 48/48
+                                                         "Lisu Unicode"                 ; 48/48
+                                                         "Quivira"                      ; 48/48
                                                          ))
     ;; ("Low Surrogates"                                (""))                           ; no displayable characters
     ("Lycian"                                           (
