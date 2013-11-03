@@ -192,6 +192,22 @@
 ;;
 ;;         Padauk                        ; Myanmar
 ;;
+;;     From https://code.google.com/p/myanmar3source/downloads/list 
+;;
+;;         Myanmar3                      ; Myanmar
+;;     
+;;     From http://www.yunghkio.com/unicode/
+;;
+;;         Yunghkio                      ; Myanmar
+;;
+;;     From https://code.google.com/p/tharlon-font/downloads/list
+;;
+;;         TharLon                       ; Myanmar
+;;
+;;     From http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/
+;;
+;;         Masterpiece Uni Sans          ; Myanmar
+;;
 ;;     From http://sarovar.org/projects/samyak/
 ;;
 ;;         Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
@@ -1000,6 +1016,7 @@
     ("Marion"                         :licenses (apple))
     ("Marker Felt"                    :licenses (apple) :decorative t)
     ("Marlett"                        :licenses (microsoft))
+    ("Masterpiece Uni Sans"           :licenses (tin myo htet))
     ("Matisse ITC"                    :licenses (microsoft))
     ("Matura MT Script Capitals"      :licenses (microsoft))
     ("McZee"                          :licenses (microsoft))
@@ -1035,8 +1052,10 @@
     ("Mshtakan"                       :licenses (apple))
     ("Mukti Narrow"                   :licenses (free))
     ("Musica"                         :licenses (free))
+    ("Myanmar3"                       :licenses (free))
     ("Myanmar MN"                     :licenses (apple))
     ("Myanmar Sangam MN"              :licenses (apple))
+    ("Myanmar Text"                   :licenses (microsoft))
     ("NSimSun"                        :licenses (microsoft))
     ("Nadeem"                         :licenses (apple) :arabic standard)
     ("Nanum Brush Script"             :licenses (apple))
@@ -1164,6 +1183,7 @@
     ("Tempo Grunge"                   :licenses (microsoft))
     ("Tempus Sans ITC"                :licenses (microsoft))
     ("Terafik"                        :licenses (free) :arabic farsi)
+    ("TharLon"                        :licenses (free))
     ("Thonburi"                       :licenses (apple))
     ("Times New Roman Special"        :licenses (microsoft))
     ("Times New Roman"                :licenses (apple microsoft))
@@ -1202,6 +1222,7 @@
     ("Wingdings"                      :licenses (apple microsoft))
     ("Xingkai SC"                     :chinese simplified :licenses (apple) :decorative t)
     ("Yuanti SC"                      :chinese simplified :licenses (apple))
+    ("Yunghkio"                       :licenses (free))
     ("Yuppy SC"                       :chinese simplified :licenses (apple))
     ("Yuppy TC"                       :chinese traditional :licenses (apple))
     ("Zapf Dingbats"                  :licenses (apple))
@@ -2440,11 +2461,18 @@ Set to nil to disable."
     ("Myanmar Extended-A"                               (
                                                          "Myanmar Sangam MN"
                                                          "Padauk"
+                                                         "TharLon"
+                                                         "Yunghkio"
                                                          ))
     ("Myanmar"                                          (
                                                          "Myanmar Sangam MN"
                                                          "Myanmar MN"
+                                                         "Myanmar Text"
                                                          "Padauk"
+                                                         "Myanmar3"
+                                                         "Masterpiece Uni Sans"
+                                                         "Yunghkio"
+                                                         "TharLon"
                                                          "Code2000"
                                                          ))
     ("NKo"                                              (
