@@ -192,10 +192,10 @@
 ;;
 ;;         Padauk                        ; Myanmar
 ;;
-;;     From https://code.google.com/p/myanmar3source/downloads/list 
+;;     From https://code.google.com/p/myanmar3source/downloads/list
 ;;
 ;;         Myanmar3                      ; Myanmar
-;;     
+;;
 ;;     From http://www.yunghkio.com/unicode/
 ;;
 ;;         Yunghkio                      ; Myanmar
