@@ -2744,6 +2744,7 @@ Set to nil to disable."
                                                          "TharLon"                      ; 35/35
                                                          "Yunhkio"                      ; 35/35
                                                          "MPH 2B Damase"                ; 35/35
+                                                         "FreeSerif"                    ; 35/35
                                                          ))
 
     ("Tai Tham"                                         (
