@@ -200,6 +200,22 @@ From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=](http://scrip
 
 	Padauk                        ; Myanmar
 
+From [https://code.google.com/p/myanmar3source/downloads/list](https://code.google.com/p/myanmar3source/downloads/list)
+
+	Myanmar3                      ; Myanmar
+
+From [http://www.yunghkio.com/unicode/](http://www.yunghkio.com/unicode/)
+
+	Yunghkio                      ; Myanmar
+
+From [https://code.google.com/p/tharlon-font/downloads/list](https://code.google.com/p/tharlon-font/downloads/list)
+
+	TharLon                       ; Myanmar
+
+From [http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/](http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/)
+
+	Masterpiece Uni Sans          ; Myanmar
+
 From [http://sarovar.org/projects/samyak/](http://sarovar.org/projects/samyak/)
 
 	Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
