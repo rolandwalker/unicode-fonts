@@ -2467,11 +2467,11 @@ Set to nil to disable."
                                                          "Myanmar Sangam MN"            ;  85/160
                                                          "Myanmar MN"                   ;  85/160
                                                          "Myanmar Text"
-                                                         "Padauk"                       ; 160/160
+                                                         "TharLon"                      ; 160/160
+                                                         "Yunghkio"                     ; 160/160
                                                          "Myanmar3"                     ;  85/160
                                                          "Masterpiece Uni Sans"         ;  90/160
-                                                         "Yunghkio"                     ; 160/160
-                                                         "TharLon"                      ; 160/160
+                                                         "Padauk"                       ; 160/160
                                                          "Code2000"                     ; 156/160
                                                          ))
     ("NKo"                                              (
