@@ -2459,20 +2459,20 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Myanmar Extended-A"                               (
-                                                         "Padauk"
-                                                         "TharLon"
-                                                         "Yunghkio"
+                                                         "Padauk"                       ; 28/28
+                                                         "TharLon"                      ; 28/28
+                                                         "Yunghkio"                     ; 28/28
                                                          ))
     ("Myanmar"                                          (
-                                                         "Myanmar Sangam MN"
-                                                         "Myanmar MN"
+                                                         "Myanmar Sangam MN"            ;  85/160
+                                                         "Myanmar MN"                   ;  85/160
                                                          "Myanmar Text"
-                                                         "Padauk"
-                                                         "Myanmar3"
-                                                         "Masterpiece Uni Sans"
-                                                         "Yunghkio"
-                                                         "TharLon"
-                                                         "Code2000"
+                                                         "Padauk"                       ; 160/160
+                                                         "Myanmar3"                     ;  85/160
+                                                         "Masterpiece Uni Sans"         ;  90/160
+                                                         "Yunghkio"                     ; 160/160
+                                                         "TharLon"                      ; 160/160
+                                                         "Code2000"                     ; 156/160
                                                          ))
     ("NKo"                                              (
                                                          "Conakry"                      ; 59/59
