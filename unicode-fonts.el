@@ -2459,7 +2459,6 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Myanmar Extended-A"                               (
-                                                         "Myanmar Sangam MN"
                                                          "Padauk"
                                                          "TharLon"
                                                          "Yunghkio"
