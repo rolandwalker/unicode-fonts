@@ -1016,7 +1016,7 @@
     ("Marion"                         :licenses (apple))
     ("Marker Felt"                    :licenses (apple) :decorative t)
     ("Marlett"                        :licenses (microsoft))
-    ("Masterpiece Uni Sans"           :licenses (tin myo htet))
+    ("Masterpiece Uni Sans"           :licenses (free))
     ("Matisse ITC"                    :licenses (microsoft))
     ("Matura MT Script Capitals"      :licenses (microsoft))
     ("McZee"                          :licenses (microsoft))
