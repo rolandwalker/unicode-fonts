@@ -2742,7 +2742,7 @@ Set to nil to disable."
     ("Tai Le"                                           (
                                                          "Microsoft Tai Le"
                                                          "TharLon"                      ; 35/35
-                                                         "Yunhkio"                      ; 35/35
+                                                         "Yunghkio"                     ; 35/35
                                                          "MPH 2B Damase"                ; 35/35
                                                          "FreeSerif"                    ; 35/35
                                                          ))
