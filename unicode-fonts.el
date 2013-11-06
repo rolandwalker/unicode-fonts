@@ -1038,7 +1038,7 @@
     ("Microsoft Tai Le"               :licenses (microsoft))
     ("Microsoft Uighur"               :licenses (microsoft) :arabic uighur)
     ("Microsoft YaHei UI"             :chinese simplified :licenses (microsoft))
-    ("Microsoft YaHei"                :chinese simplified :licenses (microsoft))
+    ("Microsoft YaHei"                :chinese simplified :licenses (microsoft) :cleartype t)
     ("Microsoft Yi Baiti"             :licenses (microsoft))
     ("MingLiU"                        :spacing mono :chinese traditional :licenses (microsoft))
     ("Mingzat"                        :licenses (free))
