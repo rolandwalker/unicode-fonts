@@ -872,6 +872,7 @@
     ("Futura"                         :licenses (microsoft apple))
     ("GB18030 Bitmap"                 :licenses (apple) :chinese simplified :glyph-quality low)
     ("Gabriola"                       :licenses (microsoft))
+    ("Gadugi"                         :licenses (microsoft))
     ("Garamond MT"                    :licenses (microsoft))
     ("Garamond"                       :licenses (microsoft))
     ("Gautami"                        :licenses (microsoft))
@@ -1757,6 +1758,7 @@ Set to nil to disable."
                                                          ))
     ("Cherokee"                                         (
                                                          "Plantagenet Cherokee"
+                                                         "Gadugi"
                                                          "MPH 2B Damase"
                                                          "Quivira"
                                                          "FreeMono"                     ; 85/85
@@ -2833,6 +2835,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Unified Canadian Aboriginal Syllabics"            (
+                                                         "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
                                                          "Quivira"
