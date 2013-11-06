@@ -690,6 +690,7 @@
     ("Adobe Arabic"                   :licenses (adobe) :arabic standard)
     ("Adobe Hebrew"                   :licenses (adobe))
     ("Adobe Minion Web"               :licenses (microsoft))
+    ("Aldhabi"                        :licenses (microsoft) :arabic standard)
     ("Aegean"                         :licenses (free))
     ("Aegyptus"                       :licenses (free))
     ("Agency FB"                      :licenses (microsoft))
@@ -1480,6 +1481,7 @@ Set to nil to disable."
                                                          "Courier New"
                                                          "Simplified Arabic Fixed"
                                                          "Simplified Arabic"
+                                                         "Aldhabi"
                                                          "Adobe Arabic"                 ; 209/254
                                                          "Urdu Typesetting"
                                                          "Geeza Pro"
