@@ -1037,6 +1037,7 @@
     ("Microsoft Sans Serif"           :licenses (apple microsoft) :arabic standard)
     ("Microsoft Tai Le"               :licenses (microsoft))
     ("Microsoft Uighur"               :licenses (microsoft) :arabic uighur)
+    ("Microsoft YaHei UI"             :chinese simplified :licenses (microsoft))
     ("Microsoft YaHei"                :chinese simplified :licenses (microsoft))
     ("Microsoft Yi Baiti"             :licenses (microsoft))
     ("MingLiU"                        :spacing mono :chinese traditional :licenses (microsoft))
@@ -1575,6 +1576,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "Lantinghei SC"
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 41/41
@@ -1615,6 +1617,7 @@ Set to nil to disable."
                                                          "LiSong Pro"                   ; 26/32
                                                          "Baoli SC"                     ; 19/32
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "Lantinghei TC"
                                                          "BabelStone Han"               ; 32/32
                                                          "MingLiU"
@@ -1643,6 +1646,7 @@ Set to nil to disable."
                                                          "FangSong"
                                                          "SimSun"
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "WenQuanYi Zen Hei Mono"       ; 455/472
                                                          "BabelStone Han"               ; 472/472
                                                          "UnBatang"                     ; 268/472
@@ -1673,6 +1677,7 @@ Set to nil to disable."
                                                          "FangSong"
                                                          "SimSun"
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "HanaMinA"                     ; 115/115
                                                          "BabelStone Han"               ; 115/115
                                                          "MingLiU"
@@ -1696,6 +1701,7 @@ Set to nil to disable."
                                                          "LiSong Pro"                   ; 33/64
                                                          "ST Fangsong"                  ; 35/64
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "Lantinghei TC"
                                                          "MingLiU"
                                                          "Arial Unicode MS"
@@ -1733,6 +1739,7 @@ Set to nil to disable."
                                                          "SimSun"
                                                          "Songti SC"                    ; 6582/6646
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
@@ -1747,6 +1754,7 @@ Set to nil to disable."
                                                          "SimSun"
                                                          "LiSong Pro"                   ; 1640/42711
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "HanaMinB"                     ; 42711/42711
                                                          "Code2002"                     ; 20158/24711
                                                          "MingLiU"
@@ -2188,6 +2196,7 @@ Set to nil to disable."
                                                          "FangSong"
                                                          "SimSun"
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "BabelStone Han"               ; 12/12
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
@@ -2232,6 +2241,7 @@ Set to nil to disable."
                                                          "FangSong"
                                                          "SimSun"
                                                          "Microsoft YaHei"
+                                                         "Microsoft YaHei UI"
                                                          "BabelStone Han"               ; 214/214
                                                          "HanaMinA"                     ; 214/214
                                                          "MingLiU"
