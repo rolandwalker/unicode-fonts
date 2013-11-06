@@ -1070,6 +1070,7 @@
     ("Niagara Engraved"               :licenses (microsoft))
     ("Niagara Solid"                  :licenses (microsoft))
     ("Niagara"                        :licenses (microsoft))
+    ("Nirmala UI"                     :licenses (microsoft))
     ("Noteworthy"                     :licenses (apple))
     ("Noto Sans"                      :licenses (free))
     ("Nuosu SIL"                      :licenses (free))
@@ -1529,6 +1530,7 @@ Set to nil to disable."
                                                          ))
     ("Bengali"                                          (
                                                          "Bangla Sangam MN"
+                                                         "Nirmala UI"
                                                          "Vrinda"
                                                          "Mukti Narrow"
                                                          "Akaash"
@@ -1876,6 +1878,7 @@ Set to nil to disable."
     ("Devanagari"                                       (
                                                          "Devanagari Sangam MN"
                                                          "Devanagari MT"
+                                                         "Nirmala UI"
                                                          "Mangal"
                                                          "Samyak Devanagari"
                                                          "Samyak"
@@ -2039,6 +2042,7 @@ Set to nil to disable."
     ("Gujarati"                                         (
                                                          "Gujarati Sangam MN"
                                                          "Gujarati MT"
+                                                         "Nirmala UI"
                                                          "Shruti"
                                                          "Samyak Gujarati"
                                                          "Samyak"
@@ -2047,6 +2051,7 @@ Set to nil to disable."
     ("Gurmukhi"                                         (
                                                          "Gurmukhi Sangam MN"
                                                          "Gurmukhi MN"
+                                                         "Nirmala UI"
                                                          "Raavi"
                                                          "Arial Unicode MS"
                                                          "AnmolUni"
@@ -2218,6 +2223,7 @@ Set to nil to disable."
                                                          ))
     ("Kannada"                                          (
                                                          "Kannada Sangam MN"
+                                                         "Nirmala UI"
                                                          "Tunga"
                                                          "Akshar Unicode"
                                                          "Arial Unicode MS"
@@ -2360,6 +2366,7 @@ Set to nil to disable."
                                                          ))
     ("Malayalam"                                        (
                                                          "Malayalam Sangam MN"
+                                                         "Nirmala UI"
                                                          "Kartika"
                                                          "Samyak Malayalam"
                                                          "Samyak"
@@ -2527,6 +2534,7 @@ Set to nil to disable."
                                                          ))
     ("Oriya"                                            (
                                                          "Oriya Sangam MN"
+                                                         "Nirmala UI"
                                                          "Kalinga"
                                                          "Samyak Oriya"
                                                          "Samyak"
@@ -2637,6 +2645,7 @@ Set to nil to disable."
                                                          ))
     ("Sinhala"                                          (
                                                          "Sinhala Sangam MN"
+                                                         "Nirmala UI"
                                                          "Iskoola Pota"
                                                          "Akshar Unicode"
                                                          ))
@@ -2765,6 +2774,7 @@ Set to nil to disable."
     ;; ("Takri"                                         (""))                           ; todo
     ("Tamil"                                            (
                                                          "Tamil Sangam MN"
+                                                         "Nirmala UI"
                                                          "InaiMathi"
                                                          "Latha"
                                                          "Maduram"
@@ -2775,6 +2785,7 @@ Set to nil to disable."
                                                          ))
     ("Telugu"                                           (
                                                          "Telugu Sangam MN"
+                                                         "Nirmala UI"
                                                          "Gautami"
                                                          "Akshar Unicode"
                                                          "Code2000"
