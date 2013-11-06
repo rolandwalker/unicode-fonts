@@ -1162,7 +1162,7 @@
     ("SimHei"                         :spacing mono :chinese simplified :licenses (microsoft))
     ("SimSun"                         :spacing mono :chinese simplified :licenses (microsoft apple))
     ("Simplified Arabic Fixed"        :spacing mono :licenses (microsoft) :arabic standard)
-    ("Simplified Arabic"              mono :licenses (microsoft) :arabic standard)
+    ("Simplified Arabic"              :spacing mono :licenses (microsoft) :arabic standard)
     ("Sinhala MN"                     :licenses (apple))
     ("Sinhala Sangam MN"              :licenses (apple))
     ("Skia"                           :licenses (apple))
