@@ -1200,6 +1200,7 @@
     ("Tw Cen MT"                      :licenses (microsoft))
     ("UnBatang"                       :licenses (free))
     ("Utsaah"                         :licenses (microsoft))
+    ("Urdu Typesetting"               :licenses (microsoft) :arabic urdu)
     ("Vacation MT"                    :licenses (microsoft))
     ("Vani"                           :licenses (microsoft))
     ("Verdana Ref"                    :licenses (microsoft))
@@ -1439,6 +1440,7 @@ Set to nil to disable."
                                                          "Kufi Standard GK"
                                                          "Andalus"
                                                          "Arabic Typesetting"
+                                                         "Urdu Typesetting"
                                                          "Adobe Arabic"                 ; 171/611
                                                          "DecoType Naskh"               ;  57/611
                                                          "Al Bayan"                     ;  62/611
@@ -1451,6 +1453,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ; 140/141
                                                          "Geeza Pro"                    ; 140/141
                                                          "Adobe Arabic"                 ; 125/141
+                                                         "Urdu Typesetting"
                                                          "Arial Unicode MS"
                                                          "Microsoft Sans Serif"
                                                          "Kufi Standard GK"
@@ -1478,6 +1481,7 @@ Set to nil to disable."
                                                          "Simplified Arabic Fixed"
                                                          "Simplified Arabic"
                                                          "Adobe Arabic"                 ; 209/254
+                                                         "Urdu Typesetting"
                                                          "Geeza Pro"
                                                          "Baghdad"                      ;  81/254
                                                          "Damascus"
