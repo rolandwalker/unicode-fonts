@@ -13,9 +13,9 @@ Quickstart
 * Remove Unifont from your system.
 
 * Install these fonts
-	* [http://users.teilar.gr/~g1951d/Symbola706.zip](http://users.teilar.gr/~g1951d/Symbola706.zip)
-	* [http://www.quivira-font.com/files/Quivira.ttf](http://www.quivira-font.com/files/Quivira.ttf)
-	* [http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2](http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2)
+	* <http://users.teilar.gr/~g1951d/Symbola706.zip>
+	* <http://www.quivira-font.com/files/Quivira.ttf>
+	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2>
 
 * Use an extended Latin font for your default face, such
   as Monaco, Consolas, or DejaVu Sans Mono.
@@ -79,15 +79,15 @@ recent version of OS X or Microsoft Windows, you already own some
 good multi-lingual fonts, though you would do very well to download
 and install the four items below:
 
-From [http://dejavu-fonts.org/wiki/Download](http://dejavu-fonts.org/wiki/Download)
+From <http://dejavu-fonts.org/wiki/Download>
 
 	DejaVu Sans, DejaVu Sans Mono
 
-From [http://www.quivira-font.com/downloads.php](http://www.quivira-font.com/downloads.php)
+From <http://www.quivira-font.com/downloads.php>
 
 	Quivira
 
-From [http://users.teilar.gr/~g1951d/](http://users.teilar.gr/~g1951d/)
+From <http://users.teilar.gr/~g1951d/>
 
 	Symbola
 
@@ -147,144 +147,144 @@ Free International and Symbol Fonts
 Free fonts recognized by this package may be downloaded
 from the following locations:
 
-From [http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download](http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download)
+From <http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download>
 
 	Doulos SIL                    ; Extended European and diacritics
 
-From [http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download](http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download)
+From <http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download>
 
 	Gentium Plus                  ; Greek
 
-From [http://users.teilar.gr/~g1951d/](http://users.teilar.gr/~g1951d/)
+From <http://users.teilar.gr/~g1951d/>
 
 	Aegean, Aegyptus, Akkadian    ; Ancient languages
 	Analecta                      ; Ancient languages, Deseret
 	Musica                        ; Musical Symbols
 
-From [http://www.wazu.jp/gallery/views/View_MPH2BDamase.html](http://www.wazu.jp/gallery/views/View_MPH2BDamase.html)
+From <http://www.wazu.jp/gallery/views/View_MPH2BDamase.html>
 
 	MPH 2B Damase                 ; Arabic, Armenian, Buginese, Cherokee, Georgian,
 	                              ; Glagolitic, Hanunoo, Kharoshthi, Limbu, Osmanya,
 	                              ; Shavian, Syloti Nagri, Tai Le, Thaana
 
-From [http://wenq.org/enindex.cgi?Home](http://wenq.org/enindex.cgi?Home)
+From <http://wenq.org/enindex.cgi?Home>
 
 	WenQuanYi Zen Hei             ; CJK (Simplified Chinese)
 
-From [http://babelstone.co.uk/Fonts/](http://babelstone.co.uk/Fonts/)
+From <http://babelstone.co.uk/Fonts/>
 
 	BabelStone Han                ; CJK (Simplified Chinese)
 	BabelStone Phags-pa Book      ; Phags-pa
 
-From [http://kldp.net/projects/unfonts/](http://kldp.net/projects/unfonts/)
+From <http://kldp.net/projects/unfonts/>
 
 	Un Batang                     ; CJK (Hangul)
 
-From [http://sourceforge.jp/projects/hanazono-font/releases/](http://sourceforge.jp/projects/hanazono-font/releases/)
+From <http://sourceforge.jp/projects/hanazono-font/releases/>
 
 	Hana Min A, Hana Min B        ; CJK (Japanese)
 
-From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=SILYi_home](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=SILYi_home)
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=SILYi_home>
 
 	Nuosu SIL                     ; CJK (Yi)
 
-From [http://www.daicing.com/manchu/index.php?page=fonts-downloads](http://www.daicing.com/manchu/index.php?page=fonts-downloads)
+From <http://www.daicing.com/manchu/index.php?page=fonts-downloads>
 
 	Daicing Xiaokai               ; Mongolian
 
-From [http://www.library.gov.bt/IT/fonts.html](http://www.library.gov.bt/IT/fonts.html)
+From <http://www.library.gov.bt/IT/fonts.html>
 
 	Jomolhari                     ; Tibetan
 
-From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=)
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=>
 
 	Padauk                        ; Myanmar
 
-From [https://code.google.com/p/myanmar3source/downloads/list](https://code.google.com/p/myanmar3source/downloads/list)
+From <https://code.google.com/p/myanmar3source/downloads/list>
 
 	Myanmar3                      ; Myanmar
 
-From [http://www.yunghkio.com/unicode/](http://www.yunghkio.com/unicode/)
+From <http://www.yunghkio.com/unicode/>
 
 	Yunghkio                      ; Myanmar
 
-From [https://code.google.com/p/tharlon-font/downloads/list](https://code.google.com/p/tharlon-font/downloads/list)
+From <https://code.google.com/p/tharlon-font/downloads/list>
 
 	TharLon                       ; Myanmar
 
-From [http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/](http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/)
+From <http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/MasterpieceUniSans/>
 
 	Masterpiece Uni Sans          ; Myanmar
 
-From [http://sarovar.org/projects/samyak/](http://sarovar.org/projects/samyak/)
+From <http://sarovar.org/projects/samyak/>
 
 	Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
 
-From [http://guca.sourceforge.net/typography/fonts/anmoluni/](http://guca.sourceforge.net/typography/fonts/anmoluni/)
+From <http://guca.sourceforge.net/typography/fonts/anmoluni/>
 
 	AnmolUni                      ; Gurmukhi
 
-From [http://brahmi.sourceforge.net/downloads2.html](http://brahmi.sourceforge.net/downloads2.html)
+From <http://brahmi.sourceforge.net/downloads2.html>
 
 	Kedage                        ; Kannada
 
-From [http://www.omicronlab.com/bangla-fonts.html](http://www.omicronlab.com/bangla-fonts.html)
+From <http://www.omicronlab.com/bangla-fonts.html>
 
 	Mukti Narrow                  ; Bengali
 
-From [http://www.kamban.com.au/downloads.html](http://www.kamban.com.au/downloads.html)
+From <http://www.kamban.com.au/downloads.html>
 
 	Akshar Unicode                ; Sinhala
 
-From [http://tabish.freeshell.org/eeyek/download.html](http://tabish.freeshell.org/eeyek/download.html)
+From <http://tabish.freeshell.org/eeyek/download.html>
 
 	Eeyek Unicode                 ; Meetei Mayek
 
-From [http://scripts.sil.org/CMS/scripts/page.php?&item_id=Mondulkiri](http://scripts.sil.org/CMS/scripts/page.php?&item_id=Mondulkiri)
+From <http://scripts.sil.org/CMS/scripts/page.php?&item_id=Mondulkiri>
 
 	Khmer Mondulkiri              ; Khmer
 
-From [http://www.laoscript.net/downloads/](http://www.laoscript.net/downloads/)
+From <http://www.laoscript.net/downloads/>
 
 	Saysettha MX                  ; Lao
 
-From [http://www.geocities.jp/simsheart_alif/taithamunicode.html](http://www.geocities.jp/simsheart_alif/taithamunicode.html)
+From <http://www.geocities.jp/simsheart_alif/taithamunicode.html>
 
 	Lanna Alif                    ; Tai Tham
 
-From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DaiBannaSIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DaiBannaSIL)
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DaiBannaSIL>
 
 	Dai Banna SIL                 ; New Tai Lue
 
-From [http://scripts.sil.org/cms/scripts/page.php?item_id=TaiHeritage](http://scripts.sil.org/cms/scripts/page.php?item_id=TaiHeritage)
+From <http://scripts.sil.org/cms/scripts/page.php?item_id=TaiHeritage>
 
 	Tai Heritage Pro              ; Tai Viet
 
-From [http://sabilulungan.org/aksara/](http://sabilulungan.org/aksara/)
+From <http://sabilulungan.org/aksara/>
 
 	Sundanese Unicode             ; Sundanese
 
-From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts)
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts>
 
 	Scheherazade                  ; Arabic
 
-From [http://www.farsiweb.ir/wiki/Persian_fonts](http://www.farsiweb.ir/wiki/Persian_fonts)
+From <http://www.farsiweb.ir/wiki/Persian_fonts>
 
 	Koodak                        ; Arabic (Farsi)
 
-From [http://openfontlibrary.org/font/ahuramazda/](http://openfontlibrary.org/font/ahuramazda/)
+From <http://openfontlibrary.org/font/ahuramazda/>
 
 	Ahuramzda                     ; Avestan
 
-From [http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=AbyssinicaSIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=AbyssinicaSIL)
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=AbyssinicaSIL>
 
 	Abyssinica SIL                ; Ethiopic
 
-From [http://www.bethmardutho.org/index.php/resources/fonts.html](http://www.bethmardutho.org/index.php/resources/fonts.html)
+From <http://www.bethmardutho.org/index.php/resources/fonts.html>
 
 	Estrangelo Nisibin            ; Syriac
 
-From [http://www.evertype.com/fonts/nko/](http://www.evertype.com/fonts/nko/)
+From <http://www.evertype.com/fonts/nko/>
 
 	Conakry                       ; N'ko
 
