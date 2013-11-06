@@ -288,6 +288,42 @@ From [http://www.evertype.com/fonts/nko/](http://www.evertype.com/fonts/nko/)
 
 	Conakry                       ; N'ko
 
+From <http://uni.hilledu.com/download-ribenguni>
+
+	Ribeng                        ; Chakma
+
+From <http://www.virtualvinodh.com/downloads>
+
+	Adinatha Tamil Brahmi         ; Brahmi
+
+From <https://code.google.com/p/noto/>
+
+	Noto Sans                     ; Turkish Lira Sign (and others)
+
+From <http://ftp.gnu.org/gnu/freefont/>
+
+	FreeMono, etc (FreeFont)      ; Kayah Li (and others)
+
+From <http://ulikozok.com/aksara-batak/batak-font/>
+
+	Batak-Unicode                 ; Batak
+
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat>
+
+	Mingzat                       ; Lepcha
+
+From <http://phjamr.github.io/miao.html#install>
+
+	Miao Unicode                  ; Miao, Lisu
+
+From <http://scholarsfonts.net/cardofnt.html>
+
+	Cardo                         ; Historical Languages
+
+From <http://sourceforge.net/projects/junicode/files/junicode/>
+
+	Junicode                      ; Historical Languages
+
 Non-free Fonts
 --------------
 
