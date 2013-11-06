@@ -1030,6 +1030,7 @@
     ("Mercurius Script MT"            :licenses (microsoft))
     ("Miao Unicode"                   :licenses (free))
     ("Microsoft Himalaya"             :licenses (microsoft))
+    ("Microsoft JhengHei UI"          :chinese traditional :licenses (microsoft))
     ("Microsoft JhengHei"             :chinese traditional :licenses (microsoft))
     ("Microsoft New Tai Lue"          :licenses (microsoft))
     ("Microsoft PhagsPa"              :licenses (microsoft))
@@ -1559,6 +1560,7 @@ Set to nil to disable."
                                                          "SimSun"
                                                          "DFKai-SB"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "BabelStone Han"               ; 27/27
                                                          ))
     ("Bopomofo"                                         (                               ; prefer traditional
@@ -1571,6 +1573,7 @@ Set to nil to disable."
                                                          "DFKai-SB"
                                                          "WenQuanYi Zen Hei Mono"       ; 41/41
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Microsoft YaHei"
                                                          "Lantinghei SC"
                                                          "Arial Unicode MS"
@@ -1616,6 +1619,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 32/32
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Symbola"
                                                          "Xingkai SC"                   ; 19/32
                                                          "DFKai-SB"
@@ -1631,6 +1635,7 @@ Set to nil to disable."
                                                          "Hiragino Maru Gothic Pro"
                                                          "Hiragino Mincho Pro"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "LiSong Pro"                   ; 11/542
                                                          ))
     ("CJK Compatibility Ideographs"                     (
@@ -1643,6 +1648,7 @@ Set to nil to disable."
                                                          "UnBatang"                     ; 268/472
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Arial Unicode MS"
                                                          "Lantinghei SC"
                                                          "HanaMinA"                     ; 472/472
@@ -1653,6 +1659,7 @@ Set to nil to disable."
                                                          "SimSun"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Lantinghei SC"
                                                          "Lantinghei TC"
                                                          "Arial Unicode MS"
@@ -1670,6 +1677,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 115/115
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "DFKai-SB"
                                                          "Apple Symbols"
                                                          ))
@@ -1711,6 +1719,7 @@ Set to nil to disable."
                                                          "Lantinghei TC"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "DFKai-SB"
                                                          "Arial Unicode MS"
                                                          "Xingkai SC"                   ; 7103/20941
@@ -1726,6 +1735,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Code2000"
                                                          "DFKai-SB"
                                                          "BabelStone Han"               ; 691/6646
@@ -1741,6 +1751,7 @@ Set to nil to disable."
                                                          "Code2002"                     ; 20158/24711
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "BabelStone Han"               ; 625/24711
                                                          "DFKai-SB"
                                                          ))
@@ -2068,6 +2079,7 @@ Set to nil to disable."
                                                          "Meiryo"                       ; 166/225
                                                          "Arial Unicode MS"             ; 223/225
                                                          "Microsoft JhengHei"           ; 225/225
+                                                         "Microsoft JhengHei UI"        ; 225/225
                                                          "BabelStone Han"               ; 173/225
                                                          "Apple Symbols"                ;  55/225
                                                          "Code2000"                     ; 186/225
@@ -2179,6 +2191,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 12/12
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "Apple Myungjo"
                                                          "HanaMinA"                     ; 12/12
                                                          "Quivira"
@@ -2223,6 +2236,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 214/214
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
+                                                         "Microsoft JhengHei UI"
                                                          "DFKai-SB"
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
