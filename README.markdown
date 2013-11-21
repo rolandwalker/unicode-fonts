@@ -35,6 +35,11 @@ Testing
 
 	M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET
 
+Customization
+-------------
+
+	M-x customize-group RET unicode-fonts RET
+
 Overview
 --------
 
