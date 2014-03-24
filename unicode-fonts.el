@@ -256,7 +256,7 @@
 ;;
 ;;         Sundanese Unicode             ; Sundanese
 ;;
-;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ArabicFonts
+;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=Scheherazade
 ;;
 ;;         Scheherazade                  ; Arabic
 ;;
