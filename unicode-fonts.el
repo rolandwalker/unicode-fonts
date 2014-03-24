@@ -159,7 +159,7 @@
 ;;                                       ; Glagolitic, Hanunoo, Kharoshthi, Limbu, Osmanya,
 ;;                                       ; Shavian, Syloti Nagri, Tai Le, Thaana
 ;;
-;;     From http://wenq.org/enindex.cgi?Home
+;;     From http://wenq.org/wqy2/index.cgi?FontGuide
 ;;
 ;;         WenQuanYi Zen Hei             ; CJK (Simplified Chinese)
 ;;
