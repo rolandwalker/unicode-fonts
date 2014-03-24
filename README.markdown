@@ -201,7 +201,7 @@ From <http://www.library.gov.bt/IT/fonts.html>
 
 	Jomolhari                     ; Tibetan
 
-From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=>
+From <http://scripts.sil.org/cms/scripts/page.php?item_id=Padauk>
 
 	Padauk                        ; Myanmar
 
