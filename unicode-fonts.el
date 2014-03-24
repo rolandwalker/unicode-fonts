@@ -1321,8 +1321,7 @@ Leave the list empty for no per-font exclusions."
   :group 'unicode-fonts-tweaks)
 
 (defcustom unicode-fonts-skip-font-groups (cond
-                                            ((and (eq window-system 'w32)
-                                                  (< window-system-version 6))
+                                            ((eq window-system 'w32)
                                              '(buggy-before-vista decorative low-quality-glyphs multicolor))
                                             ((eq window-system 'mac)
                                              '(decorative low-quality-glyphs))
