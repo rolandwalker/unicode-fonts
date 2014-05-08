@@ -4,7 +4,7 @@
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-fonts
-;; URL: http://raw.github.com/rolandwalker/unicode-fonts/master/unicode-fonts.el
+;; URL: http://raw.githubusercontent.com/rolandwalker/unicode-fonts/master/unicode-fonts.el
 ;; Version: 0.3.8
 ;; Last-Updated: 22 Oct 2013
 ;; EmacsWiki: UnicodeFonts

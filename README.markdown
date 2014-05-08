@@ -5,7 +5,7 @@ unicode-fonts
 
 Configure Unicode fonts for Emacs.
 
-![Using the Native Mac backend](https://raw.github.com/rolandwalker/unicode-fonts/master/native_mac_backend.png)
+![Using the Native Mac backend](https://raw.githubusercontent.com/rolandwalker/unicode-fonts/master/native_mac_backend.png)
 
 Quickstart
 ----------
