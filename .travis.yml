@@ -109,7 +109,7 @@ install:
         sudo apt-get -qq update &&
         sudo apt-get -qq -f install &&
         sudo apt-get -qq install emacs-snapshot &&
-        sudo apt-get -qq install emacs-snapshot-el emacs-snapshot-gtk;
+        sudo apt-get -qq install emacs-snapshot-el;
     fi
 
 before_script:
