@@ -212,9 +212,9 @@ test-batch :
 	(for test_lib in *-test.el; do                       \
 	   $(RESOLVED_EMACS) $(EMACS_BATCH) -L . -L .. -l cl \
 	   -l '$(TEST_DEP_1)' -l "$$test_lib" --eval         \
-	    "(flet ((ert--print-backtrace (&rest args)       \
-	      (insert \"no backtrace in batch mode\")))      \
-	       (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
+	    "(progn                                          \
+	      (fset 'ert--print-backtrace 'ignore)           \
+	      (ert-run-tests-batch-and-exit '(and \"$(TESTS)\" (not (tag :interactive)))))" || exit 1; \
 	done)
 
 test-interactive : test-prep
