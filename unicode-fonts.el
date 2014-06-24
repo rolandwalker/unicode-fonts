@@ -1837,7 +1837,9 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 112/112
                                                          ))
-    ;; ("Combining Diacritical Marks Extended"          (""))                           ; todo added in Unicode 7.0
+    ("Combining Diacritical Marks Extended"             (
+                                                         "Monlam Uni Sans Serif"        ; 15/15
+                                                         ))
     ("Combining Diacritical Marks Supplement"           (
                                                          "Cardo"                        ; 28/43
                                                          "FreeSerif"                    ; 33/43
