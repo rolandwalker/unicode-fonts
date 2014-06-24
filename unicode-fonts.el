@@ -2427,7 +2427,7 @@ Set to nil to disable."
                                                          "Eeyek Unicode"                ; fails x11
                                                          "Meetei Mayek"
                                                          ))
-    ;; ("Meetei Mayek Extensions"                       ("")                            ; todo
+    ;; ("Meetei Mayek Extensions"                       (""))                           ; todo
     ("Meroitic Cursive"                                 (
                                                          "Aegyptus"
                                                          ))
@@ -2713,7 +2713,7 @@ Set to nil to disable."
                                                          "Sundanese Unicode"
                                                          "Hacen Sudan"
                                                          ))
-    ;; ("Sundanese Supplement"                          ())                             ; todo
+    ;; ("Sundanese Supplement"                          (""))                           ; todo
     ("Superscripts and Subscripts"                      (
                                                          "Consolas"                     ; 27/42
                                                          "Cambria Math"                 ; 28/42
