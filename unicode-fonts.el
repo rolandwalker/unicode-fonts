@@ -1832,6 +1832,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 39/39
                                                          ))
+    ;; ("Coptic"                                        (""))                           ; todo
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
                                                          "Apple Symbols"
