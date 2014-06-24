@@ -2423,7 +2423,9 @@ Set to nil to disable."
     ("Limbu"                                            (
                                                          "MPH 2B Damase"
                                                          ))
-    ;; ("Linear A"                                      (""))                           ; todo added in Unicode 7.0
+    ("Linear A"                                         (
+                                                         "Aegean"                       ; 341/341
+                                                         ))
     ("Linear B Ideograms"                               (
                                                          "Aegean"                       ; 123/123
                                                          "Code2001"                     ; 123/123
