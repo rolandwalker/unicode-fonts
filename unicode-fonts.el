@@ -1872,7 +1872,9 @@ Set to nil to disable."
                                                          "Quivira"                      ; 123/123
                                                          "Code2000"                     ; 114/123
                                                          ))
-    ;; ("Coptic Epact Numbers"                          (""))                           ; todo added in Unicode 7.0
+    ("Coptic Epact Numbers"                             (
+                                                         "Symbola"                      ; 28/28
+                                                         ))
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
                                                          "Apple Symbols"
