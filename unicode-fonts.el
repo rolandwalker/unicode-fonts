@@ -2641,7 +2641,9 @@ Set to nil to disable."
                                                          "Samyak"
                                                          "Arial Unicode MS"
                                                          ))
-    ;; ("Ornamental Dingbats"                           (""))                           ; todo added in Unicode 7.0
+    ("Ornamental Dingbats"                              (
+                                                         "Symbola"                      ; 48/48
+                                                         ))
     ("Osmanya"                                          (
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 40/40
