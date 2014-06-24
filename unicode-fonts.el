@@ -2574,7 +2574,11 @@ Set to nil to disable."
                                                          "TharLon"                      ; 28/28
                                                          "Yunghkio"                     ; 28/28
                                                          ))
-    ;; ("Myanmar Extended-B"                            (""))                           ; todo added in Unicode 7.0
+    ;; todo poor coverage
+    ("Myanmar Extended-B"                               (
+                                                         "TharLon"                      ; 7/31
+                                                         "Yunghkio"                     ; 7/31
+                                                         ))
     ("NKo"                                              (
                                                          "Conakry"                      ; 59/59
                                                          "DejaVu Sans:width=condensed"  ; 54/59
