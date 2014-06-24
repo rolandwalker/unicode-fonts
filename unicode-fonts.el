@@ -2051,7 +2051,9 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 96/96
                                                          ))
-    ;; ("Geometric Shapes Extended"                     (""))                           ; todo added in Unicode 7.0
+    ("Geometric Shapes Extended"                        (
+                                                         "Symbola"                      ; 85/85
+                                                         ))
     ("Georgian"                                         (
                                                          "DejaVu Sans Mono"             ; 45/88
                                                          "DejaVu Sans:width=condensed"  ; 83/88
