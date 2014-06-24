@@ -60,8 +60,8 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 205 of the 216 blocks in
-;; the Unicode 6.3 standard with displayable characters.
+;; This library provides font mappings for 205 of the 247 blocks in
+;; the Unicode 7.0 standard with displayable characters.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -458,7 +458,7 @@
     ("unicode-ssp"         #xE0000   #xEFFFF)           ; plane  14
     ("unicode-pua-a"       #xF0000   #xFFFFF)           ; plane  15
     ("unicode-pua-b"       #x100000  #x10FFFF))         ; plane  16
-  "Alist of Unicode 6.3 planes.")
+  "Alist of Unicode 7.0 planes.")
 
 (defconst unicode-fonts-blocks
   '(("Aegean Numbers"                                  #x10100  #x1013F)
@@ -480,6 +480,7 @@
     ("Bamum"                                           #xA6A0   #xA6FF)
     ("Bamum Supplement"                                #x16800  #x16A3F)
     ("Basic Latin"                                     #x0000   #x007F)
+    ("Bassa Vah"                                       #x16AD0  #x16AFF)
     ("Batak"                                           #x1BC0   #x1BFF)
     ("Bengali"                                         #x0980   #x09FF)
     ("Block Elements"                                  #x2580   #x259F)
@@ -504,16 +505,19 @@
     ("CJK Unified Ideographs Extension C"              #x2A700  #x2B73F)
     ("CJK Unified Ideographs Extension D"              #x2B740  #x2B81F)
     ("Carian"                                          #x102A0  #x102DF)
+    ("Caucasian Albanian"                              #x10530  #x1056F)
     ("Chakma"                                          #x11100  #x1114F)
     ("Cham"                                            #xAA00   #xAA5F)
     ("Cherokee"                                        #x13A0   #x13FF)
     ("Combining Diacritical Marks"                     #x0300   #x036F)
+    ("Combining Diacritical Marks Extended"            #x1AB0   #x1AFF)
     ("Combining Diacritical Marks Supplement"          #x1DC0   #x1DFF)
     ("Combining Diacritical Marks for Symbols"         #x20D0   #x20FF)
     ("Combining Half Marks"                            #xFE20   #xFE2F)
     ("Common Indic Number Forms"                       #xA830   #xA83F)
     ("Control Pictures"                                #x2400   #x243F)
     ("Coptic"                                          #x2C80   #x2CFF)
+    ("Coptic Epact Numbers"                            #x102E0  #x102FF)
     ("Counting Rod Numerals"                           #x1D360  #x1D37F)
     ("Cuneiform"                                       #x12000  #x123FF)
     ("Cuneiform Numbers and Punctuation"               #x12400  #x1247F)
@@ -528,7 +532,9 @@
     ("Devanagari Extended"                             #xA8E0   #xA8FF)
     ("Dingbats"                                        #x2700   #x27BF)
     ("Domino Tiles"                                    #x1F030  #x1F09F)
+    ("Duployan"                                        #x1BC00  #x1BC9F)
     ("Egyptian Hieroglyphs"                            #x13000  #x1342F)
+    ("Elbasan"                                         #x10500  #x1052F)
     ("Emoticons"                                       #x1F600  #x1F64F)
     ("Enclosed Alphanumeric Supplement"                #x1F100  #x1F1FF)
     ("Enclosed Alphanumerics"                          #x2460   #x24FF)
@@ -540,10 +546,12 @@
     ("Ethiopic Supplement"                             #x1380   #x139F)
     ("General Punctuation"                             #x2000   #x206F)
     ("Geometric Shapes"                                #x25A0   #x25FF)
+    ("Geometric Shapes Extended"                       #x1F780  #x1F7FF)
     ("Georgian"                                        #x10A0   #x10FF)
     ("Georgian Supplement"                             #x2D00   #x2D2F)
     ("Glagolitic"                                      #x2C00   #x2C5F)
     ("Gothic"                                          #x10330  #x1034F)
+    ("Grantha"                                         #x11300  #x1137F)
     ("Greek Extended"                                  #x1F00   #x1FFF)
     ("Greek and Coptic"                                #x0370   #x03FF)
     ("Gujarati"                                        #x0A80   #x0AFF)
@@ -576,29 +584,36 @@
     ("Kharoshthi"                                      #x10A00  #x10A5F)
     ("Khmer"                                           #x1780   #x17FF)
     ("Khmer Symbols"                                   #x19E0   #x19FF)
+    ("Khojki"                                          #x11200  #x1124F)
+    ("Khudawadi"                                       #x112B0  #x112FF)
     ("Lao"                                             #x0E80   #x0EFF)
     ("Latin Extended Additional"                       #x1E00   #x1EFF)
     ("Latin Extended-A"                                #x0100   #x017F)
     ("Latin Extended-B"                                #x0180   #x024F)
     ("Latin Extended-C"                                #x2C60   #x2C7F)
     ("Latin Extended-D"                                #xA720   #xA7FF)
+    ("Latin Extended-E"                                #xAB30   #xAB6F)
     ("Latin-1 Supplement"                              #x0080   #x00FF)
     ("Lepcha"                                          #x1C00   #x1C4F)
     ("Letterlike Symbols"                              #x2100   #x214F)
     ("Limbu"                                           #x1900   #x194F)
+    ("Linear A"                                        #x10600  #x1077F)
     ("Linear B Ideograms"                              #x10080  #x100FF)
     ("Linear B Syllabary"                              #x10000  #x1007F)
     ("Lisu"                                            #xA4D0   #xA4FF)
     ;; ("Low Surrogates"                               #xDC00   #xDFFF) ; no displayable characters
     ("Lycian"                                          #x10280  #x1029F)
     ("Lydian"                                          #x10920  #x1093F)
+    ("Mahajani"                                        #x11150  #x1117F)
     ("Mahjong Tiles"                                   #x1F000  #x1F02F)
     ("Malayalam"                                       #x0D00   #x0D7F)
     ("Mandaic"                                         #x0840   #x085F)
+    ("Manichaean"                                      #x10AC0  #x10AFF)
     ("Mathematical Alphanumeric Symbols"               #x1D400  #x1D7FF)
     ("Mathematical Operators"                          #x2200   #x22FF)
     ("Meetei Mayek"                                    #xABC0   #xABFF)
     ("Meetei Mayek Extensions"                         #xAAE0   #xAAFF)
+    ("Mende Kikakui"                                   #x1E800  #x1E8DF)
     ("Meroitic Cursive"                                #x109A0  #x109FF)
     ("Meroitic Hieroglyphs"                            #x10980  #x1099F)
     ("Miao"                                            #x16F00  #x16F9F)
@@ -608,23 +623,33 @@
     ("Miscellaneous Symbols and Arrows"                #x2B00   #x2BFF)
     ("Miscellaneous Symbols and Pictographs"           #x1F300  #x1F5FF)
     ("Miscellaneous Technical"                         #x2300   #x23FF)
+    ("Modi"                                            #x11600  #x1165F)
     ("Modifier Tone Letters"                           #xA700   #xA71F)
     ("Mongolian"                                       #x1800   #x18AF)
+    ("Mro"                                             #x16A40  #x16A6F)
     ("Musical Symbols"                                 #x1D100  #x1D1FF)
     ("Myanmar"                                         #x1000   #x109F)
     ("Myanmar Extended-A"                              #xAA60   #xAA7F)
+    ("Myanmar Extended-B"                              #xA9E0   #xA9FF)
     ("NKo"                                             #x07C0   #x07FF)
+    ("Nabataean"                                       #x10880  #x108AF)
     ("New Tai Lue"                                     #x1980   #x19DF)
     ("Number Forms"                                    #x2150   #x218F)
     ("Ogham"                                           #x1680   #x169F)
     ("Ol Chiki"                                        #x1C50   #x1C7F)
     ("Old Italic"                                      #x10300  #x1032F)
+    ("Old North Arabian"                               #x10A80  #x10A9F)
+    ("Old Permic"                                      #x10350  #x1037F)
     ("Old Persian"                                     #x103A0  #x103DF)
     ("Old South Arabian"                               #x10A60  #x10A7F)
     ("Old Turkic"                                      #x10C00  #x10C4F)
     ("Optical Character Recognition"                   #x2440   #x245F)
     ("Oriya"                                           #x0B00   #x0B7F)
+    ("Ornamental Dingbats"                             #x1F650  #x1F67F)
     ("Osmanya"                                         #x10480  #x104AF)
+    ("Pahawh Hmong"                                    #x16B00  #x16B8F)
+    ("Palmyrene"                                       #x10860  #x1087F)
+    ("Pau Cin Hau"                                     #x11AC0  #x11AFF)
     ("Phags-pa"                                        #xA840   #xA87F)
     ("Phaistos Disc"                                   #x101D0  #x101FF)
     ("Phoenician"                                      #x10900  #x1091F)
@@ -632,6 +657,7 @@
     ("Phonetic Extensions Supplement"                  #x1D80   #x1DBF)
     ("Playing Cards"                                   #x1F0A0  #x1F0FF)
     ("Private Use Area"                                #xE000   #xF8FF)
+    ("Psalter Pahlavi"                                 #x10B80  #x10BAF)
     ("Rejang"                                          #xA930   #xA95F)
     ("Rumi Numeral Symbols"                            #x10E60  #x10E7F)
     ("Runic"                                           #x16A0   #x16FF)
@@ -639,7 +665,10 @@
     ("Saurashtra"                                      #xA880   #xA8DF)
     ("Sharada"                                         #x11180  #x111DF)
     ("Shavian"                                         #x10450  #x1047F)
+    ;; ("Shorthand Format Controls"                    #x1BCA0  #x1BCAF) ; no displayable characters
+    ("Siddham"                                         #x11580  #x115FF)
     ("Sinhala"                                         #x0D80   #x0DFF)
+    ("Sinhala Archaic Numbers"                         #x111E0  #x111FF)
     ("Small Form Variants"                             #xFE50   #xFE6F)
     ("Sora Sompeng"                                    #x110D0  #x110FF)
     ("Spacing Modifier Letters"                        #x02B0   #x02FF)
@@ -649,6 +678,7 @@
     ("Superscripts and Subscripts"                     #x2070   #x209F)
     ("Supplemental Arrows-A"                           #x27F0   #x27FF)
     ("Supplemental Arrows-B"                           #x2900   #x297F)
+    ("Supplemental Arrows-C"                           #x1F800  #x1F8FF)
     ("Supplemental Mathematical Operators"             #x2A00   #x2AFF)
     ("Supplemental Punctuation"                        #x2E00   #x2E7F)
     ("Supplementary Private Use Area-A"                #xF0000  #xFFFFF)
@@ -669,6 +699,7 @@
     ("Thai"                                            #x0E00   #x0E7F)
     ("Tibetan"                                         #x0F00   #x0FFF)
     ("Tifinagh"                                        #x2D30   #x2D7F)
+    ("Tirhuta"                                         #x11480  #x114DF)
     ("Transport and Map Symbols"                       #x1F680  #x1F6FF)
     ("Ugaritic"                                        #x10380  #x1039F)
     ("Unified Canadian Aboriginal Syllabics"           #x1400   #x167F)
@@ -678,10 +709,11 @@
     ("Variation Selectors Supplement"                  #xE0100  #xE01EF)
     ("Vedic Extensions"                                #x1CD0   #x1CFF)
     ("Vertical Forms"                                  #xFE10   #xFE1F)
+    ("Warang Citi"                                     #x118A0  #x118FF)
     ("Yi Radicals"                                     #xA490   #xA4CF)
     ("Yi Syllables"                                    #xA000   #xA48F)
     ("Yijing Hexagram Symbols"                         #x4DC0   #x4DFF))
-  "Alist of Unicode 6.3 blocks.")
+  "Alist of Unicode 7.0 blocks.")
 
 (defvar unicode-fonts-known-font-characteristics
   '(("Abadi MT Condensed"             :licenses (microsoft))
@@ -1533,6 +1565,7 @@ Set to nil to disable."
     ;; ("Bamum"                                         (""))                           ; todo
     ;; ("Bamum Supplement"                              (""))                           ; todo
     ;; ("Basic Latin"                                   (""))                           ; covered by the default font
+    ;; ("Bassa Vah"                                     (""))                           ; todo added in Unicode 7.0
     ("Batak"                                            (
                                                          "Batak-Unicode"                ; 56/56
                                                          ))
@@ -1774,6 +1807,7 @@ Set to nil to disable."
                                                          "Aegean"                       ; 49/49
                                                          "Quivira"
                                                          ))
+    ;; ("Caucasian Albanian"                            (""))                           ; todo added in Unicode 7.0
     ("Chakma"                                           (
                                                          "Ribeng"                       ; 67/67
                                                          ))
@@ -1803,6 +1837,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 112/112
                                                          ))
+    ;; ("Combining Diacritical Marks Extended"          (""))                           ; todo added in Unicode 7.0
     ("Combining Diacritical Marks Supplement"           (
                                                          "Cardo"                        ; 28/43
                                                          "FreeSerif"                    ; 33/43
@@ -1833,6 +1868,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 39/39
                                                          ))
     ;; ("Coptic"                                        (""))                           ; todo
+    ;; ("Coptic Epact Numbers"                          (""))                           ; todo added in Unicode 7.0
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
                                                          "Apple Symbols"
@@ -1927,9 +1963,11 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
+    ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
                                                          "Aegyptus"
                                                          ))
+    ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
                                                          "Apple Color Emoji"
                                                          "Symbola"
@@ -2005,6 +2043,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 96/96
                                                          ))
+    ;; ("Geometric Shapes Extended"                     (""))                           ; todo added in Unicode 7.0
     ("Georgian"                                         (
                                                          "DejaVu Sans Mono"             ; 45/88
                                                          "DejaVu Sans:width=condensed"  ; 83/88
@@ -2031,6 +2070,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 27/27
                                                          "Quivira"                      ; 27/27
                                                          ))
+    ;; ("Grantha"                                       (""))                           ; todo added in Unicode 7.0
     ("Greek Extended"                                   (
                                                          "Consolas"                     ; 232/233
                                                          "DejaVu Sans Mono"
@@ -2301,6 +2341,8 @@ Set to nil to disable."
                                                          "Khmer Busra"
                                                          "Code2000"
                                                          ))
+    ;; ("Khojki"                                        (""))                           ; todo added in Unicode 7.0
+    ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
     ("Lao"                                              (
                                                          "DejaVu Sans Mono"             ; 45/65
                                                          "Lao Sangam MN"
@@ -2347,6 +2389,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 134/134
                                                          "Code2000"                     ; 114/134
                                                          ))
+    ;; ("Latin Extended-E"                              (""))                           ; todo added in Unicode 7.0
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
     ;;                                                   "Consolas"
@@ -2370,6 +2413,7 @@ Set to nil to disable."
     ("Limbu"                                            (
                                                          "MPH 2B Damase"
                                                          ))
+    ;; ("Linear A"                                      (""))                           ; todo added in Unicode 7.0
     ("Linear B Ideograms"                               (
                                                          "Aegean"                       ; 123/123
                                                          "Code2001"                     ; 123/123
@@ -2392,6 +2436,7 @@ Set to nil to disable."
                                                          "Aegean"                       ; 27/27
                                                          "Quivira"
                                                          ))
+    ;; ("Mahajani"                                      (""))                           ; todo added in Unicode 7.0
     ("Mahjong Tiles"                                    (
                                                          "Symbola"
                                                          "Quivira"
@@ -2406,6 +2451,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          ))
     ;; ("Mandaic"                                       (""))                           ; todo
+    ;; ("Manichaean"                                    (""))                           ; todo added in Unicode 7.0
     ("Mathematical Alphanumeric Symbols"                (
                                                          "Cambria Math"                 ; 994/996
                                                          "Code2001"                     ; 994/996
@@ -2428,6 +2474,7 @@ Set to nil to disable."
                                                          "Meetei Mayek"
                                                          ))
     ;; ("Meetei Mayek Extensions"                       (""))                           ; todo
+    ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
                                                          "Aegyptus"
                                                          ))
@@ -2476,6 +2523,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 244/244
                                                          "Quivira"                      ; 244/244
                                                          ))
+    ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
     ("Modifier Tone Letters"                            (
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
@@ -2492,6 +2540,7 @@ Set to nil to disable."
                                                          "Daicing Xiaokai"
                                                          "Code2000"
                                                          ))
+    ;; ("Mro"                                           (""))                           ; todo added in Unicode 7.0
     ("Musical Symbols"                                  (
                                                          "Musica"
                                                          "Symbola"
@@ -2513,11 +2562,13 @@ Set to nil to disable."
                                                          "TharLon"                      ; 28/28
                                                          "Yunghkio"                     ; 28/28
                                                          ))
+    ;; ("Myanmar Extended-B"                            (""))                           ; todo added in Unicode 7.0
     ("NKo"                                              (
                                                          "Conakry"                      ; 59/59
                                                          "DejaVu Sans:width=condensed"  ; 54/59
                                                          "Code2000"                     ; 59/59
                                                          ))
+    ;; ("Nabataean"                                     (""))                           ; todo added in Unicode 7.0
     ("New Tai Lue"                                      (
                                                          "Dai Banna SIL Book"
                                                          "Dai Banna SIL Book:style=Regular"
@@ -2546,6 +2597,8 @@ Set to nil to disable."
                                                          "Quivira"                      ; 35/35
                                                          "FreeMono"                     ; 35/35
                                                          ))
+    ;; ("Old North Arabian"                             (""))                           ; todo added in Unicode 7.0
+    ;; ("Old Permic"                                    (""))                           ; todo added in Unicode 7.0
     ("Old Persian"                                      (
                                                          "Aegean"                       ; 50/50
                                                          "Code2001"                     ; 50/50
@@ -2572,10 +2625,14 @@ Set to nil to disable."
                                                          "Samyak"
                                                          "Arial Unicode MS"
                                                          ))
+    ;; ("Ornamental Dingbats"                           (""))                           ; todo added in Unicode 7.0
     ("Osmanya"                                          (
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 40/40
                                                          ))
+    ;; ("Pahawh Hmong"                                  (""))                           ; todo added in Unicode 7.0
+    ;; ("Palmyrene"                                     (""))                           ; todo added in Unicode 7.0
+    ;; ("Pau Cin Hau"                                   (""))                           ; todo added in Unicode 7.0
     ("Phags-pa"                                         (
                                                          "Microsoft PhagsPa"
                                                          "BabelStone Phags-pa Book"     ; 56/56
@@ -2652,6 +2709,7 @@ Set to nil to disable."
     ;;                                                   "BabelStone Phags-pa Book"     ;     7/6,400
     ;;                                                   "Samyak"                       ;     6/6,400
     ;;                                                   ))
+    ;; ("Psalter Pahlavi"                               (""))                           ; todo added in Unicode 7.0
     ("Rejang"                                           (                               ; todo quality free alternative
                                                          "Code2000"
                                                          ))
@@ -2675,12 +2733,15 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 48/48
                                                          ))
+    ;; ("Shorthand Format Controls"                     (""))                           ; no displayable characters
+    ;; ("Siddham"                                       (""))                           ; todo added in Unicode 7.0
     ("Sinhala"                                          (
                                                          "Sinhala Sangam MN"
                                                          "Nirmala UI"
                                                          "Iskoola Pota"
                                                          "Akshar Unicode"
                                                          ))
+    ;; ("Sinhala Archaic Numbers"                       (""))                           ; todo added in Unicode 7.0
     ("Small Form Variants"                              (
                                                          "Apple Symbols"
                                                          "Arial Unicode MS"
@@ -2737,6 +2798,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
+    ;; ("Supplemental Arrows-C"                         (""))                           ; todo added in Unicode 7.0
     ("Supplemental Mathematical Operators"              (
                                                          "Apple Symbols"
                                                          "Cambria Math"                 ; 256/256
@@ -2851,6 +2913,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Quivira"
                                                          ))
+    ;; ("Tirhuta"                                       (""))                           ; todo added in Unicode 7.0
     ("Transport and Map Symbols"                        (
                                                          "Apple Color Emoji"
                                                          "Symbola"
@@ -2885,6 +2948,7 @@ Set to nil to disable."
     ("Vertical Forms"                                   (
                                                          "Symbola"
                                                          ))
+    ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
                                                          "ST Fangsong"                  ; 32/32
                                                          "PC Myungjo"
@@ -3380,6 +3444,7 @@ See also: `list-charset-chars'."
                      "Ancient Greek Numbers"
                      "Greek Extended"
                      "Greek and Coptic"
+                     "Linear A"
                      "Linear B Ideograms"
                      "Linear B Syllabary")))
        (unicode-fonts-debug-insert-block name)))
@@ -3391,6 +3456,7 @@ See also: `list-charset-chars'."
                      "Miscellaneous Mathematical Symbols-B"
                      "Miscellaneous Technical"
                      "Superscripts and Subscripts"
+                     "Supplemental Arrows-C"
                      "Supplemental Arrows-A"
                      "Supplemental Arrows-B"
                      "Supplemental Mathematical Operators"
@@ -3426,6 +3492,7 @@ See also: `list-charset-chars'."
                      "Miscellaneous Symbols and Arrows"
                      "Supplemental Arrows-A"
                      "Supplemental Arrows-B"
+                     "Supplemental Arrows-C"
                      "Transport and Map Symbols")))
        (unicode-fonts-debug-insert-block name)))
     ((eq block-name 'all-symbols)
@@ -3445,6 +3512,7 @@ See also: `list-charset-chars'."
                      "Combining Diacritical Marks for Symbols"
                      "Common Indic Number Forms"
                      "Control Pictures"
+                     "Coptic Epact Numbers"
                      "Counting Rod Numerals"
                      "Cuneiform Numbers and Punctuation"
                      "Currency Symbols"
@@ -3457,6 +3525,7 @@ See also: `list-charset-chars'."
                      "Enclosed Ideographic Supplement"
                      "General Punctuation"
                      "Geometric Shapes"
+                     "Geometric Shapes Extended"
                      "Halfwidth and Fullwidth Forms"
                      "IPA Extensions"
                      "Khmer Symbols"
@@ -3474,14 +3543,17 @@ See also: `list-charset-chars'."
                      "Musical Symbols"
                      "Number Forms"
                      "Optical Character Recognition"
+                     "Ornamental Dingbats"
                      "Playing Cards"
                      "Rumi Numeral Symbols"
+                     "Sinhala Archaic Numbers"
                      "Small Form Variants"
                      "Spacing Modifier Letters"
                      "Specials"
                      "Superscripts and Subscripts"
                      "Supplemental Arrows-A"
                      "Supplemental Arrows-B"
+                     "Supplemental Arrows-C"
                      "Supplemental Mathematical Operators"
                      "Supplemental Punctuation"
                      "Tai Xuan Jing Symbols"
