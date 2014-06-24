@@ -1867,7 +1867,11 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "FreeMono"                     ; 39/39
                                                          ))
-    ;; ("Coptic"                                        (""))                           ; todo
+    ("Coptic"                                           (
+                                                         "Analecta"                     ; 123/123
+                                                         "Quivira"                      ; 123/123
+                                                         "Code2000"                     ; 114/123
+                                                         ))
     ;; ("Coptic Epact Numbers"                          (""))                           ; todo added in Unicode 7.0
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
