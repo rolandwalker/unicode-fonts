@@ -2816,7 +2816,9 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
-    ;; ("Supplemental Arrows-C"                         (""))                           ; todo added in Unicode 7.0
+    ("Supplemental Arrows-C"                            (
+                                                         "Symbola"                      ; 148/148
+                                                         ))
     ("Supplemental Mathematical Operators"              (
                                                          "Apple Symbols"
                                                          "Cambria Math"                 ; 256/256
