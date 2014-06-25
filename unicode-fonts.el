@@ -2035,6 +2035,7 @@ Set to nil to disable."
                                                          ))
     ("Ethiopic Extended"                                (
                                                          "Kefa"
+                                                         "Nyala"
                                                          "Abyssinica SIL"
                                                          "Code2000"
                                                          ))
@@ -2045,6 +2046,7 @@ Set to nil to disable."
                                                          ))
     ("Ethiopic Supplement"                              (
                                                          "Kefa"
+                                                         "Nyala"
                                                          "Abyssinica SIL"
                                                          "Code2000"
                                                          ))
