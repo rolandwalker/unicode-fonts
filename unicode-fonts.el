@@ -1656,6 +1656,7 @@ Set to nil to disable."
                                                          "FangSong"
                                                          "SimSun"
                                                          "MingLiU"
+                                                         "Meiryo"                       ; 249/256
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
                                                          "Lantinghei SC"
@@ -2020,6 +2021,7 @@ Set to nil to disable."
                                                          ;; "Aqua Kana"
                                                          "Arial Unicode MS"
                                                          "HanaMinA"                     ; 249/254
+                                                         "Meiryo"                       ; 174/254
                                                          "BabelStone Han"               ; 191/254
                                                          "Quivira"
                                                          "UnBatang"                     ; 58/254
@@ -2311,6 +2313,7 @@ Set to nil to disable."
                                                          "WenQuanYi Zen Hei Mono"       ; 214/214
                                                          "SimHei"
                                                          "FangSong"
+                                                         "Meiryo"                       ; 214/214
                                                          "SimSun"
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
