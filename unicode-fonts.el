@@ -1841,6 +1841,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "DejaVu Sans Mono"
                                                          "Cardo"                        ; 112/112
+                                                         "Gentium Plus"                 ; 108/112
                                                          "Junicode"                     ; 109/112
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
@@ -2411,6 +2412,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
+                                                         "Gentium Plus"                 ; 30/32
                                                          "Quivira"
                                                          "Doulos SIL"                   ; 30/32
                                                          ))
@@ -2563,6 +2565,7 @@ Set to nil to disable."
     ("Modifier Tone Letters"                            (
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
+                                                         "Gentium Plus"                 ; 32/32
                                                          "Doulos SIL"                   ; 32/32
                                                          "Code2000"                     ; 32/32
                                                          "Quivira"                      ; 32/32
