@@ -13,9 +13,9 @@ Quickstart
 * Remove Unifont from your system.
 
 * Install these fonts
-	* <http://users.teilar.gr/~g1951d/Symbola.ttf>
-	* <http://www.quivira-font.com/files/Quivira.ttf>
-	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.33/dejavu-fonts-ttf-2.33.tar.bz2>
+	* <http://users.teilar.gr/~g1951d/Symbola.zip>
+	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
+	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.34/dejavu-fonts-ttf-2.34.tar.bz2>
 
 * Use an extended Latin font for your default face, such
   as Monaco, Consolas, or DejaVu Sans Mono.
