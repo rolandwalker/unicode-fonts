@@ -316,6 +316,10 @@
 ;;
 ;;         Junicode                      ; Historical Languages
 ;;
+;;     From http://phjamr.github.io/mro.html
+;;
+;;         Mro Unicode                   ; Mro
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -1092,6 +1096,7 @@
     ("Myanmar Sangam MN"              :licenses (apple))
     ("Myanmar Text"                   :licenses (microsoft))
     ("Myanmar3"                       :licenses (free))
+    ("Mro Unicode"                    :licenses (free))
     ("NSimSun"                        :licenses (microsoft))
     ("Nadeem"                         :licenses (apple) :arabic standard)
     ("Nanum Brush Script"             :licenses (apple))
@@ -2552,7 +2557,9 @@ Set to nil to disable."
                                                          "Daicing Xiaokai"
                                                          "Code2000"
                                                          ))
-    ;; ("Mro"                                           (""))                           ; todo added in Unicode 7.0
+    ("Mro"                                              (
+                                                         "Mro Unicode"                  ; 48/48
+                                                         ))
     ("Musical Symbols"                                  (
                                                          "Musica"
                                                          "Symbola"
