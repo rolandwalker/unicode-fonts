@@ -1438,6 +1438,7 @@ Set to nil to disable."
   '(("Aegean Numbers"                                   (
                                                          "Aegean"                       ; 57/57
                                                          "Quivira"
+                                                         "Code2001"                     ; 57/57
                                                          ))
     ("Alchemical Symbols"                               (
                                                          "Symbola"
@@ -1977,6 +1978,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2001"                     ; 100/100
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
