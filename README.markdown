@@ -333,6 +333,10 @@ From <http://phjamr.github.io/mro.html>
 
 	Mro Unicode                   ; Mro
 
+From <http://www.evertype.com/fonts/vai/>
+
+	Dukor                         ; Vai
+
 Non-free Fonts
 --------------
 

@@ -320,6 +320,10 @@
 ;;
 ;;         Mro Unicode                   ; Mro
 ;;
+;;     From http://www.evertype.com/fonts/vai/
+;;
+;;         Dukor                         ; Vai
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -869,6 +873,7 @@
     ("DokChampa"                      :licenses (microsoft))
     ("Dotum"                          :licenses (microsoft))
     ("Doulos SIL"                     :licenses (free))
+    ("Dukor"                          :licenses (free))
     ("Ebrima"                         :licenses (microsoft))
     ("Eckmann"                        :licenses (microsoft))
     ("Edda"                           :licenses (microsoft))
@@ -1251,6 +1256,7 @@
     ("Vixar ASCI"                     :licenses (microsoft))
     ("Vladimir Script"                :licenses (microsoft))
     ("Vrinda"                         :licenses (microsoft))
+    ("Wakor"                          :licenses (free))
     ("Wawati SC"                      :chinese simplified :licenses (apple))
     ("Wawati TC"                      :chinese traditional :licenses (apple))
     ("Webdings"                       :licenses (apple microsoft))
@@ -2996,6 +3002,8 @@ Set to nil to disable."
                                                          ))
     ("Vai"                                              (
                                                          "Ebrima"
+                                                         "Dukor"
+                                                         "Wakor"
                                                          "Quivira"
                                                          ))
     ("Variation Selectors"                              (
