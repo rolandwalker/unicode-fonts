@@ -2599,6 +2599,7 @@ Set to nil to disable."
                                                          "Yunghkio"                     ; 7/31
                                                          ))
     ("NKo"                                              (
+                                                         "Ebrima"
                                                          "Conakry"                      ; 59/59
                                                          "DejaVu Sans:width=condensed"  ; 54/59
                                                          "Code2000"                     ; 59/59
@@ -2666,6 +2667,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 48/48
                                                          ))
     ("Osmanya"                                          (
+                                                         "Ebrima"
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 40/40
                                                          ))
@@ -2951,6 +2953,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          ))
     ("Tifinagh"                                         (
+                                                         "Ebrima"
                                                          "DejaVu Sans:width=condensed"
                                                          "Quivira"
                                                          ))
@@ -2975,6 +2978,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Vai"                                              (
+                                                         "Ebrima"
                                                          "Quivira"
                                                          ))
     ("Variation Selectors"                              (
