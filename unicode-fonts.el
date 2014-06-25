@@ -2363,6 +2363,7 @@ Set to nil to disable."
                                                          ))
     ("Khmer Symbols"                                    (
                                                          "Khmer Sangam MN"
+                                                         "MoolBoran"
                                                          "Khmer Mondulkiri"
                                                          "Khmer Busra"
                                                          "Code2000"
