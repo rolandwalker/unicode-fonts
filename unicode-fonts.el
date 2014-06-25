@@ -1498,7 +1498,9 @@ Set to nil to disable."
                                                          "Koodak"
                                                          "FreeMono"                     ; 212/254
                                                          ))
-    ;; ("Arabic Extended-A"                             (""))                           ; todo
+    ("Arabic Extended-A"                                (
+                                                         "Scheherazade"                 ; 47/47
+                                                         ))
     ;; ("Arabic Mathematical Alphabetic Symbols"        (""))                           ; todo
     ("Arabic Presentation Forms-A"                      (                               ; todo insufficient free coverage
                                                          "Geeza Pro"                    ; 595/611
