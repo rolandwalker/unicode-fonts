@@ -1928,6 +1928,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 226/256
                                                          "Doulos SIL"                   ; 220/256
                                                          "Symbola"                      ; 256/256
+                                                         "Quivira"                      ; 256/256
                                                          "FreeMono"                     ; 251/256
                                                          "Charcoal CY"                  ; 94/256
                                                          "Geneva CY"                    ; 94/256
