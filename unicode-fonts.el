@@ -1841,6 +1841,7 @@ Set to nil to disable."
                                                          "Arial"
                                                          "Quivira"
                                                          "FreeMono"                     ; 112/112
+                                                         "Arial Unicode MS"             ;  72/112
                                                          ))
     ("Combining Diacritical Marks Extended"             (
                                                          "Monlam Uni Sans Serif"        ; 15/15
@@ -1858,6 +1859,7 @@ Set to nil to disable."
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
                                                          "Symbola"
+                                                         "Arial Unicode MS"             ; 18/33
                                                          ))
     ("Combining Half Marks"                             (
                                                          "Monaco"
