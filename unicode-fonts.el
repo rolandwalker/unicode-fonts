@@ -2918,6 +2918,7 @@ Set to nil to disable."
     ;; ("Takri"                                         (""))                           ; todo
     ("Tamil"                                            (
                                                          "Tamil Sangam MN"
+                                                         "Vijaya"
                                                          "Nirmala UI"
                                                          "InaiMathi"
                                                          "Latha"
