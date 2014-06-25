@@ -2234,6 +2234,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "HanaMinA"                     ; 93/93
                                                          "BabelStone Han"               ; 93/93
+                                                         "Microsoft JhengHei"           ; 93/93
                                                          ))
     ("IPA Extensions"                                   (
                                                          "Monaco"
@@ -2293,6 +2294,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 16/16
                                                          "BabelStone Han"               ; 16/16
                                                          "MingLiU"
+                                                         "Microsoft JhengHei"           ; 16/16
                                                          ))
     ("Kangxi Radicals"                                  (
                                                          "WenQuanYi Zen Hei Mono"       ; 214/214
@@ -2330,6 +2332,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 96/96
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 96/96
+                                                         "Microsoft JhengHei"           ; 96/96
                                                          ))
     ("Katakana Phonetic Extensions"                     (
                                                          "MS Gothic"
