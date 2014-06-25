@@ -1962,6 +1962,7 @@ Set to nil to disable."
                                                          "Samyak Devanagari"
                                                          "Samyak"
                                                          "Siddhanta"                    ; 127/127
+                                                         "Aparajita"
                                                          "Arial Unicode MS"
                                                          ))
     ("Devanagari Extended"                              (
