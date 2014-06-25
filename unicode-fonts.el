@@ -2929,6 +2929,7 @@ Set to nil to disable."
                                                          ))
     ("Telugu"                                           (
                                                          "Telugu Sangam MN"
+                                                         "Vani"
                                                          "Nirmala UI"
                                                          "Gautami"
                                                          "Akshar Unicode"
