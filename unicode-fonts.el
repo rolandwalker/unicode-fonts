@@ -2398,6 +2398,7 @@ Set to nil to disable."
                                                          "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
                                                          "Quivira"
+                                                         "Doulos SIL"                   ; 30/32
                                                          ))
     ("Latin Extended-D"                                 (
                                                          "FreeMono"                     ;   5/134  ; this will give poor results if existence-checks is set to 'first
@@ -2606,6 +2607,7 @@ Set to nil to disable."
                                                          "Junicode"                     ; 58/58
                                                          "Symbola"                      ; 58/58
                                                          "Quivira"                      ; 58/58
+                                                         "Doulos SIL"                   ; 54/58
                                                          "Code2000"                     ; 54/58
                                                          "FreeMono"                     ; 45/58
                                                          ))
