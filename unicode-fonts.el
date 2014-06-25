@@ -1870,6 +1870,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          ))
     ("Common Indic Number Forms"                        (
+                                                         "Nirmala UI"
                                                          "Siddhanta"
                                                          ))
     ("Control Pictures"                                 (
@@ -2790,7 +2791,9 @@ Set to nil to disable."
                                                          "WenQuanYi Zen Hei Mono"       ; 25/26
                                                          "Code2000"
                                                          ))
-    ;; ("Sora Sompeng"                                  (""))                           ; todo
+    ("Sora Sompeng"                                     (
+                                                         "Nirmala UI"                   ; todo free coverage
+                                                         ))
     ;; ("Spacing Modifier Letters"                      (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"                       ; 79/80
     ;;                                                   "Consolas"                     ; 80/80
