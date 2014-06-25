@@ -1521,6 +1521,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ; 140/141
                                                          "Geeza Pro"                    ; 140/141
                                                          "Adobe Arabic"                 ; 125/141
+                                                         "Traditional Arabic"
                                                          "Urdu Typesetting"
                                                          "Arial Unicode MS"
                                                          "Microsoft Sans Serif"
