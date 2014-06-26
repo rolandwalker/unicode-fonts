@@ -62,8 +62,10 @@ mappings from
 
 and makes the settings available via the customization interface.
 
-This library provides font mappings for 205 of the 216 blocks in
-the Unicode 6.3 standard with displayable characters.
+This library provides font mappings for 211 of the 245 blocks in
+the Unicode 7.0 standard which are public and have displayable
+characters.  It assumes that 6 Latin blocks are covered by the
+default font.  33/245 blocks are not mapped.
 
 To use unicode-fonts, place the unicode-fonts.el file somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
@@ -120,10 +122,14 @@ Consolas, or DejaVu Sans Mono is already being used for the default
 face, no separate mappings are provided for the following Unicode
 blocks:
 
+	Basic Latin
 	Latin Extended Additional
 	Latin Extended-A
+	Latin Extended-B
 	Latin-1 Supplement
 	Spacing Modifier Letters
+
+though some of these remain configurable via `customize'.
 
 Emoji
 ----
