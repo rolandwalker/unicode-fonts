@@ -917,6 +917,7 @@
     ("Gadugi"                         :licenses (microsoft))
     ("Garamond MT"                    :licenses (microsoft))
     ("Garamond"                       :licenses (microsoft))
+    ("Gardiner"                       :licenses (free))
     ("Gautami"                        :licenses (microsoft))
     ("Geeza Pro"                      :licenses (apple) :arabic standard)
     ("Geneva CY"                      :licenses (apple))
@@ -1998,7 +1999,8 @@ Set to nil to disable."
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
-                                                         "Aegyptus"
+                                                         "Aegyptus"                     ; 1071/1071
+                                                         "Gardiner"                     ; 1071/1071
                                                          ))
     ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
