@@ -3370,7 +3370,7 @@ Use `ido-completing-read' if IDO is set."
                                    (replace-regexp-in-string " " "_" x))
                                (mapcar 'car unicode-fonts-blocks))))
       (replace-regexp-in-string "_" " "
-         (funcall reader prompt block-names nil nil nil unicode-block-history)))))
+         (funcall reader prompt block-names nil nil nil 'unicode-block-history)))))
 
 ;;; debugging functions
 
