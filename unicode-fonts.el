@@ -158,6 +158,7 @@
 ;;         Aegean, Aegyptus, Akkadian    ; Ancient languages
 ;;         Analecta                      ; Ancient languages, Deseret
 ;;         Musica                        ; Musical Symbols
+;;         Nilus                         ; Ancient languages
 ;;
 ;;     From http://www.wazu.jp/gallery/views/View_MPH2BDamase.html
 ;;
@@ -1141,6 +1142,7 @@
     ("Niagara Engraved"               :licenses (microsoft))
     ("Niagara Solid"                  :licenses (microsoft))
     ("Niagara"                        :licenses (microsoft))
+    ("Nilus"                          :licenses (free))
     ("Nirmala UI"                     :licenses (microsoft))
     ("Noteworthy"                     :licenses (apple))
     ("Noto Sans"                      :licenses (free))
@@ -1920,10 +1922,12 @@ Set to nil to disable."
                                                          ))
     ("Coptic"                                           (
                                                          "Analecta"                     ; 123/123
+                                                         "Nilus"                        ; 123/123
                                                          "Quivira"                      ; 123/123
                                                          "Code2000"                     ; 114/123
                                                          ))
     ("Coptic Epact Numbers"                             (
+                                                         "Nilus"                        ; 28/28
                                                          "Symbola"                      ; 28/28
                                                          ))
     ("Counting Rod Numerals"                            (
@@ -2556,10 +2560,10 @@ Set to nil to disable."
     ;; ("Meetei Mayek Extensions"                       (""))                           ; todo
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
-                                                         "Aegyptus"
+                                                         "Nilus"                        ; 26/26
                                                          ))
     ("Meroitic Hieroglyphs"                             (
-                                                         "Aegyptus"
+                                                         "Nilus"                        ; 32/32
                                                          ))
     ("Miao"                                             (
                                                          "Miao Unicode"                 ; 133/133

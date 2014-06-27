@@ -171,6 +171,7 @@ From <http://users.teilar.gr/~g1951d/>
 	Aegean, Aegyptus, Akkadian    ; Ancient languages
 	Analecta                      ; Ancient languages, Deseret
 	Musica                        ; Musical Symbols
+	Nilus                         ; Ancient languages
 
 From <http://www.wazu.jp/gallery/views/View_MPH2BDamase.html>
 
