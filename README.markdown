@@ -343,6 +343,10 @@ From <http://www.evertype.com/fonts/vai/>
 
 	Dukor                         ; Vai
 
+From <http://sourceforge.net/projects/zhmono/>
+
+	ZH Mono                       ; Inscriptional Pahlavi / Parthian
+
 Non-free Fonts
 --------------
 

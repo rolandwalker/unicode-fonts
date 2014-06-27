@@ -330,6 +330,10 @@
 ;;
 ;;         Dukor                         ; Vai
 ;;
+;;     From http://sourceforge.net/projects/zhmono/
+;;
+;;         ZH Mono                       ; Inscriptional Pahlavi / Parthian
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -1283,6 +1287,7 @@
     ("Yuppy TC"                       :chinese traditional :licenses (apple))
     ("Zapf Dingbats"                  :licenses (apple))
     ("Zapfino"                        :licenses (apple))
+    ("ZH Mono"                        :licenses (free))
     ("unifont"                        :licenses (free) :glyph-quality low)
     ))
 
@@ -2297,9 +2302,11 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Inscriptional Pahlavi"                            (
+                                                         "ZH Mono"                      ; 27/27
                                                          "WenQuanYi Zen Hei"
                                                          ))
     ("Inscriptional Parthian"                           (
+                                                         "ZH Mono"                      ; 30/30
                                                          "WenQuanYi Zen Hei"
                                                          ))
     ("Javanese"                                         (
