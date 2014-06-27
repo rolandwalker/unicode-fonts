@@ -271,6 +271,10 @@
 ;;
 ;;         Sundanese Unicode             ; Sundanese
 ;;
+;;     From http://www.amirifont.org/
+;;
+;;         Amiri                         ; Arabic (Naskh)
+;;
 ;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=Scheherazade
 ;;
 ;;         Scheherazade                  ; Arabic
@@ -780,6 +784,7 @@
     ("Almanac MT"                     :licenses (microsoft))
     ("American Typewriter"            :licenses (apple))
     ("American Uncial"                :licenses (microsoft))
+    ("Amiri"                          :licenses (free) :arabic naskh)
     ("Analecta"                       :licenses (free))
     ("Andale Mono"                    :spacing mono :licenses (apple microsoft))
     ("Andalus"                        :licenses (microsoft))
@@ -1524,17 +1529,18 @@ Set to nil to disable."
                                                          "Courier New"
                                                          "Simplified Arabic Fixed"
                                                          "Simplified Arabic"
+                                                         "Amiri"                        ; 252/255
                                                          "Aldhabi"
-                                                         "Adobe Arabic"                 ; 209/254
+                                                         "Adobe Arabic"                 ; 209/255
                                                          "Urdu Typesetting"
                                                          "Geeza Pro"
-                                                         "Baghdad"                      ;  81/254
+                                                         "Baghdad"                      ;  81/255
                                                          "Damascus"
-                                                         "Al Bayan"                     ;  79/254
+                                                         "Al Bayan"                     ;  79/255
                                                          "Andalus"
                                                          "Arabic Typesetting"
                                                          "Traditional Arabic"
-                                                         "Scheherazade"
+                                                         "Scheherazade"                 ; 255/255
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
@@ -1546,14 +1552,18 @@ Set to nil to disable."
                                                          "Kufi Standard GK"
                                                          "DecoType Naskh"
                                                          "Koodak"
-                                                         "FreeMono"                     ; 212/254
+                                                         "FreeMono"                     ; 212/255
                                                          ))
     ("Arabic Extended-A"                                (
                                                          "Scheherazade"                 ; 47/47
+                                                         "Amiri"                        ;  4/47
                                                          ))
-    ;; ("Arabic Mathematical Alphabetic Symbols"        (""))                           ; todo
-    ("Arabic Presentation Forms-A"                      (                               ; todo insufficient free coverage
+    ("Arabic Mathematical Alphabetic Symbols"           (
+                                                         "Amiri"                        ; 141/143
+                                                         ))
+    ("Arabic Presentation Forms-A"                      (
                                                          "Geeza Pro"                    ; 595/611
+                                                         "Amiri"                        ; 610/611
                                                          "Arial Unicode MS"             ; 593/611
                                                          "Microsoft Sans Serif"
                                                          "Tahoma"
@@ -1572,6 +1582,7 @@ Set to nil to disable."
     ("Arabic Presentation Forms-B"                      (
                                                          "DejaVu Sans Mono"             ; 140/141
                                                          "Geeza Pro"                    ; 140/141
+                                                         "Amiri"                        ; 139/141
                                                          "Adobe Arabic"                 ; 125/141
                                                          "Traditional Arabic"
                                                          "Urdu Typesetting"
@@ -1585,14 +1596,15 @@ Set to nil to disable."
     ("Arabic Supplement"                                (
                                                          "Courier New"
                                                          "Simplified Arabic Fixed"
+                                                         "Amiri"                        ; 48/48
                                                          "Simplified Arabic"
                                                          "Geeza Pro"
                                                          "Damascus"
                                                          "Andalus"
                                                          "Arabic Typesetting"
                                                          "Traditional Arabic"
+                                                         "Scheherazade"                 ; 48/48
                                                          "Adobe Arabic"                 ; 30/48
-                                                         "Scheherazade"
                                                          "Microsoft Uighur"
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"

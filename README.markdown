@@ -284,6 +284,10 @@ From <http://sabilulungan.org/aksara/>
 
 	Sundanese Unicode             ; Sundanese
 
+From <http://www.amirifont.org/>
+
+	Amiri                         ; Arabic (Naskh)
+
 From <http://scripts.sil.org/cms/scripts/page.php?item_id=Scheherazade>
 
 	Scheherazade                  ; Arabic
