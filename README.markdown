@@ -355,6 +355,10 @@ From <http://sourceforge.net/projects/zhmono/>
 
 	ZH Mono                       ; Inscriptional Pahlavi / Parthian
 
+From <http://culmus.sourceforge.net/ancient/index.html>
+
+	Aramaic Imperial Yeb          ; Imperial Aramaic
+
 Non-free Fonts
 --------------
 

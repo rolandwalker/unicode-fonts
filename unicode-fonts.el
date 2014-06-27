@@ -342,6 +342,10 @@
 ;;
 ;;         ZH Mono                       ; Inscriptional Pahlavi / Parthian
 ;;
+;;     From http://culmus.sourceforge.net/ancient/index.html
+;;
+;;         Aramaic Imperial Yeb          ; Imperial Aramaic
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -784,6 +788,7 @@
     ("Apple Symbols"                  :licenses (apple))
     ("Arabic Transparent"             :licenses (microsoft) :arabic standard)
     ("Arabic Typesetting"             :licenses (microsoft) :arabic standard)
+    ("Aramaic Imperial Yeb"           :licenses (free))
     ("Arial Black"                    :licenses (apple microsoft))
     ("Arial Hebrew"                   :licenses (apple))
     ("Arial Narrow Special"           :licenses (microsoft))
@@ -2256,6 +2261,7 @@ Set to nil to disable."
                                                          "Cardo"                        ; 87/87
                                                          "Courier New"
                                                          "Adobe Hebrew"                 ; 54/87
+                                                         "Aramaic Imperial Yeb"         ; 28/87, uncommon characters
                                                          "Microsoft Sans Serif"
                                                          "Tahoma"
                                                          "Lucida Sans Unicode"
@@ -2309,6 +2315,7 @@ Set to nil to disable."
                                                          "DFKai-SB"
                                                          ))
     ("Imperial Aramaic"                                 (
+                                                         "Aramaic Imperial Yeb"         ; 31/31
                                                          "Quivira"
                                                          ))
     ("Inscriptional Pahlavi"                            (
