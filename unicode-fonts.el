@@ -3036,8 +3036,8 @@ Set to nil to disable."
                                                          ))
     ("Vai"                                              (
                                                          "Ebrima"
-                                                         "Dukor"
-                                                         "Wakor"
+                                                         "Dukor"                        ; 300/300
+                                                         "Wakor"                        ; 300/300
                                                          "Quivira"
                                                          ))
     ("Variation Selectors"                              (
