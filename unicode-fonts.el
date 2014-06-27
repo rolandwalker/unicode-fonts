@@ -198,6 +198,10 @@
 ;;
 ;;         Jomolhari                     ; Tibetan
 ;;
+;;     From http://www.thlib.org/tools/scripts/wiki/tibetan%20machine%20uni.html
+;;
+;;         Tibetan Machine Uni           ; Tibetan
+;;
 ;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=Padauk
 ;;
 ;;         Padauk                        ; Myanmar
@@ -1248,6 +1252,7 @@
     ("Terafik"                        :licenses (free) :arabic farsi)
     ("TharLon"                        :licenses (free))
     ("Thonburi"                       :licenses (apple))
+    ("Tibetan Machine Uni"            :licenses (free))
     ("Times New Roman Special"        :licenses (microsoft))
     ("Times New Roman"                :licenses (apple microsoft))
     ("Times"                          :licenses (apple))
@@ -2991,9 +2996,10 @@ Set to nil to disable."
     ("Tibetan"                                          (
                                                          "Kailasa"
                                                          "Kokonor"
+                                                         "Tibetan Machine Uni"          ; 206/211
                                                          "Microsoft Himalaya"
-                                                         "Jomolhari"
-                                                         "Monlam Uni Sans Serif"
+                                                         "Jomolhari"                    ; 196/211
+                                                         "Monlam Uni Sans Serif"        ; 193/211
                                                          "Arial Unicode MS"
                                                          ))
     ("Tifinagh"                                         (

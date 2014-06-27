@@ -211,6 +211,10 @@ From <http://www.library.gov.bt/IT/fonts.html>
 
 	Jomolhari                     ; Tibetan
 
+From <http://www.thlib.org/tools/scripts/wiki/tibetan%20machine%20uni.html>
+
+	Tibetan Machine Uni           ; Tibetan
+
 From <http://scripts.sil.org/cms/scripts/page.php?item_id=Padauk>
 
 	Padauk                        ; Myanmar
