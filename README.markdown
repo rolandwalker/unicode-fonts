@@ -360,6 +360,11 @@ From <http://culmus.sourceforge.net/ancient/index.html>
 
 	Aramaic Imperial Yeb          ; Imperial Aramaic
 
+From <http://www.languagegeek.com/font/fontdownload.html>
+
+	Aboriginal Sans               ; Aboriginal Languages
+	Aboriginal Serif
+
 Non-free Fonts
 --------------
 

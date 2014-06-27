@@ -347,6 +347,11 @@
 ;;
 ;;         Aramaic Imperial Yeb          ; Imperial Aramaic
 ;;
+;;     From http://www.languagegeek.com/font/fontdownload.html
+;;
+;;         Aboriginal Sans               ; Aboriginal Languages
+;;         Aboriginal Serif
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -748,6 +753,8 @@
 
 (defvar unicode-fonts-known-font-characteristics
   '(("Abadi MT Condensed"             :licenses (microsoft))
+    ("Aboriginal Sans"                :licenses (free))
+    ("Aboriginal Serif"               :licenses (free))
     ("Abyssinica SIL"                 :licenses (free))
     ("Adinatha Tamil Brahmi"          :licenses (free))
     ("Adobe Arabic"                   :licenses (adobe) :arabic standard)
@@ -1862,6 +1869,8 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Cherokee"                                         (
+                                                         "Aboriginal Sans"              ; 85/85
+                                                         "Aboriginal Serif"             ; 85/85
                                                          "Plantagenet Cherokee"
                                                          "Gadugi"
                                                          "MPH 2B Damase"
@@ -2298,6 +2307,7 @@ Set to nil to disable."
                                                          "Arial"
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
+                                                         "Aboriginal Sans"              ; 91/96
                                                          "Cardo"                        ; 96/96
                                                          "Symbola"                      ; 96/96
                                                          "Quivira"                      ; 96/96
@@ -2678,6 +2688,7 @@ Set to nil to disable."
                                                          ))
     ("Ogham"                                            (
                                                          "DejaVu Sans:width=condensed"
+                                                         "Aboriginal Serif"             ; 29/29
                                                          "Quivira"
                                                          ))
     ("Ol Chiki"                                         (                               ; todo quality free alternative
@@ -2750,6 +2761,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 128/128
                                                          "Calibri"                      ; 128/128
                                                          "Noto Sans"                    ; 128/128
+                                                         "Aboriginal Sans"              ;  79/128
                                                          "Quivira"                      ; 128/128
                                                          "Courier New"                  ; 128/128
                                                          "DejaVu Sans:width=condensed"
@@ -2759,6 +2771,7 @@ Set to nil to disable."
                                                          "Calibri"                      ; 64/64
                                                          "Courier New"                  ; 64/64 ; todo a better OSX choice
                                                          "Noto Sans"                    ; 64/64
+                                                         "Aboriginal Sans"              ; 35/64
                                                          "Quivira"                      ; 64/64
                                                          "DejaVu Sans Mono"             ; 37/64
                                                          "DejaVu Sans:width=condensed"  ; 38/64
@@ -2812,10 +2825,11 @@ Set to nil to disable."
                                                          ))
     ;; ("Rumi Numeral Symbols"                          (""))
     ("Runic"                                            (
-                                                         "Junicode"                     ; 81/81
-                                                         "FreeMono"                     ; 81/81
-                                                         "Quivira"                      ; 81/81
-                                                         "Cardo"                        ; 81/81
+                                                         "Aboriginal Serif"             ; 81/89
+                                                         "Junicode"                     ; 81/89
+                                                         "FreeMono"                     ; 81/89
+                                                         "Quivira"                      ; 81/89
+                                                         "Cardo"                        ; 81/89
                                                          ))
     ("Samaritan"                                        (
                                                          "Quivira"
@@ -3028,12 +3042,16 @@ Set to nil to disable."
                                                          "Code2001"                     ; 31/31
                                                          ))
     ("Unified Canadian Aboriginal Syllabics"            (
+                                                         "Aboriginal Sans"              ; 640/640
+                                                         "Aboriginal Serif"             ; 640/640
                                                          "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
                                                          "Quivira"
                                                          ))
     ("Unified Canadian Aboriginal Syllabics Extended"   (
+                                                         "Aboriginal Sans"              ; 70/70
+                                                         "Aboriginal Serif"             ; 70/70
                                                          "Euphemia UCAS"
                                                          "Euphemia"
                                                          "Quivira"
