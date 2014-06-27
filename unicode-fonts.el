@@ -165,6 +165,10 @@
 ;;                                       ; Glagolitic, Hanunoo, Kharoshthi, Limbu, Osmanya,
 ;;                                       ; Shavian, Syloti Nagri, Tai Le, Thaana
 ;;
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=NamdhinggoSIL
+;;
+;;         Namdhinggo SIL                ; Limbu
+;;
 ;;     From http://wenq.org/wqy2/index.cgi?FontGuide
 ;;
 ;;         WenQuanYi Zen Hei             ; CJK (Simplified Chinese)
@@ -1115,6 +1119,7 @@
     ("Mro Unicode"                    :licenses (free))
     ("NSimSun"                        :licenses (microsoft))
     ("Nadeem"                         :licenses (apple) :arabic standard)
+    ("Namdhinggo SIL"                 :licenses (free))
     ("Nanum Brush Script"             :licenses (apple))
     ("Nanum Gothic"                   :licenses (apple))
     ("Nanum Myeongjo"                 :licenses (apple))
@@ -2471,6 +2476,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 80/80
                                                          ))
     ("Limbu"                                            (
+                                                         "Namdhinggo SIL"               ; 66/68
                                                          "MPH 2B Damase"
                                                          ))
     ("Linear A"                                         (
