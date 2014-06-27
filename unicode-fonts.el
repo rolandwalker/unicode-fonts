@@ -352,6 +352,10 @@
 ;;         Aboriginal Sans               ; Aboriginal Languages
 ;;         Aboriginal Serif
 ;;
+;;     From http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home
+;;
+;;         Ezra SIL                      ; Hebrew
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -925,6 +929,8 @@
     ("Euphemia UCAS"                  :licenses (apple))
     ("Euphemia"                       :licenses (microsoft))
     ("Eurostile"                      :licenses (microsoft))
+    ("Ezra SIL"                       :licenses (free))
+    ("Ezra SIL SR"                    :licenses (free))
     ("FangSong"                       :spacing mono :chinese simplified :licenses (microsoft))
     ("Farsi Simple Bold"              :licenses (microsoft) :arabic farsi)
     ("Felix Titling"                  :licenses (microsoft))
@@ -1487,6 +1493,8 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Alphabetic Presentation Forms"                    (
+                                                         "Ezra SIL"                     ; 38/58 (FB1D-FB20, FB29-FB4F)
+                                                         "Ezra SIL SR"                  ; 38/58 (FB1D-FB20, FB29-FB4F)
                                                          "DejaVu Sans:width=condensed"  ; 58/58
                                                          "Arial Unicode MS"             ; 57/58
                                                          "Cardo"                        ; 58/58
@@ -2261,6 +2269,8 @@ Set to nil to disable."
                                                          ))
     ("Hebrew"                                           (
                                                          "Miriam Fixed"
+                                                         "Ezra SIL"                     ; 87/87
+                                                         "Ezra SIL SR"                  ; 87/87
                                                          "Arial Hebrew"
                                                          "Raanana"
                                                          "New Peninim MT"

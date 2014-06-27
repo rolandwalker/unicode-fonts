@@ -365,6 +365,10 @@ From <http://www.languagegeek.com/font/fontdownload.html>
 	Aboriginal Sans               ; Aboriginal Languages
 	Aboriginal Serif
 
+From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home>
+
+	Ezra SIL                      ; Hebrew
+
 Non-free Fonts
 --------------
 
