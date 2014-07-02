@@ -1521,9 +1521,10 @@ Set to nil to disable."
                                                          ))
     ("Ancient Greek Numbers"                            (
                                                          "Apple Symbols"
-                                                         "Cardo"                        ; 75/75
-                                                         "Aegean"                       ; 75/75
-                                                         "Quivira"
+                                                         "Cardo"                        ; 75/77
+                                                         "Aegean"                       ; 75/77
+                                                         "Quivira"                      ; 75/77
+                                                         "Symbola"                      ; 77/77
                                                          ))
     ("Ancient Symbols"                                  (
                                                          "Cardo"                        ; 12/12
