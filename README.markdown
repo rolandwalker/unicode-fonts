@@ -373,6 +373,10 @@ From <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home>
 
 	Ezra SIL                      ; Hebrew
 
+From <http://www.evertype.com/fonts/coptic/>
+
+	Antinoou                      ; Coptic / General Punctuation
+
 Non-free Fonts
 --------------
 

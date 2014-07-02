@@ -360,6 +360,10 @@
 ;;
 ;;         Ezra SIL                      ; Hebrew
 ;;
+;;     From http://www.evertype.com/fonts/coptic/
+;;
+;;         Antinoou                      ; Coptic / General Punctuation
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -792,6 +796,7 @@
     ("Angsana New"                    :licenses (microsoft))
     ("AngsanaUPC"                     :licenses (microsoft))
     ("AnmolUni"                       :licenses (free))
+    ("Antinoou"                       :licenses (free))
     ("Aparajita"                      :licenses (microsoft))
     ("Apple Braille"                  :licenses (apple))
     ("Apple Casual"                   :licenses (apple))
@@ -1971,6 +1976,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Coptic"                                           (
+                                                         "Antinoou"                     ; 123/123
                                                          "Analecta"                     ; 123/123
                                                          "Nilus"                        ; 123/123
                                                          "Quivira"                      ; 123/123
@@ -2149,13 +2155,15 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("General Punctuation"                              (
-                                                         "Monaco"
+                                                         "Monaco"                       ;  16/111 this will give poor results if existence-checks is set to 'first
                                                          "Apple Symbols"
-                                                         "Cambria Math"
-                                                         "DejaVu Sans:width=condensed"
-                                                         "Symbola"
-                                                         "Code2000"
-                                                         "Quivira"
+                                                         "Cambria Math"                 ;  36/111
+                                                         "DejaVu Sans Mono"             ;  52/111
+                                                         "DejaVu Sans:width=condensed"  ; 107/111
+                                                         "Antinoou"                     ; 106/111
+                                                         "Symbola"                      ; 111/111
+                                                         "Code2000"                     ; 106/111
+                                                         "Quivira"                      ; 105/111
                                                          "FreeMono"                     ; 101/111
                                                          ))
     ("Geometric Shapes"                                 (
@@ -2201,6 +2209,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 232/233
                                                          "DejaVu Sans Mono"
                                                          "Courier New"
+                                                         "Antinoou"                     ; 233/233
                                                          "Noto Sans"                    ; 233/233
                                                          "DejaVu Sans:width=condensed"
                                                          "Cardo"                        ; 233/233
@@ -2218,21 +2227,22 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 233/233
                                                          ))
     ("Greek and Coptic"                                 (
-                                                         "Consolas"                     ; 127/134
-                                                         "DejaVu Sans Mono"             ; 110/134
-                                                         "DejaVu Sans:width=condensed"  ; 134/134
-                                                         "Noto Sans"                    ; 127/134
-                                                         "Calibri"                      ; 127/134
-                                                         "Microsoft Sans Serif"         ; 112/134
+                                                         "Consolas"                     ;  75/135
+                                                         "DejaVu Sans Mono"             ; 110/135
+                                                         "DejaVu Sans:width=condensed"  ; 134/135
+                                                         "Antinoou"                     ; 135/135
+                                                         "Noto Sans"                    ; 127/135
+                                                         "Calibri"                      ; 127/135
+                                                         "Microsoft Sans Serif"         ; 112/135
                                                          "Gentium Plus Compact"
                                                          "Gentium Plus"
-                                                         "Lucida Console"               ; 73/134
-                                                         "Arial Unicode MS"             ; 105/134
-                                                         "Cardo"                        ; 134/134
-                                                         "Aegean"                       ; 134/134
+                                                         "Lucida Console"               ;  73/135
+                                                         "Arial Unicode MS"             ; 105/135
+                                                         "Cardo"                        ; 134/135
+                                                         "Aegean"                       ; 134/135
                                                          "Code2000"
-                                                         "Symbola"                      ; 134/134
-                                                         "Quivira"                      ; 134/134
+                                                         "Symbola"                      ; 135/135
+                                                         "Quivira"                      ; 134/135
                                                          ))
     ("Gujarati"                                         (
                                                          "Gujarati Sangam MN"
@@ -2996,12 +3006,13 @@ Set to nil to disable."
                                                          "Quivira"                      ; 256/256
                                                          ))
     ("Supplemental Punctuation"                         (
-                                                         "DejaVu Sans Mono"             ;  6/60  ; this will give poor results if existence-checks is set to 'first
-                                                         "Cardo"                        ; 43/60
-                                                         "Aegean"                       ; 43/60
-                                                         "Symbola"                      ; 60/60
-                                                         "Quivira"                      ; 60/60
-                                                         "Code2000"                     ; 49/60
+                                                         "DejaVu Sans Mono"             ;  6/67  ; this will give poor results if existence-checks is set to 'first
+                                                         "Antinoou"                     ; 46/67
+                                                         "Cardo"                        ; 43/67
+                                                         "Aegean"                       ; 48/67
+                                                         "Symbola"                      ; 67/67
+                                                         "Quivira"                      ; 60/67
+                                                         "Code2000"                     ; 49/67
                                                          ))
     ;; ("Supplementary Private Use Area-A"              (
     ;;                                                   "Aegean"                       ; 3,600/65,534
