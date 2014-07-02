@@ -1503,6 +1503,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 58/58
                                                          "Arial Unicode MS"             ; 57/58
                                                          "Cardo"                        ; 58/58
+                                                         "Code2000"
                                                          "Quivira"                      ; 58/58
                                                          "FreeMono"                     ; 52/58
                                                          ))
@@ -1553,6 +1554,7 @@ Set to nil to disable."
                                                          "DecoType Naskh"
                                                          "Koodak"
                                                          "FreeMono"                     ; 212/255
+                                                         "Code2000"
                                                          ))
     ("Arabic Extended-A"                                (
                                                          "Scheherazade"                 ; 47/47
@@ -1592,6 +1594,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 140/141
                                                          "FreeMono"                     ; 141/141
                                                          "DecoType Naskh"               ;  89/141
+                                                         "Code2000"
                                                          ))
     ("Arabic Supplement"                                (
                                                          "Courier New"
@@ -1616,6 +1619,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Quivira"
                                                          "MPH 2B Damase"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          "FreeMono"                     ; 87/87
                                                          ))
@@ -1627,6 +1631,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          "FreeMono"                     ;  77/112
                                                          ))
     ("Avestan"                                          (
@@ -1658,6 +1663,7 @@ Set to nil to disable."
                                                          "Apple Symbols"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          ))
     ("Bopomofo"                                         (                               ; prefer traditional
                                                          "Lantinghei TC"
@@ -1675,6 +1681,7 @@ Set to nil to disable."
                                                          "Lantinghei SC"
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 41/41
+                                                         "Code2000"
                                                          ))
     ("Bopomofo Extended"                                (
                                                          "MingLiU"
@@ -1685,6 +1692,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
                                                          "BabelStone Han"               ; 27/27
+                                                         "Code2000"
                                                          ))
     ("Box Drawing"                                      (
                                                          "DejaVu Sans Mono"
@@ -1692,6 +1700,7 @@ Set to nil to disable."
                                                          "DejaVu Sans"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          ))
     ("Brahmi"                                           (
                                                          "Adinatha Tamil Brahmi"        ; 45/108
@@ -1702,12 +1711,15 @@ Set to nil to disable."
                                                          "Apple Symbols"
                                                          "Symbola"
                                                          "FreeMono"                     ; 256/256
+                                                         "Code2000"
                                                          ))
     ("Buginese"                                         (
                                                          "MPH 2B Damase"
+                                                         "Code2000"
                                                          ))
     ("Buhid"                                            (
                                                          "Quivira"
+                                                         "Code2000"
                                                          ))
     ("Byzantine Musical Symbols"                        (
                                                          "Musica"
@@ -1727,6 +1739,7 @@ Set to nil to disable."
                                                          "WenQuanYi Zen Hei Mono"       ; 154/256
                                                          "HanaMinA"                     ; 149/256
                                                          "BabelStone Han"               ; 73/256
+                                                         "Code2000"
                                                          ))
     ("CJK Compatibility Forms"                          (
                                                          "WenQuanYi Zen Hei Mono"       ; 32/32
@@ -1746,6 +1759,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Xingkai SC"                   ; 19/32
                                                          "DFKai-SB"
+                                                         "Code2000"
                                                          ))
     ("CJK Compatibility Ideographs Supplement"          (
                                                          "WenQuanYi Zen Hei Mono"       ; 542/542
@@ -1791,11 +1805,13 @@ Set to nil to disable."
                                                          "Microsoft JhengHei UI"
                                                          "DFKai-SB"
                                                          "Apple Symbols"
+                                                         "Code2000"
                                                          ))
     ("CJK Strokes"                                      (
                                                          "WenQuanYi Zen Hei Mono"       ; 36/36
                                                          "HanaMinA"                     ; 36/36
                                                          "BabelStone Han"               ; 26/26
+                                                         "Code2000"
                                                          ))
     ("CJK Symbols and Punctuation"                      (
                                                          "Lantinghei SC"
@@ -1814,6 +1830,7 @@ Set to nil to disable."
                                                          "PC Myungjo"
                                                          "BabelStone Han"               ; 54/64
                                                          "Osaka:spacing=m"
+                                                         "Code2000"
                                                          ))
     ("CJK Unified Ideographs"                           (
                                                          "WenQuanYi Zen Hei Mono"       ; 20932/20941
@@ -1896,6 +1913,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          "Quivira"
                                                          "FreeMono"                     ; 85/85
+                                                         "Code2000"
                                                          ))
     ("Combining Diacritical Marks"                      (
                                                          "Monaco"
@@ -1906,6 +1924,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "DejaVu Sans Mono"
                                                          "Cardo"                        ; 112/112
+                                                         "Code2000"                     ; 112/112
                                                          "Gentium Plus"                 ; 108/112
                                                          "Junicode"                     ; 109/112
                                                          "Tahoma"
@@ -1930,7 +1949,8 @@ Set to nil to disable."
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
-                                                         "Symbola"
+                                                         "Symbola"                      ; 33/33
+                                                         "Code2000"                     ; 28/33
                                                          "Arial Unicode MS"             ; 18/33
                                                          ))
     ("Combining Half Marks"                             (
@@ -1948,6 +1968,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 39/39
+                                                         "Code2000"
                                                          ))
     ("Coptic"                                           (
                                                          "Analecta"                     ; 123/123
@@ -2010,16 +2031,18 @@ Set to nil to disable."
                                                          ))
     ("Cyrillic Extended-B"                              (
                                                          "Quivira"
+                                                         "Code2000"                     ; 78/95
                                                          ))
     ("Cyrillic Supplement"                              (
-                                                         "Consolas"                     ; 20/40
+                                                         "Consolas"                     ; 20/48
                                                          "Courier New"
                                                          "Calibri"
-                                                         "Noto Sans"                    ; 40/40
+                                                         "Noto Sans"                    ; 40/48
                                                          "DejaVu Sans:width=condensed"
-                                                         "Doulos SIL"                   ; 34/40
+                                                         "Doulos SIL"                   ; 34/48
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"                     ; 36/48
                                                          ))
     ("Deseret"                                          (
                                                          "Apple Symbols"
@@ -2035,6 +2058,7 @@ Set to nil to disable."
                                                          "Samyak"
                                                          "Siddhanta"                    ; 127/127
                                                          "Aparajita"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
     ("Devanagari Extended"                              (
@@ -2091,6 +2115,7 @@ Set to nil to disable."
                                                          "Meiryo"                       ; 174/254
                                                          "BabelStone Han"               ; 191/254
                                                          "Quivira"
+                                                         "Code2000"
                                                          "UnBatang"                     ; 58/254
                                                          ))
     ("Enclosed Ideographic Supplement"                  (
@@ -2129,6 +2154,7 @@ Set to nil to disable."
                                                          "Cambria Math"
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
+                                                         "Code2000"
                                                          "Quivira"
                                                          "FreeMono"                     ; 101/111
                                                          ))
@@ -2139,6 +2165,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 96/96
+                                                         "Code2000"
                                                          ))
     ("Geometric Shapes Extended"                        (
                                                          "Symbola"                      ; 85/85
@@ -2186,6 +2213,7 @@ Set to nil to disable."
                                                          "Tahoma"
                                                          "Doulos SIL"
                                                          "Aegean"                       ; 233/233
+                                                         "Code2000"
                                                          "Quivira"
                                                          "FreeMono"                     ; 233/233
                                                          ))
@@ -2202,6 +2230,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 105/134
                                                          "Cardo"                        ; 134/134
                                                          "Aegean"                       ; 134/134
+                                                         "Code2000"
                                                          "Symbola"                      ; 134/134
                                                          "Quivira"                      ; 134/134
                                                          ))
@@ -2212,6 +2241,7 @@ Set to nil to disable."
                                                          "Shruti"
                                                          "Samyak Gujarati"
                                                          "Samyak"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
     ("Gurmukhi"                                         (
@@ -2219,6 +2249,7 @@ Set to nil to disable."
                                                          "Gurmukhi MN"
                                                          "Nirmala UI"
                                                          "Raavi"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          "AnmolUni"
                                                          ))
@@ -2296,6 +2327,7 @@ Set to nil to disable."
                                                          "Cardo"                        ; 87/87
                                                          "Courier New"
                                                          "Adobe Hebrew"                 ; 54/87
+                                                         "Code2000"
                                                          "Aramaic Imperial Yeb"         ; 28/87, uncommon characters
                                                          "Microsoft Sans Serif"
                                                          "Tahoma"
@@ -2318,6 +2350,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 93/93
                                                          "BabelStone Han"               ; 93/93
                                                          "Microsoft JhengHei"           ; 93/93
+                                                         "Code2000"
                                                          ))
     ("IPA Extensions"                                   (
                                                          "Monaco"
@@ -2334,6 +2367,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 96/96
                                                          "Quivira"                      ; 96/96
                                                          "FreeMono"                     ; 96/96
+                                                         "Code2000"
                                                          ))
     ("Ideographic Description Characters"               (
                                                          "SimHei"
@@ -2349,6 +2383,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 12/12
                                                          "Quivira"
                                                          "DFKai-SB"
+                                                         "Code2000"
                                                          ))
     ("Imperial Aramaic"                                 (
                                                          "Aramaic Imperial Yeb"         ; 31/31
@@ -2382,6 +2417,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 16/16
                                                          "MingLiU"
                                                          "Microsoft JhengHei"           ; 16/16
+                                                         "Code2000"
                                                          ))
     ("Kangxi Radicals"                                  (
                                                          "WenQuanYi Zen Hei Mono"       ; 214/214
@@ -2399,7 +2435,7 @@ Set to nil to disable."
                                                          "DFKai-SB"
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
-
+                                                         "Code2000"
                                                          ;; "Aqua Kana"
                                                          ))
     ("Kannada"                                          (
@@ -2421,6 +2457,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 96/96
                                                          "Microsoft JhengHei"           ; 96/96
+                                                         "Code2000"
                                                          ))
     ("Katakana Phonetic Extensions"                     (
                                                          "MS Gothic"
@@ -2429,6 +2466,7 @@ Set to nil to disable."
                                                          "Meiryo"
                                                          "HanaMinA"                     ; 16/16
                                                          "BabelStone Han"               ; 16/16
+                                                         "Code2000"
                                                          ))
     ("Kayah Li"                                         (
                                                          "Code2000"
@@ -2461,6 +2499,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 65/65
                                                          "Saysettha MX"                 ; 65/65
                                                          "DejaVu Sans:width=condensed"  ; 65/65
+                                                         "Code2000"
                                                          ))
     ;; ("Latin Extended Additional"                     (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
@@ -2490,6 +2529,7 @@ Set to nil to disable."
                                                          "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
                                                          "Gentium Plus"                 ; 30/32
+                                                         "Code2000"
                                                          "Quivira"
                                                          "Doulos SIL"                   ; 30/32
                                                          ))
@@ -2526,6 +2566,7 @@ Set to nil to disable."
     ("Limbu"                                            (
                                                          "Namdhinggo SIL"               ; 66/68
                                                          "MPH 2B Damase"
+                                                         "Code2000"
                                                          ))
     ("Linear A"                                         (
                                                          "Aegean"                       ; 341/341
@@ -2564,6 +2605,7 @@ Set to nil to disable."
                                                          "Samyak Malayalam"
                                                          "Samyak"
                                                          "Akshar Unicode"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
     ;; ("Mandaic"                                       (""))                           ; todo
@@ -2602,6 +2644,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Mathematical Symbols-A"             (
                                                          "Apple Symbols"
+                                                         "Code2000"
                                                          "Symbola"                      ; 48/48
                                                          "Quivira"                      ; 48/48
                                                          "Cambria Math"                 ; 28/48
@@ -2627,6 +2670,7 @@ Set to nil to disable."
     ("Miscellaneous Symbols and Arrows"                 (
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
                                                          "Apple Color Emoji"            ; 533/533
@@ -2636,6 +2680,7 @@ Set to nil to disable."
     ("Miscellaneous Technical"                          (
                                                          "Apple Symbols"
                                                          "Cambria Math"                 ; 208/244
+                                                         "Code2000"
                                                          "Symbola"                      ; 244/244
                                                          "Quivira"                      ; 244/244
                                                          ))
@@ -2711,6 +2756,7 @@ Set to nil to disable."
     ("Ogham"                                            (
                                                          "DejaVu Sans:width=condensed"
                                                          "Aboriginal Serif"             ; 29/29
+                                                         "Code2000"
                                                          "Quivira"
                                                          ))
     ("Ol Chiki"                                         (                               ; todo quality free alternative
@@ -2743,6 +2789,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 11/11
+                                                         "Code2000"
                                                          ))
     ("Oriya"                                            (
                                                          "Oriya Sangam MN"
@@ -2750,6 +2797,7 @@ Set to nil to disable."
                                                          "Kalinga"
                                                          "Samyak Oriya"
                                                          "Samyak"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
     ("Ornamental Dingbats"                              (
@@ -2787,6 +2835,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 128/128
                                                          "Courier New"                  ; 128/128
                                                          "DejaVu Sans:width=condensed"
+                                                         "Code2000"
                                                          ))
     ("Phonetic Extensions Supplement"                   (
                                                          "Consolas"                     ; 64/64
@@ -2851,6 +2900,7 @@ Set to nil to disable."
                                                          "Junicode"                     ; 81/89
                                                          "FreeMono"                     ; 81/89
                                                          "Quivira"                      ; 81/89
+                                                         "Code2000"
                                                          "Cardo"                        ; 81/89
                                                          ))
     ("Samaritan"                                        (
@@ -2925,6 +2975,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          "FreeMono"                     ; 10/16
                                                          ))
     ("Supplemental Arrows-B"                            (
@@ -2932,13 +2983,15 @@ Set to nil to disable."
                                                          "Cambria Math"                 ; 128/128
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          ))
     ("Supplemental Arrows-C"                            (
                                                          "Symbola"                      ; 148/148
                                                          ))
     ("Supplemental Mathematical Operators"              (
                                                          "Apple Symbols"
-                                                         "Cambria Math"                 ; 256/256
+                                                         "Cambria Math"                 ;  10/256
+                                                         "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
                                                          "Quivira"                      ; 256/256
                                                          ))
@@ -3013,6 +3066,7 @@ Set to nil to disable."
                                                          "Akshar Unicode"
                                                          "Samyak Tamil"
                                                          "Samyak"
+                                                         "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
     ("Telugu"                                           (
@@ -3027,6 +3081,7 @@ Set to nil to disable."
     ("Thaana"                                           (
                                                          "MV Boli"
                                                          "MPH 2B Damase"
+                                                         "Code2000"
                                                          ))
     ("Thai"                                             (
                                                          "Ayuthaya"
@@ -3036,6 +3091,7 @@ Set to nil to disable."
                                                          "Thonburi"
                                                          "DokChampa"
                                                          "Angsana New"
+                                                         "Code2000"
                                                          "Tahoma"
                                                          "Arial Unicode MS"
                                                          "Quivira"
@@ -3052,6 +3108,7 @@ Set to nil to disable."
     ("Tifinagh"                                         (
                                                          "Ebrima"
                                                          "DejaVu Sans:width=condensed"
+                                                         "Code2000"
                                                          "Quivira"
                                                          ))
     ;; ("Tirhuta"                                       (""))                           ; todo added in Unicode 7.0
@@ -3069,6 +3126,7 @@ Set to nil to disable."
                                                          "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
+                                                         "Code2000"
                                                          "Quivira"
                                                          ))
     ("Unified Canadian Aboriginal Syllabics Extended"   (
@@ -3082,10 +3140,12 @@ Set to nil to disable."
                                                          "Ebrima"
                                                          "Dukor"                        ; 300/300
                                                          "Wakor"                        ; 300/300
+                                                         "Code2000"
                                                          "Quivira"
                                                          ))
     ("Variation Selectors"                              (
                                                          "BabelStone Han"               ; 16/16
+                                                         "Code2000"
                                                          ))
     ("Variation Selectors Supplement"                   (
                                                          "BabelStone Han"               ; 240/240
@@ -3102,12 +3162,14 @@ Set to nil to disable."
                                                          "PC Myungjo"
                                                          "Microsoft Yi Baiti"
                                                          "Nuosu SIL"
+                                                         "Code2000"
                                                          ))
     ("Yi Syllables"                                     (
                                                          "ST Fangsong"                  ; 1024/1024
                                                          "Apple Myungjo"
                                                          "Microsoft Yi Baiti"
                                                          "Nuosu SIL"
+                                                         "Code2000"
                                                          ))
     ("Yijing Hexagram Symbols"                          (
                                                          "Apple Symbols"
@@ -3116,6 +3178,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Code2000"
                                                          )))
   "Preferred fonts for each Unicode block.
 
