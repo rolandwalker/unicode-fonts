@@ -364,6 +364,10 @@
 ;;
 ;;         Antinoou                      ; Coptic / General Punctuation
 ;;
+;;     From http://apagreekkeys.org/NAUdownload.html
+;;
+;;         New Athena Unicode            ; Ancient Languages / Symbols
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 24.4-devel     : yes, at the time of writing
@@ -1159,6 +1163,7 @@
     ("Nanum Pen Script"               :licenses (apple))
     ("Narkisim"                       :licenses (microsoft))
     ("Nazli"                          :licenses (free) :arabic farsi)
+    ("New Athena Unicode"             :licenses (free))
     ("New Caledonia"                  :licenses (microsoft))
     ("New Peninim MT"                 :licenses (apple))
     ("News Gothic MT"                 :licenses (microsoft))
@@ -1515,12 +1520,14 @@ Set to nil to disable."
     ("Ancient Greek Musical Notation"                   (
                                                          "Cardo"                        ; 70/70
                                                          "Aegean"                       ; 70/70
+                                                         "New Athena Unicode"           ; 70/70
                                                          "Musica"                       ; 70/70
                                                          "Symbola"                      ; 70/70
                                                          "Quivira"                      ; 70/70
                                                          ))
     ("Ancient Greek Numbers"                            (
                                                          "Apple Symbols"
+                                                         "New Athena Unicode"           ; 75/77
                                                          "Cardo"                        ; 75/77
                                                          "Aegean"                       ; 75/77
                                                          "Quivira"                      ; 75/77
@@ -1528,6 +1535,7 @@ Set to nil to disable."
                                                          ))
     ("Ancient Symbols"                                  (
                                                          "Analecta"                     ; 12/13
+                                                         "New Athena Unicode"           ; 12/13
                                                          "Cardo"                        ; 12/13
                                                          "Aegean"                       ; 13/13
                                                          "Quivira"                      ; 12/13
@@ -1981,6 +1989,7 @@ Set to nil to disable."
                                                          "Antinoou"                     ; 123/123
                                                          "Analecta"                     ; 123/123
                                                          "Nilus"                        ; 123/123
+                                                         "New Athena Unicode"           ; 121/123
                                                          "Quivira"                      ; 123/123
                                                          "Code2000"                     ; 114/123
                                                          ))
@@ -2216,6 +2225,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Cardo"                        ; 233/233
                                                          "Junicode"                     ; 233/233
+                                                         "New Athena Unicode"           ; 233/233
                                                          "Microsoft Sans Serif"
                                                          "Gentium Plus Compact"
                                                          "Gentium Plus"
@@ -2234,6 +2244,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 134/135
                                                          "Antinoou"                     ; 135/135
                                                          "Noto Sans"                    ; 127/135
+                                                         "New Athena Unicode"           ; 134/135
                                                          "Calibri"                      ; 127/135
                                                          "Microsoft Sans Serif"         ; 112/135
                                                          "Gentium Plus Compact"
@@ -2775,12 +2786,13 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Old Italic"                                       (
-                                                         "DejaVu Sans:width=condensed"  ; 35/35
-                                                         "Cardo"                        ; 35/35
-                                                         "Code2001"                     ; 35/35
-                                                         "Aegean"                       ; 35/35
-                                                         "Quivira"                      ; 35/35
-                                                         "FreeMono"                     ; 35/35
+                                                         "DejaVu Sans:width=condensed"  ; 35/36
+                                                         "Cardo"                        ; 35/36
+                                                         "New Athena Unicode"           ; 35/36
+                                                         "Aegean"                       ; 36/36
+                                                         "Code2001"                     ; 35/36
+                                                         "Quivira"                      ; 35/36
+                                                         "FreeMono"                     ; 35/36
                                                          ))
     ;; ("Old North Arabian"                             (""))                           ; todo added in Unicode 7.0
     ;; ("Old Permic"                                    (""))                           ; todo added in Unicode 7.0
@@ -3010,6 +3022,7 @@ Set to nil to disable."
     ("Supplemental Punctuation"                         (
                                                          "DejaVu Sans Mono"             ;  6/67  ; this will give poor results if existence-checks is set to 'first
                                                          "Antinoou"                     ; 46/67
+                                                         "New Athena Unicode"           ; 60/67
                                                          "Cardo"                        ; 43/67
                                                          "Aegean"                       ; 48/67
                                                          "Symbola"                      ; 67/67

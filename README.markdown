@@ -377,6 +377,10 @@ From <http://www.evertype.com/fonts/coptic/>
 
 	Antinoou                      ; Coptic / General Punctuation
 
+From <http://apagreekkeys.org/NAUdownload.html>
+
+	New Athena Unicode            ; Ancient Languages / Symbols
+
 Non-free Fonts
 --------------
 
