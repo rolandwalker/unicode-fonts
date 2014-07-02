@@ -1527,10 +1527,11 @@ Set to nil to disable."
                                                          "Symbola"                      ; 77/77
                                                          ))
     ("Ancient Symbols"                                  (
-                                                         "Cardo"                        ; 12/12
-                                                         "Analecta"                     ; 12/12
-                                                         "Aegean"                       ; 12/12
-                                                         "Quivira"                      ; 12/12
+                                                         "Analecta"                     ; 12/13
+                                                         "Cardo"                        ; 12/13
+                                                         "Aegean"                       ; 13/13
+                                                         "Quivira"                      ; 12/13
+                                                         "Symbola"                      ; 13/13
                                                          ))
     ("Arabic"                                           (
                                                          "Courier New"
