@@ -1513,11 +1513,11 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 52/58
                                                          ))
     ("Ancient Greek Musical Notation"                   (
-                                                         "Musica"
-                                                         "Aegean"                       ; 70/70
                                                          "Cardo"                        ; 70/70
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Aegean"                       ; 70/70
+                                                         "Musica"                       ; 70/70
+                                                         "Symbola"                      ; 70/70
+                                                         "Quivira"                      ; 70/70
                                                          ))
     ("Ancient Greek Numbers"                            (
                                                          "Apple Symbols"
