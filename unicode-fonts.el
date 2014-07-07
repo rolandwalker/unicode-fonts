@@ -1706,6 +1706,8 @@ Set to nil to disable."
                                                          "DFKai-SB"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "Microsoft YaHei"              ; 24/27
+                                                         "Microsoft YaHei UI"           ; 24/27
                                                          "BabelStone Han"               ; 27/27
                                                          "Code2000"
                                                          ))
@@ -2281,6 +2283,8 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 223/225
                                                          "Microsoft JhengHei"           ; 225/225
                                                          "Microsoft JhengHei UI"        ; 225/225
+                                                         "Microsoft YaHei"              ; 224/225
+                                                         "Microsoft YaHei UI"           ; 224/225
                                                          "BabelStone Han"               ; 173/225
                                                          "Apple Symbols"                ;  55/225
                                                          "Code2000"                     ; 186/225
@@ -2373,6 +2377,8 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 93/93
                                                          "BabelStone Han"               ; 93/93
                                                          "Microsoft JhengHei"           ; 93/93
+                                                         "Microsoft YaHei"              ; 93/93
+                                                         "Microsoft YaHei UI"           ; 93/93
                                                          "Code2000"
                                                          ))
     ("IPA Extensions"                                   (
@@ -2440,6 +2446,8 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 16/16
                                                          "MingLiU"
                                                          "Microsoft JhengHei"           ; 16/16
+                                                         "Microsoft YaHei"              ; 16/16
+                                                         "Microsoft YaHei UI"           ; 16/16
                                                          "Code2000"
                                                          ))
     ("Kangxi Radicals"                                  (
@@ -2480,6 +2488,8 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 96/96
                                                          "Microsoft JhengHei"           ; 96/96
+                                                         "Microsoft YaHei"              ; 96/96
+                                                         "Microsoft YaHei UI"           ; 96/96
                                                          "Code2000"
                                                          ))
     ("Katakana Phonetic Extensions"                     (
@@ -2488,6 +2498,8 @@ Set to nil to disable."
                                                          ;; "Aqua Kana"
                                                          "Meiryo"
                                                          "HanaMinA"                     ; 16/16
+                                                         "Microsoft YaHei"              ; 16/16
+                                                         "Microsoft YaHei UI"           ; 16/16
                                                          "BabelStone Han"               ; 16/16
                                                          "Code2000"
                                                          ))
@@ -2953,6 +2965,8 @@ Set to nil to disable."
                                                          "Apple Symbols"
                                                          "Arial Unicode MS"
                                                          "WenQuanYi Zen Hei Mono"       ; 25/26
+                                                         "Microsoft YaHei"              ; 26/26
+                                                         "Microsoft YaHei UI"           ; 26/26
                                                          "Code2000"
                                                          ))
     ("Sora Sompeng"                                     (
@@ -3180,6 +3194,8 @@ Set to nil to disable."
                                                          "Siddhanta"
                                                          ))
     ("Vertical Forms"                                   (
+                                                         "Microsoft YaHei"              ; 10/10
+                                                         "Microsoft YaHei UI"           ; 10/10
                                                          "Symbola"
                                                          ))
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
