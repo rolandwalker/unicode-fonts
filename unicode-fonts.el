@@ -2965,7 +2965,9 @@ Set to nil to disable."
     ("Rejang"                                           (                               ; todo quality free alternative
                                                          "Code2000"
                                                          ))
-    ;; ("Rumi Numeral Symbols"                          (""))
+    ("Rumi Numeral Symbols"                             (
+                                                         "HanaMinA"                     ; 31/31
+                                                         ))
     ("Runic"                                            (
                                                          "Segoe UI Symbol"              ; 81/89
                                                          "Aboriginal Serif"             ; 81/89
