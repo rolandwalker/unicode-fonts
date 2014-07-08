@@ -178,6 +178,7 @@
 ;;
 ;;         BabelStone Han                ; CJK (Simplified Chinese)
 ;;         BabelStone Phags-pa Book      ; Phags-pa
+;;         BabelStone Modern             ; Tags / Specials / Selectors
 ;;
 ;;     From http://vietunicode.sourceforge.net/fonts/fonts_hannom.html
 ;;
@@ -845,6 +846,7 @@
     ("Avenir"                         :licenses (apple))
     ("Ayuthaya"                       :licenses (apple))
     ("BabelStone Han"                 :chinese simplified :licenses (free))
+    ("BabelStone Modern"              :licenses (free))
     ("BabelStone Phags-pa Book"       :licenses (free))
     ("Baghdad"                        :licenses (apple) :arabic naskh)
     ("Bangla MN"                      :licenses (apple))
@@ -1666,6 +1668,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 112/112
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
+                                                         "BabelStone Modern"            ; 102/112
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
@@ -1699,6 +1702,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 32/32
+                                                         "BabelStone Modern"            ; 32/32
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
@@ -2019,6 +2023,7 @@ Set to nil to disable."
                                                          ))
     ("Control Pictures"                                 (
                                                          "Apple Symbols"
+                                                         "BabelStone Modern"            ; 39/39
                                                          "Segoe UI Symbol"              ; 39/39
                                                          "Arial Unicode MS"
                                                          "Symbola"
@@ -2042,6 +2047,7 @@ Set to nil to disable."
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
                                                          "Apple Symbols"
+                                                         "BabelStone Modern"            ; 18/18
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2001"                     ; 18/18
@@ -2158,6 +2164,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 169/173
                                                          "Quivira"
                                                          "BabelStone Han"               ; 171/173
+                                                         "BabelStone Modern"            ; 169/173
                                                          ))
     ("Enclosed Alphanumerics"                           (
                                                          ;; "Aqua Kana"
@@ -2168,6 +2175,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          "WenQuanYi Zen Hei Mono"       ; 160/160
+                                                         "BabelStone Modern"            ; 160/160
                                                          "HAN NOM A"                    ; 139/160
                                                          ))
     ("Enclosed CJK Letters and Months"                  (
@@ -2228,6 +2236,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 106/111
                                                          "Quivira"                      ; 105/111
                                                          "FreeMono"                     ; 101/111
+                                                         "BabelStone Modern"            ;  96/111
                                                          ))
     ("Geometric Shapes"                                 (
                                                          "DejaVu Sans Mono"
@@ -2236,6 +2245,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "BabelStone Modern"            ; 96/96
                                                          "FreeMono"                     ; 96/96
                                                          "Code2000"
                                                          ))
@@ -2865,6 +2875,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 29/29
                                                          "DejaVu Sans:width=condensed"
                                                          "Aboriginal Serif"             ; 29/29
+                                                         "BabelStone Modern"            ; 29/29
                                                          "Code2000"
                                                          "Quivira"
                                                          ))
@@ -2902,6 +2913,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 11/11
+                                                         "BabelStone Modern"            ; 11/11
                                                          "Code2000"
                                                          ))
     ("Oriya"                                            (
@@ -3065,6 +3077,7 @@ Set to nil to disable."
     ;;                                                   "Symbola"                      ; 80/80
     ;;                                                   ))
     ("Specials"                                         (
+                                                         "BabelStone Modern"            ; 5/5
                                                          "Apple Symbols"
                                                          "Arial Unicode MS"
                                                          "DejaVu Sans Mono"
@@ -3098,6 +3111,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "Code2000"
                                                          "FreeMono"                     ; 10/16
+                                                         "BabelStone Modern"            ; 12/16
                                                          ))
     ("Supplemental Arrows-B"                            (
                                                          "Apple Symbols"
@@ -3156,6 +3170,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Tags"                                             (
+                                                         "BabelStone Modern"            ; 97/97
                                                          "BabelStone Han"               ; 97/97
                                                          ))
     ("Tai Le"                                           (
@@ -3180,6 +3195,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "BabelStone Modern"            ; 87/87
                                                          "Code2001"                     ; 87/87
                                                          ))
     ;; ("Takri"                                         (""))                           ; todo
@@ -3272,10 +3288,12 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Variation Selectors"                              (
+                                                         "BabelStone Modern"            ; 16/16
                                                          "BabelStone Han"               ; 16/16
                                                          "Code2000"
                                                          ))
     ("Variation Selectors Supplement"                   (
+                                                         "BabelStone Modern"            ; 240/240
                                                          "BabelStone Han"               ; 240/240
                                                          ))
     ("Vedic Extensions"                                 (
@@ -3309,6 +3327,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
                                                          "Quivira"
+                                                         "BabelStone Modern"            ; 64/64
                                                          "Code2000"
                                                          )))
   "Preferred fonts for each Unicode block.

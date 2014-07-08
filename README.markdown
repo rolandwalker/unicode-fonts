@@ -191,6 +191,7 @@ From <http://babelstone.co.uk/Fonts/>
 
 	BabelStone Han                ; CJK (Simplified Chinese)
 	BabelStone Phags-pa Book      ; Phags-pa
+	BabelStone Modern             ; Tags / Specials / Selectors
 
 From <http://vietunicode.sourceforge.net/fonts/fonts_hannom.html>
 
