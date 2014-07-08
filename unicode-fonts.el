@@ -1252,7 +1252,8 @@
     ("Segoe Chess"                    :licenses (microsoft))
     ("Segoe Print"                    :licenses (microsoft))
     ("Segoe Script"                   :licenses (microsoft))
-    ("Segoe UI"                       :licenses (microsoft))
+    ("Segoe UI"                       :licenses (microsoft) :cleartype t)
+    ("Segoe UI Symbol"                :licenses (microsoft) :cleartype t)
     ("Shonar Bangla"                  :licenses (microsoft))
     ("Showcard Gothic"                :licenses (microsoft))
     ("Shruti"                         :licenses (microsoft))
@@ -1642,6 +1643,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"
                                                          "Apple Symbols"
                                                          "Cambria Math"                 ; 112/112
+                                                         "Segoe UI Symbol"              ; 112/112
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
                                                          "Symbola"
@@ -1676,6 +1678,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 32/32
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 32/32
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
@@ -1713,6 +1716,7 @@ Set to nil to disable."
                                                          ))
     ("Box Drawing"                                      (
                                                          "DejaVu Sans Mono"
+                                                         "Segoe UI Symbol"              ; 128/128
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
                                                          "Symbola"
@@ -1726,6 +1730,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 256/256
                                                          "Symbola"
                                                          "FreeMono"                     ; 256/256
                                                          "Code2000"
@@ -1966,6 +1971,7 @@ Set to nil to disable."
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
+                                                         "Segoe UI Symbol"              ; 33/33
                                                          "Symbola"                      ; 33/33
                                                          "Code2000"                     ; 28/33
                                                          "Arial Unicode MS"             ; 18/33
@@ -1981,6 +1987,7 @@ Set to nil to disable."
                                                          ))
     ("Control Pictures"                                 (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 39/39
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
@@ -1992,6 +1999,7 @@ Set to nil to disable."
                                                          "Analecta"                     ; 123/123
                                                          "Nilus"                        ; 123/123
                                                          "New Athena Unicode"           ; 121/123
+                                                         "Segoe UI Symbol"              ; 123/123
                                                          "Quivira"                      ; 123/123
                                                          "Code2000"                     ; 114/123
                                                          ))
@@ -2065,6 +2073,7 @@ Set to nil to disable."
                                                          ))
     ("Deseret"                                          (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 80/80
                                                          "Analecta"
                                                          "Code2001"                     ; 80/80
                                                          ))
@@ -2085,18 +2094,20 @@ Set to nil to disable."
                                                          ))
     ("Dingbats"                                         (
                                                          "Apple Color Emoji"
-                                                         "DejaVu Sans Mono"             ; 144/191
-                                                         "Zapf Dingbats"                ; 174/191
-                                                         "DejaVu Sans:width=condensed"  ; 174/191
-                                                         "Arial Unicode MS"             ; 160/191
-                                                         "Code2000"                     ; 174/191
-                                                         "Symbola"                      ; 191/191
-                                                         "Quivira"                      ; 160/191
+                                                         "Segoe UI Symbol"              ; 191/192
+                                                         "DejaVu Sans Mono"             ; 144/192
+                                                         "Zapf Dingbats"                ; 174/192
+                                                         "DejaVu Sans:width=condensed"  ; 174/192
+                                                         "Arial Unicode MS"             ; 160/192
+                                                         "Code2000"                     ; 174/192
+                                                         "Symbola"                      ; 192/192
+                                                         "Quivira"                      ; 160/192
                                                          ))
     ("Domino Tiles"                                     (
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Segoe UI Symbol"              ; 100/100
                                                          "Code2001"                     ; 100/100
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
@@ -2107,15 +2118,18 @@ Set to nil to disable."
     ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
                                                          "Apple Color Emoji"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Segoe UI Symbol"              ; 76/78
+                                                         "Symbola"                      ; 78/78
+                                                         "Quivira"                      ; 76/78
                                                          ))
     ("Enclosed Alphanumeric Supplement"                 (
+                                                         "Segoe UI Symbol"              ; 169/173
                                                          "Quivira"
-                                                         "BabelStone Han"               ; 171/171
+                                                         "BabelStone Han"               ; 171/173
                                                          ))
     ("Enclosed Alphanumerics"                           (
                                                          ;; "Aqua Kana"
+                                                         "Segoe UI Symbol"              ; 160/160
                                                          "Junicode"                     ; 160/160
                                                          "Arial Unicode MS"             ; 139/160
                                                          "Quivira"                      ; 160/160
@@ -2138,6 +2152,7 @@ Set to nil to disable."
                                                          "UnBatang"                     ; 58/254
                                                          ))
     ("Enclosed Ideographic Supplement"                  (
+                                                         "Segoe UI Symbol"              ; 57/57
                                                          "HanaMinA"                     ; 57/57
                                                          "BabelStone Han"               ; 57/57
                                                          ))
@@ -2170,6 +2185,7 @@ Set to nil to disable."
     ("General Punctuation"                              (
                                                          "Monaco"                       ;  16/111 this will give poor results if existence-checks is set to 'first
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 107/111
                                                          "Cambria Math"                 ;  36/111
                                                          "DejaVu Sans Mono"             ;  52/111
                                                          "DejaVu Sans:width=condensed"  ; 107/111
@@ -2182,6 +2198,7 @@ Set to nil to disable."
     ("Geometric Shapes"                                 (
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
+                                                         "Segoe UI Symbol"              ; 96/96
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
@@ -2206,10 +2223,12 @@ Set to nil to disable."
                                                          "Quivira"                      ; 40/40
                                                          ))
     ("Glagolitic"                                       (
+                                                         "Segoe UI Symbol"              ; 94/94
                                                          "MPH 2B Damase"
                                                          "Quivira"
                                                          ))
     ("Gothic"                                           (
+                                                         "Segoe UI Symbol"              ; 27/27
                                                          "Analecta"                     ; 27/27
                                                          "Junicode"                     ; 27/27
                                                          "MPH 2B Damase"                ; 27/27
@@ -2246,6 +2265,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 134/135
                                                          "Antinoou"                     ; 135/135
                                                          "Noto Sans"                    ; 127/135
+                                                         "Segoe UI Symbol"              ; 134/135
                                                          "New Athena Unicode"           ; 134/135
                                                          "Calibri"                      ; 127/135
                                                          "Microsoft Sans Serif"         ; 112/135
@@ -2591,6 +2611,7 @@ Set to nil to disable."
                                                          ))
     ("Letterlike Symbols"                               (
                                                          "Apple Symbols"                ; 77/80
+                                                         "Segoe UI Symbol"              ; 80/80
                                                          "Cambria Math"                 ; 67/80
                                                          "DejaVu Sans:width=condensed"  ; 75/80
                                                          "Arial Unicode MS"             ; 57/80
@@ -2630,6 +2651,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Mahajani"                                      (""))                           ; todo added in Unicode 7.0
     ("Mahjong Tiles"                                    (
+                                                         "Segoe UI Symbol"              ; 44/44
                                                          "Symbola"
                                                          "Quivira"
                                                          ))
@@ -2654,6 +2676,7 @@ Set to nil to disable."
     ("Mathematical Operators"                           (
                                                          "DejaVu Sans Mono"             ; 159/256
                                                          "Apple Symbols"                ; 256/256
+                                                         "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ; 256/256
                                                          "DejaVu Sans:width=condensed"  ; 256/256
                                                          "Arial Unicode MS"             ; 242/256
@@ -2669,6 +2692,7 @@ Set to nil to disable."
     ;; ("Meetei Mayek Extensions"                       (""))                           ; todo
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
+                                                         "Segoe UI Symbol"              ; 26/26
                                                          "Nilus"                        ; 26/26
                                                          ))
     ("Meroitic Hieroglyphs"                             (
@@ -2679,6 +2703,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Mathematical Symbols-A"             (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 46/48
                                                          "Code2000"
                                                          "Symbola"                      ; 48/48
                                                          "Quivira"                      ; 48/48
@@ -2686,6 +2711,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Mathematical Symbols-B"             (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 128/128
                                                          "Cambria Math"                 ; 128/128
                                                          "Code2000"                     ; 128/128
                                                          "Symbola"                      ; 128/128
@@ -2693,6 +2719,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Symbols"                            (
                                                          "Apple Symbols"                ; 256/256
+                                                         "Segoe UI Symbol"              ; 256/256
                                                          "DejaVu Sans Mono"             ; 149/256
                                                          "DejaVu Sans:width=condensed"  ; 187/256
                                                          "Arial Unicode MS"             ; 106/256
@@ -2703,21 +2730,24 @@ Set to nil to disable."
                                                          "Code2000"                     ; 183/256
                                                          ))
     ("Miscellaneous Symbols and Arrows"                 (
+                                                         "Segoe UI Symbol"              ; 87/202
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
-                                                         "Apple Color Emoji"            ; 533/533
-                                                         "Symbola"                      ; 533/533
-                                                         "Quivira"                      ; 157/533
+                                                         "Apple Color Emoji"            ; 533/742
+                                                         "Segoe UI Symbol"              ; 529/742
+                                                         "Symbola"                      ; 742/742
+                                                         "Quivira"                      ; 159/742
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Apple Symbols"
-                                                         "Cambria Math"                 ; 208/244
+                                                         "Segoe UI Symbol"              ; 244/251
+                                                         "Cambria Math"                 ; 208/251
                                                          "Code2000"
-                                                         "Symbola"                      ; 244/244
-                                                         "Quivira"                      ; 244/244
+                                                         "Symbola"                      ; 244/251
+                                                         "Quivira"                      ; 244/251
                                                          ))
     ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
     ("Modifier Tone Letters"                            (
@@ -2789,6 +2819,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 45/58
                                                          ))
     ("Ogham"                                            (
+                                                         "Segoe UI Symbol"              ; 29/29
                                                          "DejaVu Sans:width=condensed"
                                                          "Aboriginal Serif"             ; 29/29
                                                          "Code2000"
@@ -2798,6 +2829,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Old Italic"                                       (
+                                                         "Segoe UI Symbol"              ; 35/36
                                                          "DejaVu Sans:width=condensed"  ; 35/36
                                                          "Cardo"                        ; 35/36
                                                          "New Athena Unicode"           ; 35/36
@@ -2817,10 +2849,12 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Old Turkic"                                       (
+                                                         "Segoe UI Symbol"              ; 73/73
                                                          "Quivira"
                                                          ))
     ("Optical Character Recognition"                    (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 11/11
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
@@ -2885,9 +2919,10 @@ Set to nil to disable."
                                                          "Code2000"                     ; 64/64
                                                          ))
     ("Playing Cards"                                    (
-                                                         "DejaVu Sans:width=condensed"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "DejaVu Sans:width=condensed"  ; 59/82
+                                                         "Symbola"                      ; 82/82
+                                                         "Segoe UI Symbol"              ; 59/82
+                                                         "Quivira"                      ; 59/82
                                                          ))
     ;; ("Private Use Area"                              (
     ;;                                                   "UnBatang"                     ; 2,048/6,400
@@ -2932,6 +2967,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Rumi Numeral Symbols"                          (""))
     ("Runic"                                            (
+                                                         "Segoe UI Symbol"              ; 81/89
                                                          "Aboriginal Serif"             ; 81/89
                                                          "Junicode"                     ; 81/89
                                                          "FreeMono"                     ; 81/89
@@ -3003,12 +3039,14 @@ Set to nil to disable."
                                                          "Cambria Math"                 ; 28/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
+                                                         "Segoe UI Symbol"              ; 42/42
                                                          "Symbola"                      ; 42/42
                                                          "Quivira"                      ; 42/42
                                                          "FreeMono"                     ; 34/42
                                                          ))
     ("Supplemental Arrows-A"                            (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 16/16
                                                          "Cambria Math"                 ; 16/16
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
@@ -3018,6 +3056,7 @@ Set to nil to disable."
                                                          ))
     ("Supplemental Arrows-B"                            (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 128/128
                                                          "Cambria Math"                 ; 128/128
                                                          "Symbola"
                                                          "Quivira"
@@ -3028,6 +3067,7 @@ Set to nil to disable."
                                                          ))
     ("Supplemental Mathematical Operators"              (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ;  10/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
@@ -3035,6 +3075,7 @@ Set to nil to disable."
                                                          ))
     ("Supplemental Punctuation"                         (
                                                          "DejaVu Sans Mono"             ;  6/67  ; this will give poor results if existence-checks is set to 'first
+                                                         "Segoe UI Symbol"              ; 50/67
                                                          "Antinoou"                     ; 46/67
                                                          "New Athena Unicode"           ; 60/67
                                                          "Cardo"                        ; 43/67
@@ -3088,6 +3129,7 @@ Set to nil to disable."
                                                          ))
     ("Tai Xuan Jing Symbols"                            (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 87/87
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
@@ -3154,7 +3196,8 @@ Set to nil to disable."
     ;; ("Tirhuta"                                       (""))                           ; todo added in Unicode 7.0
     ("Transport and Map Symbols"                        (
                                                          "Apple Color Emoji"
-                                                         "Symbola"
+                                                         "Segoe UI Symbol"              ; 70/97
+                                                         "Symbola"                      ; 97/97
                                                          ))
     ("Ugaritic"                                         (
                                                          "Aegean"                       ; 31/31
@@ -3215,6 +3258,7 @@ Set to nil to disable."
                                                          ))
     ("Yijing Hexagram Symbols"                          (
                                                          "Apple Symbols"
+                                                         "Segoe UI Symbol"              ; 64/64
                                                          "DejaVu Sans:width=condensed"
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
                                                          "BabelStone Han"               ; 64/64
