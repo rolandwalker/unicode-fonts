@@ -997,7 +997,7 @@
     ("Hacen Sudan"                    :licenses (free))
     ("Haettenschweiler"               :licenses (microsoft))
     ("HanaMinA"                       :licenses (free) :chinese traditional)
-    ("HanaMinB"                       :licenses (free))
+    ("HanaMinB"                       :licenses (free) :chinese traditional)
     ("Harlow Solid"                   :licenses (microsoft))
     ("Harrington"                     :licenses (microsoft))
     ("HeadLineA"                      :licenses (apple) decorative t)
@@ -1880,18 +1880,19 @@ Set to nil to disable."
     ("CJK Unified Ideographs Extension A"               (
                                                          "SimHei"
                                                          "FangSong"
-                                                         "ST Fangsong"                  ; 6582/6646
+                                                         "ST Fangsong"                  ; 6582/6582
                                                          "SimSun"
-                                                         "Songti SC"                    ; 6582/6646
+                                                         "Songti SC"                    ; 6582/6582
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HanaMinA"                     ; 6582/6582
                                                          "Code2000"
                                                          "DFKai-SB"
-                                                         "BabelStone Han"               ; 691/6646
-                                                         "GB18030 Bitmap"               ; 6578/6646
+                                                         "BabelStone Han"               ;  691/6582
+                                                         "GB18030 Bitmap"               ; 6578/6582
                                                          ))
     ("CJK Unified Ideographs Extension B"               (
                                                          "SimHei"
