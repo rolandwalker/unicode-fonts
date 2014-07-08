@@ -192,6 +192,10 @@ From <http://babelstone.co.uk/Fonts/>
 	BabelStone Han                ; CJK (Simplified Chinese)
 	BabelStone Phags-pa Book      ; Phags-pa
 
+From <http://vietunicode.sourceforge.net/fonts/fonts_hannom.html>
+
+	HAN NOM A, HAN NOM B          ; CJK (Nôm Chinese)
+
 From <http://kldp.net/projects/unfonts/>
 
 	Un Batang                     ; CJK (Hangul)

@@ -179,6 +179,10 @@
 ;;         BabelStone Han                ; CJK (Simplified Chinese)
 ;;         BabelStone Phags-pa Book      ; Phags-pa
 ;;
+;;     From http://vietunicode.sourceforge.net/fonts/fonts_hannom.html
+;;
+;;         HAN NOM A, HAN NOM B          ; CJK (Nôm Chinese)
+;;
 ;;     From http://kldp.net/projects/unfonts/
 ;;
 ;;         Un Batang                     ; CJK (Hangul)
@@ -996,6 +1000,8 @@
     ("Gurmukhi Sangam MN"             :licenses (apple))
     ("Hacen Sudan"                    :licenses (free))
     ("Haettenschweiler"               :licenses (microsoft))
+    ("HAN NOM A"                      :licenses (free) :chinese nom)
+    ("HAN NOM B"                      :licenses (free) :chinese nom)
     ("HanaMinA"                       :licenses (free) :chinese traditional)
     ("HanaMinB"                       :licenses (free) :chinese traditional)
     ("Harlow Solid"                   :licenses (microsoft))
@@ -1443,6 +1449,7 @@ It may help you get started.
 Leave the list empty for no per-group exclusions."
   :type '(set  (const :tag "Simplified Chinese Script"           chinese-simplified)
                (const :tag "Traditional Chinese Script"          chinese-traditional)
+               (const :tag "Nôm Chinese Script"                  chinese-nom)
                (const :tag "Standard Arabic Script"              arabic-standard)
                (const :tag "Farsi Arabic Script"                 arabic-farsi)
                (const :tag "Naskh Arabic Script"                 arabic-naskh)
@@ -1697,6 +1704,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
                                                          "Lantinghei SC"
+                                                         "HAN NOM A"                    ; 37/41
                                                          "Arial Unicode MS"
                                                          "BabelStone Han"               ; 41/41
                                                          "Code2000"
@@ -1757,10 +1765,11 @@ Set to nil to disable."
                                                          "Microsoft JhengHei UI"
                                                          "Lantinghei SC"
                                                          "Lantinghei TC"
+                                                         "HAN NOM A"                    ; 249/256
                                                          "Arial Unicode MS"
                                                          "WenQuanYi Zen Hei Mono"       ; 154/256
                                                          "HanaMinA"                     ; 149/256
-                                                         "BabelStone Han"               ; 73/256
+                                                         "BabelStone Han"               ;  73/256
                                                          "Code2000"
                                                          ))
     ("CJK Compatibility Forms"                          (
@@ -1778,6 +1787,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HAN NOM A"                    ; 32/32
                                                          "Symbola"
                                                          "Xingkai SC"                   ; 19/32
                                                          "DFKai-SB"
@@ -1795,7 +1805,8 @@ Set to nil to disable."
                                                          "Hiragino Mincho Pro"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "LiSong Pro"                   ; 11/542
+                                                         "HAN NOM B"                    ; 542/542
+                                                         "LiSong Pro"                   ;  11/542
                                                          ))
     ("CJK Compatibility Ideographs"                     (
                                                          "SimHei"
@@ -1809,6 +1820,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HAN NOM A"                    ; 394/472
                                                          "Arial Unicode MS"
                                                          "Lantinghei SC"
                                                          "HanaMinA"                     ; 472/472
@@ -1825,6 +1837,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HAN NOM A"                    ; 115/115
                                                          "DFKai-SB"
                                                          "Apple Symbols"
                                                          "Code2000"
@@ -1848,6 +1861,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei UI"
                                                          "Lantinghei TC"
                                                          "MingLiU"
+                                                         "HAN NOM A"                    ; 60/64
                                                          "Arial Unicode MS"
                                                          "PC Myungjo"
                                                          "BabelStone Han"               ; 54/64
@@ -1863,7 +1877,7 @@ Set to nil to disable."
                                                          "ST Fangsong"                  ; 20910/20941
                                                          "SimSun"
                                                          "LiSong Pro"                   ; 17595/20941
-                                                         "Baoli SC"                     ; 7103/20941
+                                                         "Baoli SC"                     ;  7103/20941
                                                          "HanaMinA"                     ; 20941/20941
                                                          "BabelStone Han"               ; 19051/20941
                                                          "Apple LiGothic"               ; 13060/20941
@@ -1871,11 +1885,12 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HAN NOM A"                    ; 20902/20941
                                                          "DFKai-SB"
                                                          "Arial Unicode MS"
-                                                         "Xingkai SC"                   ; 7103/20941
+                                                         "Xingkai SC"                   ;  7103/20941
                                                          "GB18030 Bitmap"               ; 20902/20941
-                                                         "UnBatang"                     ; 4260/20941
+                                                         "UnBatang"                     ;  4260/20941
                                                          ))
     ("CJK Unified Ideographs Extension A"               (
                                                          "SimHei"
@@ -1889,6 +1904,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
                                                          "HanaMinA"                     ; 6582/6582
+                                                         "HAN NOM A"                    ; 6582/6582
                                                          "Code2000"
                                                          "DFKai-SB"
                                                          "BabelStone Han"               ;  691/6582
@@ -1902,6 +1918,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
                                                          "HanaMinB"                     ; 42711/42711
+                                                         "HAN NOM B"                    ; 42711/42711
                                                          "Code2002"                     ; 20158/24711
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
@@ -1911,7 +1928,8 @@ Set to nil to disable."
                                                          ))
     ("CJK Unified Ideographs Extension C"               (
                                                          "HanaMinB"                     ; 4149/4149
-                                                         "BabelStone Han"               ; 399/4149
+                                                         "BabelStone Han"               ;  399/4149
+                                                         "HAN NOM B"                    ;  106/4149
                                                          ))
     ("CJK Unified Ideographs Extension D"               (
                                                          "HanaMinB"                     ; 222/222
@@ -2137,6 +2155,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          "WenQuanYi Zen Hei Mono"       ; 160/160
+                                                         "HAN NOM A"                    ; 139/160
                                                          ))
     ("Enclosed CJK Letters and Months"                  (
                                                          "WenQuanYi Zen Hei Mono"       ; 202/254
@@ -2150,7 +2169,8 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 191/254
                                                          "Quivira"
                                                          "Code2000"
-                                                         "UnBatang"                     ; 58/254
+                                                         "UnBatang"                     ;  58/254
+                                                         "HAN NOM A"                    ; 232/254
                                                          ))
     ("Enclosed Ideographic Supplement"                  (
                                                          "Segoe UI Symbol"              ; 57/57
@@ -2309,6 +2329,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 173/225
                                                          "Apple Symbols"                ;  55/225
                                                          "Code2000"                     ; 186/225
+                                                         "HAN NOM A"                    ; 170/225
                                                          ))
     ("Hangul Compatibility Jamo"                        (
                                                          "PC Myungjo"                   ; 94/94
@@ -2320,6 +2341,7 @@ Set to nil to disable."
                                                          "Apple Myungjo"                ; 94/94
                                                          "UnBatang"                     ; 94/94
                                                          "WenQuanYi Zen Hei Mono"       ; 94/94
+                                                         "HAN NOM A"                    ; 93/94
                                                          "Arial Unicode MS"
                                                          "Code2000"
                                                          "HeadLineA"                    ; 94/94
@@ -2400,6 +2422,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"           ; 93/93
                                                          "Microsoft YaHei"              ; 93/93
                                                          "Microsoft YaHei UI"           ; 93/93
+                                                         "HAN NOM A"                    ; 88/93
                                                          "Code2000"
                                                          ))
     ("IPA Extensions"                                   (
@@ -2431,6 +2454,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei UI"
                                                          "Apple Myungjo"
                                                          "HanaMinA"                     ; 12/12
+                                                         "HAN NOM A"                    ; 12/12
                                                          "Quivira"
                                                          "DFKai-SB"
                                                          "Code2000"
@@ -2469,6 +2493,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"           ; 16/16
                                                          "Microsoft YaHei"              ; 16/16
                                                          "Microsoft YaHei UI"           ; 16/16
+                                                         "HAN NOM A"                    ; 14/16
                                                          "Code2000"
                                                          ))
     ("Kangxi Radicals"                                  (
@@ -2484,6 +2509,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
+                                                         "HAN NOM A"                    ; 214/214
                                                          "DFKai-SB"
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
@@ -2511,6 +2537,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei"           ; 96/96
                                                          "Microsoft YaHei"              ; 96/96
                                                          "Microsoft YaHei UI"           ; 96/96
+                                                         "HAN NOM A"                    ; 94/96
                                                          "Code2000"
                                                          ))
     ("Katakana Phonetic Extensions"                     (
@@ -2522,6 +2549,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei"              ; 16/16
                                                          "Microsoft YaHei UI"           ; 16/16
                                                          "BabelStone Han"               ; 16/16
+                                                         "HAN NOM A"                    ; 16/16
                                                          "Code2000"
                                                          ))
     ("Kayah Li"                                         (
@@ -2619,6 +2647,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 80/80
                                                          "Symbola"                      ; 80/80
                                                          "Quivira"                      ; 80/80
+                                                         "HAN NOM A"                    ; 56/80
                                                          ))
     ("Limbu"                                            (
                                                          "Namdhinggo SIL"               ; 66/68
@@ -3540,6 +3569,9 @@ error."
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'chinese-simplified unicode-fonts-skip-font-groups)
                  (eq 'simplified (plist-get props :chinese)))
+        (push name unicode-fonts-skipped-fonts-computed))
+      (when (and (memq 'chinese-nom unicode-fonts-skip-font-groups)
+                 (eq 'nom (plist-get props :chinese)))
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'arabic-standard unicode-fonts-skip-font-groups)
                  (eq 'standard (plist-get props :arabic)))
