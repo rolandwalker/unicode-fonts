@@ -294,7 +294,7 @@ From <http://www.amirifont.org/>
 
 From <http://scripts.sil.org/cms/scripts/page.php?item_id=Scheherazade>
 
-	Scheherazade                  ; Arabic
+	Scheherazade                  ; Arabic (Naskh)
 
 From <http://www.farsiweb.ir/wiki/Persian_fonts>
 
