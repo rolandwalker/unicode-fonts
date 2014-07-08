@@ -422,7 +422,21 @@
 ;;
 ;; TODO
 ;;
+;;     Doc note about scripts vs blocks
+;;
+;;     reorg font list by language?
+;;
+;;         - break down into living/dead/invented
+;;
+;;     support MUFI for PUA
+;;
+;;     support ConScript for PUA
+;;
+;;     Aramaic as a style of Hebrew
+;;
 ;;     (set-language-environment "UTF-8") ?
+;;
+;;     Include all Windows 8 fonts
 ;;
 ;;     Remove very old Microsoft entries (eg Monotype.com which was
 ;;     renamed Andale)
@@ -436,8 +450,6 @@
 ;;     complete.
 ;;
 ;;     Note all decorative fonts
-;;
-;;     Get Windows 8 font listing
 ;;
 ;;     Adobe international fonts which are supplied with Reader
 ;;
