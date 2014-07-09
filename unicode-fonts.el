@@ -2018,7 +2018,6 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 18/33
                                                          ))
     ("Combining Half Marks"                             (
-                                                         "Monaco"
                                                          "Consolas"
                                                          "Symbola"
                                                          ))
