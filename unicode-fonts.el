@@ -2917,6 +2917,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 156/160
                                                          ))
     ("Myanmar Extended-A"                               (
+                                                         "Myanmar Text"                 ; 28/32
                                                          "Padauk"                       ; 28/32
                                                          "TharLon"                      ; 28/32
                                                          "Yunghkio"                     ; 28/32
