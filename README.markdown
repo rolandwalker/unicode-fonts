@@ -155,12 +155,13 @@ different width than the default font.
 Free International and Symbol Fonts
 -----------------------------------
 
-Free fonts recognized by this package may be downloaded
-from the following locations:
+Free fonts recognized by this package may be downloaded from the
+following locations:
 
-From <http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download>
+From <http://scripts.sil.org/cms/scripts/page.php?item_id=CharisSIL_download>  
+  or <http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download>
 
-	Doulos SIL                    ; Extended European and diacritics
+	Charis SIL or Doulos SIL      ; Extended European and diacritics
 
 From <http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download>
 

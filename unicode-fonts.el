@@ -145,9 +145,10 @@
 ;; Free fonts recognized by this package may be downloaded
 ;; from the following locations:
 ;;
-;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download
+;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=CharisSIL_download
+;;       or http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download
 ;;
-;;         Doulos SIL                    ; Extended European and diacritics
+;;         Charis SIL or Doulos SIL      ; Extended European and diacritics
 ;;
 ;;     From http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download
 ;;
@@ -897,6 +898,7 @@
     ("Chalkboard"                     :licenses (apple))
     ("Chalkduster"                    :licenses (apple))
     ("Charcoal CY"                    :licenses (apple))
+    ("Charis SIL"                     :licenses (free))
     ("Chiller"                        :licenses (microsoft))
     ("Cochin"                         :licenses (apple))
     ("Code2000"                       :licenses (unclear))
@@ -1979,6 +1981,8 @@ Set to nil to disable."
                                                          "Consolas"
                                                          "Noto Sans"                    ; 112/112
                                                          "Cambria Math"                 ; 110/112
+                                                         "Charis SIL"                   ; 104/112
+                                                         "Doulos SIL"                   ; 104/112
                                                          "Courier New"
                                                          "DejaVu Sans:width=condensed"
                                                          "DejaVu Sans Mono"
@@ -2085,6 +2089,7 @@ Set to nil to disable."
                                                          "Microsoft Sans Serif"         ; 246/256
                                                          "Code2000"                     ; 256/256
                                                          "Arial Unicode MS"             ; 226/256
+                                                         "Charis SIL"                   ; 220/256
                                                          "Doulos SIL"                   ; 220/256
                                                          "Symbola"                      ; 256/256
                                                          "Quivira"                      ; 256/256
@@ -2105,7 +2110,8 @@ Set to nil to disable."
                                                          "Calibri"
                                                          "Noto Sans"                    ; 40/48
                                                          "DejaVu Sans:width=condensed"
-                                                         "Doulos SIL"                   ; 34/48
+                                                         "Charis SIL"                   ; 40/48
+                                                         "Doulos SIL"                   ; 40/48
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"                     ; 36/48
@@ -2232,6 +2238,8 @@ Set to nil to disable."
                                                          "Cambria Math"                 ;  36/111
                                                          "DejaVu Sans Mono"             ;  52/111
                                                          "DejaVu Sans:width=condensed"  ; 107/111
+                                                         "Charis SIL"                   ;  74/111
+                                                         "Doulos SIL"                   ;  74/111
                                                          "Antinoou"                     ; 106/111
                                                          "Symbola"                      ; 111/111
                                                          "Code2000"                     ; 106/111
@@ -2299,7 +2307,6 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "Arial"
                                                          "Tahoma"
-                                                         "Doulos SIL"
                                                          "Aegean"                       ; 233/233
                                                          "Code2000"
                                                          "Quivira"
@@ -2638,18 +2645,21 @@ Set to nil to disable."
                                                          "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
                                                          "Gentium Plus"                 ; 30/32
+                                                         "Charis SIL"                   ; 30/32
+                                                         "Doulos SIL"                   ; 30/32
                                                          "Code2000"
                                                          "Quivira"
-                                                         "Doulos SIL"                   ; 30/32
                                                          ))
     ("Latin Extended-D"                                 (
-                                                         "FreeMono"                     ;   5/134  ; this will give poor results if existence-checks is set to 'first
-                                                         "DejaVu Sans Mono"             ;  14/134
-                                                         "DejaVu Sans:width=condensed"  ;  62/134
-                                                         "Junicode"                     ;  97/134
-                                                         "Cardo"                        ;  93/134
-                                                         "Quivira"                      ; 134/134
-                                                         "Code2000"                     ; 114/134
+                                                         "FreeMono"                     ;   5/152  ; this will give poor results if existence-checks is set to 'first
+                                                         "DejaVu Sans Mono"             ;  14/152
+                                                         "DejaVu Sans:width=condensed"  ;  62/152
+                                                         "Charis SIL"                   ;  38/152
+                                                         "Doulos SIL"                   ;  38/152
+                                                         "Junicode"                     ;  97/152
+                                                         "Cardo"                        ;  93/152
+                                                         "Quivira"                      ; 134/152
+                                                         "Code2000"                     ; 114/152
                                                          ))
     ;; ("Latin Extended-E"                              (""))                           ; todo added in Unicode 7.0
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
@@ -2809,9 +2819,10 @@ Set to nil to disable."
                                                          "Apple Myungjo"
                                                          "Apple Symbols"
                                                          "Gentium Plus"                 ; 32/32
-                                                         "Doulos SIL"                   ; 32/32
                                                          "Code2000"                     ; 32/32
                                                          "Quivira"                      ; 32/32
+                                                         "Charis SIL"                   ; 32/32
+                                                         "Doulos SIL"                   ; 32/32
                                                          ))
     ("Mongolian"                                        (
                                                          "ST Fangsong"
@@ -2869,6 +2880,7 @@ Set to nil to disable."
                                                          "Junicode"                     ; 58/58
                                                          "Symbola"                      ; 58/58
                                                          "Quivira"                      ; 58/58
+                                                         "Charis SIL"                   ; 54/58
                                                          "Doulos SIL"                   ; 54/58
                                                          "Code2000"                     ; 54/58
                                                          "FreeMono"                     ; 45/58
@@ -2959,6 +2971,8 @@ Set to nil to disable."
                                                          "Calibri"                      ; 128/128
                                                          "Noto Sans"                    ; 128/128
                                                          "Aboriginal Sans"              ;  79/128
+                                                         "Charis SIL"                   ; 128/128
+                                                         "Doulos SIL"                   ; 128/128
                                                          "Quivira"                      ; 128/128
                                                          "Courier New"                  ; 128/128
                                                          "DejaVu Sans:width=condensed"
@@ -2970,6 +2984,8 @@ Set to nil to disable."
                                                          "Courier New"                  ; 64/64 ; todo a better OSX choice
                                                          "Noto Sans"                    ; 64/64
                                                          "Aboriginal Sans"              ; 35/64
+                                                         "Charis SIL"                   ; 64/64
+                                                         "Doulos SIL"                   ; 64/64
                                                          "Quivira"                      ; 64/64
                                                          "DejaVu Sans Mono"             ; 37/64
                                                          "DejaVu Sans:width=condensed"  ; 38/64
@@ -3100,6 +3116,8 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
                                                          "Segoe UI Symbol"              ; 42/42
+                                                         "Charis SIL"                   ; 34/42
+                                                         "Doulos SIL"                   ; 34/42
                                                          "Symbola"                      ; 42/42
                                                          "Quivira"                      ; 42/42
                                                          "FreeMono"                     ; 34/42
