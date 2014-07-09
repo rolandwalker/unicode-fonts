@@ -2954,7 +2954,8 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          ))
     ("Ol Chiki"                                         (                               ; todo quality free alternative
-                                                         "Code2000"
+                                                         "Nirmala UI"                   ; 48/48
+                                                         "Code2000"                     ; 48/48
                                                          ))
     ("Old Italic"                                       (
                                                          "Segoe UI Symbol"              ; 35/36
