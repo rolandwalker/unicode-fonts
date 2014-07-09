@@ -2019,6 +2019,7 @@ Set to nil to disable."
                                                          ))
     ("Combining Half Marks"                             (
                                                          "Consolas"                     ;  4/14
+                                                         "DejaVu Sans:width=condensed"  ;  4/14
                                                          "Symbola"                      ; 14/14
                                                          ))
     ("Common Indic Number Forms"                        (
