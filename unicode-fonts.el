@@ -2430,10 +2430,14 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Hangul Jamo Extended-A"                           (
-                                                         "UnBatang"
+                                                         "Malgun Gothic"                ; 29/29
+                                                         "HanaMinA"                     ; 29/29
+                                                         "UnBatang"                     ; 29/29
                                                          ))
     ("Hangul Jamo Extended-B"                           (
-                                                         "UnBatang"                     ; 68/72
+                                                         "Malgun Gothic"                ; 72/72
+                                                         "HanaMinA"                     ; 72/72
+                                                         "UnBatang"                     ; 72/72
                                                          ))
     ("Hangul Syllables"                                 (
                                                          "Apple Gothic"                 ; 11172/11172
