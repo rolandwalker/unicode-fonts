@@ -2917,9 +2917,9 @@ Set to nil to disable."
                                                          "Code2000"                     ; 156/160
                                                          ))
     ("Myanmar Extended-A"                               (
-                                                         "Padauk"                       ; 28/28
-                                                         "TharLon"                      ; 28/28
-                                                         "Yunghkio"                     ; 28/28
+                                                         "Padauk"                       ; 28/32
+                                                         "TharLon"                      ; 28/32
+                                                         "Yunghkio"                     ; 28/32
                                                          ))
     ;; todo poor coverage
     ("Myanmar Extended-B"                               (
