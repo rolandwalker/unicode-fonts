@@ -2549,6 +2549,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Kaithi"                                        (""))                           ; todo
     ("Kana Supplement"                                  (
+                                                         "Meiryo UI"                    ; 2/2
                                                          "HanaMinA"                     ; 2/2
                                                          "BabelStone Han"               ; 2/2
                                                          ))
