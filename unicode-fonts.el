@@ -2018,8 +2018,8 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 18/33
                                                          ))
     ("Combining Half Marks"                             (
-                                                         "Consolas"
-                                                         "Symbola"
+                                                         "Consolas"                     ;  4/14
+                                                         "Symbola"                      ; 14/14
                                                          ))
     ("Common Indic Number Forms"                        (
                                                          "Nirmala UI"
