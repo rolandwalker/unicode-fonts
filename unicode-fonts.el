@@ -1259,6 +1259,7 @@
     ("STIX Size Two Sym"              :licenses (apple free))
     ("STIX Variants"                  :licenses (apple free))
     ("Sakkal Majalla"                 :licenses (microsoft))
+    ("Sadagolthina"                   :licenses (commercial))
     ("Samyak Devanagari"              :licenses (free))
     ("Samyak Gujarati"                :licenses (free))
     ("Samyak Malayalam"               :licenses (free))
@@ -2275,6 +2276,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 27/27
                                                          "Analecta"                     ; 27/27
                                                          "Junicode"                     ; 27/27
+                                                         "Sadagolthina"                 ; 27/27
                                                          "MPH 2B Damase"                ; 27/27
                                                          "FreeSerif"                    ; 27/27
                                                          "Code2001"                     ; 27/27
