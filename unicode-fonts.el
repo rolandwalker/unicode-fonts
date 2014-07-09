@@ -2164,6 +2164,7 @@ Set to nil to disable."
                                                          ))
     ("Devanagari Extended"                              (
                                                          "Siddhanta"                    ; 28/28
+                                                         "FreeSerif"                    ; 28/28
                                                          ))
     ("Dingbats"                                         (
                                                          "Apple Color Emoji"
