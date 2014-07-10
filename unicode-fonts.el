@@ -2276,6 +2276,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 111/111
                                                          "Code2000"                     ; 106/111
                                                          "Quivira"                      ; 105/111
+                                                         "Noto Sans"                    ;  56/111
                                                          "Everson Mono:weight=bold"     ; 107/111
                                                          "FreeMono"                     ; 101/111
                                                          "BabelStone Modern"            ;  96/111
