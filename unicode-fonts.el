@@ -60,10 +60,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 206 of the 245 blocks in
+;; This library provides font mappings for 215 of the 245 blocks in
 ;; the Unicode 7.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  33/245 blocks are not mapped.
+;; default font.  24/245 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -387,6 +387,12 @@
 ;;
 ;;     The default choice of font for each code block balances coverage
 ;;     versus appearance.  This is necessarily subjective.
+;;
+;;     Unicode also defines the notion of a "script" as a higher-level
+;;     abstraction which is independent of "blocks".  Modern fonts can
+;;     report their script coverage, and Emacs may also access that
+;;     information.  However, this library ignores scripts in favor
+;;     of blocks and glyphs.
 ;;
 ;;     Checking for font availability is slow.  This library can
 ;;     add anywhere between 0.1 - 10 secs to startup time.  It is
