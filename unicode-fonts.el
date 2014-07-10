@@ -3307,10 +3307,13 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 5/5
                                                          ))
     ("Sundanese"                                        (
+                                                         "Noto Sans Sundanese"          ; 64/64
                                                          "Sundanese Unicode"
                                                          "Hacen Sudan"
                                                          ))
-    ;; ("Sundanese Supplement"                          (""))                           ; todo
+    ("Sundanese Supplement"                             (
+                                                         "Noto Sans Sundanese"          ; 8/8
+                                                         ))
     ("Superscripts and Subscripts"                      (
                                                          "Consolas"                     ; 27/42
                                                          "Cambria Math"                 ; 28/42
