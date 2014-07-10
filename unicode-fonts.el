@@ -2899,7 +2899,9 @@ Set to nil to disable."
                                                          "Code2000"
                                                          "Arial Unicode MS"
                                                          ))
-    ;; ("Mandaic"                                       (""))                           ; todo
+    ("Mandaic"                                          (
+                                                         "Noto Sans Mandaic"            ; 29/29
+                                                         ))
     ;; ("Manichaean"                                    (""))                           ; todo added in Unicode 7.0
     ("Mathematical Alphanumeric Symbols"                (
                                                          "Cambria Math"                 ; 994/996
