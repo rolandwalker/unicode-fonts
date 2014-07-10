@@ -16,6 +16,8 @@ Quickstart
 	* <http://users.teilar.gr/~g1951d/Symbola.zip>
 	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
 	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.34/dejavu-fonts-ttf-2.34.tar.bz2>
+	* <http://noto.googlecode.com/git/fonts/individual/hinted/NotoSans-Regular.ttc>
+	* <http://noto.googlecode.com/git/fonts/individual/unhinted/NotoSansSymbols-Regular.ttf>
 
 * Use an extended Latin font for your default face, such
   as Monaco, Consolas, or DejaVu Sans Mono.
@@ -156,7 +158,20 @@ Free International and Symbol Fonts
 -----------------------------------
 
 Free fonts recognized by this package may be downloaded from the
-following locations:
+following locations.  For non-CJK blocks, it is increasingly likely
+that Noto Sans provides coverage:
+
+From <https://code.google.com/p/noto/>
+
+	Noto Sans and friends         ; 151 Unicode blocks and counting; sole
+	                              ; source for these blocks:
+	                              ;
+	                              ;   Bamum / Bamum Supplement / Kaithi
+	                              ;   Mandaic / Meetei Mayek Extensions
+	                              ;   Sundanese Supplement
+	                              ;
+	                              ; Also a good source for recently-added
+	                              ; glyphs such as "Turkish Lira Sign".
 
 From <http://scripts.sil.org/cms/scripts/page.php?item_id=CharisSIL_download>  
   or <http://scripts.sil.org/cms/scripts/page.php?item_id=DoulosSIL_download>
@@ -325,10 +340,6 @@ From <http://uni.hilledu.com/download-ribenguni>
 From <http://www.virtualvinodh.com/downloads>
 
 	Adinatha Tamil Brahmi         ; Brahmi
-
-From <https://code.google.com/p/noto/>
-
-	Noto Sans                     ; Turkish Lira Sign (and others)
 
 From <http://ftp.gnu.org/gnu/freefont/>
 
