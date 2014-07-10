@@ -2924,10 +2924,13 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 242/256
                                                          ))
     ("Meetei Mayek"                                     (
+                                                         "Noto Sans Meetei Mayek"       ; 56/56
                                                          "Eeyek Unicode"                ; fails x11
                                                          "Meetei Mayek"
                                                          ))
-    ;; ("Meetei Mayek Extensions"                       (""))                           ; todo
+    ("Meetei Mayek Extensions"                          (
+                                                         "Noto Sans Meetei Mayek"       ; 23/23
+                                                         ))
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
                                                          "Segoe UI Symbol"              ; 26/26
