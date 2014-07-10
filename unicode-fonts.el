@@ -2148,6 +2148,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 14/14
                                                          ))
     ("Common Indic Number Forms"                        (
+                                                         "Noto Sans Kaithi"             ; 10/10
                                                          "Nirmala UI"
                                                          "Siddhanta"
                                                          ))
@@ -2659,7 +2660,9 @@ Set to nil to disable."
     ("Javanese"                                         (
                                                          "Tuladha Jejeg"
                                                          ))
-    ;; ("Kaithi"                                        (""))                           ; todo
+    ("Kaithi"                                           (
+                                                         "Noto Sans Kaithi"             ; 66/66
+                                                         ))
     ("Kana Supplement"                                  (
                                                          "Meiryo UI"                    ; 2/2
                                                          "HanaMinA"                     ; 2/2
