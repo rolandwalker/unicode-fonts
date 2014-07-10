@@ -1794,8 +1794,12 @@ Set to nil to disable."
     ("Balinese"                                         (
                                                          "Aksara Bali"
                                                          ))
-    ;; ("Bamum"                                         (""))                           ; todo
-    ;; ("Bamum Supplement"                              (""))                           ; todo
+    ("Bamum"                                            (
+                                                         "Noto Sans Bamum"              ; 88/88
+                                                         ))
+    ("Bamum Supplement"                                 (
+                                                         "Noto Sans Bamum"              ; 569/569
+                                                         ))
     ;; ("Basic Latin"                                   (""))                           ; covered by the default font
     ;; ("Bassa Vah"                                     (""))                           ; todo added in Unicode 7.0
     ("Batak"                                            (
