@@ -3009,6 +3009,8 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Myanmar"                                          (
+                                                         "Noto Sans Myanmar"            ; 160/160
+                                                         "Noto Sans Myanmar UI"         ; 160/160
                                                          "Myanmar Sangam MN"            ;  85/160
                                                          "Myanmar MN"                   ;  85/160
                                                          "Myanmar Text"
@@ -3020,6 +3022,8 @@ Set to nil to disable."
                                                          "Code2000"                     ; 156/160
                                                          ))
     ("Myanmar Extended-A"                               (
+                                                         "Noto Sans Myanmar"            ; 28/32
+                                                         "Noto Sans Myanmar UI"         ; 28/32
                                                          "Myanmar Text"                 ; 28/32
                                                          "Padauk"                       ; 28/32
                                                          "TharLon"                      ; 28/32
