@@ -3337,8 +3337,8 @@ Set to nil to disable."
                                                          "Noto Sans Sundanese"          ; 8/8
                                                          ))
     ("Superscripts and Subscripts"                      (
-                                                         "Consolas"                     ; 27/42
                                                          "Cambria Math"                 ; 28/42
+                                                         "Consolas"                     ; 34/42
                                                          "Monaco"                       ; 29/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
