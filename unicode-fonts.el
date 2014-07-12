@@ -1891,6 +1891,7 @@ Set to nil to disable."
                                                          ))
     ("Braille Patterns"                                 (
                                                          "Quivira"
+                                                         "Apple Braille"                ; 256/256
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"                ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
