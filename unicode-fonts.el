@@ -3339,6 +3339,7 @@ Set to nil to disable."
     ("Superscripts and Subscripts"                      (
                                                          "Consolas"                     ; 34/42
                                                          "Monaco"                       ; 29/42
+                                                         "Apple Symbols"                ; 29/42
                                                          "Cambria Math"                 ; 34/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
