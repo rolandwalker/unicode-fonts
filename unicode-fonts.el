@@ -1814,6 +1814,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ;  77/112
                                                          ))
     ("Avestan"                                          (
+                                                         "Noto Sans Avestan"            ; 61/61
                                                          "Ahuramzda:weight=bold"        ; 61/61
                                                          ))
     ("Balinese"                                         (
