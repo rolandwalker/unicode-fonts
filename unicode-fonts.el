@@ -1900,8 +1900,8 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 256/256
                                                          ))
     ("Buginese"                                         (
-                                                         "MPH 2B Damase"
-                                                         "Code2000"
+                                                         "MPH 2B Damase"                ; 30/30
+                                                         "Code2000"                     ; 30/30
                                                          ))
     ("Buhid"                                            (
                                                          "Quivira"
