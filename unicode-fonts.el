@@ -2858,8 +2858,8 @@ Set to nil to disable."
                                                          ))
     ("Letterlike Symbols"                               (
                                                          "Monaco"                       ; 26/80
-                                                         "Apple Symbols"                ; 77/80
                                                          "Segoe UI Symbol"              ; 80/80
+                                                         "Apple Symbols"                ; 77/80
                                                          "Cambria Math"                 ; 68/80
                                                          "DejaVu Sans:width=condensed"  ; 75/80
                                                          "Arial Unicode MS"             ; 57/80
