@@ -3018,7 +3018,6 @@ Set to nil to disable."
                                                          ))
     ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
     ("Modifier Tone Letters"                            (
-                                                         "Apple Myungjo"
                                                          "Apple Symbols"                ; 27/32
                                                          "Gentium Plus"                 ; 32/32
                                                          "Code2000"                     ; 32/32
