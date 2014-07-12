@@ -2116,7 +2116,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 222/222
                                                          ))
     ("Combining Diacritical Marks"                      (
-                                                         "Monaco"
+                                                         "Monaco"                       ; 112/112
                                                          "Consolas"
                                                          "Noto Sans"                    ; 112/112
                                                          "Cambria Math"                 ; 110/112
@@ -2389,7 +2389,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("General Punctuation"                              (
-                                                         "Monaco"                       ;  16/111 this will give poor results if existence-checks is set to 'first
+                                                         "Monaco"                       ; 106/111
                                                          "Apple Symbols"                ; 106/111
                                                          "Segoe UI Symbol"              ; 107/111
                                                          "Cambria Math"                 ;  36/111
@@ -2650,7 +2650,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          ))
     ("IPA Extensions"                                   (
-                                                         "Monaco"
+                                                         "Monaco"                       ; 78/96
                                                          "Consolas"                     ; 96/96
                                                          "DejaVu Sans Mono"             ; 96/96
                                                          "Courier New"
@@ -3180,7 +3180,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          ))
     ("Phonetic Extensions"                              (
-                                                         "Monaco"
+                                                         "Monaco"                       ; 109/128
                                                          "Consolas"                     ; 128/128
                                                          "Calibri"                      ; 128/128
                                                          "Noto Sans"                    ; 128/128
