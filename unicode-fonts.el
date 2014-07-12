@@ -1787,6 +1787,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          ))
     ("Armenian"                                         (
+                                                         "Noto Sans Armenian"           ; 87/89
                                                          "Mshtakan"
                                                          "Sylfaen"
                                                          "DejaVu Sans:width=condensed"
