@@ -1904,8 +1904,8 @@ Set to nil to disable."
                                                          "Code2000"                     ; 30/30
                                                          ))
     ("Buhid"                                            (
-                                                         "Quivira"
-                                                         "Code2000"
+                                                         "Quivira"                      ; 20/20
+                                                         "Code2000"                     ; 20/20
                                                          ))
     ("Byzantine Musical Symbols"                        (
                                                          "Musica"
