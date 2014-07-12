@@ -2997,9 +2997,9 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 191/256
                                                          ))
     ("Miscellaneous Symbols and Arrows"                 (
-                                                         "Symbola"
-                                                         "Quivira"
-                                                         "Code2000"
+                                                         "Symbola"                      ; 202/202
+                                                         "Quivira"                      ;  87/202
+                                                         "Code2000"                     ;  82/202
                                                          "Segoe UI Symbol"              ; 87/202
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
@@ -3367,10 +3367,10 @@ Set to nil to disable."
     ("Supplemental Arrows-B"                            (
                                                          "Cambria Math"                 ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
-                                                         "Apple Symbols"
-                                                         "Quivira"
-                                                         "Symbola"
-                                                         "Code2000"
+                                                         "Apple Symbols"                ; 128/128
+                                                         "Quivira"                      ; 128/128
+                                                         "Symbola"                      ; 128/128
+                                                         "Code2000"                     ; 128/128
                                                          "Everson Mono:weight=bold"     ; 128/128
                                                          ))
     ("Supplemental Arrows-C"                            (
@@ -3581,7 +3581,7 @@ Set to nil to disable."
     ("Yijing Hexagram Symbols"                          (
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
                                                          "Segoe UI Symbol"              ; 64/64
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 64/64
                                                          "DejaVu Sans:width=condensed"
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
