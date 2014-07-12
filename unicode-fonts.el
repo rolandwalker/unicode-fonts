@@ -340,9 +340,13 @@
 ;;
 ;;         Mingzat                       ; Lepcha
 ;;
-;;     From http://phjamr.github.io/miao.html#install
+;;     From http://phjamr.github.io/lisu.html#install
+;;          http://phjamr.github.io/miao.html#install
+;;          http://phjamr.github.io/mro.html#install
 ;;
-;;         Miao Unicode                  ; Miao, Lisu
+;;         Miao Unicode                  ; Miao
+;;         Lisu Unicode                  ; Lisu
+;;         Mro Unicode                   ; Mro
 ;;
 ;;     From http://scholarsfonts.net/cardofnt.html
 ;;
@@ -351,10 +355,6 @@
 ;;     From http://sourceforge.net/projects/junicode/files/junicode/
 ;;
 ;;         Junicode                      ; Historical Languages
-;;
-;;     From http://phjamr.github.io/mro.html
-;;
-;;         Mro Unicode                   ; Mro
 ;;
 ;;     From http://www.evertype.com/fonts/vai/
 ;;
