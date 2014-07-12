@@ -3172,9 +3172,9 @@ Set to nil to disable."
                                                          ))
     ("Phaistos Disc"                                    (
                                                          "Aegean"                       ; 46/46
-                                                         "Code2001"                     ; 46/46
                                                          "Symbola"                      ; 46/46
                                                          "Everson Mono:weight=bold"     ; 46/46
+                                                         "Code2001"                     ; 46/46
                                                          ))
     ("Phoenician"                                       (
                                                          "Aegean"                       ; 29/29
