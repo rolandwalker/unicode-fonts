@@ -2328,7 +2328,7 @@ Set to nil to disable."
     ("Enclosed Alphanumeric Supplement"                 (
                                                          "Segoe UI Symbol"              ; 169/173
                                                          "Symbola"                      ; 173/173
-                                                         "Quivira"
+                                                         "Quivira"                      ; 171/173
                                                          "BabelStone Han"               ; 171/173
                                                          "BabelStone Modern"            ; 169/173
                                                          ))
@@ -2410,12 +2410,12 @@ Set to nil to disable."
                                                          "BabelStone Modern"            ;  96/111
                                                          ))
     ("Geometric Shapes"                                 (
-                                                         "DejaVu Sans Mono"
-                                                         "DejaVu Sans:width=condensed"
+                                                         "DejaVu Sans Mono"             ; 96/96
+                                                         "DejaVu Sans:width=condensed"  ; 96/96
                                                          "Segoe UI Symbol"              ; 96/96
-                                                         "Arial Unicode MS"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Arial Unicode MS"             ; 80/96
+                                                         "Symbola"                      ; 96/96
+                                                         "Quivira"                      ; 96/96
                                                          "BabelStone Modern"            ; 96/96
                                                          "Everson Mono"                 ; 96/96
                                                          "FreeMono"                     ; 96/96
@@ -2860,7 +2860,7 @@ Set to nil to disable."
                                                          "Monaco"                       ; 26/80
                                                          "Apple Symbols"                ; 77/80
                                                          "Segoe UI Symbol"              ; 80/80
-                                                         "Cambria Math"                 ; 67/80
+                                                         "Cambria Math"                 ; 68/80
                                                          "DejaVu Sans:width=condensed"  ; 75/80
                                                          "Arial Unicode MS"             ; 57/80
                                                          "Code2000"                     ; 80/80
@@ -3012,7 +3012,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 244/251
                                                          "Apple Symbols"                ; 232/251
                                                          "Cambria Math"                 ; 208/251
-                                                         "Code2000"
+                                                         "Code2000"                     ; 228/251
                                                          "Symbola"                      ; 244/251
                                                          "Quivira"                      ; 244/251
                                                          "Everson Mono:weight=bold"     ; 244/251
@@ -3039,9 +3039,9 @@ Set to nil to disable."
                                                          "Mro Unicode"                  ; 48/48
                                                          ))
     ("Musical Symbols"                                  (
-                                                         "Musica"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Musica"                       ; 220/220
+                                                         "Symbola"                      ; 220/220
+                                                         "Quivira"                      ;  92/220
                                                          ))
     ("Myanmar"                                          (
                                                          "Noto Sans Myanmar"            ; 160/160
@@ -3355,11 +3355,11 @@ Set to nil to disable."
     ("Supplemental Arrows-A"                            (
                                                          "Segoe UI Symbol"              ; 16/16
                                                          "Cambria Math"                 ; 16/16
-                                                         "DejaVu Sans:width=condensed"
-                                                         "Quivira"
-                                                         "Symbola"
-                                                         "Apple Symbols"
-                                                         "Code2000"
+                                                         "DejaVu Sans:width=condensed"  ; 16/16
+                                                         "Quivira"                      ; 16/16
+                                                         "Symbola"                      ; 16/16
+                                                         "Apple Symbols"                ; 16/16
+                                                         "Code2000"                     ; 16/16
                                                          "Everson Mono:weight=bold"     ; 16/16
                                                          "FreeMono"                     ; 10/16
                                                          "BabelStone Modern"            ; 12/16
