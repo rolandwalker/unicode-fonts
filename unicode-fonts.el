@@ -2326,6 +2326,7 @@ Set to nil to disable."
                                                          ))
     ("Enclosed Alphanumeric Supplement"                 (
                                                          "Segoe UI Symbol"              ; 169/173
+                                                         "Symbola"                      ; 173/173
                                                          "Quivira"
                                                          "BabelStone Han"               ; 171/173
                                                          "BabelStone Modern"            ; 169/173
