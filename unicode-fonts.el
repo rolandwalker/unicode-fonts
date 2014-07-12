@@ -1646,12 +1646,14 @@ Set to nil to disable."
 
 (defcustom unicode-fonts-block-font-mapping
   '(("Aegean Numbers"                                   (
+                                                         "Noto Sans Symbols"            ; 57/57
                                                          "Aegean"                       ; 57/57
                                                          "Quivira"
                                                          "Code2001"                     ; 57/57
                                                          "Everson Mono:weight=bold"     ; 57/57
                                                          ))
     ("Alchemical Symbols"                               (
+                                                         "Noto Sans Symbols"            ; 116/116
                                                          "Symbola"
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 116/116
@@ -1669,6 +1671,7 @@ Set to nil to disable."
                                                          ))
     ("Ancient Greek Musical Notation"                   (
                                                          "Cardo"                        ; 70/70
+                                                         "Noto Sans Symbols"            ; 70/70
                                                          "Aegean"                       ; 70/70
                                                          "New Athena Unicode"           ; 70/70
                                                          "Musica"                       ; 70/70
@@ -1677,6 +1680,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 70/70
                                                          ))
     ("Ancient Greek Numbers"                            (
+                                                         "Noto Sans Symbols"            ; 75/77
                                                          "Apple Symbols"                ; 66/77
                                                          "New Athena Unicode"           ; 75/77
                                                          "Cardo"                        ; 75/77
@@ -1686,6 +1690,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 75/77
                                                          ))
     ("Ancient Symbols"                                  (
+                                                         "Noto Sans Symbols"            ; 12/13
                                                          "Analecta"                     ; 12/13
                                                          "New Athena Unicode"           ; 12/13
                                                          "Cardo"                        ; 12/13
@@ -1803,6 +1808,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
+                                                         "Noto Sans Symbols"            ; 112/112
                                                          "Everson Mono:weight=bold"     ; 112/112
                                                          "FreeMono"                     ;  77/112
                                                          ))
@@ -1834,6 +1840,7 @@ Set to nil to disable."
                                                          ))
     ("Block Elements"                                   (
                                                          "DejaVu Sans Mono"
+                                                         "Noto Sans Symbols"            ; 32/32
                                                          "FreeMono"                     ; 32/32
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"                ; 32/32
@@ -1883,6 +1890,7 @@ Set to nil to disable."
                                                          "Everson Mono"                 ; 128/128
                                                          "Quivira"
                                                          "Code2000"
+                                                         "Noto Sans Symbols"            ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Symbola"
                                                          ))
@@ -1896,6 +1904,7 @@ Set to nil to disable."
                                                          "Apple Symbols"                ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Symbola"
+                                                         "Noto Sans Symbols"            ; 256/256
                                                          "FreeMono"                     ; 256/256
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 256/256
@@ -1909,6 +1918,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 20/20
                                                          ))
     ("Byzantine Musical Symbols"                        (
+                                                         "Noto Sans Symbols"            ; 246/246
                                                          "Musica"
                                                          "Symbola"
                                                          ))
@@ -2155,6 +2165,7 @@ Set to nil to disable."
     ("Combining Diacritical Marks for Symbols"          (
                                                          "Cambria Math"                 ; 22/33
                                                          "Segoe UI Symbol"              ; 33/33
+                                                         "Noto Sans Symbols"            ; 33/33
                                                          "Symbola"                      ; 33/33
                                                          "Code2000"                     ; 28/33
                                                          "Everson Mono"                 ; 33/33
@@ -2174,6 +2185,7 @@ Set to nil to disable."
     ("Control Pictures"                                 (
                                                          "Apple Symbols"                ; 39/39
                                                          "BabelStone Modern"            ; 39/39
+                                                         "Noto Sans Symbols"            ; 39/39
                                                          "Segoe UI Symbol"              ; 39/39
                                                          "Arial Unicode MS"
                                                          "Symbola"
@@ -2198,6 +2210,7 @@ Set to nil to disable."
                                                          ))
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
+                                                         "Noto Sans Symbols"            ; 18/18
                                                          "BabelStone Modern"            ; 18/18
                                                          "Symbola"
                                                          "Quivira"
@@ -2216,6 +2229,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ; 24/30
                                                          "DejaVu Sans:width=condensed"  ; 24/30
                                                          "Segoe UI"                     ; 27/30
+                                                         "Noto Sans Symbols"            ; 29/30
                                                          "Noto Sans"                    ; 23/30
                                                          "Apple Symbols"                ; 22/30
                                                          "Symbola"                      ; 30/30
@@ -2301,6 +2315,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 174/192
                                                          "Arial Unicode MS"             ; 160/192
                                                          "Code2000"                     ; 174/192
+                                                         "Noto Sans Symbols"            ; 191/192
                                                          "Symbola"                      ; 192/192
                                                          "Quivira"                      ; 160/192
                                                          "Everson Mono:weight=bold"     ; 192/192
@@ -2310,6 +2325,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          "Quivira"
                                                          "Segoe UI Symbol"              ; 100/100
+                                                         "Noto Sans Symbols"            ; 100/100
                                                          "Code2001"                     ; 100/100
                                                          "Everson Mono:weight=bold"     ; 100/100
                                                          ))
@@ -2327,6 +2343,7 @@ Set to nil to disable."
                                                          ))
     ("Enclosed Alphanumeric Supplement"                 (
                                                          "Segoe UI Symbol"              ; 169/173
+                                                         "Noto Sans Symbols"            ; 171/173
                                                          "Symbola"                      ; 173/173
                                                          "Quivira"                      ; 171/173
                                                          "BabelStone Han"               ; 171/173
@@ -2334,6 +2351,7 @@ Set to nil to disable."
                                                          ))
     ("Enclosed Alphanumerics"                           (
                                                          ;; "Aqua Kana"
+                                                         "Noto Sans Symbols"            ; 160/160
                                                          "Segoe UI Symbol"              ; 160/160
                                                          "Junicode"                     ; 160/160
                                                          "Arial Unicode MS"             ; 139/160
@@ -2362,6 +2380,7 @@ Set to nil to disable."
                                                          ))
     ("Enclosed Ideographic Supplement"                  (
                                                          "Segoe UI Symbol"              ; 57/57
+                                                         "Noto Sans Symbols"            ; 57/57
                                                          "HanaMinA"                     ; 57/57
                                                          "BabelStone Han"               ; 57/57
                                                          ))
@@ -2415,6 +2434,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 96/96
                                                          "Arial Unicode MS"             ; 80/96
                                                          "Symbola"                      ; 96/96
+                                                         "Noto Sans Symbols"            ; 96/96
                                                          "Quivira"                      ; 96/96
                                                          "BabelStone Modern"            ; 96/96
                                                          "Everson Mono"                 ; 96/96
@@ -2858,6 +2878,7 @@ Set to nil to disable."
                                                          ))
     ("Letterlike Symbols"                               (
                                                          "Monaco"                       ; 26/80
+                                                         "Noto Sans Symbols"            ; 80/80
                                                          "Segoe UI Symbol"              ; 80/80
                                                          "Apple Symbols"                ; 77/80
                                                          "Cambria Math"                 ; 68/80
@@ -2909,6 +2930,7 @@ Set to nil to disable."
     ("Mahjong Tiles"                                    (
                                                          "Segoe UI Symbol"              ; 44/44
                                                          "Symbola"
+                                                         "Noto Sans Symbols"            ; 44/44
                                                          "Quivira"
                                                          "Everson Mono"                 ; 44/44
                                                          ))
@@ -2928,6 +2950,7 @@ Set to nil to disable."
     ;; ("Manichaean"                                    (""))                           ; todo added in Unicode 7.0
     ("Mathematical Alphanumeric Symbols"                (
                                                          "Cambria Math"                 ; 994/996
+                                                         "Noto Sans Symbols"            ; 996/996
                                                          "Code2001"                     ; 994/996
                                                          "Symbola"                      ; 996/996
                                                          "Quivira"                      ; 996/996
@@ -2939,6 +2962,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ; 256/256
                                                          "DejaVu Sans:width=condensed"  ; 256/256
+                                                         "Noto Sans Symbols"            ; 256/256
                                                          "Apple Symbols"                ; 256/256
                                                          "Arial Unicode MS"             ; 242/256
                                                          "Code2000"                     ; 256/256
@@ -2967,6 +2991,7 @@ Set to nil to disable."
                                                          "Miao Unicode"                 ; 133/133
                                                          ))
     ("Miscellaneous Mathematical Symbols-A"             (
+                                                         "Noto Sans Symbols"            ; 48/48
                                                          "Apple Symbols"                ; 25/48
                                                          "Segoe UI Symbol"              ; 46/48
                                                          "Code2000"
@@ -2976,6 +3001,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
     ("Miscellaneous Mathematical Symbols-B"             (
+                                                         "Noto Sans Symbols"            ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Apple Symbols"                ; 128/128
                                                          "Cambria Math"                 ; 128/128
@@ -2984,6 +3010,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 128/128
                                                          ))
     ("Miscellaneous Symbols"                            (
+                                                         "Noto Sans Symbols"            ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Apple Symbols"                ; 256/256
                                                          "DejaVu Sans Mono"             ; 149/256
@@ -3000,7 +3027,8 @@ Set to nil to disable."
                                                          "Symbola"                      ; 202/202
                                                          "Quivira"                      ;  87/202
                                                          "Code2000"                     ;  82/202
-                                                         "Segoe UI Symbol"              ; 87/202
+                                                         "Segoe UI Symbol"              ;  87/202
+                                                         "Noto Sans Symbols"            ;  87/202
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
                                                          "Apple Color Emoji"            ; 533/742
@@ -3010,6 +3038,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Segoe UI Symbol"              ; 244/251
+                                                         "Noto Sans Symbols"            ; 244/251
                                                          "Apple Symbols"                ; 232/251
                                                          "Cambria Math"                 ; 208/251
                                                          "Code2000"                     ; 228/251
@@ -3020,6 +3049,7 @@ Set to nil to disable."
     ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
     ("Modifier Tone Letters"                            (
                                                          "Apple Symbols"                ; 27/32
+                                                         "Noto Sans Symbols"            ; 32/32
                                                          "Gentium Plus"                 ; 32/32
                                                          "Code2000"                     ; 32/32
                                                          "Quivira"                      ; 32/32
@@ -3039,6 +3069,7 @@ Set to nil to disable."
                                                          "Mro Unicode"                  ; 48/48
                                                          ))
     ("Musical Symbols"                                  (
+                                                         "Noto Sans Symbols"            ; 220/220
                                                          "Musica"                       ; 220/220
                                                          "Symbola"                      ; 220/220
                                                          "Quivira"                      ;  92/220
@@ -3136,6 +3167,7 @@ Set to nil to disable."
     ("Optical Character Recognition"                    (
                                                          "Apple Symbols"                ; 11/11
                                                          "Segoe UI Symbol"              ; 11/11
+                                                         "Noto Sans Symbols"            ; 11/11
                                                          "Arial Unicode MS"
                                                          "Symbola"
                                                          "Quivira"
@@ -3173,6 +3205,7 @@ Set to nil to disable."
                                                          ))
     ("Phaistos Disc"                                    (
                                                          "Aegean"                       ; 46/46
+                                                         "Noto Sans Symbols"            ; 46/46
                                                          "Symbola"                      ; 46/46
                                                          "Everson Mono:weight=bold"     ; 46/46
                                                          "Code2001"                     ; 46/46
@@ -3214,6 +3247,7 @@ Set to nil to disable."
     ("Playing Cards"                                    (
                                                          "DejaVu Sans:width=condensed"  ; 59/82
                                                          "Symbola"                      ; 82/82
+                                                         "Noto Sans Symbols"            ; 59/82
                                                          "Segoe UI Symbol"              ; 59/82
                                                          "Quivira"                      ; 59/82
                                                          ))
@@ -3320,6 +3354,7 @@ Set to nil to disable."
     ;;                                                   ))
     ("Specials"                                         (
                                                          "BabelStone Modern"            ; 5/5
+                                                         "Noto Sans Symbols"            ; 5/5
                                                          "Apple Symbols"                ; 5/5
                                                          "Arial Unicode MS"
                                                          "Symbola"
@@ -3359,6 +3394,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 16/16
                                                          "Symbola"                      ; 16/16
                                                          "Apple Symbols"                ; 16/16
+                                                         "Noto Sans Symbols"            ; 16/16
                                                          "Code2000"                     ; 16/16
                                                          "Everson Mono:weight=bold"     ; 16/16
                                                          "FreeMono"                     ; 10/16
@@ -3368,6 +3404,7 @@ Set to nil to disable."
                                                          "Cambria Math"                 ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Apple Symbols"                ; 128/128
+                                                         "Noto Sans Symbols"            ; 128/128
                                                          "Quivira"                      ; 128/128
                                                          "Symbola"                      ; 128/128
                                                          "Code2000"                     ; 128/128
@@ -3379,6 +3416,7 @@ Set to nil to disable."
     ("Supplemental Mathematical Operators"              (
                                                          "Cambria Math"                 ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
+                                                         "Noto Sans Symbols"            ; 256/256
                                                          "Apple Symbols"                ; 251/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
@@ -3388,6 +3426,7 @@ Set to nil to disable."
     ("Supplemental Punctuation"                         (
                                                          "DejaVu Sans Mono"             ;  6/67  ; this will give poor results if existence-checks is set to 'first
                                                          "Segoe UI Symbol"              ; 50/67
+                                                         "Noto Sans Symbols"            ; 60/67
                                                          "Antinoou"                     ; 46/67
                                                          "New Athena Unicode"           ; 60/67
                                                          "Cardo"                        ; 43/67
@@ -3442,6 +3481,7 @@ Set to nil to disable."
     ("Tai Xuan Jing Symbols"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
                                                          "Apple Symbols"                ; 87/87
+                                                         "Noto Sans Symbols"            ; 87/87
                                                          "Segoe UI Symbol"              ; 87/87
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
@@ -3580,6 +3620,7 @@ Set to nil to disable."
                                                          ))
     ("Yijing Hexagram Symbols"                          (
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
+                                                         "Noto Sans Symbols"            ; 64/64
                                                          "Segoe UI Symbol"              ; 64/64
                                                          "Apple Symbols"                ; 64/64
                                                          "DejaVu Sans:width=condensed"
