@@ -1881,10 +1881,10 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
-                                                         "Symbola"
                                                          "Quivira"
                                                          "Code2000"
                                                          "Everson Mono"                 ; 128/128
+                                                         "Symbola"
                                                          ))
     ("Brahmi"                                           (
                                                          "Adinatha Tamil Brahmi"        ; 45/108
@@ -3321,9 +3321,9 @@ Set to nil to disable."
                                                          "BabelStone Modern"            ; 5/5
                                                          "Apple Symbols"                ; 5/5
                                                          "Arial Unicode MS"
+                                                         "Symbola"
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
-                                                         "Symbola"
                                                          "Quivira"
                                                          "FreeMono"                     ; 5/5
                                                          "BabelStone Han"               ; 5/5
@@ -3354,8 +3354,8 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 16/16
                                                          "Cambria Math"                 ; 16/16
                                                          "DejaVu Sans:width=condensed"
-                                                         "Symbola"
                                                          "Quivira"
+                                                         "Symbola"
                                                          "Apple Symbols"
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 16/16
@@ -3365,9 +3365,9 @@ Set to nil to disable."
     ("Supplemental Arrows-B"                            (
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Cambria Math"                 ; 128/128
-                                                         "Symbola"
                                                          "Apple Symbols"
                                                          "Quivira"
+                                                         "Symbola"
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 128/128
                                                          ))
