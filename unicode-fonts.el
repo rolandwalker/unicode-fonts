@@ -3375,8 +3375,8 @@ Set to nil to disable."
                                                          "Symbola"                      ; 148/148
                                                          ))
     ("Supplemental Mathematical Operators"              (
+                                                         "Cambria Math"                 ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
-                                                         "Cambria Math"                 ;  10/256
                                                          "Apple Symbols"                ; 251/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
