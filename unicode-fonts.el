@@ -975,7 +975,7 @@
     ("Estrangelo Nisibin"                  :licenses (free))
     ("Ethiopia Jiret"                      :licenses (free))
     ("Ethiopia WashRa SemiBold"            :licenses (free))
-    ("Ethopic Yebse"                       :licenses (free))
+    ("Ethiopic Yebse"                      :licenses (free))
     ("EucrosiaUPC"                         :licenses (microsoft))
     ("Euphemia UCAS"                       :licenses (apple))
     ("Euphemia"                            :licenses (microsoft))
@@ -2397,7 +2397,7 @@ Set to nil to disable."
                                                          "Abyssinica SIL"
                                                          "Ethiopia Jiret"
                                                          "Ethiopia WashRa SemiBold"
-                                                         "Ethopic Yebse"
+                                                         "Ethiopic Yebse"
                                                          "Code2000"
                                                          ))
     ("Ethiopic Extended"                                (
