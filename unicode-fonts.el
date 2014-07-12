@@ -1830,6 +1830,7 @@ Set to nil to disable."
     ;; ("Bassa Vah"                                     (""))                           ; todo added in Unicode 7.0
     ("Batak"                                            (
                                                          "Batak-Unicode"                ; 56/56
+                                                         "Noto Sans Batak"              ; 56/56
                                                          ))
     ("Bengali"                                          (
                                                          "Bangla Sangam MN"
