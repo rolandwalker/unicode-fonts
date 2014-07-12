@@ -2699,6 +2699,7 @@ Set to nil to disable."
                                                          ))
     ("Inscriptional Pahlavi"                            (
                                                          "ZH Mono"                      ; 27/27
+                                                         "Ahuramzda:weight=bold"        ;  8/27
                                                          ))
     ("Inscriptional Parthian"                           (
                                                          "ZH Mono"                      ; 30/30
