@@ -1831,6 +1831,8 @@ Set to nil to disable."
                                                          ))
     ("Bengali"                                          (
                                                          "Bangla Sangam MN"
+                                                         "Noto Sans Bengali"            ; 92/93
+                                                         "Noto Sans Bengali UI"         ; 92/93
                                                          "Nirmala UI"
                                                          "Vrinda"
                                                          "Mukti Narrow"
