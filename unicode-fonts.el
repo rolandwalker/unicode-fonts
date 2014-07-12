@@ -3579,10 +3579,10 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Yijing Hexagram Symbols"                          (
-                                                         "DejaVu Sans:width=condensed"
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
                                                          "Segoe UI Symbol"              ; 64/64
                                                          "Apple Symbols"
+                                                         "DejaVu Sans:width=condensed"
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
                                                          "Quivira"
