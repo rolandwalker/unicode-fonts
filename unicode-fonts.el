@@ -2234,12 +2234,12 @@ Set to nil to disable."
                                                          ))
     ("Currency Symbols"                                 (
                                                          "Monaco"                       ; 19/30
-                                                         "Consolas"                     ; 25/30
                                                          "DejaVu Sans Mono"             ; 24/30
                                                          "DejaVu Sans:width=condensed"  ; 24/30
-                                                         "Segoe UI"                     ; 27/30
+                                                         "Consolas"                     ; 25/30
                                                          "Noto Sans Symbols"            ; 29/30
                                                          "Noto Sans"                    ; 23/30
+                                                         "Segoe UI"                     ; 27/30
                                                          "Apple Symbols"                ; 22/30
                                                          "Symbola"                      ; 30/30
                                                          "Quivira"                      ; 27/30
@@ -3690,11 +3690,14 @@ are given, each is tried in order."
     ("Circled Times"                                  "Circled Times"                               ("Arial Unicode MS"                  ))
 
     ;; Currency Symbols block
-    ("Livre Tournois Sign"                            "Turkish Lira Sign"                           ("Symbola" "Noto Sans"               ))
-    (#x20BB                                           #x20CF                                        ("Symbola"                           ))
-    ("Drachma Sign"                                   "Drachma Sign"                                ("DejaVu Sans Mono"                  ))
-    ("German Penny Sign"                              "German Penny Sign"                           ("DejaVu Sans Mono"                  ))
-    ("New Sheqel Sign"                                "New Sheqel Sign"                             ("DejaVu Sans Mono"                  ))
+    ("Drachma Sign"                                   "Drachma Sign"                                ("DejaVu Sans Mono"                       ))
+    ("German Penny Sign"                              "German Penny Sign"                           ("DejaVu Sans Mono"                       ))
+    ("New Sheqel Sign"                                "New Sheqel Sign"                             ("DejaVu Sans Mono"                       ))
+    ("Livre Tournois Sign"                            "Spesmilo Sign"                               ("Noto Sans Symbols" "Symbola"            ))
+    ("Turkish Lira Sign"                              "Turkish Lira Sign"                           ("Noto Sans Symbols" "Symbola" "Noto Sans"))
+    ("Nordic Mark Sign"                               "Nordic Mark Sign"                            ("Symbola"                                ))
+    ("Manat Sign"                                     "Ruble Sign"                                  ("Noto Sans Symbols" "Symbola"            ))
+    (#x20BE                                           #x20CF                                        ("Symbola"                                ))
 
     ;; Dingbats block
     ("White Heavy Check Mark"                         "White Heavy Check Mark"                          ("Symbola"                      ))
