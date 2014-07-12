@@ -1919,6 +1919,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 30/30
                                                          ))
     ("Buhid"                                            (
+                                                         "Noto Sans Buhid"              ; 20/20
                                                          "Quivira"                      ; 20/20
                                                          "Code2000"                     ; 20/20
                                                          ))
