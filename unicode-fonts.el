@@ -2215,6 +2215,7 @@ Set to nil to disable."
                                                          "Consolas"                     ; 25/30
                                                          "DejaVu Sans Mono"             ; 24/30
                                                          "DejaVu Sans:width=condensed"  ; 24/30
+                                                         "Segoe UI"                     ; 27/30
                                                          "Noto Sans"                    ; 23/30
                                                          "Apple Symbols"                ; 22/30
                                                          "Symbola"                      ; 30/30
