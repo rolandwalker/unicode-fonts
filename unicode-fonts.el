@@ -1915,6 +1915,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 256/256
                                                          ))
     ("Buginese"                                         (
+                                                         "Noto Sans Buginese"           ; 30/30
                                                          "MPH 2B Damase"                ; 30/30
                                                          "Code2000"                     ; 30/30
                                                          ))
