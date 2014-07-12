@@ -955,7 +955,7 @@
     ("Didot"                               :licenses (apple))
     ("DilleniaUPC"                         :licenses (microsoft))
     ("Directions MT"                       :licenses (microsoft))
-    ("Diwani Letter"                       :licenses (microsoft) :decorative t :arabic diwani)
+    ("Diwani Letter"                       :licenses (microsoft) :arabic diwani)
     ("DokChampa"                           :licenses (microsoft))
     ("Dotum"                               :licenses (microsoft))
     ("Doulos SIL"                          :licenses (free))
