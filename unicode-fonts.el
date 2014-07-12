@@ -2197,10 +2197,10 @@ Set to nil to disable."
                                                          ))
     ("Counting Rod Numerals"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 18/18
-                                                         "Apple Symbols"
                                                          "BabelStone Modern"            ; 18/18
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Apple Symbols"                ; 18/18
                                                          "Code2001"                     ; 18/18
                                                          ))
     ("Cuneiform"                                        (
@@ -2931,10 +2931,10 @@ Set to nil to disable."
                                                          ))
     ("Mathematical Operators"                           (
                                                          "DejaVu Sans Mono"             ; 159/256
-                                                         "Apple Symbols"                ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ; 256/256
                                                          "DejaVu Sans:width=condensed"  ; 256/256
+                                                         "Apple Symbols"                ; 256/256
                                                          "Arial Unicode MS"             ; 242/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
@@ -2971,16 +2971,16 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
     ("Miscellaneous Mathematical Symbols-B"             (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 128/128
+                                                         "Apple Symbols"
                                                          "Cambria Math"                 ; 128/128
                                                          "Code2000"                     ; 128/128
                                                          "Symbola"                      ; 128/128
                                                          "Quivira"                      ; 128/128
                                                          ))
     ("Miscellaneous Symbols"                            (
-                                                         "Apple Symbols"                ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
+                                                         "Apple Symbols"                ; 256/256
                                                          "DejaVu Sans Mono"             ; 149/256
                                                          "DejaVu Sans:width=condensed"  ; 187/256
                                                          "Arial Unicode MS"             ; 106/256
@@ -3004,8 +3004,8 @@ Set to nil to disable."
                                                          "Quivira"                      ; 159/742
                                                          ))
     ("Miscellaneous Technical"                          (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 244/251
+                                                         "Apple Symbols"                ; 232/251
                                                          "Cambria Math"                 ; 208/251
                                                          "Code2000"
                                                          "Symbola"                      ; 244/251
@@ -3347,22 +3347,22 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 34/42
                                                          ))
     ("Supplemental Arrows-A"                            (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 16/16
                                                          "Cambria Math"                 ; 16/16
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
                                                          "Quivira"
+                                                         "Apple Symbols"
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 16/16
                                                          "FreeMono"                     ; 10/16
                                                          "BabelStone Modern"            ; 12/16
                                                          ))
     ("Supplemental Arrows-B"                            (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Cambria Math"                 ; 128/128
                                                          "Symbola"
+                                                         "Apple Symbols"
                                                          "Quivira"
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 128/128
@@ -3371,9 +3371,9 @@ Set to nil to disable."
                                                          "Symbola"                      ; 148/148
                                                          ))
     ("Supplemental Mathematical Operators"              (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ;  10/256
+                                                         "Apple Symbols"                ; 251/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
                                                          "Quivira"                      ; 256/256
@@ -3434,9 +3434,9 @@ Set to nil to disable."
                                                          "Tai Heritage Pro"
                                                          ))
     ("Tai Xuan Jing Symbols"                            (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 87/87
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
+                                                         "Apple Symbols"
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
@@ -3573,10 +3573,10 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Yijing Hexagram Symbols"                          (
-                                                         "Apple Symbols"
                                                          "Segoe UI Symbol"              ; 64/64
                                                          "DejaVu Sans:width=condensed"
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
+                                                         "Apple Symbols"
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
                                                          "Quivira"
