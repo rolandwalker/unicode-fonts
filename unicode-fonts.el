@@ -1897,7 +1897,8 @@ Set to nil to disable."
                                                          "Symbola"
                                                          ))
     ("Brahmi"                                           (
-                                                         "Adinatha Tamil Brahmi"        ; 45/108
+                                                         "Noto Sans Brahmi"             ; 108/109
+                                                         "Adinatha Tamil Brahmi"        ;  45/109
                                                          ))
     ("Braille Patterns"                                 (
                                                          "Quivira"
