@@ -2699,11 +2699,9 @@ Set to nil to disable."
                                                          ))
     ("Inscriptional Pahlavi"                            (
                                                          "ZH Mono"                      ; 27/27
-                                                         "WenQuanYi Zen Hei"
                                                          ))
     ("Inscriptional Parthian"                           (
                                                          "ZH Mono"                      ; 30/30
-                                                         "WenQuanYi Zen Hei"
                                                          ))
     ("Javanese"                                         (
                                                          "Tuladha Jejeg"
