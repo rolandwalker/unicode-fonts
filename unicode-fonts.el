@@ -1115,6 +1115,7 @@
     ("LiSong Pro"                          :licenses (apple) :chinese traditional)
     ("Libian SC"                           :licenses (apple) :chinese simplified)
     ("LilyUPC"                             :licenses (microsoft))
+    ("Lisu Tzimu"                          :licenses (free))
     ("Lisu Unicode"                        :licenses (free))
     ("Lucida Blackletter"                  :licenses (microsoft))
     ("Lucida Bright Math"                  :licenses (microsoft))
@@ -2883,6 +2884,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 88/88
                                                          ))
     ("Lisu"                                             (
+                                                         "Lisu Tzimu"                   ; 48/48
                                                          "Miao Unicode"                 ; 48/48
                                                          "Lisu Unicode"                 ; 48/48
                                                          "Quivira"                      ; 48/48
