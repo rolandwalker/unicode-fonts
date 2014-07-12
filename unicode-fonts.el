@@ -2944,8 +2944,8 @@ Set to nil to disable."
                                                          ))
     ("Meetei Mayek"                                     (
                                                          "Noto Sans Meetei Mayek"       ; 56/56
-                                                         "Eeyek Unicode"                ; fails x11
-                                                         "Meetei Mayek"
+                                                         "Eeyek Unicode"                ; 56/56  fails X11, OS X
+                                                         "Meetei Mayek"                 ; 56/56  "Eeyek Unicode" appears under this name in OS X
                                                          ))
     ("Meetei Mayek Extensions"                          (
                                                          "Noto Sans Meetei Mayek"       ; 23/23
