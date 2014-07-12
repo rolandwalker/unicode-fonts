@@ -3786,7 +3786,7 @@ are given, each is tried in order."
 
     ;; Alphabetic Presentation Forms block
     ("Hebrew Letter Yod with Hiriq"                   "Hebrew Ligature Alef Lamed"                  ("Miriam Fixed" "Ezra SIL" "Ezra SIL SR" "Arial Hebrew" "Adobe Hebrew" "Arial Unicode MS" "Quivira"))
-    ("Armenian Small Ligature Men Now"                "Armenian Small Ligature Men Xeh"             ("Mshtakan" "Sylfaen" "DejaVu Sans:width=condensed" "Quivira" "Arial Unicode MS" ))
+    ("Armenian Small Ligature Men Now"                "Armenian Small Ligature Men Xeh"             ("Noto Sans Armenian" "Mshtakan" "Sylfaen" "DejaVu Sans:width=condensed" "Quivira" "Arial Unicode MS" ))
 
     ;; Arabic letters
     ("Arabic Letter Hah with Small Arabic Letter Tah Below" "Arabic Letter Kaf with Two Dots Above" ("Geeza Pro"                         ))
