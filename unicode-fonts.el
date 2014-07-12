@@ -2854,6 +2854,7 @@ Set to nil to disable."
                                                          "Mingzat"                      ; 74/74
                                                          ))
     ("Letterlike Symbols"                               (
+                                                         "Monaco"                       ; 26/80
                                                          "Apple Symbols"                ; 77/80
                                                          "Segoe UI Symbol"              ; 80/80
                                                          "Cambria Math"                 ; 67/80
@@ -2930,6 +2931,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 992/996
                                                          ))
     ("Mathematical Operators"                           (
+                                                         "Monaco"                       ;  47/256
                                                          "DejaVu Sans Mono"             ; 159/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ; 256/256
@@ -3336,6 +3338,7 @@ Set to nil to disable."
     ("Superscripts and Subscripts"                      (
                                                          "Consolas"                     ; 27/42
                                                          "Cambria Math"                 ; 28/42
+                                                         "Monaco"                       ; 29/42
                                                          "DejaVu Sans Mono"             ; 42/42
                                                          "DejaVu Sans:width=condensed"  ; 42/42
                                                          "Segoe UI Symbol"              ; 42/42
