@@ -1880,9 +1880,9 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
+                                                         "Everson Mono"                 ; 128/128
                                                          "Quivira"
                                                          "Code2000"
-                                                         "Everson Mono"                 ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Symbola"
                                                          ))
