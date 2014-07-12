@@ -1810,7 +1810,7 @@ Set to nil to disable."
                                                          "Ahuramzda"
                                                          ))
     ("Balinese"                                         (
-                                                         "Aksara Bali"
+                                                         "Aksara Bali"                    ; 121/121
                                                          ))
     ("Bamum"                                            (
                                                          "Noto Sans Bamum"              ; 88/88
