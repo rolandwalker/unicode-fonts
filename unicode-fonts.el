@@ -1807,7 +1807,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ;  77/112
                                                          ))
     ("Avestan"                                          (
-                                                         "Ahuramzda"
+                                                         "Ahuramzda:weight=bold"        ; 61/61
                                                          ))
     ("Balinese"                                         (
                                                          "Aksara Bali"                    ; 121/121
