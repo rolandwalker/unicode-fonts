@@ -2210,16 +2210,16 @@ Set to nil to disable."
                                                          "Akkadian"
                                                          ))
     ("Currency Symbols"                                 (
-                                                         "Monaco"
-                                                         "Consolas"                     ; 22/27
-                                                         "DejaVu Sans Mono"
-                                                         "DejaVu Sans:width=condensed"
-                                                         "Noto Sans"                    ; 23/27
-                                                         "Apple Symbols"
-                                                         "Symbola"
-                                                         "Quivira"
+                                                         "Monaco"                       ; 19/30
+                                                         "Consolas"                     ; 25/30
+                                                         "DejaVu Sans Mono"             ; 24/30
+                                                         "DejaVu Sans:width=condensed"  ; 24/30
+                                                         "Noto Sans"                    ; 23/30
+                                                         "Apple Symbols"                ; 22/30
+                                                         "Symbola"                      ; 30/30
+                                                         "Quivira"                      ; 27/30
                                                          "Everson Mono:weight=bold"     ; 27/30
-                                                         "FreeMono"                     ; 23/27
+                                                         "FreeMono"                     ; 23/30
                                                          ))
     ("Cypriot Syllabary"                                (
                                                          "Aegean"                       ; 55/55
