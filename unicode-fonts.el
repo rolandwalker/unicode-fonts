@@ -3678,6 +3678,8 @@ are given, each is tried in order."
     ("Alternative Key Symbol"                         "Alternative Key Symbol"                      ("Keyboard" "Lucida Grande"          ))  ; OSX alt key
     ("Broken Circle with Northwest Arrow"             "Broken Circle with Northwest Arrow"          ("Keyboard" "Lucida Grande"          ))  ; OSX power key
     ("Eject Symbol"                                   "Eject Symbol"                                ("Keyboard" "Lucida Grande"          ))
+    ("Left Parenthesis Upper Hook"                    "Radical Symbol Bottom"                       ("Cambria Math" "Quivira" "Code2000" ))
+    ("Top Half Integral"                              "Bottom Half Integral"                        ("Cambria Math" "Quivira" "Code2000" ))
 
     ;; General Punctuation block
     ("En Quad"                                        "Zero Width Joiner"                           ("DejaVu Sans" "Symbola" "Arial Unicode MS"))   ; space variations are proportional
