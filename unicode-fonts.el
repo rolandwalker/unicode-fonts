@@ -1878,12 +1878,12 @@ Set to nil to disable."
                                                          ))
     ("Box Drawing"                                      (
                                                          "DejaVu Sans Mono"
-                                                         "Segoe UI Symbol"              ; 128/128
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
                                                          "Quivira"
                                                          "Code2000"
                                                          "Everson Mono"                 ; 128/128
+                                                         "Segoe UI Symbol"              ; 128/128
                                                          "Symbola"
                                                          ))
     ("Brahmi"                                           (
@@ -2294,8 +2294,8 @@ Set to nil to disable."
                                                          ))
     ("Dingbats"                                         (
                                                          "Apple Color Emoji"
-                                                         "Segoe UI Symbol"              ; 191/192
                                                          "DejaVu Sans Mono"             ; 144/192
+                                                         "Segoe UI Symbol"              ; 191/192
                                                          "Zapf Dingbats"                ; 174/192
                                                          "DejaVu Sans:width=condensed"  ; 174/192
                                                          "Arial Unicode MS"             ; 160/192
@@ -2995,10 +2995,10 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 191/256
                                                          ))
     ("Miscellaneous Symbols and Arrows"                 (
-                                                         "Segoe UI Symbol"              ; 87/202
                                                          "Symbola"
                                                          "Quivira"
                                                          "Code2000"
+                                                         "Segoe UI Symbol"              ; 87/202
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
                                                          "Apple Color Emoji"            ; 533/742
@@ -3363,8 +3363,8 @@ Set to nil to disable."
                                                          "BabelStone Modern"            ; 12/16
                                                          ))
     ("Supplemental Arrows-B"                            (
-                                                         "Segoe UI Symbol"              ; 128/128
                                                          "Cambria Math"                 ; 128/128
+                                                         "Segoe UI Symbol"              ; 128/128
                                                          "Apple Symbols"
                                                          "Quivira"
                                                          "Symbola"
@@ -3438,9 +3438,9 @@ Set to nil to disable."
                                                          "Tai Heritage Pro"
                                                          ))
     ("Tai Xuan Jing Symbols"                            (
-                                                         "Segoe UI Symbol"              ; 87/87
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
                                                          "Apple Symbols"                ; 87/87
+                                                         "Segoe UI Symbol"              ; 87/87
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
@@ -3577,9 +3577,9 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Yijing Hexagram Symbols"                          (
-                                                         "Segoe UI Symbol"              ; 64/64
                                                          "DejaVu Sans:width=condensed"
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
+                                                         "Segoe UI Symbol"              ; 64/64
                                                          "Apple Symbols"
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"
