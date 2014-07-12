@@ -3045,9 +3045,9 @@ Set to nil to disable."
     ("Myanmar"                                          (
                                                          "Noto Sans Myanmar"            ; 160/160
                                                          "Noto Sans Myanmar UI"         ; 160/160
+                                                         "Myanmar Text"                 ; 160/160
                                                          "Myanmar Sangam MN"            ;  85/160
                                                          "Myanmar MN"                   ;  85/160
-                                                         "Myanmar Text"
                                                          "TharLon"                      ; 160/160
                                                          "Yunghkio"                     ; 160/160
                                                          "Myanmar3"                     ;  85/160
