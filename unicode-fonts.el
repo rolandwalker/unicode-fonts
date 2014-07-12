@@ -1677,7 +1677,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 70/70
                                                          ))
     ("Ancient Greek Numbers"                            (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 66/77
                                                          "New Athena Unicode"           ; 75/77
                                                          "Cardo"                        ; 75/77
                                                          "Aegean"                       ; 75/77
@@ -1794,7 +1794,7 @@ Set to nil to disable."
                                                          ))
     ("Arrows"                                           (
                                                          "DejaVu Sans Mono"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 112/112
                                                          "Cambria Math"                 ; 112/112
                                                          "Segoe UI Symbol"              ; 112/112
                                                          "DejaVu Sans:width=condensed"
@@ -1836,7 +1836,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"
                                                          "FreeMono"                     ; 32/32
                                                          "DejaVu Sans:width=condensed"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 32/32
                                                          "Segoe UI Symbol"              ; 32/32
                                                          "BabelStone Modern"            ; 32/32
                                                          "Symbola"
@@ -1892,7 +1892,7 @@ Set to nil to disable."
     ("Braille Patterns"                                 (
                                                          "Quivira"
                                                          "DejaVu Sans:width=condensed"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Symbola"
                                                          "FreeMono"                     ; 256/256
@@ -2018,7 +2018,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei UI"
                                                          "HAN NOM A"                    ; 115/115
                                                          "DFKai-SB"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 115/115
                                                          "Code2000"
                                                          ))
     ("CJK Strokes"                                      (
@@ -2171,7 +2171,7 @@ Set to nil to disable."
                                                          "Siddhanta"
                                                          ))
     ("Control Pictures"                                 (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 39/39
                                                          "BabelStone Modern"            ; 39/39
                                                          "Segoe UI Symbol"              ; 39/39
                                                          "Arial Unicode MS"
@@ -2269,7 +2269,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
     ("Deseret"                                          (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 80/80
                                                          "Segoe UI Symbol"              ; 80/80
                                                          "Analecta"
                                                          "Code2001"                     ; 80/80
@@ -2390,7 +2390,7 @@ Set to nil to disable."
                                                          ))
     ("General Punctuation"                              (
                                                          "Monaco"                       ;  16/111 this will give poor results if existence-checks is set to 'first
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 106/111
                                                          "Segoe UI Symbol"              ; 107/111
                                                          "Cambria Math"                 ;  36/111
                                                          "DejaVu Sans Mono"             ;  52/111
@@ -2719,7 +2719,7 @@ Set to nil to disable."
                                                          "HAN NOM A"                    ; 214/214
                                                          "DFKai-SB"
                                                          "Apple Myungjo"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 214/214
                                                          "Code2000"
                                                          ;; "Aqua Kana"
                                                          ))
@@ -2962,7 +2962,7 @@ Set to nil to disable."
                                                          "Miao Unicode"                 ; 133/133
                                                          ))
     ("Miscellaneous Mathematical Symbols-A"             (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 25/48
                                                          "Segoe UI Symbol"              ; 46/48
                                                          "Code2000"
                                                          "Symbola"                      ; 48/48
@@ -2972,7 +2972,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Mathematical Symbols-B"             (
                                                          "Segoe UI Symbol"              ; 128/128
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 128/128
                                                          "Cambria Math"                 ; 128/128
                                                          "Code2000"                     ; 128/128
                                                          "Symbola"                      ; 128/128
@@ -3015,7 +3015,7 @@ Set to nil to disable."
     ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
     ("Modifier Tone Letters"                            (
                                                          "Apple Myungjo"
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 27/32
                                                          "Gentium Plus"                 ; 32/32
                                                          "Code2000"                     ; 32/32
                                                          "Quivira"                      ; 32/32
@@ -3130,7 +3130,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 73/73
                                                          ))
     ("Optical Character Recognition"                    (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 11/11
                                                          "Segoe UI Symbol"              ; 11/11
                                                          "Arial Unicode MS"
                                                          "Symbola"
@@ -3278,7 +3278,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Sharada"                                       (""))                           ; todo
     ("Shavian"                                          (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 48/48
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 48/48
                                                          "Everson Mono:weight=bold"     ; 48/48
@@ -3293,7 +3293,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Sinhala Archaic Numbers"                       (""))                           ; todo added in Unicode 7.0
     ("Small Form Variants"                              (
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 26/26
                                                          "Arial Unicode MS"
                                                          "WenQuanYi Zen Hei Mono"       ; 25/26
                                                          "Microsoft YaHei"              ; 26/26
@@ -3316,7 +3316,7 @@ Set to nil to disable."
     ;;                                                   ))
     ("Specials"                                         (
                                                          "BabelStone Modern"            ; 5/5
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 5/5
                                                          "Arial Unicode MS"
                                                          "DejaVu Sans Mono"
                                                          "DejaVu Sans:width=condensed"
@@ -3436,7 +3436,7 @@ Set to nil to disable."
     ("Tai Xuan Jing Symbols"                            (
                                                          "Segoe UI Symbol"              ; 87/87
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
-                                                         "Apple Symbols"
+                                                         "Apple Symbols"                ; 87/87
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"
