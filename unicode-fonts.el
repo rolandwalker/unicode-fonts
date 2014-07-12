@@ -1659,8 +1659,6 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 116/116
                                                          ))
     ("Alphabetic Presentation Forms"                    (
-                                                         "Ezra SIL"                     ; 38/58 (FB1D-FB20, FB29-FB4F)
-                                                         "Ezra SIL SR"                  ; 38/58 (FB1D-FB20, FB29-FB4F)
                                                          "DejaVu Sans:width=condensed"  ; 58/58
                                                          "Arial Unicode MS"             ; 57/58
                                                          "Cardo"                        ; 58/58
@@ -3787,7 +3785,7 @@ are given, each is tried in order."
     ("Coptic Capital Letter Shei"                     "Coptic Small Letter Dei"                     ("Microsoft Sans Serif" "DejaVu Sans:width=condensed"))
 
     ;; Alphabetic Presentation Forms block
-    ("Hebrew Letter Yod with Hiriq"                   "Hebrew Ligature Alef Lamed"                  ("Miriam Fixed" "Arial Hebrew" "Adobe Hebrew" "Arial Unicode MS" "Quivira"))
+    ("Hebrew Letter Yod with Hiriq"                   "Hebrew Ligature Alef Lamed"                  ("Miriam Fixed" "Ezra SIL" "Ezra SIL SR" "Arial Hebrew" "Adobe Hebrew" "Arial Unicode MS" "Quivira"))
     ("Armenian Small Ligature Men Now"                "Armenian Small Ligature Men Xeh"             ("Mshtakan" "Sylfaen" "DejaVu Sans:width=condensed" "Quivira" "Arial Unicode MS" ))
 
     ;; Arabic letters
