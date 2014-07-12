@@ -1818,6 +1818,7 @@ Set to nil to disable."
                                                          "Ahuramzda:weight=bold"        ; 61/61
                                                          ))
     ("Balinese"                                         (
+                                                         "Noto Sans Balinese:weight=bold" ; 121/121
                                                          "Aksara Bali"                    ; 121/121
                                                          ))
     ("Bamum"                                            (
