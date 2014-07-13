@@ -1,12 +1,12 @@
 ;;; unicode-fonts.el --- Configure Unicode fonts
 ;;
-;; Copyright (c) 2012-13 Roland Walker
+;; Copyright (c) 2012-14 Roland Walker
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/unicode-fonts
 ;; URL: http://raw.githubusercontent.com/rolandwalker/unicode-fonts/master/unicode-fonts.el
-;; Version: 0.3.8
-;; Last-Updated: 22 Oct 2013
+;; Version: 0.4.0
+;; Last-Updated: 12 Jul 2014
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
 ;; Package-Requires: ((font-utils "0.7.2") (ucs-utils "0.8.0") (list-utils "0.4.2") (persistent-soft "0.8.8") (pcache "0.2.3"))
@@ -1486,7 +1486,7 @@
 ;;;###autoload
 (defgroup unicode-fonts nil
   "Configure Unicode fonts."
-  :version "0.3.8"
+  :version "0.4.0"
   :link '(emacs-commentary-link :tag "Commentary" "unicode-fonts")
   :link '(url-link :tag "GitHub" "http://github.com/rolandwalker/unicode-fonts")
   :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/UnicodeFonts")
