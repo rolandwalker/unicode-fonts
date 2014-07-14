@@ -3184,6 +3184,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 32/32
                                                          ))
     ("Old Turkic"                                       (
+                                                         "Noto Sans Old Turkic"         ; 73/73
                                                          "Segoe UI Symbol"              ; 73/73
                                                          "Quivira"                      ; 73/73
                                                          "Everson Mono:weight=bold"     ; 73/73
