@@ -3132,6 +3132,7 @@ Set to nil to disable."
                                                          "Ebrima"
                                                          "Conakry"                      ; 59/59
                                                          "DejaVu Sans:width=condensed"  ; 54/59
+                                                         "Noto Sans NKo"                ; 59/59
                                                          "Code2000"                     ; 59/59
                                                          ))
     ("Number Forms"                                     (
