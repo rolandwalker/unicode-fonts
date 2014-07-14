@@ -2803,6 +2803,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 48/48
                                                          ))
     ("Kharoshthi"                                       (
+                                                         "Noto Sans Kharoshthi"         ;  65/65
                                                          "MPH 2B Damase"
                                                          ))
     ("Khmer"                                            (
