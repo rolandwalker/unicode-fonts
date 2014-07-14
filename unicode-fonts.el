@@ -3177,6 +3177,7 @@ Set to nil to disable."
     ;; ("Old North Arabian"                             (""))                           ; todo added in Unicode 7.0
     ;; ("Old Permic"                                    (""))                           ; todo added in Unicode 7.0
     ("Old Persian"                                      (
+                                                         "Noto Sans Old Persian"        ; 50/50
                                                          "Aegean"                       ; 50/50
                                                          "Code2001"                     ; 50/50
                                                          ))
