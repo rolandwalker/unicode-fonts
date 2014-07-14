@@ -3506,6 +3506,7 @@ Set to nil to disable."
                                                          "FreeSerif"                    ; 35/35
                                                          ))
     ("Tai Tham"                                         (
+                                                         "Noto Sans Tai Tham"           ; 127/127
                                                          "Lanna Alif"
                                                          ))
     ("Tai Viet"                                         (
