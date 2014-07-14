@@ -2460,6 +2460,7 @@ Set to nil to disable."
                                                          ))
     ("Georgian"                                         (
                                                          "DejaVu Sans Mono"             ; 45/88
+                                                         "Noto Sans Georgian"           ; 83/88
                                                          "DejaVu Sans:width=condensed"  ; 83/88
                                                          "Arial Unicode MS"             ; 78/88
                                                          "Code2000"                     ; 83/88
@@ -2469,6 +2470,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 88/88
                                                          ))
     ("Georgian Supplement"                              (
+                                                         "Noto Sans Georgian"           ; 38/40
                                                          "DejaVu Serif:width=condensed" ; 38/40
                                                          "MPH 2B Damase"                ; 38/40
                                                          "Quivira"                      ; 40/40
