@@ -2938,6 +2938,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Low Surrogates"                                (""))                           ; no displayable characters
     ("Lycian"                                           (
+                                                         "Noto Sans Lycian"             ; 29/29
                                                          "Aegean"                       ; 29/29
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 29/29
