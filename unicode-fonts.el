@@ -3214,6 +3214,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 48/48
                                                          ))
     ("Osmanya"                                          (
+                                                         "Noto Sans Osmanya"            ; 40/40
                                                          "Ebrima"
                                                          "MPH 2B Damase"
                                                          "Code2001"                     ; 40/40
