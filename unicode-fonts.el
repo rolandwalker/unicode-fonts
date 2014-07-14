@@ -3151,6 +3151,7 @@ Set to nil to disable."
                                                          ))
     ("Ogham"                                            (
                                                          "Segoe UI Symbol"              ; 29/29
+                                                         "Noto Sans Ogham"              ; 29/29
                                                          "DejaVu Sans:width=condensed"
                                                          "BabelStone Modern"            ; 29/29
                                                          "Code2000"
