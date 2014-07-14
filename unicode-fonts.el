@@ -3156,8 +3156,9 @@ Set to nil to disable."
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          ))
-    ("Ol Chiki"                                         (                               ; todo quality free alternative
+    ("Ol Chiki"                                         (
                                                          "Nirmala UI"                   ; 48/48
+                                                         "Noto Sans Ol Chiki"           ; 48/48
                                                          "Code2000"                     ; 48/48
                                                          ))
     ("Old Italic"                                       (
