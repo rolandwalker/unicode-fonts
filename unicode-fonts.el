@@ -3340,6 +3340,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 61/61
                                                          ))
     ("Saurashtra"                                       (
+                                                         "Noto Sans Saurashtra"         ; 81/81
                                                          "Code2000"
                                                          "Sourashtra"
                                                          ))
