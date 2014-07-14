@@ -2712,6 +2712,7 @@ Set to nil to disable."
                                                          "ZH Mono"                      ; 30/30
                                                          ))
     ("Javanese"                                         (
+                                                         "Noto Sans Javanese"                  ; 91/91
                                                          "Tuladha Jejeg"
                                                          ))
     ("Kaithi"                                           (
