@@ -2344,8 +2344,8 @@ Set to nil to disable."
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
                                                          "Noto Sans Egyptian Hieroglyphs"      ; 1071/1071
-                                                         "Aegyptus"                     ; 1071/1071
-                                                         "Gardiner"                     ; 1071/1071
+                                                         "Aegyptus"                            ; 1071/1071
+                                                         "Gardiner"                            ; 1071/1071
                                                          ))
     ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
@@ -2707,12 +2707,12 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Inscriptional Pahlavi"                            (
-                                                         "ZH Mono"                      ; 27/27
+                                                         "ZH Mono"                             ; 27/27
                                                          "Noto Sans Inscriptional Pahlavi"     ; 27/27
-                                                         "Ahuramzda:weight=bold"        ;  8/27
+                                                         "Ahuramzda:weight=bold"               ;  8/27
                                                          ))
     ("Inscriptional Parthian"                           (
-                                                         "ZH Mono"                      ; 30/30
+                                                         "ZH Mono"                             ; 30/30
                                                          "Noto Sans Inscriptional Parthian"    ; 30/30
                                                          ))
     ("Javanese"                                         (
