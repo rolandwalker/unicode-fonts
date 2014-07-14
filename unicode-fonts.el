@@ -3204,9 +3204,9 @@ Set to nil to disable."
     ;; ("Palmyrene"                                     (""))                           ; todo added in Unicode 7.0
     ;; ("Pau Cin Hau"                                   (""))                           ; todo added in Unicode 7.0
     ("Phags-pa"                                         (
-                                                         "Microsoft PhagsPa"
                                                          "BabelStone Phags-pa Book"     ; 56/56
                                                          "BabelStone Phags-pa Book:style=Regular"
+                                                         "Microsoft PhagsPa"
                                                          "Code2000"                     ; 56/56
                                                          ))
     ("Phaistos Disc"                                    (
