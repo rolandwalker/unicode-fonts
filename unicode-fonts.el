@@ -1930,6 +1930,7 @@ Set to nil to disable."
                                                          "Symbola"
                                                          ))
     ("Carian"                                           (
+                                                         "Noto Sans Carian"             ; 49/49
                                                          "Aegean"                       ; 49/49
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 49/49
