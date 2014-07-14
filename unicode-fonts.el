@@ -2683,6 +2683,7 @@ Set to nil to disable."
     ("Imperial Aramaic"                                 (
                                                          "Aramaic Imperial Yeb"         ; 31/31
                                                          "Quivira"                      ; 31/31
+                                                         "Noto Sans Imperial Aramaic"   ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          ))
     ("IPA Extensions"                                   (
