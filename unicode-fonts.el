@@ -3572,6 +3572,7 @@ Set to nil to disable."
     ("Unified Canadian Aboriginal Syllabics"            (
                                                          "Aboriginal Sans"              ; 640/640
                                                          "Aboriginal Serif"             ; 640/640
+                                                         "Noto Sans Canadian Aboriginal"; 640/640
                                                          "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
@@ -3582,6 +3583,7 @@ Set to nil to disable."
     ("Unified Canadian Aboriginal Syllabics Extended"   (
                                                          "Aboriginal Sans"              ; 70/70
                                                          "Aboriginal Serif"             ; 70/70
+                                                         "Noto Sans Canadian Aboriginal"; 70/70
                                                          "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
