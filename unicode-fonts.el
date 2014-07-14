@@ -2935,8 +2935,8 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 88/88
                                                          ))
     ("Lisu"                                             (
-                                                         "Miao Unicode"                 ; 48/48
                                                          "Lisu Unicode"                 ; 48/48
+                                                         "Miao Unicode"                 ; 48/48
                                                          "Lisu Tzimu"                   ; 48/48
                                                          "Quivira"                      ; 48/48
                                                          "Everson Mono:weight=bold"     ; 48/48
