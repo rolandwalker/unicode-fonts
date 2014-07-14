@@ -2297,6 +2297,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
     ("Deseret"                                          (
+                                                         "Noto Sans Deseret"            ; 80/80
                                                          "Apple Symbols"                ; 80/80
                                                          "Segoe UI Symbol"              ; 80/80
                                                          "Analecta"
