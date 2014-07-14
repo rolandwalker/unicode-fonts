@@ -3189,6 +3189,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 50/50
                                                          ))
     ("Old South Arabian"                                (
+                                                         "Noto Sans Old South Arabian"  ; 32/32
                                                          "Quivira"                      ; 32/32
                                                          "Qataban"                      ; 32/32
                                                          "Everson Mono:weight=bold"     ; 32/32
