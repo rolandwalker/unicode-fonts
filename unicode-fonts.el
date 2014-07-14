@@ -2907,11 +2907,13 @@ Set to nil to disable."
                                                          "Aegean"                       ; 341/341
                                                          ))
     ("Linear B Ideograms"                               (
+                                                         "Noto Sans Linear B"           ; 123/123
                                                          "Aegean"                       ; 123/123
                                                          "Code2001"                     ; 123/123
                                                          "Everson Mono:weight=bold"     ; 123/123
                                                          ))
     ("Linear B Syllabary"                               (
+                                                         "Noto Sans Linear B"           ; 88/88
                                                          "Aegean"                       ; 88/88
                                                          "Code2001"                     ; 88/88
                                                          "Everson Mono:weight=bold"     ; 88/88
