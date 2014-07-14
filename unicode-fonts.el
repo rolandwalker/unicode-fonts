@@ -2249,6 +2249,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 23/30
                                                          ))
     ("Cypriot Syllabary"                                (
+                                                         "Noto Sans Cypriot"            ; 55/55
                                                          "Aegean"                       ; 55/55
                                                          "Code2001"                     ; 55/55
                                                          "Everson Mono:weight=bold"     ; 55/55
