@@ -3488,6 +3488,7 @@ Set to nil to disable."
                                                         ))
     ("Tagalog"                                          (
                                                          "Quivira"
+                                                         "Noto Sans Tagalog"            ; 20/20
                                                          ))
     ("Tagbanwa"                                         (
                                                          "Quivira"
