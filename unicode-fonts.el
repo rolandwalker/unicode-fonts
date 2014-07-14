@@ -3133,9 +3133,9 @@ Set to nil to disable."
     ("Ogham"                                            (
                                                          "Segoe UI Symbol"              ; 29/29
                                                          "DejaVu Sans:width=condensed"
-                                                         "Aboriginal Serif"             ; 29/29
                                                          "BabelStone Modern"            ; 29/29
                                                          "Code2000"
+                                                         "Aboriginal Serif"             ; 29/29
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          ))
