@@ -2472,6 +2472,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 40/40
                                                          ))
     ("Glagolitic"                                       (
+                                                         "Noto Sans Glagolitic"         ; 94/94
                                                          "Segoe UI Symbol"              ; 94/94
                                                          "MPH 2B Damase"
                                                          "Quivira"
