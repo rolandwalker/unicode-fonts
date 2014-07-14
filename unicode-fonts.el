@@ -3345,6 +3345,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Sharada"                                       (""))                           ; todo
     ("Shavian"                                          (
+                                                         "Noto Sans Shavian"            ; 48/48
                                                          "MPH 2B Damase"
                                                          "Apple Symbols"                ; 48/48
                                                          "Code2001"                     ; 48/48
