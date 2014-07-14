@@ -1946,6 +1946,7 @@ Set to nil to disable."
                                                          "Aboriginal Sans"              ; 85/85
                                                          "Aboriginal Serif"             ; 85/85
                                                          "Plantagenet Cherokee"
+                                                         "Noto Sans Cherokee"           ; 85/85
                                                          "Gadugi"
                                                          "MPH 2B Damase"
                                                          "Quivira"
