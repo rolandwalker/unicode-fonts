@@ -3578,6 +3578,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          ))
     ("Tifinagh"                                         (
+                                                         "Noto Sans Tifinagh"           ; 59/59
                                                          "Ebrima"
                                                          "DejaVu Sans:width=condensed"
                                                          "Code2000"
