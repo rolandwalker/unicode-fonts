@@ -3082,6 +3082,7 @@ Set to nil to disable."
                                                          "ST Heiti"
                                                          "ST Kaiti"
                                                          "ST Song"
+                                                         "Noto Sans Mongolian"          ; 156/156
                                                          "Mongolian Baiti"
                                                          "Daicing Xiaokai"
                                                          "Code2000"
