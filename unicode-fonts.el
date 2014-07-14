@@ -2343,6 +2343,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
+                                                         "Noto Sans Egyptian Hieroglyphs"      ; 1071/1071
                                                          "Aegyptus"                     ; 1071/1071
                                                          "Gardiner"                     ; 1071/1071
                                                          ))
