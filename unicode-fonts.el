@@ -2481,6 +2481,7 @@ Set to nil to disable."
                                                          "Quivira"
                                                          ))
     ("Gothic"                                           (
+                                                         "Noto Sans Gothic"             ; 27/27
                                                          "Segoe UI Symbol"              ; 27/27
                                                          "Analecta"                     ; 27/27
                                                          "Junicode"                     ; 27/27
