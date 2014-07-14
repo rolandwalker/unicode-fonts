@@ -3126,6 +3126,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Nabataean"                                     (""))                           ; todo added in Unicode 7.0
     ("New Tai Lue"                                      (
+                                                         "Noto Sans New Tai Lue"        ; 83/83
                                                          "Microsoft New Tai Lue"
                                                          "Dai Banna SIL Book"
                                                          "Dai Banna SIL Book:style=Regular"
