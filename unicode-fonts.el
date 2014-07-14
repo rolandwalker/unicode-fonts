@@ -2711,6 +2711,7 @@ Set to nil to disable."
                                                          ))
     ("Inscriptional Parthian"                           (
                                                          "ZH Mono"                      ; 30/30
+                                                         "Noto Sans Inscriptional Parthian"    ; 30/30
                                                          ))
     ("Javanese"                                         (
                                                          "Noto Sans Javanese"                  ; 91/91
