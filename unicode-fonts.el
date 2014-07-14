@@ -3237,6 +3237,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 46/46
                                                          ))
     ("Phoenician"                                       (
+                                                         "Noto Sans Phoenician"         ; 29/29
                                                          "Aegean"                       ; 29/29
                                                          "Quivira"
                                                          "Code2001"                     ; 27/29
