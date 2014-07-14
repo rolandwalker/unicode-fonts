@@ -3484,6 +3484,7 @@ Set to nil to disable."
     ;;                                                   ))
     ;; ("Supplementary Private Use Area-B"              (""))
     ("Syloti Nagri"                                     (
+                                                         "Noto Sans Syloti Nagri"       ; 44/44
                                                          "MPH 2B Damase"
                                                          ))
     ("Syriac"                                           (
