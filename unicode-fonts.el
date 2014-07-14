@@ -2892,6 +2892,7 @@ Set to nil to disable."
     ;;                                                  ))
     ("Lepcha"                                           (
                                                          "Mingzat"                      ; 74/74
+                                                         "Noto Sans Lepcha"             ; 74/74
                                                          ))
     ("Letterlike Symbols"                               (
                                                          "Monaco"                       ; 26/80
