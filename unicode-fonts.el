@@ -3591,6 +3591,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 97/97
                                                          ))
     ("Ugaritic"                                         (
+                                                         "Noto Sans Ugaritic"           ; 31/31
                                                          "Aegean"                       ; 31/31
                                                          "Code2001"                     ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
