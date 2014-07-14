@@ -3316,7 +3316,8 @@ Set to nil to disable."
     ;;                                                   "Samyak"                       ;     6/6,400
     ;;                                                   ))
     ;; ("Psalter Pahlavi"                               (""))                           ; todo added in Unicode 7.0
-    ("Rejang"                                           (                               ; todo quality free alternative
+    ("Rejang"                                           (
+                                                         "Noto Sans Rejang"             ; 37/37
                                                          "Code2000"                     ; 37/37
                                                          "Everson Mono:weight=bold"     ; 37/37
                                                          ))
