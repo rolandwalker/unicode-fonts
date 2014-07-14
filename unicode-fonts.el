@@ -1280,7 +1280,7 @@
     ("Noto Sans Old South Arabian"         :licenses (free))
     ("Noto Sans Old Turkic"                :licenses (free))
     ("Noto Sans Osmanya"                   :licenses (free))
-    ("Noto Sans Phags-Pa"                  :licenses (free))
+    ("Noto Sans Phags-pa"                  :licenses (free))
     ("Noto Sans Phoenician"                :licenses (free))
     ("Noto Sans Rejang"                    :licenses (free))
     ("Noto Sans Runic"                     :licenses (free))
@@ -3230,6 +3230,7 @@ Set to nil to disable."
     ("Phags-pa"                                         (
                                                          "BabelStone Phags-pa Book"     ; 56/56
                                                          "BabelStone Phags-pa Book:style=Regular"
+                                                         "Noto Sans Phags-pa"           ; 56/56
                                                          "Microsoft PhagsPa"
                                                          "Code2000"                     ; 56/56
                                                          ))
