@@ -2225,10 +2225,12 @@ Set to nil to disable."
                                                          "Code2001"                     ; 18/18
                                                          ))
     ("Cuneiform"                                        (
+                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 879/921
                                                          "Akkadian"
                                                          ))
     ("Cuneiform Numbers and Punctuation"                (
                                                          "Akkadian"
+                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 103/116
                                                          ))
     ("Currency Symbols"                                 (
                                                          "Monaco"                       ; 19/30
