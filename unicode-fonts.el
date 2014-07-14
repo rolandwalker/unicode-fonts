@@ -2943,6 +2943,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          ))
     ("Lydian"                                           (
+                                                         "Noto Sans Lydian"             ; 27/27
                                                          "Aegean"                       ; 27/27
                                                          "Quivira"
                                                          "Everson Mono:weight=bold"     ; 27/27
