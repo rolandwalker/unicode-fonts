@@ -2613,6 +2613,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Hanunoo"                                          (
+                                                         "Noto Sans Hanunoo"            ; 23/23
                                                          "MPH 2B Damase"
                                                          "Quivira"
                                                          ))
