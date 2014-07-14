@@ -2909,6 +2909,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 80/80
                                                          ))
     ("Limbu"                                            (
+                                                         "Noto Sans Limbu"              ; 66/68
                                                          "Namdhinggo SIL"               ; 66/68
                                                          "MPH 2B Damase"
                                                          "Code2000"
