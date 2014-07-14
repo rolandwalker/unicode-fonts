@@ -3580,6 +3580,7 @@ Set to nil to disable."
     ("Unified Canadian Aboriginal Syllabics Extended"   (
                                                          "Aboriginal Sans"              ; 70/70
                                                          "Aboriginal Serif"             ; 70/70
+                                                         "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
                                                          "Quivira"
