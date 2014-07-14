@@ -2798,6 +2798,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Kayah Li"                                         (
+                                                         "Noto Sans Kayah Li"           ; 48/48
                                                          "Code2000"
                                                          "FreeMono"                     ; 48/48
                                                          ))
