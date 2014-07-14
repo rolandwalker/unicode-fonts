@@ -3335,6 +3335,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 89/89
                                                          ))
     ("Samaritan"                                        (
+                                                         "Noto Sans Samaritan"          ; 61/61
                                                          "Quivira"                      ; 61/61
                                                          "Everson Mono:weight=bold"     ; 61/61
                                                          ))
