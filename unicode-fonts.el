@@ -2434,7 +2434,6 @@ Set to nil to disable."
     ("Ethiopic Extended-A"                              (
                                                          "Kefa"
                                                          "Abyssinica SIL"
-                                                         "Code2000"
                                                          ))
     ("Ethiopic Supplement"                              (
                                                          "Kefa"
