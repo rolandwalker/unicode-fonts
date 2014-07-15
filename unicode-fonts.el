@@ -2970,6 +2970,7 @@ Set to nil to disable."
     ("Lisu"                                             (
                                                          "Lisu Unicode"                 ; 48/48
                                                          "Miao Unicode"                 ; 48/48
+                                                         "Noto Sans Lisu"               ; 48/48
                                                          "Lisu Tzimu"                   ; 48/48
                                                          "Quivira"                      ; 48/48
                                                          "Everson Mono:weight=bold"     ; 48/48
