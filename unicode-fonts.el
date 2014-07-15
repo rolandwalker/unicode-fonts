@@ -3589,16 +3589,16 @@ Set to nil to disable."
     ;; ("Takri"                                         (""))                           ; todo
     ("Tamil"                                            (
                                                          "Tamil Sangam MN"
-                                                         "Vijaya"
-                                                         "Nirmala UI"
+                                                         "Vijaya"                       ; 72/72
+                                                         "Nirmala UI"                   ; 72/72
                                                          "InaiMathi"
-                                                         "Latha"
+                                                         "Latha"                        ; 72/72
                                                          "Maduram"
-                                                         "Akshar Unicode"
-                                                         "Samyak Tamil"
-                                                         "Samyak"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
+                                                         "Akshar Unicode"               ; 61/72
+                                                         "Samyak Tamil"                 ; 49/72
+                                                         "Samyak"                       ; 49/72
+                                                         "Code2000"                     ; 71/72
+                                                         "Arial Unicode MS"             ; 61/72
                                                          ))
     ("Telugu"                                           (
                                                          "Telugu Sangam MN"
