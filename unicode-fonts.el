@@ -3542,9 +3542,9 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          ))
     ("Syriac"                                           (
-                                                         "Estrangelo Edessa"
-                                                         "Estrangelo Nisibin"
-                                                         "Code2000"
+                                                         "Estrangelo Edessa"            ; 77/77
+                                                         "Estrangelo Nisibin"           ; 71/77
+                                                         "Code2000"                     ; 50/77
                                                         ))
     ("Tagalog"                                          (
                                                          "Quivira"
