@@ -2796,12 +2796,12 @@ Set to nil to disable."
                                                          ))
     ("Kannada"                                          (
                                                          "Kannada Sangam MN"
-                                                         "Nirmala UI"
-                                                         "Tunga"
-                                                         "Akshar Unicode"
-                                                         "Arial Unicode MS"
-                                                         "Kedage"
-                                                         "Code2000"
+                                                         "Nirmala UI"                   ; 86/87
+                                                         "Tunga"                        ; 86/87
+                                                         "Akshar Unicode"               ; 82/87
+                                                         "Arial Unicode MS"             ; 80/87
+                                                         "Kedage"                       ; 78/87
+                                                         "Code2000"                     ; 86/87
                                                          ))
     ("Katakana"                                         (
                                                          "Osaka:spacing=m"
