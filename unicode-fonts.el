@@ -3571,6 +3571,7 @@ Set to nil to disable."
                                                          ))
     ("Tai Viet"                                         (
                                                          "Tai Heritage Pro"             ; 72/72
+                                                         "Noto Sans Tai Viet"           ; 72/72
                                                          ))
     ("Tai Xuan Jing Symbols"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
