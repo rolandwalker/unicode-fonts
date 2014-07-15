@@ -3380,6 +3380,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 31/31
                                                          ))
     ("Runic"                                            (
+                                                         "Noto Sans Runic"              ; 81/89
                                                          "Segoe UI Symbol"              ; 81/89
                                                          "Aboriginal Serif"             ; 81/89
                                                          "Junicode"                     ; 81/89
