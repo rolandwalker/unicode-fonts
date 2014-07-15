@@ -3610,9 +3610,9 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 80/95
                                                          ))
     ("Thaana"                                           (
-                                                         "MV Boli"
-                                                         "MPH 2B Damase"
-                                                         "Code2000"
+                                                         "MV Boli"                      ; 50/50
+                                                         "MPH 2B Damase"                ; 50/50
+                                                         "Code2000"                     ; 50/50
                                                          "Everson Mono:weight=bold"     ; 50/50
                                                          ))
     ("Thai"                                             (
