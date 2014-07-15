@@ -3264,8 +3264,8 @@ Set to nil to disable."
                                                          ))
     ("Osmanya"                                          (
                                                          "Noto Sans Osmanya"            ; 40/40
-                                                         "Ebrima"
-                                                         "MPH 2B Damase"
+                                                         "Ebrima"                       ; 40/40
+                                                         "MPH 2B Damase"                ; 40/40
                                                          "Code2001"                     ; 40/40
                                                          "Everson Mono:weight=bold"     ; 40/40
                                                          ))
