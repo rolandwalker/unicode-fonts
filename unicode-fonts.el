@@ -2161,14 +2161,14 @@ Set to nil to disable."
                                                          "Monlam Uni Sans Serif"        ; 15/15
                                                          ))
     ("Combining Diacritical Marks Supplement"           (
-                                                         "Cardo"                        ; 28/43
-                                                         "FreeSerif"                    ; 33/43
-                                                         "Junicode"                     ; 26/43
-                                                         "Doulos SIL"                   ; 14/43
-                                                         "DejaVu Sans:width=condensed"  ;  6/43
-                                                         "Noto Sans"                    ; 13/43
-                                                         "Segoe UI"                     ; 13/43
-                                                         "Code2000"                     ; 13/43
+                                                         "Cardo"                        ; 28/58
+                                                         "FreeSerif"                    ; 33/58
+                                                         "Junicode"                     ; 26/58
+                                                         "Doulos SIL"                   ; 14/58
+                                                         "DejaVu Sans:width=condensed"  ;  6/58
+                                                         "Noto Sans"                    ; 13/58
+                                                         "Segoe UI"                     ; 13/58
+                                                         "Code2000"                     ; 13/58
                                                          "Everson Mono"                 ; 43/58
                                                          ))
     ("Combining Diacritical Marks for Symbols"          (
