@@ -3697,7 +3697,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 240/240
                                                          ))
     ("Vedic Extensions"                                 (
-                                                         "Siddhanta"
+                                                         "Siddhanta"                    ; 37/41
                                                          ))
     ("Vertical Forms"                                   (
                                                          "Microsoft YaHei"              ; 10/10
