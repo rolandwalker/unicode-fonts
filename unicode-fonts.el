@@ -4648,7 +4648,17 @@ default value is `unicode-fonts-fontset-names'."
 ;; LocalWords: Alif Andale callf incf Kayah Lisu Sora Sompeng Syloti
 ;; LocalWords: Nagri Syllabics Arial glyphs Meetei Mayek Naskh Tahoma
 ;; LocalWords: ClearType Mshtakan Sylfaen Cambria Lucida Grande Yogh
-;; LocalWords: Projective Sheqel
+;; LocalWords: Projective Sheqel Noto Nilus Namdhinggo Yunghkio Amiri
+;; LocalWords: TharLon Ribeng Adinatha FreeMono FreeFont Cardo Dukor
+;; LocalWords: Junicode Antinoou Bassa Epact Duployan Elbasan Grantha
+;; LocalWords: Khojki Khudawadi Mahajani Manichaean Mende Kikakui
+;; LocalWords: Modi Nabataean Permic Pahawh Palmyrene Siddham Tirhuta
+;; LocalWords: Warang Citi Estrangela Diwani Nastaleeq Kufic Everson
+;; LocalWords: ALPHABETUM Segoe Nirmala Meiryo FreeSerif Calibri Dezh
+;; LocalWords: Livre Tournois Spesmilo Manat Spirant Hwair Kiyeok
+;; LocalWords: Shei Alef Hiriq Shha Iotified Izhitsa Bashkir Palochka
+;; LocalWords: FONTSET Abkhasian Cada Heta Sampi Pamphylian Digamma
+;; LocalWords: Fontset
 ;;
 
 ;;; unicode-fonts.el ends here
