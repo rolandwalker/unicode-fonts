@@ -2851,10 +2851,10 @@ Set to nil to disable."
                                                          ))
     ("Khmer Symbols"                                    (
                                                          "Khmer Sangam MN"
-                                                         "MoolBoran"
-                                                         "Khmer Mondulkiri"
-                                                         "Khmer Busra"
-                                                         "Code2000"
+                                                         "MoolBoran"                    ; 32/32
+                                                         "Khmer Mondulkiri"             ; 32/32
+                                                         "Khmer Busra"                  ; 32/32
+                                                         "Code2000"                     ; 32/32
                                                          ))
     ;; ("Khojki"                                        (""))                           ; todo added in Unicode 7.0
     ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
