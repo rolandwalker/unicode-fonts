@@ -3413,9 +3413,9 @@ Set to nil to disable."
     ;; ("Siddham"                                       (""))                           ; todo added in Unicode 7.0
     ("Sinhala"                                          (
                                                          "Sinhala Sangam MN"
-                                                         "Nirmala UI"
-                                                         "Iskoola Pota"
-                                                         "Akshar Unicode"
+                                                         "Nirmala UI"                   ; 80/90
+                                                         "Iskoola Pota"                 ; 80/90
+                                                         "Akshar Unicode"               ; 80/90
                                                          ))
     ;; ("Sinhala Archaic Numbers"                       (""))                           ; todo added in Unicode 7.0
     ("Small Form Variants"                              (
