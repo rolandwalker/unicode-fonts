@@ -3252,12 +3252,12 @@ Set to nil to disable."
                                                          ))
     ("Oriya"                                            (
                                                          "Oriya Sangam MN"
-                                                         "Nirmala UI"
-                                                         "Kalinga"
-                                                         "Samyak Oriya"
-                                                         "Samyak"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
+                                                         "Nirmala UI"                   ; 84/90
+                                                         "Kalinga"                      ; 84/90
+                                                         "Samyak Oriya"                 ; 82/90
+                                                         "Samyak"                       ; 82/90
+                                                         "Code2000"                     ; 84/90
+                                                         "Arial Unicode MS"             ; 79/90
                                                          ))
     ("Ornamental Dingbats"                              (
                                                          "Symbola"                      ; 48/48
