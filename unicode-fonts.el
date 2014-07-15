@@ -3427,7 +3427,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Sora Sompeng"                                     (                               ; todo free coverage
-                                                         "Nirmala UI"
+                                                         "Nirmala UI"                   ; 35/35
                                                          ))
     ;; ("Spacing Modifier Letters"                      (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"                       ; 79/80
