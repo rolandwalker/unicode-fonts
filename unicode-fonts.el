@@ -2271,8 +2271,8 @@ Set to nil to disable."
                                                          "Quivira"                      ; 256/256
                                                          "Everson Mono:weight=bold"     ; 256/256
                                                          "FreeMono"                     ; 251/256
-                                                         "Charcoal CY"                  ; 94/256
-                                                         "Geneva CY"                    ; 94/256
+                                                         "Charcoal CY"                  ;  94/256
+                                                         "Geneva CY"                    ;  94/256
                                                          ))
     ("Cyrillic Extended-A"                              (
                                                          "Quivira"
@@ -2810,7 +2810,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 48/48
                                                          ))
     ("Kharoshthi"                                       (
-                                                         "Noto Sans Kharoshthi"         ;  65/65
+                                                         "Noto Sans Kharoshthi"         ; 65/65
                                                          "MPH 2B Damase"
                                                          ))
     ("Khmer"                                            (
