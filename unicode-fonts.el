@@ -2077,7 +2077,6 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 54/64
                                                          "Osaka:spacing=m"
                                                          "Code2000"
-                                                         "Everson Mono:weight=bold"     ; 60/67
                                                          ))
     ("CJK Unified Ideographs"                           (
                                                          "WenQuanYi Zen Hei Mono"       ; 20932/20941
@@ -3523,6 +3522,7 @@ Set to nil to disable."
                                                          "Aegean"                       ; 48/67
                                                          "Symbola"                      ; 67/67
                                                          "Quivira"                      ; 60/67
+                                                         "Everson Mono:weight=bold"     ; 60/67
                                                          "Code2000"                     ; 49/67
                                                          "ALPHABETUM Unicode"           ; 50/67
                                                          ))
