@@ -3602,12 +3602,12 @@ Set to nil to disable."
                                                          ))
     ("Telugu"                                           (
                                                          "Telugu Sangam MN"
-                                                         "Vani"
-                                                         "Nirmala UI"
-                                                         "Gautami"
-                                                         "Akshar Unicode"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
+                                                         "Vani"                         ; 93/95
+                                                         "Nirmala UI"                   ; 93/95
+                                                         "Gautami"                      ; 93/95
+                                                         "Akshar Unicode"               ; 80/95
+                                                         "Code2000"                     ; 93/95
+                                                         "Arial Unicode MS"             ; 80/95
                                                          ))
     ("Thaana"                                           (
                                                          "MV Boli"
