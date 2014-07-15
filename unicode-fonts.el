@@ -2999,13 +2999,13 @@ Set to nil to disable."
                                                          ))
     ("Malayalam"                                        (
                                                          "Malayalam Sangam MN"
-                                                         "Nirmala UI"
-                                                         "Kartika"
-                                                         "Samyak Malayalam"
-                                                         "Samyak"
-                                                         "Akshar Unicode"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
+                                                         "Nirmala UI"                   ; 98/99
+                                                         "Kartika"                      ; 98/99
+                                                         "Samyak Malayalam"             ; 68/99
+                                                         "Samyak"                       ; 66/99
+                                                         "Akshar Unicode"               ; 83/99
+                                                         "Code2000"                     ; 95/99
+                                                         "Arial Unicode MS"             ; 78/99
                                                          ))
     ("Mandaic"                                          (
                                                          "Noto Sans Mandaic"            ; 29/29
