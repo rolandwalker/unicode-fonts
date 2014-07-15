@@ -2843,11 +2843,11 @@ Set to nil to disable."
                                                          ))
     ("Khmer"                                            (
                                                          "Khmer Sangam MN"
-                                                         "DaunPenh"
-                                                         "Code2000"
-                                                         "MoolBoran"
-                                                         "Khmer Mondulkiri"
-                                                         "Khmer Busra"
+                                                         "DaunPenh"                     ; 114/114
+                                                         "Code2000"                     ; 114/114
+                                                         "MoolBoran"                    ; 114/114
+                                                         "Khmer Mondulkiri"             ; 114/114
+                                                         "Khmer Busra"                  ; 114/114
                                                          ))
     ("Khmer Symbols"                                    (
                                                          "Khmer Sangam MN"
