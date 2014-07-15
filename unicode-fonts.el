@@ -1951,7 +1951,7 @@ Set to nil to disable."
                                                          "Ribeng"                       ; 67/67
                                                          ))
     ("Cham"                                             (                               ; todo quality free alternative
-                                                         "Code2000"
+                                                         "Code2000"                     ; 83/83
                                                          ))
     ("Cherokee"                                         (
                                                          "Aboriginal Sans"              ; 85/85
@@ -2055,7 +2055,7 @@ Set to nil to disable."
     ("CJK Strokes"                                      (
                                                          "WenQuanYi Zen Hei Mono"       ; 36/36
                                                          "HanaMinA"                     ; 36/36
-                                                         "BabelStone Han"               ; 26/26
+                                                         "BabelStone Han"               ; 36/36
                                                          "Code2000"
                                                          ))
     ("CJK Symbols and Punctuation"                      (
@@ -2079,67 +2079,67 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("CJK Unified Ideographs"                           (
-                                                         "WenQuanYi Zen Hei Mono"       ; 20932/20941
+                                                         "WenQuanYi Zen Hei Mono"       ; 20,932/20,941
                                                          "Lantinghei SC"
-                                                         "Songti SC"                    ; 20910/20941
+                                                         "Songti SC"                    ; 20,910/20,941
                                                          "SimHei"
                                                          "FangSong"
-                                                         "ST Fangsong"                  ; 20910/20941
+                                                         "ST Fangsong"                  ; 20,910/20,941
                                                          "SimSun"
-                                                         "LiSong Pro"                   ; 17595/20941
-                                                         "Baoli SC"                     ;  7103/20941
-                                                         "HanaMinA"                     ; 20941/20941
-                                                         "BabelStone Han"               ; 19051/20941
-                                                         "Apple LiGothic"               ; 13060/20941
+                                                         "LiSong Pro"                   ; 17,595/20,941
+                                                         "Baoli SC"                     ;  7,103/20,941
+                                                         "HanaMinA"                     ; 20,941/20,941
+                                                         "BabelStone Han"               ; 19,051/20,941
+                                                         "Apple LiGothic"               ; 13,060/20,941
                                                          "Lantinghei TC"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "HAN NOM A"                    ; 20902/20941
+                                                         "HAN NOM A"                    ; 20,902/20,941
                                                          "DFKai-SB"
                                                          "Arial Unicode MS"
-                                                         "Xingkai SC"                   ;  7103/20941
-                                                         "GB18030 Bitmap"               ; 20902/20941
-                                                         "UnBatang"                     ;  4260/20941
+                                                         "Xingkai SC"                   ;  7,103/20,941
+                                                         "GB18030 Bitmap"               ; 20,902/20,941
+                                                         "UnBatang"                     ;  4,260/20,941
                                                          ))
     ("CJK Unified Ideographs Extension A"               (
                                                          "SimHei"
                                                          "FangSong"
-                                                         "ST Fangsong"                  ; 6582/6582
+                                                         "ST Fangsong"                  ; 6,582/6,582
                                                          "SimSun"
-                                                         "Songti SC"                    ; 6582/6582
+                                                         "Songti SC"                    ; 6,582/6,582
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "HanaMinA"                     ; 6582/6582
-                                                         "HAN NOM A"                    ; 6582/6582
+                                                         "HanaMinA"                     ; 6,582/6,582
+                                                         "HAN NOM A"                    ; 6,582/6,582
                                                          "Code2000"
                                                          "DFKai-SB"
-                                                         "BabelStone Han"               ;  691/6582
-                                                         "GB18030 Bitmap"               ; 6578/6582
+                                                         "BabelStone Han"               ;   691/6,582
+                                                         "GB18030 Bitmap"               ; 6,578/6,582
                                                          ))
     ("CJK Unified Ideographs Extension B"               (
                                                          "SimHei"
                                                          "FangSong"
                                                          "SimSun"
-                                                         "LiSong Pro"                   ; 1640/42711
+                                                         "LiSong Pro"                   ;  1,640/42,711
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
-                                                         "HanaMinB"                     ; 42711/42711
-                                                         "HAN NOM B"                    ; 42711/42711
-                                                         "Code2002"                     ; 20158/24711
+                                                         "HanaMinB"                     ; 42,711/42,711
+                                                         "HAN NOM B"                    ; 42,711/42,711
+                                                         "Code2002"                     ; 20,158/42,711
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "BabelStone Han"               ; 625/24711
+                                                         "BabelStone Han"               ;    625/42,711
                                                          "DFKai-SB"
                                                          ))
     ("CJK Unified Ideographs Extension C"               (
-                                                         "HanaMinB"                     ; 4149/4149
-                                                         "BabelStone Han"               ;  399/4149
-                                                         "HAN NOM B"                    ;  106/4149
+                                                         "HanaMinB"                     ; 4,149/4,149
+                                                         "BabelStone Han"               ;   399/4,149
+                                                         "HAN NOM B"                    ;   106/4,149
                                                          ))
     ("CJK Unified Ideographs Extension D"               (
                                                          "HanaMinB"                     ; 222/222
@@ -2323,15 +2323,15 @@ Set to nil to disable."
     ("Devanagari"                                       (
                                                          "Devanagari Sangam MN"
                                                          "Devanagari MT"
-                                                         "Nirmala UI"
-                                                         "Mangal"
-                                                         "Samyak Devanagari"
-                                                         "Samyak"
-                                                         "Siddhanta"                    ; 127/127
-                                                         "Aparajita"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
-                                                         "ALPHABETUM Unicode"           ; 117/127
+                                                         "Nirmala UI"                   ; 113/128
+                                                         "Mangal"                       ; 112/128
+                                                         "Samyak Devanagari"            ; 112/128
+                                                         "Samyak"                       ; 115/128
+                                                         "Siddhanta"                    ; 127/128
+                                                         "Aparajita"                    ; 127/128
+                                                         "Code2000"                     ; 112/128
+                                                         "Arial Unicode MS"             ; 104/128
+                                                         "ALPHABETUM Unicode"           ; 117/128
                                                          ))
     ("Devanagari Extended"                              (
                                                          "Siddhanta"                    ; 28/28
@@ -2361,9 +2361,9 @@ Set to nil to disable."
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
     ("Egyptian Hieroglyphs"                             (
-                                                         "Noto Sans Egyptian Hieroglyphs"      ; 1071/1071
-                                                         "Aegyptus"                            ; 1071/1071
-                                                         "Gardiner"                            ; 1071/1071
+                                                         "Noto Sans Egyptian Hieroglyphs"      ; 1,071/1,071
+                                                         "Aegyptus"                            ; 1,071/1,071
+                                                         "Gardiner"                            ; 1,071/1,071
                                                          ))
     ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
@@ -2418,27 +2418,27 @@ Set to nil to disable."
     ("Ethiopic"                                         (
                                                          "Kefa"
                                                          "Nyala"
-                                                         "Abyssinica SIL"
-                                                         "Ethiopia Jiret"
-                                                         "Ethiopic WashRa SemiBold"
-                                                         "Ethiopic Yebse"
-                                                         "Code2000"
+                                                         "Abyssinica SIL"               ; 358/358
+                                                         "Ethiopia Jiret"               ; 345/358
+                                                         "Ethiopic WashRa SemiBold"     ; 345/358
+                                                         "Ethiopic Yebse"               ; 342/358
+                                                         "Code2000"                     ; 356/358
                                                          ))
     ("Ethiopic Extended"                                (
                                                          "Kefa"
                                                          "Nyala"
-                                                         "Abyssinica SIL"
-                                                         "Code2000"
+                                                         "Abyssinica SIL"               ; 79/79
+                                                         "Code2000"                     ; 79/79
                                                          ))
     ("Ethiopic Extended-A"                              (
                                                          "Kefa"
-                                                         "Abyssinica SIL"
+                                                         "Abyssinica SIL"               ; 32/32
                                                          ))
     ("Ethiopic Supplement"                              (
                                                          "Kefa"
                                                          "Nyala"
-                                                         "Abyssinica SIL"
-                                                         "Code2000"
+                                                         "Abyssinica SIL"               ; 26/26
+                                                         "Code2000"                     ; 26/26
                                                          ))
     ("General Punctuation"                              (
                                                          "Monaco"                       ; 106/111
@@ -2561,21 +2561,21 @@ Set to nil to disable."
     ("Gujarati"                                         (
                                                          "Gujarati Sangam MN"
                                                          "Gujarati MT"
-                                                         "Nirmala UI"
-                                                         "Shruti"
+                                                         "Nirmala UI"                   ; 83/84
+                                                         "Shruti"                       ; 83/84
                                                          "Samyak Gujarati"
-                                                         "Samyak"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
+                                                         "Samyak"                       ; 84/84
+                                                         "Code2000"                     ; 83/84
+                                                         "Arial Unicode MS"             ; 78/84
                                                          ))
     ("Gurmukhi"                                         (
                                                          "Gurmukhi Sangam MN"
                                                          "Gurmukhi MN"
-                                                         "Nirmala UI"
-                                                         "Raavi"
-                                                         "Code2000"
-                                                         "Arial Unicode MS"
-                                                         "AnmolUni"
+                                                         "Nirmala UI"                   ; 79/79
+                                                         "Raavi"                        ; 79/79
+                                                         "Code2000"                     ; 79/79
+                                                         "Arial Unicode MS"             ; 75/79
+                                                         "AnmolUni"                     ; 77/79
                                                          ))
     ("Halfwidth and Fullwidth Forms"                    (
                                                          "Meiryo"                       ; 166/225
@@ -2605,9 +2605,9 @@ Set to nil to disable."
                                                          "HeadLineA"                    ; 94/94
                                                          ))
     ("Hangul Jamo"                                      (
-                                                         "UnBatang"                     ; 186/186
-                                                         "WenQuanYi Zen Hei Mono"       ; 146/186
-                                                         "PC Myungjo"                   ; 67/186
+                                                         "UnBatang"                     ; 256/256
+                                                         "WenQuanYi Zen Hei Mono"       ; 146/256
+                                                         "PC Myungjo"                   ;  67/256
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
@@ -2627,14 +2627,14 @@ Set to nil to disable."
                                                          "UnBatang"                     ; 72/72
                                                          ))
     ("Hangul Syllables"                                 (
-                                                         "Apple Gothic"                 ; 11172/11172
+                                                         "Apple Gothic"                 ; 11,172/11,172
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
                                                          "Batang"
                                                          "Gungsuh"
-                                                         "UnBatang"                     ; 11172/11172
-                                                         "WenQuanYi Zen Hei Mono"       ; 11172/11172
+                                                         "UnBatang"                     ; 11,172/11,172
+                                                         "WenQuanYi Zen Hei Mono"       ; 11,172/11,172
                                                          "Arial Unicode MS"
                                                          "Code2000"
                                                          ))
@@ -2859,13 +2859,13 @@ Set to nil to disable."
     ;; ("Khojki"                                        (""))                           ; todo added in Unicode 7.0
     ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
     ("Lao"                                              (
-                                                         "DejaVu Sans Mono"             ; 45/65
+                                                         "DejaVu Sans Mono"             ; 46/67
                                                          "Lao Sangam MN"
-                                                         "DokChampa"
-                                                         "Arial Unicode MS"             ; 65/65
-                                                         "Saysettha MX"                 ; 65/65
-                                                         "DejaVu Sans:width=condensed"  ; 65/65
-                                                         "Code2000"
+                                                         "DokChampa"                    ; 65/67
+                                                         "Arial Unicode MS"             ; 65/67
+                                                         "Saysettha MX"                 ; 65/67
+                                                         "DejaVu Sans:width=condensed"  ; 65/67
+                                                         "Code2000"                     ; 65/67
                                                          ))
     ;; ("Latin Extended Additional"                     (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
@@ -2915,8 +2915,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 152/152
                                                          "ALPHABETUM Unicode"           ;  94/152
                                                          ))
-    ("Latin Extended-E"                                 (
-                                                         ;; todo free coverage, added in Unicode 7.0
+    ("Latin Extended-E"                                 (                               ; todo free coverage, added in Unicode 7.0
                                                          "Everson Mono:weight=bold"     ; 48/50
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
@@ -3131,7 +3130,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Mro"                                              (
-                                                         "Mro Unicode"                  ; 48/48
+                                                         "Mro Unicode"                  ; 43/43
                                                          ))
     ("Musical Symbols"                                  (
                                                          "Noto Sans Symbols"            ; 220/220
@@ -3160,8 +3159,7 @@ Set to nil to disable."
                                                          "TharLon"                      ; 28/32
                                                          "Yunghkio"                     ; 28/32
                                                          ))
-    ;; todo poor coverage
-    ("Myanmar Extended-B"                               (
+    ("Myanmar Extended-B"                               (                               ; todo very poor coverage
                                                          "TharLon"                      ; 7/31
                                                          "Yunghkio"                     ; 7/31
                                                          ))
@@ -3315,7 +3313,7 @@ Set to nil to disable."
     ("Phonetic Extensions Supplement"                   (
                                                          "Consolas"                     ; 64/64
                                                          "Calibri"                      ; 64/64
-                                                         "Courier New"                  ; 64/64 ; todo a better OSX choice
+                                                         "Courier New"                  ; 64/64 ; todo a better OS X choice
                                                          "Noto Sans"                    ; 64/64
                                                          "Aboriginal Sans"              ; 35/64
                                                          "Charis SIL"                   ; 64/64
@@ -3427,8 +3425,8 @@ Set to nil to disable."
                                                          "Microsoft YaHei UI"           ; 26/26
                                                          "Code2000"
                                                          ))
-    ("Sora Sompeng"                                     (
-                                                         "Nirmala UI"                   ; todo free coverage
+    ("Sora Sompeng"                                     (                               ; todo free coverage
+                                                         "Nirmala UI"
                                                          ))
     ;; ("Spacing Modifier Letters"                      (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"                       ; 79/80
@@ -3571,7 +3569,7 @@ Set to nil to disable."
                                                          "Lanna Alif"
                                                          ))
     ("Tai Viet"                                         (
-                                                         "Tai Heritage Pro"
+                                                         "Tai Heritage Pro"             ; 72/72
                                                          ))
     ("Tai Xuan Jing Symbols"                            (
                                                          "WenQuanYi Zen Hei Mono"       ; 87/87
@@ -3706,18 +3704,18 @@ Set to nil to disable."
                                                          ))
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
-                                                         "ST Fangsong"                  ; 32/32
+                                                         "ST Fangsong"                  ; 32/55
                                                          "PC Myungjo"
-                                                         "Microsoft Yi Baiti"
-                                                         "Nuosu SIL"
-                                                         "Code2000"
+                                                         "Microsoft Yi Baiti"           ; 55/55
+                                                         "Nuosu SIL"                    ; 55/55
+                                                         "Code2000"                     ; 55/55
                                                          ))
     ("Yi Syllables"                                     (
-                                                         "ST Fangsong"                  ; 1024/1024
+                                                         "ST Fangsong"                  ; 1,024/1,165
                                                          "Apple Myungjo"
-                                                         "Microsoft Yi Baiti"
-                                                         "Nuosu SIL"
-                                                         "Code2000"
+                                                         "Microsoft Yi Baiti"           ; 1,165/1,165
+                                                         "Nuosu SIL"                    ; 1,165/1,165
+                                                         "Code2000"                     ; 1,165/1,165
                                                          ))
     ("Yijing Hexagram Symbols"                          (
                                                          "WenQuanYi Zen Hei Mono"       ; 64/64
@@ -3749,26 +3747,26 @@ are given, each is tried in order."
 (defcustom unicode-fonts-overrides-mapping
   '(
     ;; Control Pictures block
-    ("Symbol for Escape"                              "Symbol for Escape"                           ("Keyboard"                          ))  ; OSX shift key
+    ("Symbol for Escape"                              "Symbol for Escape"                           ("Keyboard"                          ))  ; OS X shift key
 
     ;; Arrows block
     ("Rightwards Arrow with Hook"                     "Rightwards Arrow with Hook"                  ("Keyboard"                          ))
     ("Rightwards Arrow to Bar"                        "Rightwards Arrow to Bar"                     ("Lucida Grande"                     ))  ; Tab key
-    ("Upwards White Arrow"                            "Upwards White Arrow"                         ("Keyboard" "Lucida Grande"          ))  ; OSX shift key
+    ("Upwards White Arrow"                            "Upwards White Arrow"                         ("Keyboard" "Lucida Grande"          ))  ; OS X shift key
     ("Upwards White Arrow from Bar"                   "Upwards White Arrow from Bar"                ("Keyboard" "Lucida Grande"          ))
 
     ;; Miscellaneous Technical block
-    ("Up Arrowhead"                                   "Up Arrowhead"                                ("Keyboard" "Lucida Grande"          ))  ; OSX control key
-    ("Projective"                                     "Projective"                                  ("Lucida Grande"                     ))  ; OSX key?
+    ("Up Arrowhead"                                   "Up Arrowhead"                                ("Keyboard" "Lucida Grande"          ))  ; OS X control key
+    ("Projective"                                     "Projective"                                  ("Lucida Grande"                     ))  ; OS X key?
     ("Up Arrowhead Between Two Horizontal Bars"       "Up Arrowhead Between Two Horizontal Bars"    ("Keyboard" "Lucida Grande"          ))
-    ("Place of Interest Sign"                         "Place of Interest Sign"                      ("Keyboard" "Lucida Grande"          ))  ; OSX command key
+    ("Place of Interest Sign"                         "Place of Interest Sign"                      ("Keyboard" "Lucida Grande"          ))  ; OS X command key
     ("Option Key"                                     "Option Key"                                  ("Keyboard" "Lucida Grande"          ))
     ("Erase to the Right"                             "Erase to the Right"                          ("Keyboard" "Lucida Grande"          ))
     ("X in a Rectangle Box"                           "X in a Rectangle Box"                        ("Keyboard" "Lucida Grande"          ))
     ("Erase To the Left"                              "Erase To the Left"                           ("Keyboard" "Lucida Grande"          ))  ; Backspace
-    ("APL Functional Symbol Quad Backslash"           "APL Functional Symbol Quad Backslash"        ("Lucida Grande"                     ))  ; OSX key?
-    ("Alternative Key Symbol"                         "Alternative Key Symbol"                      ("Keyboard" "Lucida Grande"          ))  ; OSX alt key
-    ("Broken Circle with Northwest Arrow"             "Broken Circle with Northwest Arrow"          ("Keyboard" "Lucida Grande"          ))  ; OSX power key
+    ("APL Functional Symbol Quad Backslash"           "APL Functional Symbol Quad Backslash"        ("Lucida Grande"                     ))  ; OS X key?
+    ("Alternative Key Symbol"                         "Alternative Key Symbol"                      ("Keyboard" "Lucida Grande"          ))  ; OS X alt key
+    ("Broken Circle with Northwest Arrow"             "Broken Circle with Northwest Arrow"          ("Keyboard" "Lucida Grande"          ))  ; OS X power key
     ("Eject Symbol"                                   "Eject Symbol"                                ("Keyboard" "Lucida Grande"          ))
     ("Left Parenthesis Upper Hook"                    "Radical Symbol Bottom"                       ("Cambria Math" "Quivira" "Code2000" ))
     ("Top Half Integral"                              "Bottom Half Integral"                        ("Cambria Math" "Quivira" "Code2000" ))
