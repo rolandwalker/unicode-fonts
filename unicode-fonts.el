@@ -145,12 +145,12 @@
 ;; Notes
 ;;
 ;; Free fonts recognized by this package may be downloaded from the
-;; following locations.  For non-CJK blocks, it is increasingly likely
+;; following locations.  For any language, it is increasingly likely
 ;; that Noto Sans provides coverage:
 ;;
-;;     From https://code.google.com/p/noto/
+;;     From http://www.google.com/get/noto/
 ;;
-;;         Noto Sans and friends         ; 151 Unicode blocks and counting; sole
+;;         Noto Sans and friends         ; 178 Unicode blocks and counting; sole
 ;;                                       ; source for these blocks:
 ;;                                       ;
 ;;                                       ;   Bamum / Bamum Supplement / Kaithi
@@ -1248,6 +1248,7 @@
     ("Noto Sans Imperial Aramaic"          :licenses (free))
     ("Noto Sans Inscriptional Pahlavi"     :licenses (free))
     ("Noto Sans Inscriptional Parthian"    :licenses (free))
+    ("Noto Sans Japanese"                  :licenses (free))
     ("Noto Sans Javanese"                  :licenses (free))
     ("Noto Sans Kaithi"                    :licenses (free))
     ("Noto Sans Kannada"                   :licenses (free))
@@ -1256,6 +1257,7 @@
     ("Noto Sans Kharoshthi"                :licenses (free))
     ("Noto Sans Khmer"                     :licenses (free)) ; note, OS X bug?
     ("Noto Sans Khmer UI"                  :licenses (free)) ; note, OS X bug?
+    ("Noto Sans Korean"                    :licenses (free))
     ("Noto Sans Kufi Arabic"               :licenses (free) :arabic kufic)
     ("Noto Sans Lao"                       :licenses (free))
     ("Noto Sans Lao UI"                    :licenses (free))
@@ -1285,6 +1287,7 @@
     ("Noto Sans Phoenician"                :licenses (free))
     ("Noto Sans Rejang"                    :licenses (free))
     ("Noto Sans Runic"                     :licenses (free))
+    ("Noto Sans S Chinese"                 :chinese simplified :licenses (free))
     ("Noto Sans Samaritan"                 :licenses (free))
     ("Noto Sans Saurashtra"                :licenses (free))
     ("Noto Sans Shavian"                   :licenses (free))
@@ -1296,6 +1299,7 @@
     ("Noto Sans Syriac Eastern"            :licenses (free))
     ("Noto Sans Syriac Estrangela"         :licenses (free))
     ("Noto Sans Syriac Western"            :licenses (free))
+    ("Noto Sans T Chinese"                 :chinese traditional :licenses (free))
     ("Noto Sans Tagalog"                   :licenses (free))
     ("Noto Sans Tagbanwa"                  :licenses (free))
     ("Noto Sans Tai Le"                    :licenses (free))

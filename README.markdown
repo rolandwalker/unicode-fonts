@@ -158,12 +158,12 @@ Free International and Symbol Fonts
 -----------------------------------
 
 Free fonts recognized by this package may be downloaded from the
-following locations.  For non-CJK blocks, it is increasingly likely
+following locations.  For any language, it is increasingly likely
 that Noto Sans provides coverage:
 
-From <https://code.google.com/p/noto/>
+From <http://www.google.com/get/noto/>
 
-	Noto Sans and friends         ; 151 Unicode blocks and counting; sole
+	Noto Sans and friends         ; 178 Unicode blocks and counting; sole
 	                              ; source for these blocks:
 	                              ;
 	                              ;   Bamum / Bamum Supplement / Kaithi
