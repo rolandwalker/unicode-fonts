@@ -1257,7 +1257,7 @@
     ("Noto Sans Kharoshthi"                :licenses (free))
     ("Noto Sans Khmer"                     :licenses (free)) ; note, OS X bug?
     ("Noto Sans Khmer UI"                  :licenses (free)) ; note, OS X bug?
-    ("Noto Sans Korean"                    :licenses (free))
+    ("Noto Sans Korean"                    :chinese hanja :licenses (free))
     ("Noto Sans Kufi Arabic"               :licenses (free) :arabic kufic)
     ("Noto Sans Lao"                       :licenses (free))
     ("Noto Sans Lao UI"                    :licenses (free))
@@ -1449,7 +1449,7 @@
     ("Tunga"                               :licenses (microsoft))
     ("Tw Cen MT"                           :licenses (microsoft))
     ("Tw Cen MT Condensed"                 :licenses (microsoft))
-    ("UnBatang"                            :licenses (free))
+    ("UnBatang"                            :chinese hanja :licenses (free))
     ("unifont"                             :licenses (free) :glyph-quality low)
     ("Utsaah"                              :licenses (microsoft))
     ("Urdu Typesetting"                    :licenses (microsoft) :arabic urdu)
@@ -1592,6 +1592,7 @@ It may help you get started.
 Leave the list empty for no per-group exclusions."
   :type '(set  (const :tag "Simplified Chinese Script"           chinese-simplified)
                (const :tag "Traditional Chinese Script"          chinese-traditional)
+               (const :tag "Hanja Chinese Script"                chinese-hanja)
                (const :tag "Nôm Chinese Script"                  chinese-nom)
                (const :tag "Naskh Arabic Script"                 arabic-naskh)
                (const :tag "Diwani Arabic Script"                arabic-diwani)
@@ -4013,6 +4014,9 @@ error."
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'chinese-simplified unicode-fonts-skip-font-groups)
                  (eq 'simplified (plist-get props :chinese)))
+        (push name unicode-fonts-skipped-fonts-computed))
+      (when (and (memq 'chinese-hanja unicode-fonts-skip-font-groups)
+                 (eq 'hanja (plist-get props :chinese)))
         (push name unicode-fonts-skipped-fonts-computed))
       (when (and (memq 'chinese-nom unicode-fonts-skip-font-groups)
                  (eq 'nom (plist-get props :chinese)))
