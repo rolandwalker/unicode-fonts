@@ -1461,6 +1461,7 @@
     ("Vijaya"                              :licenses (microsoft))
     ("Viner Hand ITC"                      :licenses (microsoft))
     ("Vivaldi"                             :licenses (microsoft))
+    ("Tai Le Valentinium"                  :licenses (free))
     ("Vixar ASCI"                          :licenses (microsoft))
     ("Vladimir Script"                     :licenses (microsoft))
     ("Vrinda"                              :licenses (microsoft))
@@ -3158,6 +3159,7 @@ Set to nil to disable."
                                                          "Masterpiece Uni Sans"         ;  90/160
                                                          "Padauk"                       ; 160/160
                                                          "Code2000"                     ; 156/160
+                                                         "Tai Le Valentinium"           ;  10/160
                                                          ))
     ("Myanmar Extended-A"                               (
                                                          "Noto Sans Myanmar"            ; 28/32
@@ -3571,6 +3573,7 @@ Set to nil to disable."
                                                          "TharLon"                      ; 35/35
                                                          "Noto Sans Tai Le"             ; 35/35
                                                          "Yunghkio"                     ; 35/35
+                                                         "Tai Le Valentinium"           ; 35/35
                                                          "MPH 2B Damase"                ; 35/35
                                                          "FreeSerif"                    ; 35/35
                                                          ))
