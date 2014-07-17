@@ -1402,7 +1402,7 @@
     ("Songti SC"                           :licenses (apple))
     ("Sourashtra"                          :licenses (free))
     ("Sports MT"                           :licenses (microsoft))
-    ("ST Fangsong"                         :licenses (apple) :chinese simplified)
+    ("STFangsong"                          :licenses (apple) :chinese simplified)
     ("ST Heiti"                            :licenses (apple) :chinese simplified)
     ("ST Kaiti"                            :licenses (apple) :chinese simplified)
     ("ST Song"                             :licenses (apple) :chinese simplified)
@@ -2072,7 +2072,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 45/64
                                                          "WenQuanYi Zen Hei Mono"       ; 38/64
                                                          "LiSong Pro"                   ; 33/64
-                                                         "ST Fangsong"                  ; 35/64
+                                                         "STFangsong"                   ; 35/64
                                                          "Microsoft YaHei"
                                                          "Microsoft YaHei UI"
                                                          "Lantinghei TC"
@@ -2090,7 +2090,7 @@ Set to nil to disable."
                                                          "Songti SC"                    ; 20,910/20,941
                                                          "SimHei"
                                                          "FangSong"
-                                                         "ST Fangsong"                  ; 20,910/20,941
+                                                         "STFangsong"                   ; 20,910/20,941
                                                          "SimSun"
                                                          "LiSong Pro"                   ; 17,595/20,941
                                                          "Baoli SC"                     ;  7,103/20,941
@@ -2111,7 +2111,7 @@ Set to nil to disable."
     ("CJK Unified Ideographs Extension A"               (
                                                          "SimHei"
                                                          "FangSong"
-                                                         "ST Fangsong"                  ; 6,582/6,582
+                                                         "STFangsong"                   ; 6,582/6,582
                                                          "SimSun"
                                                          "Songti SC"                    ; 6,582/6,582
                                                          "Microsoft YaHei"
@@ -3127,7 +3127,7 @@ Set to nil to disable."
                                                          "Doulos SIL"                   ; 32/32
                                                          ))
     ("Mongolian"                                        (
-                                                         "ST Fangsong"
+                                                         "STFangsong"
                                                          "ST Heiti"
                                                          "ST Kaiti"
                                                          "ST Song"
@@ -3713,14 +3713,14 @@ Set to nil to disable."
                                                          ))
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
-                                                         "ST Fangsong"                  ; 32/55
+                                                         "STFangsong"                   ; 32/55
                                                          "PCMyungjo"
                                                          "Microsoft Yi Baiti"           ; 55/55
                                                          "Nuosu SIL"                    ; 55/55
                                                          "Code2000"                     ; 55/55
                                                          ))
     ("Yi Syllables"                                     (
-                                                         "ST Fangsong"                  ; 1,024/1,165
+                                                         "STFangsong"                   ; 1,024/1,165
                                                          "AppleMyungjo"
                                                          "Microsoft Yi Baiti"           ; 1,165/1,165
                                                          "Nuosu SIL"                    ; 1,165/1,165
