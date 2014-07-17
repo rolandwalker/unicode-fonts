@@ -1405,7 +1405,7 @@
     ("STFangsong"                          :licenses (apple) :chinese simplified)
     ("STHeiti"                             :licenses (apple) :chinese simplified)
     ("STKaiti"                             :licenses (apple) :chinese simplified)
-    ("ST Song"                             :licenses (apple) :chinese simplified)
+    ("STSong"                              :licenses (apple) :chinese simplified)
     ("Stencil"                             :licenses (microsoft))
     ("STIXGeneral"                         :licenses (apple free))
     ("STIXIntegralsD"                      :licenses (apple free))
@@ -3130,7 +3130,7 @@ Set to nil to disable."
                                                          "STFangsong"
                                                          "STHeiti"
                                                          "STKaiti"
-                                                         "ST Song"
+                                                         "STSong"
                                                          "Noto Sans Mongolian"          ; 156/156
                                                          "Mongolian Baiti"
                                                          "Daicing Xiaokai"
