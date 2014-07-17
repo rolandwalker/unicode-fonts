@@ -880,7 +880,7 @@
     ("Bell MT"                             :licenses (microsoft))
     ("Berlin Sans FB"                      :licenses (microsoft))
     ("Bernard MT Condensed"                :licenses (microsoft))
-    ("Biau Kai"                            :licenses (apple) :chinese traditional)
+    ("BiauKai"                             :licenses (apple) :chinese traditional)
     ("Bickley Script"                      :licenses (microsoft))
     ("Big Caslon"                          :licenses (apple))
     ("Blackadder ITC"                      :licenses (microsoft))
