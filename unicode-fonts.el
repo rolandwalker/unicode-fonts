@@ -1100,7 +1100,7 @@
     ("Krungthep"                           :licenses (apple))
     ("Kufi Extended Outline"               :licenses (microsoft) :decorative t :arabic kufic)
     ("Kufi Outline Shaded"                 :licenses (microsoft) :decorative t :arabic kufic)
-    ("Kufi Standard GK"                    :licenses (apple) :arabic kufic)
+    ("KufiStandardGK"                      :licenses (apple) :arabic kufic)
     ("Kunstler Script"                     :licenses (microsoft))
     ("Lanna Alif"                          :licenses (free))
     ("Lantinghei SC"                       :licenses (apple) :chinese simplified)
@@ -1733,7 +1733,7 @@ Set to nil to disable."
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
                                                          "MPH 2B Damase"
-                                                         "Kufi Standard GK"
+                                                         "KufiStandardGK"
                                                          "DecoType Naskh"
                                                          "Koodak"
                                                          "FreeMono"                     ; 212/255
@@ -1752,7 +1752,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 593/611
                                                          "Microsoft Sans Serif"
                                                          "Tahoma"
-                                                         "Kufi Standard GK"
+                                                         "KufiStandardGK"
                                                          "Andalus"
                                                          "Arabic Typesetting"
                                                          "Urdu Typesetting"
@@ -1773,7 +1773,7 @@ Set to nil to disable."
                                                          "Urdu Typesetting"
                                                          "Arial Unicode MS"
                                                          "Microsoft Sans Serif"
-                                                         "Kufi Standard GK"
+                                                         "KufiStandardGK"
                                                          "DejaVu Sans:width=condensed"  ; 140/141
                                                          "FreeMono"                     ; 141/141
                                                          "DecoType Naskh"               ;  89/141
