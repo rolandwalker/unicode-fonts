@@ -1403,7 +1403,7 @@
     ("Sourashtra"                          :licenses (free))
     ("Sports MT"                           :licenses (microsoft))
     ("STFangsong"                          :licenses (apple) :chinese simplified)
-    ("ST Heiti"                            :licenses (apple) :chinese simplified)
+    ("STHeiti"                             :licenses (apple) :chinese simplified)
     ("ST Kaiti"                            :licenses (apple) :chinese simplified)
     ("ST Song"                             :licenses (apple) :chinese simplified)
     ("Stencil"                             :licenses (microsoft))
@@ -3128,7 +3128,7 @@ Set to nil to disable."
                                                          ))
     ("Mongolian"                                        (
                                                          "STFangsong"
-                                                         "ST Heiti"
+                                                         "STHeiti"
                                                          "ST Kaiti"
                                                          "ST Song"
                                                          "Noto Sans Mongolian"          ; 156/156
