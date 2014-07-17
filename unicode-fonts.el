@@ -3688,11 +3688,12 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 70/70
                                                          ))
     ("Vai"                                              (
-                                                         "Ebrima"
+                                                         "Ebrima"                       ; 300/300
+                                                         "Noto Sans Vai"                ; 300/300
                                                          "Dukor"                        ; 300/300
                                                          "Wakor"                        ; 300/300
-                                                         "Code2000"
-                                                         "Quivira"
+                                                         "Code2000"                     ; 300/300
+                                                         "Quivira"                      ; 300/300
                                                          ))
     ("Variation Selectors"                              (
                                                          "BabelStone Modern"            ; 16/16
