@@ -1308,6 +1308,7 @@
     ("Noto Sans Tamil"                     :licenses (free))
     ("Noto Sans Tamil UI"                  :licenses (free))
     ("Noto Sans Telugu"                    :licenses (free))
+    ("Noto Sans Telugu UI"                 :licenses (free))
     ("Noto Sans Thai"                      :licenses (free))
     ("Noto Sans Thai UI"                   :licenses (free))
     ("Noto Sans Tifinagh"                  :licenses (free))
@@ -3608,6 +3609,8 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 61/72
                                                          ))
     ("Telugu"                                           (
+                                                         "Noto Sans Telugu"             ; 93/95
+                                                         "Noto Sans Telugu UI"          ; 93/95
                                                          "Telugu Sangam MN"
                                                          "Vani"                         ; 93/95
                                                          "Nirmala UI"                   ; 93/95
