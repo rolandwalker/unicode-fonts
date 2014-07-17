@@ -1341,7 +1341,7 @@
     ("Parade"                              :licenses (microsoft))
     ("Parchment"                           :licenses (microsoft))
     ("Parties MT"                          :licenses (microsoft))
-    ("PC Myungjo"                          :spacing mono :licenses (apple))
+    ("PCMyungjo"                           :spacing mono :licenses (apple))
     ("Peignot Medium"                      :licenses (microsoft))
     ("Pepita MT"                           :licenses (microsoft))
     ("Perpetua Titling MT"                 :licenses (microsoft))
@@ -2079,7 +2079,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "HAN NOM A"                    ; 60/64
                                                          "Arial Unicode MS"
-                                                         "PC Myungjo"
+                                                         "PCMyungjo"
                                                          "BabelStone Han"               ; 54/64
                                                          "Osaka:spacing=m"
                                                          "Code2000"
@@ -2596,7 +2596,7 @@ Set to nil to disable."
                                                          "HAN NOM A"                    ; 170/225
                                                          ))
     ("Hangul Compatibility Jamo"                        (
-                                                         "PC Myungjo"                   ; 94/94
+                                                         "PCMyungjo"                    ; 94/94
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
@@ -2613,7 +2613,7 @@ Set to nil to disable."
     ("Hangul Jamo"                                      (
                                                          "UnBatang"                     ; 256/256
                                                          "WenQuanYi Zen Hei Mono"       ; 146/256
-                                                         "PC Myungjo"                   ;  67/256
+                                                         "PCMyungjo"                   ;  67/256
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
@@ -3714,7 +3714,7 @@ Set to nil to disable."
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
                                                          "ST Fangsong"                  ; 32/55
-                                                         "PC Myungjo"
+                                                         "PCMyungjo"
                                                          "Microsoft Yi Baiti"           ; 55/55
                                                          "Nuosu SIL"                    ; 55/55
                                                          "Code2000"                     ; 55/55
@@ -3877,7 +3877,7 @@ are given, each is tried in order."
     ("Latin Capital Letter Middle-Welsh Ll"           "Latin Small Letter Y with Loop"              ("Quivira"                              ))
 
     ;; Enclosed CJK Letters and Months block
-    ("Circled Hangul Kiyeok"                          "Korean Standard Symbol"                      ("PC Myungjo" "PilGi" "Malgun Gothic"))         ; Korean symbols
+    ("Circled Hangul Kiyeok"                          "Korean Standard Symbol"                      ("PCMyungjo" "PilGi" "Malgun Gothic"))          ; Korean symbols
 
     ;; Halfwidth and Fullwidth Forms block
     ("Halfwidth Ideographic Full Stop"                "Halfwidth Katakana Semi-Voiced Sound Mark"   ("Osaka:spacing=m" "Meiryo" "HanaMinA"))        ; Japanese letters
