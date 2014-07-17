@@ -2081,7 +2081,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "HAN NOM A"                    ; 60/64
                                                          "Arial Unicode MS"
-                                                         "PCMyungjo"
+                                                         "PCMyungjo"                    ; 30/64
                                                          "BabelStone Han"               ; 54/64
                                                          "Osaka:spacing=m"
                                                          "Code2000"
@@ -2615,7 +2615,7 @@ Set to nil to disable."
     ("Hangul Jamo"                                      (
                                                          "UnBatang"                     ; 256/256
                                                          "WenQuanYi Zen Hei Mono"       ; 146/256
-                                                         "PCMyungjo"                   ;  67/256
+                                                         "PCMyungjo"                    ;  67/256
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
