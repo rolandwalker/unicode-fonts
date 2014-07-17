@@ -2225,11 +2225,11 @@ Set to nil to disable."
                                                          ))
     ("Coptic"                                           (
                                                          "Antinoou"                     ; 123/123
-                                                         "Analecta"                     ; 123/123
-                                                         "Nilus"                        ; 123/123
                                                          "New Athena Unicode"           ; 121/123
                                                          "Segoe UI Symbol"              ; 123/123
                                                          "Quivira"                      ; 123/123
+                                                         "Analecta"                     ; 123/123
+                                                         "Nilus"                        ; 123/123
                                                          "Code2000"                     ; 114/123
                                                          "Everson Mono:weight=bold"     ; 123/123
                                                          "ALPHABETUM Unicode"           ; 123/123
