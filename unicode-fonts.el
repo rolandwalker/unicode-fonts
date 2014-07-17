@@ -842,7 +842,7 @@
     ("Apple Casual"                        :licenses (apple))
     ("Apple Chancery"                      :licenses (apple))
     ("Apple Color Emoji"                   :licenses (apple) :color multi)
-    ("Apple Gothic"                        :licenses (apple))
+    ("AppleGothic"                         :licenses (apple))
     ("Apple LiGothic"                      :licenses (apple) :chinese traditional)
     ("Apple LiSung"                        :licenses (apple) :chinese traditional)
     ("Apple Myungjo"                       :licenses (apple) :glyph-quality low)
@@ -2633,7 +2633,7 @@ Set to nil to disable."
                                                          "UnBatang"                     ; 72/72
                                                          ))
     ("Hangul Syllables"                                 (
-                                                         "Apple Gothic"                 ; 11,172/11,172
+                                                         "AppleGothic"                  ; 11,172/11,172
                                                          "Malgun Gothic"
                                                          "Gulim"
                                                          "Dotum"
