@@ -3567,8 +3567,9 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 97/97
                                                          ))
     ("Tai Le"                                           (
-                                                         "Microsoft Tai Le"
+                                                         "Microsoft Tai Le"             ; 35/35
                                                          "TharLon"                      ; 35/35
+                                                         "Noto Sans Tai Le"             ; 35/35
                                                          "Yunghkio"                     ; 35/35
                                                          "MPH 2B Damase"                ; 35/35
                                                          "FreeSerif"                    ; 35/35
