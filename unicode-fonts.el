@@ -3722,7 +3722,6 @@ Set to nil to disable."
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
                                                          "STFangsong"                   ; 32/55
-                                                         "PCMyungjo"
                                                          "Microsoft Yi Baiti"           ; 55/55
                                                          "Nuosu SIL"                    ; 55/55
                                                          "Code2000"                     ; 55/55
