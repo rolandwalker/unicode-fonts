@@ -2224,6 +2224,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 39/39
                                                          ))
     ("Coptic"                                           (
+                                                         "Noto Sans Coptic"             ; 123/123
                                                          "Antinoou"                     ; 123/123
                                                          "New Athena Unicode"           ; 121/123
                                                          "Segoe UI Symbol"              ; 123/123
@@ -2565,6 +2566,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 134/135
                                                          "Everson Mono:weight=bold"     ; 135/135
                                                          "ALPHABETUM Unicode"           ; 134/135
+                                                         "Noto Sans Coptic"             ;  14/135
                                                          ))
     ("Gujarati"                                         (
                                                          "Gujarati Sangam MN"
