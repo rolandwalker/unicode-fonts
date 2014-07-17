@@ -845,7 +845,7 @@
     ("AppleGothic"                         :licenses (apple))
     ("Apple LiGothic"                      :licenses (apple) :chinese traditional)
     ("Apple LiSung"                        :licenses (apple) :chinese traditional)
-    ("Apple Myungjo"                       :licenses (apple) :glyph-quality low)
+    ("AppleMyungjo"                        :licenses (apple) :glyph-quality low)
     ("Apple SD Gothic Neo"                 :licenses (apple))
     ("Apple Symbols"                       :licenses (apple))
     ("Arabic Transparent"                  :licenses (microsoft) :arabic naskh)
@@ -2602,7 +2602,7 @@ Set to nil to disable."
                                                          "Dotum"
                                                          "Batang"
                                                          "Gungsuh"
-                                                         "Apple Myungjo"                ; 94/94
+                                                         "AppleMyungjo"                 ; 94/94
                                                          "UnBatang"                     ; 94/94
                                                          "WenQuanYi Zen Hei Mono"       ; 94/94
                                                          "HAN NOM A"                    ; 93/94
@@ -2707,7 +2707,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "Apple Myungjo"
+                                                         "AppleMyungjo"
                                                          "HanaMinA"                     ; 12/12
                                                          "HAN NOM A"                    ; 12/12
                                                          "Quivira"
@@ -2795,7 +2795,7 @@ Set to nil to disable."
                                                          "Microsoft JhengHei UI"
                                                          "HAN NOM A"                    ; 214/214
                                                          "DFKai-SB"
-                                                         "Apple Myungjo"
+                                                         "AppleMyungjo"
                                                          "Apple Symbols"                ; 214/214
                                                          "Code2000"
                                                          ;; "Aqua Kana"
@@ -3721,7 +3721,7 @@ Set to nil to disable."
                                                          ))
     ("Yi Syllables"                                     (
                                                          "ST Fangsong"                  ; 1,024/1,165
-                                                         "Apple Myungjo"
+                                                         "AppleMyungjo"
                                                          "Microsoft Yi Baiti"           ; 1,165/1,165
                                                          "Nuosu SIL"                    ; 1,165/1,165
                                                          "Code2000"                     ; 1,165/1,165
