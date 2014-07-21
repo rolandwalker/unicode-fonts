@@ -2569,12 +2569,12 @@ Set to nil to disable."
                                                          "Noto Sans Coptic"             ;  14/135
                                                          ))
     ("Gujarati"                                         (
-                                                         "Gujarati Sangam MN"
                                                          "Gujarati MT"
                                                          "Nirmala UI"                   ; 83/84
                                                          "Shruti"                       ; 83/84
                                                          "Samyak Gujarati"
                                                          "Samyak"                       ; 84/84
+                                                         "Gujarati Sangam MN"
                                                          "Code2000"                     ; 83/84
                                                          "Arial Unicode MS"             ; 78/84
                                                          ))
