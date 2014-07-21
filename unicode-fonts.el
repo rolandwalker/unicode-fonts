@@ -830,6 +830,7 @@
     ("American Uncial"                     :licenses (microsoft))
     ("Amiri"                               :licenses (free) :arabic naskh)
     ("Analecta"                            :licenses (free))
+    ("Andagii"                             :licenses (free))
     ("Andale Mono"                         :spacing mono :licenses (apple microsoft))
     ("Andalus"                             :licenses (microsoft))
     ("Andy"                                :licenses (microsoft))
@@ -3292,6 +3293,7 @@ Set to nil to disable."
     ("Osmanya"                                          (
                                                          "Noto Sans Osmanya"            ; 40/40
                                                          "Ebrima"                       ; 40/40
+                                                         "Andagii"                      ; 40/40
                                                          "MPH 2B Damase"                ; 40/40
                                                          "Code2001"                     ; 40/40
                                                          "Everson Mono:weight=bold"     ; 40/40
@@ -3431,6 +3433,7 @@ Set to nil to disable."
     ;; ("Sharada"                                       (""))                           ; todo
     ("Shavian"                                          (
                                                          "Noto Sans Shavian"            ; 48/48
+                                                         "Andagii"                      ; 48/48
                                                          "MPH 2B Damase"
                                                          "Apple Symbols"                ; 48/48
                                                          "Code2001"                     ; 48/48
@@ -3687,6 +3690,7 @@ Set to nil to disable."
                                                          "Noto Sans Ugaritic"           ; 31/31
                                                          "Aegean"                       ; 31/31
                                                          "Code2001"                     ; 31/31
+                                                         "Andagii"                      ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          "ALPHABETUM Unicode"           ; 31/31
                                                          ))
