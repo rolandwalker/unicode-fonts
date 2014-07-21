@@ -2810,6 +2810,8 @@ Set to nil to disable."
                                                          ))
     ("Kannada"                                          (
                                                          "Kannada Sangam MN"
+                                                         "Noto Sans Kannada"            ; 86/87
+                                                         "Noto Sans Kannada UI"         ; 86/87
                                                          "Tunga"                        ; 86/87
                                                          "Akshar Unicode"               ; 82/87
                                                          "Kedage"                       ; 78/87
