@@ -1657,6 +1657,7 @@ Set to nil to disable."
   '(("Aegean Numbers"                                   (
                                                          "Noto Sans Symbols"            ; 57/57
                                                          "Aegean"                       ; 57/57
+                                                         "Symbola"                      ; 57/57
                                                          "Quivira"
                                                          "Code2001"                     ; 57/57
                                                          "Everson Mono:weight=bold"     ; 57/57
