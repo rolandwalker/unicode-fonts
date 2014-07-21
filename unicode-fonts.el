@@ -1345,6 +1345,7 @@
     ("PCMyungjo"                           :spacing mono :licenses (apple))
     ("Peignot Medium"                      :licenses (microsoft))
     ("Pepita MT"                           :licenses (microsoft))
+    ("Penuturesu"                          :licenses (free))
     ("Perpetua Titling MT"                 :licenses (microsoft))
     ("Perpetua"                            :licenses (microsoft))
     ("PilGi"                               :licenses (apple) :glyph-quality low)
@@ -2988,6 +2989,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 88/88
                                                          "Everson Mono:weight=bold"     ; 88/88
                                                          "ALPHABETUM Unicode"           ; 88/88
+                                                         "Penuturesu"                   ; 73/88
                                                          ))
     ("Lisu"                                             (
                                                          "Lisu Unicode"                 ; 48/48
