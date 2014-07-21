@@ -2569,8 +2569,8 @@ Set to nil to disable."
                                                          "Noto Sans Coptic"             ;  14/135
                                                          ))
     ("Gujarati"                                         (
-                                                         "Gujarati MT"
                                                          "Nirmala UI"                   ; 83/84
+                                                         "Gujarati MT"
                                                          "Shruti"                       ; 83/84
                                                          "Samyak Gujarati"
                                                          "Samyak"                       ; 84/84
