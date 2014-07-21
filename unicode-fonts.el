@@ -2570,6 +2570,8 @@ Set to nil to disable."
                                                          ))
     ("Gujarati"                                         (
                                                          "Nirmala UI"                   ; 83/84
+                                                         "Noto Sans Gujarati"           ; 84/84
+                                                         "Noto Sans Gujarati UI"        ; 84/84
                                                          "Gujarati MT"
                                                          "Shruti"                       ; 83/84
                                                          "Samyak Gujarati"
