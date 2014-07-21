@@ -2172,6 +2172,7 @@ Set to nil to disable."
                                                          "Microsoft Sans Serif"
                                                          "Arial"
                                                          "Quivira"
+                                                         "Symbola"                      ; 112/112
                                                          "Everson Mono"                 ; 112/112
                                                          "FreeMono"                     ; 112/112
                                                          "Arial Unicode MS"             ;  72/112
