@@ -2584,6 +2584,8 @@ Set to nil to disable."
                                                          "Gurmukhi Sangam MN"
                                                          "Gurmukhi MN"
                                                          "Nirmala UI"                   ; 79/79
+                                                         "Noto Sans Gurmukhi"           ; 79/79
+                                                         "Noto Sans Gurmukhi UI"        ; 79/79
                                                          "Raavi"                        ; 79/79
                                                          "Code2000"                     ; 79/79
                                                          "Arial Unicode MS"             ; 75/79
