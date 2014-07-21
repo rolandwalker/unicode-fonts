@@ -2425,6 +2425,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 57/57
                                                          "HanaMinA"                     ; 57/57
                                                          "BabelStone Han"               ; 57/57
+                                                         "Symbola"                      ; 57/57
                                                          ))
     ("Ethiopic"                                         (
                                                          "Kefa"
