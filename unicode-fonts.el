@@ -2810,10 +2810,10 @@ Set to nil to disable."
                                                          ))
     ("Kannada"                                          (
                                                          "Kannada Sangam MN"
-                                                         "Nirmala UI"                   ; 86/87
                                                          "Tunga"                        ; 86/87
                                                          "Akshar Unicode"               ; 82/87
                                                          "Kedage"                       ; 78/87
+                                                         "Nirmala UI"                   ; 86/87
                                                          "Arial Unicode MS"             ; 80/87
                                                          "Code2000"                     ; 86/87
                                                          ))
