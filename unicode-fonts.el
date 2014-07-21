@@ -2814,6 +2814,7 @@ Set to nil to disable."
                                                          "Akshar Unicode"               ; 82/87
                                                          "Kedage"                       ; 78/87
                                                          "Nirmala UI"                   ; 86/87
+                                                         "Kannada MN"
                                                          "Arial Unicode MS"             ; 80/87
                                                          "Code2000"                     ; 86/87
                                                          ))
