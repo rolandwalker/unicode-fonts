@@ -3231,7 +3231,8 @@ Set to nil to disable."
                                                          "Cardo"                        ; 35/36
                                                          "New Athena Unicode"           ; 35/36
                                                          "Aegean"                       ; 36/36
-                                                         "Code2001"                     ; 35/36
+                                                         "Noto Sans Old Italic"         ; 35/36, characters are RTL
+                                                         "Code2001"                     ; 35/36, characters are RTL
                                                          "Quivira"                      ; 35/36
                                                          "Everson Mono:weight=bold"     ; 35/36
                                                          "FreeMono"                     ; 35/36
