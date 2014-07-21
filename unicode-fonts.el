@@ -2600,6 +2600,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei UI"           ; 224/225
                                                          "BabelStone Han"               ; 173/225
                                                          "Apple Symbols"                ;  55/225
+                                                         "Quivira"                      ; 110/225
                                                          "Code2000"                     ; 186/225
                                                          "HAN NOM A"                    ; 170/225
                                                          ))
