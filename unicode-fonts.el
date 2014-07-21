@@ -2396,6 +2396,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 160/160
                                                          "Junicode"                     ; 160/160
                                                          "Arial Unicode MS"             ; 139/160
+                                                         "Symbola"                      ; 160/160
                                                          "Quivira"                      ; 160/160
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
