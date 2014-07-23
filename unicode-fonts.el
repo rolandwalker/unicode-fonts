@@ -1105,6 +1105,7 @@
     ("KufiStandardGK"                      :licenses (apple) :arabic kufic)
     ("Kunstler Script"                     :licenses (microsoft))
     ("Lanna Alif"                          :licenses (free))
+    ("Lanna Unicode UI"                    :licenses (free))
     ("Lantinghei SC"                       :licenses (apple) :chinese simplified)
     ("Lantinghei TC"                       :spacing mono :licenses (apple) :chinese traditional)
     ("Lao MN"                              :licenses (apple))
@@ -3602,6 +3603,7 @@ Set to nil to disable."
                                                          "Noto Sans Tai Tham"           ; 127/127
                                                          "Lanna Alif"                   ; 127/127
                                                          "Chiangsaen Alif"              ; 127/127
+                                                         "Lanna Unicode UI"             ; 127/127
                                                          ))
     ("Tai Viet"                                         (
                                                          "Tai Heritage Pro"             ; 72/72
