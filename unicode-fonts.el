@@ -918,6 +918,7 @@
     ("Chalkduster"                         :licenses (apple))
     ("Charcoal CY"                         :licenses (apple))
     ("Charis SIL"                          :licenses (free))
+    ("Chiangsaen Alif"                     :licenses (free))
     ("Chiller"                             :licenses (microsoft))
     ("Cochin"                              :licenses (apple))
     ("Code2000"                            :licenses (unclear))
@@ -3599,7 +3600,8 @@ Set to nil to disable."
                                                          ))
     ("Tai Tham"                                         (
                                                          "Noto Sans Tai Tham"           ; 127/127
-                                                         "Lanna Alif"
+                                                         "Lanna Alif"                   ; 127/127
+                                                         "Chiangsaen Alif"              ; 127/127
                                                          ))
     ("Tai Viet"                                         (
                                                          "Tai Heritage Pro"             ; 72/72
