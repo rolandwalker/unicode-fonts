@@ -36,23 +36,24 @@ Configure Unicode fonts for Emacs.
 * Use an extended Latin font for your default face, such
   as Monaco, Consolas, or DejaVu Sans Mono.
 
-* `(require 'unicode-fonts)`
-
-* `(unicode-fonts-setup)`
+```lisp
+(require 'unicode-fonts)
+(unicode-fonts-setup)
+```
 
 ## Testing
 
-	C-h h                                         ; M-x view-hello-file
+	<kbd>C-h h</kbd>                                         ; M-x view-hello-file
 
-	M-x list-charset-chars RET unicode-bmp RET    ; search for eg 210x
+	<kbd>M-x list-charset-chars RET unicode-bmp RET</kbd>    ; search for eg 210x
 
-	M-x list-charset-chars RET unicode-smp RET    ; if your backend supports astral chars
+	<kbd>M-x list-charset-chars RET unicode-smp RET</kbd>    ; if your backend supports astral chars
 
-	M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET
+	<kbd>M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET</kbd>
 
 ## Customization
 
-	M-x customize-group RET unicode-fonts RET
+	<kbd>M-x customize-group RET unicode-fonts RET</kbd>
 
 ## Overview
 
@@ -81,7 +82,7 @@ characters.  It assumes that 6 Latin blocks are covered by the
 default font.  24/245 blocks are not mapped to any known font.
 
 To use unicode-fonts, place the unicode-fonts.el file somewhere
-Emacs can find it, and add the following to your ~/.emacs file:
+Emacs can find it, and add the following to your `~/.emacs` file:
 
 ```lisp
 (require 'unicode-fonts)
@@ -120,7 +121,7 @@ Unifont is very useful for debugging, but not useful for reading.
 ## Startup Speed
 
 The default options favor correctness and completeness over speed, and can
-add **many** **seconds** to startup time in GUI mode.  Note that when
+add **many seconds** to startup time in GUI mode.  Note that when
 possible a font cache is kept between sessions, so try starting Emacs a
 second time to see the true startup cost.  To further increase startup
 speed, enter the customization interface and
@@ -151,7 +152,7 @@ Color Emoji are enabled by default when using the Native Mac port
 on OS X.  This can be disabled by customizing each relevant mapping,
 or by turning off all multicolor glyphs here:
 
-	M-x customize-variable RET unicode-fonts-skip-font-groups RET
+	<kbd>M-x customize-variable RET unicode-fonts-skip-font-groups RET</kbd>
 
 ## Bugs
 
