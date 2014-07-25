@@ -96,7 +96,7 @@ To gain any benefit from the library, you must have fonts with good
 Unicode support installed on your system.  If you are running a
 recent version of OS X or Microsoft Windows, you already own some
 good multi-lingual fonts, though you would do very well to download
-and install the four items below:
+and install the six items below:
 
 From <http://dejavu-fonts.org/wiki/Download>
 
@@ -109,6 +109,10 @@ From <http://www.quivira-font.com/downloads.php>
 From <http://users.teilar.gr/~g1951d/>
 
 	Symbola
+
+From <http://www.google.com/get/noto/>
+
+	Noto Sans, Noto Sans Symbols
 
 It is also recommended to remove GNU Unifont from your system.
 Unifont is very useful for debugging, but not useful for reading.
