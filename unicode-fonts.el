@@ -3638,6 +3638,8 @@ Set to nil to disable."
     ;; ("Takri"                                         (""))                           ; todo
     ("Tamil"                                            (
                                                          "Latha"                        ; 72/72
+                                                         "Noto Sans Tamil"              ; 72/72
+                                                         "Noto Sans Tamil UI"           ; 72/72
                                                          "Nirmala UI"                   ; 72/72
                                                          "Tamil MN"
                                                          "Tamil Sangam MN"
