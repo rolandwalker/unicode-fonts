@@ -43,17 +43,16 @@ Configure Unicode fonts for Emacs.
 
 ## Testing
 
-	<kbd>C-h h</kbd>                                         ; M-x view-hello-file
-
-	<kbd>M-x list-charset-chars RET unicode-bmp RET</kbd>    ; search for eg 210x
-
-	<kbd>M-x list-charset-chars RET unicode-smp RET</kbd>    ; if your backend supports astral chars
-
-	<kbd>M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET</kbd>
+Keystrokes                                                                     | Notes
+-------------------------------------------------------------------------------|--------------------------------
+<kbd>C-h h</kbd>                                                               | same as <kbd>M-x view-hello-file</kbd>
+<kbd>M-x list-charset-chars RET unicode-bmp RET</kbd>                          | search for eg 210x
+<kbd>M-x list-charset-chars RET unicode-smp RET</kbd>                          | if your backend supports astral chars
+<kbd>M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET</kbd> |
 
 ## Customization
 
-	<kbd>M-x customize-group RET unicode-fonts RET</kbd>
+<kbd>M-x customize-group RET unicode-fonts RET</kbd>
 
 ## Overview
 
@@ -152,7 +151,7 @@ Color Emoji are enabled by default when using the Native Mac port
 on OS X.  This can be disabled by customizing each relevant mapping,
 or by turning off all multicolor glyphs here:
 
-	<kbd>M-x customize-variable RET unicode-fonts-skip-font-groups RET</kbd>
+<kbd>M-x customize-variable RET unicode-fonts-skip-font-groups RET</kbd>
 
 ## Bugs
 
