@@ -3252,6 +3252,7 @@ Set to nil to disable."
     ;; ("Old Permic"                                    (""))                           ; todo added in Unicode 7.0
     ("Old Persian"                                      (
                                                          "Noto Sans Old Persian"        ; 50/50
+                                                         "MPH 2B Damase"                ; 50/50
                                                          "Aegean"                       ; 50/50
                                                          "Code2001"                     ; 50/50
                                                          "ALPHABETUM Unicode"           ; 50/50
