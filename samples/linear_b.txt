@@ -1,0 +1,11 @@
+# Pylos Clay Tablet (Ta 641) 1952 (Ventris)
+# http://nam.culture.gr/portal/page/portal/deam/virtual_exhibitions/EAMP/EAMTa641
+#
+# http://linearbknossosmycenae.files.wordpress.com/2013/10/pylos-tablet-ta-641-1952-ventris-with-linear-b-font2.jpg
+#
+# The ideograms for vessels such as 𐃩 may be incorrect.
+# The ordering of the end of the first line is unclear.
+
+𐀴𐀪𐀡𐀆 𐁁𐀐𐀄 𐀐𐀩𐀯𐀰 𐀸𐀐 𐃠𐄈 𐀴𐀪𐀡 𐀁𐀕 𐀡𐀆 𐀃𐀺𐀸 𐃠𐄇 𐀴𐀪𐀡 𐀐𐀩𐀯𐀰 𐀸𐀐 𐀀𐀢 𐀐𐀩𐀀 𐀴𐀪𐀡 𐀐𐀏𐀄𐀕𐀜
+𐀤𐀵 𐃢𐄉 𐀇𐀞 𐀕𐀿𐀁 𐀤𐀵𐀫𐀸 𐃩𐄇 𐀇𐀞𐀁 𐀕𐀿𐀁 𐀴𐀪𐀃𐀸𐀁 𐃨𐄈 𐀇𐀞 𐀕𐀹𐀍 𐀤𐀵𐀫𐀸 𐃩𐄇
+𐀇𐀞 𐀕𐀹𐀍 𐀴𐀪𐀍𐀸 𐃨𐄇 𐀇𐀞 𐀕𐀹𐀍 𐀀𐀜𐀸 𐃡𐄇
