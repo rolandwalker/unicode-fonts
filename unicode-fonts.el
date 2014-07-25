@@ -3499,8 +3499,7 @@ Set to nil to disable."
                                                          ))
     ("Sundanese"                                        (
                                                          "Noto Sans Sundanese"          ; 64/64
-                                                         "Sundanese Unicode"
-                                                         "Hacen Sudan"
+                                                         "Sundanese Unicode"            ; 55/64
                                                          ))
     ("Sundanese Supplement"                             (
                                                          "Noto Sans Sundanese"          ; 8/8
