@@ -2434,6 +2434,7 @@ Set to nil to disable."
                                                          ))
     ("Ethiopic"                                         (
                                                          "Kefa"
+                                                         "Noto Sans Ethiopic"           ; 358/358
                                                          "Nyala"
                                                          "Abyssinica SIL"               ; 358/358
                                                          "Ethiopia Jiret"               ; 345/358
@@ -2443,16 +2444,19 @@ Set to nil to disable."
                                                          ))
     ("Ethiopic Extended"                                (
                                                          "Kefa"
+                                                         "Noto Sans Ethiopic"           ; 79/79
                                                          "Nyala"
                                                          "Abyssinica SIL"               ; 79/79
                                                          "Code2000"                     ; 79/79
                                                          ))
     ("Ethiopic Extended-A"                              (
                                                          "Kefa"
+                                                         "Noto Sans Ethiopic"           ; 32/32
                                                          "Abyssinica SIL"               ; 32/32
                                                          ))
     ("Ethiopic Supplement"                              (
                                                          "Kefa"
+                                                         "Noto Sans Ethiopic"           ; 26/26
                                                          "Nyala"
                                                          "Abyssinica SIL"               ; 26/26
                                                          "Code2000"                     ; 26/26
