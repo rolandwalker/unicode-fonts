@@ -3456,10 +3456,10 @@ Set to nil to disable."
     ;; ("Shorthand Format Controls"                     (""))                           ; no displayable characters
     ;; ("Siddham"                                       (""))                           ; todo added in Unicode 7.0
     ("Sinhala"                                          (
-                                                         "Sinhala Sangam MN"
                                                          "Nirmala UI"                   ; 80/90
                                                          "Iskoola Pota"                 ; 80/90
                                                          "Akshar Unicode"               ; 80/90
+                                                         "Sinhala Sangam MN"
                                                          ))
     ;; ("Sinhala Archaic Numbers"                       (""))                           ; todo added in Unicode 7.0
     ("Small Form Variants"                              (
