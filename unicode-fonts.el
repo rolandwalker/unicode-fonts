@@ -2336,6 +2336,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 80/80
                                                          ))
     ("Devanagari"                                       (
+                                                         "Noto Sans Devanagari"         ; 112/128
                                                          "Devanagari Sangam MN"
                                                          "Devanagari MT"
                                                          "Nirmala UI"                   ; 113/128
