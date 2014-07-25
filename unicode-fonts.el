@@ -2885,9 +2885,9 @@ Set to nil to disable."
     ;; ("Khojki"                                        (""))                           ; todo added in Unicode 7.0
     ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
     ("Lao"                                              (
-                                                         "DejaVu Sans Mono"             ; 46/67
                                                          "Lao Sangam MN"
                                                          "DokChampa"                    ; 65/67
+                                                         "DejaVu Sans Mono"             ; 46/67
                                                          "Arial Unicode MS"             ; 65/67
                                                          "Saysettha MX"                 ; 65/67
                                                          "DejaVu Sans:width=condensed"  ; 65/67
