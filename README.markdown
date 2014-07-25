@@ -7,8 +7,22 @@ Configure Unicode fonts for Emacs.
 
 ![Using the Native Mac backend](https://raw.githubusercontent.com/rolandwalker/unicode-fonts/master/native_mac_backend.png)
 
-Quickstart
-----------
+ * [Quickstart](#quickstart)
+ * [Testing](#testing)
+ * [Customization](#customization)
+ * [Overview](#overview)
+ * [Minimum Useful Fonts](#minimum-useful-fonts)
+ * [Startup Speed](#startup-speed)
+ * [Unmapped Blocks](#unmapped-blocks)
+ * [Emoji](#emoji)
+ * [Bugs](#bugs)
+ * [Free International and Symbol Fonts](#free-international-and-symbol-fonts)
+ * [Non-free Fonts](#non-free-fonts)
+ * [Chinese and Arabic Scripts](#chinese-and-arabic-scripts)
+ * [Unicode "Scripts"](#unicode-scripts)
+ * [Compatibility and Requirements](#compatibility-and-requirements)
+
+## Quickstart
 
 * Remove Unifont from your system.
 
@@ -26,8 +40,7 @@ Quickstart
 
 * `(unicode-fonts-setup)`
 
-Testing
--------
+## Testing
 
 	C-h h                                         ; M-x view-hello-file
 
@@ -37,13 +50,11 @@ Testing
 
 	M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET
 
-Customization
--------------
+## Customization
 
 	M-x customize-group RET unicode-fonts RET
 
-Overview
---------
+## Overview
 
 Emacs maintains font mappings on a per-glyph basis, meaning
 that multiple fonts are used at the same time (transparently) to
@@ -79,8 +90,7 @@ Emacs can find it, and add the following to your ~/.emacs file:
 
 See important notes about startup speed below.
 
-Minimum Useful Fonts
---------------------
+## Minimum Useful Fonts
 
 To gain any benefit from the library, you must have fonts with good
 Unicode support installed on your system.  If you are running a
@@ -103,8 +113,7 @@ From <http://users.teilar.gr/~g1951d/>
 It is also recommended to remove GNU Unifont from your system.
 Unifont is very useful for debugging, but not useful for reading.
 
-Startup Speed
--------------
+## Startup Speed
 
 The default options favor correctness and completeness over speed, and can
 add **many** **seconds** to startup time in GUI mode.  Note that when
@@ -116,8 +125,7 @@ speed, enter the customization interface and
 
 2. Disable blocks in `unicode-fonts-block-font-mapping` which you are not interested in displaying.
 
-Unmapped Blocks
----------------
+## Unmapped Blocks
 
 On the assumption that an extended Latin font such as Monaco,
 Consolas, or DejaVu Sans Mono is already being used for the default
@@ -131,10 +139,9 @@ blocks:
 	Latin-1 Supplement
 	Spacing Modifier Letters
 
-though some of these remain configurable via `customize'.
+though some of these remain configurable via `customize`.
 
-Emoji
-----
+## Emoji
 
 Color Emoji are enabled by default when using the Native Mac port
 on OS X.  This can be disabled by customizing each relevant mapping,
@@ -142,8 +149,7 @@ or by turning off all multicolor glyphs here:
 
 	M-x customize-variable RET unicode-fonts-skip-font-groups RET
 
-Bugs
-----
+## Bugs
 
 Calling `set-fontset-font` can easily crash Emacs.  There is a
 workaround, but it may not be sufficient on all platforms.
@@ -154,8 +160,7 @@ Widths of alternate fonts do not behave as expected on MS Windows.
 For example, DejaVu Sans Mono box-drawing characters may use a
 different width than the default font.
 
-Free International and Symbol Fonts
------------------------------------
+## Free International and Symbol Fonts
 
 Free fonts recognized by this package may be downloaded from the
 following locations.  For any language, it is increasingly likely
@@ -398,22 +403,19 @@ From <http://apagreekkeys.org/NAUdownload.html>
 
 	New Athena Unicode            ; Ancient Languages / Symbols
 
-Non-free Fonts
---------------
+## Non-free Fonts
 
 Many non-free fonts are referenced by the default settings.
 However, free alternatives are also given wherever possible, and
 patches are of course accepted to improve every case.
 
-Chinese and Arabic Scripts
---------------------------
+## Chinese and Arabic Scripts
 
 If you are using a language written in Chinese or Arabic script,
 try customizing `unicode-fonts-skip-font-groups` to control which
 script you see, and send a friendly bug report.
 
-Unicode Scripts
----------------
+## Unicode "Scripts"
 
 Unicode also defines the notion of a "script" as a higher-level
 abstraction which is independent of "blocks".  Modern fonts can
@@ -421,8 +423,7 @@ report their script coverage, and Emacs may also access that
 information.  However, this library ignores scripts in favor
 of blocks and glyphs.
 
-Compatibility and Requirements
-------------------------------
+## Compatibility and Requirements
 
 	GNU Emacs version 24.4-devel     : yes, at the time of writing
 	GNU Emacs version 24.3           : yes
