@@ -2885,6 +2885,8 @@ Set to nil to disable."
     ;; ("Khojki"                                        (""))                           ; todo added in Unicode 7.0
     ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
     ("Lao"                                              (
+                                                         "Noto Sans Lao"                ; 67/67
+                                                         "Noto Sans Lao UI"             ; 67/67
                                                          "Lao Sangam MN"
                                                          "DokChampa"                    ; 65/67
                                                          "DejaVu Sans Mono"             ; 46/67
