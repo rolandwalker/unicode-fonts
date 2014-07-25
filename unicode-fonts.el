@@ -3456,6 +3456,7 @@ Set to nil to disable."
     ;; ("Shorthand Format Controls"                     (""))                           ; no displayable characters
     ;; ("Siddham"                                       (""))                           ; todo added in Unicode 7.0
     ("Sinhala"                                          (
+                                                         "Noto Sans Sinhala"            ; 80/90
                                                          "Nirmala UI"                   ; 80/90
                                                          "Iskoola Pota"                 ; 80/90
                                                          "Akshar Unicode"               ; 80/90
