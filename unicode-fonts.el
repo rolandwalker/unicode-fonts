@@ -2996,6 +2996,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 123/123
                                                          "Everson Mono:weight=bold"     ; 123/123
                                                          "ALPHABETUM Unicode"           ; 123/123
+                                                         "MPH 2B Damase"                ;  73/123
                                                          ))
     ("Linear B Syllabary"                               (
                                                          "Noto Sans Linear B"           ; 88/88
@@ -3003,6 +3004,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 88/88
                                                          "Everson Mono:weight=bold"     ; 88/88
                                                          "ALPHABETUM Unicode"           ; 88/88
+                                                         "MPH 2B Damase"                ; 74/88
                                                          "Penuturesu"                   ; 73/88
                                                          ))
     ("Lisu"                                             (
