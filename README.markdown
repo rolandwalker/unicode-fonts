@@ -51,7 +51,7 @@ Keystrokes                                                                      
 
 ## Customization
 
-<kbd>M-x customize-group RET unicode-fonts RET</kbd>
+<kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>unicode-fonts</kbd> <kbd>RET</kbd>
 
 ## Overview
 
