@@ -43,12 +43,12 @@ Configure Unicode fonts for Emacs.
 
 ## Testing
 
-Keystrokes                                                                     | Notes
--------------------------------------------------------------------------------|--------------------------------
-<kbd>C-h h</kbd>                                                               | same as <kbd>M-x view-hello-file</kbd>
-<kbd>M-x list-charset-chars RET unicode-bmp RET</kbd>                          | search for eg 210x
-<kbd>M-x list-charset-chars RET unicode-smp RET</kbd>                          | if your backend supports astral chars
-<kbd>M-x unicode-fonts-debug-insert-block RET Mathematical_Operators RET</kbd> |
+Keystrokes                                                                                | Notes
+------------------------------------------------------------------------------------------|--------------------------------
+<kbd>C-h</kbd> <kbd>h</kbd>                                                               | same as <kbd>M-x</kbd> <kbd>view-hello-file</kbd>
+<kbd>M-x</kbd> <kbd>list-charset-chars</kbd> <kbd>RET</kbd> <kbd>unicode-bmp</kbd> <kbd>RET</kbd>                          | search for *eg* 210x
+<kbd>M-x</kbd> <kbd>list-charset-chars</kbd> <kbd>RET</kbd> <kbd>unicode-smp</kbd> <kbd>RET</kbd>                          | if your display backend supports astral chars
+<kbd>M-x</kbd> <kbd>unicode-fonts-debug-insert-block</kbd> <kbd>RET</kbd> <kbd>Mathematical_Operators</kbd> <kbd>RET</kbd> |
 
 ## Customization
 
@@ -151,7 +151,7 @@ Color Emoji are enabled by default when using the Native Mac port
 on OS X.  This can be disabled by customizing each relevant mapping,
 or by turning off all multicolor glyphs here:
 
-<kbd>M-x customize-variable RET unicode-fonts-skip-font-groups RET</kbd>
+<kbd>M-x</kbd> <kbd>customize-variable</kbd> <kbd>RET</kbd> <kbd>unicode-fonts-skip-font-groups</kbd> <kbd>RET</kbd>
 
 ## Bugs
 
