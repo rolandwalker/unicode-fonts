@@ -4003,6 +4003,7 @@ these mappings."
 
 (defvar unicode-fonts-setup-done              nil "Fontsets for which unicode-font setup is complete.")
 (defvar unicode-fonts-skipped-fonts-computed  nil "The computed extension of `unicode-fonts-skip-fonts'.")
+(defvar unicode-fonts--instructions           nil "Alist of code to set up fonts on a given system.")
 
 ;; note: variable outside unicode-fonts- namespace
 (defvar unicode-block-history                 nil "History of Unicode blocks entered in the minibuffer.")
@@ -4546,9 +4547,26 @@ buffer instead of sending it to the *Messages* log."
 
 FONTSET-NAME is a fontset to modify using `set-fontset-font'."
   (when (display-multi-font-p)
+    (unicode-fonts--generate-instructions fontset-name)
+    (eval
+     (append
+      '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))))
+
+(defun unicode-fonts--generate-instructions (fontset-name)
+  "Create or load eval'able instructions for modifying FONTSET-NAME.
+
+Instructions will be placed in variable `unicode-fonts--instructions'."
+
+  (when (and (display-multi-font-p)
+             (or (not (assoc fontset-name unicode-fonts--instructions))
+                 (not (cdr (assoc fontset-name unicode-fonts--instructions)))))
+
+    (setq unicode-fonts--instructions
+          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
 
     (let ((reporter nil)
-          (counter 0))
+          (counter 0)
+          (instructions nil))
 
       ;; debug font availability
       (when unicode-fonts-debug-availability
@@ -4582,9 +4600,9 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
            (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
         (setq best-font (pop fonts))
         (when best-font
-          (set-fontset-font fontset-name nil (font-spec :name (concat best-font ":") :registry "iso10646-1")))
+          (push `(set-fontset-font ,fontset-name nil (font-spec :name ,(concat best-font ":") :registry "iso10646-1")) instructions))
         (dolist (lesser-font fonts)
-          (set-fontset-font fontset-name nil (font-spec :name (concat lesser-font ":") :registry "iso10646-1") nil 'append)))
+          (push `(set-fontset-font ,fontset-name nil (font-spec :name ,(concat lesser-font ":") :registry "iso10646-1") nil 'append) instructions)))
 
       ;; next, install mappings by unicode block
       ;; this is slow the first time through, because of unicode-fonts-font-exists-p
@@ -4611,13 +4629,13 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
              (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
           (setq best-font (pop fonts))
           (when best-font
-            (set-fontset-font fontset-name
-                              (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
-                              (font-spec :name (concat best-font ":") :registry "iso10646-1")))
+            (push `(set-fontset-font ,fontset-name
+                                     (quote ,(cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range))))
+                                     (font-spec :name ,(concat best-font ":") :registry "iso10646-1")) instructions))
           (dolist (lesser-font fonts)
-            (set-fontset-font fontset-name
-                              (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
-                              (font-spec :name (concat lesser-font ":") :registry "iso10646-1") nil 'append)))))
+            (push `(set-fontset-font ,fontset-name
+                                     (quote ,(cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range))))
+                                     (font-spec :name ,(concat lesser-font ":") :registry "iso10646-1") nil 'append) instructions)))))
       (unless unicode-fonts-less-feedback
         (progress-reporter-done reporter))
 
@@ -4645,21 +4663,22 @@ FONTSET-NAME is a fontset to modify using `set-fontset-font'."
                  (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
               (if unicode-fonts-use-prepend
                   (dolist (font (reverse fonts))
-                    (set-fontset-font fontset-name
-                                      (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
-                                      (font-spec :name (concat font ":") :registry "iso10646-1") nil 'prepend))
+                    (push `(set-fontset-font ,fontset-name
+                                             (quote ,(cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range))))
+                                             (font-spec :name ,(concat font ":") :registry "iso10646-1") nil 'prepend) instructions))
                 ;; else
                 (setq best-font (pop fonts))
                 (when best-font
-                  (set-fontset-font fontset-name
-                                    (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
-                                    (font-spec :name (concat best-font ":") :registry "iso10646-1")))
+                  (push `(set-fontset-font ,fontset-name
+                                           (quote ,(cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range))))
+                                           (font-spec :name ,(concat best-font ":") :registry "iso10646-1")) instructions))
                   (dolist (font fonts)
-                    (set-fontset-font fontset-name
-                                      (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
-                                      (font-spec :name (concat font ":") :registry "iso10646-1") nil 'append))))))
+                    (push `(set-fontset-font ,fontset-name
+                                             (quote ,(cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range))))
+                                             (font-spec :name ,(concat font ":") :registry "iso10646-1") nil 'append) instructions))))))
             (unless unicode-fonts-less-feedback
-              (progress-reporter-done reporter))))))
+              (progress-reporter-done reporter)))
+      (push (cons fontset-name (nreverse instructions)) unicode-fonts--instructions))))
 
 ;;; main entry point
 
