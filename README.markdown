@@ -36,7 +36,7 @@ Configure Unicode fonts for Emacs.
 * Use an extended Latin font for your default face, such
   as Monaco, Consolas, or DejaVu Sans Mono.
 
-```lisp
+```elisp
 (require 'unicode-fonts)
 (unicode-fonts-setup)
 ```
@@ -83,7 +83,7 @@ default font.  24/245 blocks are not mapped to any known font.
 To use unicode-fonts, place the unicode-fonts.el file somewhere
 Emacs can find it, and add the following to your `~/.emacs` file:
 
-```lisp
+```elisp
 (require 'unicode-fonts)
 (unicode-fonts-setup)
 ```
