@@ -1,7 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/rolandwalker/unicode-fonts.png?branch=master)](http://travis-ci.org/rolandwalker/unicode-fonts)
 
-unicode-fonts
-=============
+# unicode-fonts
 
 Configure Unicode fonts for Emacs.
 
