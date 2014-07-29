@@ -119,14 +119,17 @@ Unifont is very useful for debugging, but not useful for reading.
 ## Startup Speed
 
 The default options favor correctness and completeness over speed, and can
-add **many seconds** to startup time in GUI mode.  Note that when
-possible a font cache is kept between sessions, so try starting Emacs a
-second time to see the true startup cost.  To further increase startup
-speed, enter the customization interface and
+add many seconds to initial startup time in GUI mode.
 
-1. Remove fonts from `unicode-fonts-block-font-mapping` which are not present on your system.
+However, when possible a font cache is kept between sessions.  If you
+have [persistent-soft.el](http://github.com/rolandwalker/persistent-soft) installed, **when you start Emacs the second time, the
+startup cost should be negligible**.
 
-2. Disable blocks in `unicode-fonts-block-font-mapping` which you are not interested in displaying.
+The disk cache will be rebuilt during Emacs startup whenever a font is added
+or removed, or any relevant configuration variables are changed. To increase
+the speed of occasionally building the disk cache, you may use the
+customization interface to remove fonts from `unicode-fonts-block-font-mapping`
+which are not present on your system.
 
 ## Unmapped Blocks
 
@@ -434,3 +437,5 @@ of blocks and glyphs.
 	GNU Emacs version 22.3 and lower : no
 
 Requires [fonts-utils.el](http://github.com/rolandwalker/font-utils), [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
+
+Uses if present: [persistent-soft.el](http://github.com/rolandwalker/persistent-soft) (Recommended)

@@ -115,17 +115,17 @@
 ;; Unifont is very useful for debugging, but not useful for reading.
 ;;
 ;; The default options favor correctness and completeness over speed,
-;; and can add many seconds to startup time in GUI mode.  Note that
-;; when possible a font cache is kept between sessions, so try
-;; starting Emacs a second time to see the true startup cost.  To
-;; further increase startup speed, enter the customization interface
-;; and
+;; and can add many seconds to initial startup time in GUI mode.
+;; However, when possible a font cache is kept between sessions.  If
+;; you have persistent-soft.el installed, when you start Emacs the
+;; second time, the startup cost should be negligible.
 ;;
-;;     1. Remove fonts from `unicode-fonts-block-font-mapping'
-;;        which are not present on your system.
-;;
-;;     2. Disable blocks in `unicode-fonts-block-font-mapping'
-;;        which you are not interested in displaying.
+;; The disk cache will be rebuilt during Emacs startup whenever a font
+;; is added or removed, or any relevant configuration variables are
+;; changed.  To increase the speed of occasionally building the disk
+;; cache, you may use the customization interface to remove fonts from
+;; `unicode-fonts-block-font-mapping' which are not present on your
+;; system.
 ;;
 ;; If you are using a language written in Chinese or Arabic script,
 ;; try customizing `unicode-fonts-skip-font-groups' to control which
@@ -525,12 +525,20 @@
 ;; for callf, callf2, member*, incf, remove-if, remove-if-not
 (require 'cl)
 
+(autoload 'persistent-soft-store               "persistent-soft" "Under SYMBOL, store VALUE in the LOCATION persistent data store."    )
+(autoload 'persistent-soft-fetch               "persistent-soft" "Return the value for SYMBOL in the LOCATION persistent data store."  )
+(autoload 'persistent-soft-exists-p            "persistent-soft" "Return t if SYMBOL exists in the LOCATION persistent data store."    )
+(autoload 'persistent-soft-flush               "persistent-soft" "Flush data for the LOCATION data store to disk."                     )
+(autoload 'persistent-soft-location-readable   "persistent-soft" "Return non-nil if LOCATION is a readable persistent-soft data store.")
+(autoload 'persistent-soft-location-destroy    "persistent-soft" "Destroy LOCATION (a persistent-soft data store)."                    )
+
 (autoload 'font-utils-exists-p                 "font-utils"  "Test whether FONT-NAME (a string or font object) exists.")
 (autoload 'font-utils-read-name                "font-utils"  "Read a font name using `completing-read'.")
 (autoload 'font-utils-lenient-name-equal       "font-utils"  "Leniently match two strings, FONT-NAME-A and FONT-NAME-B.")
 (autoload 'font-utils-first-existing-font      "font-utils"  "Return the (normalized) first existing font name from FONT-NAMES.")
 (autoload 'font-utils-name-from-xlfd           "font-utils"  "Return the font-family name from XLFD, a string.")
 (autoload 'font-utils-is-qualified-variant     "font-utils"  "Test whether FONT-NAME-1 and FONT-NAME-2 are qualified variants of the same font.")
+(autoload 'font-utils-list-names               "font-utils"  "Return a list of all font names on the current system.")
 
 (autoload 'ucs-utils-char                      "ucs-utils"   "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name               "ucs-utils"   "Return a prettified UCS name for CHAR.")
@@ -1630,6 +1638,18 @@ Leave the list empty for no per-group exclusions."
   :group 'unicode-fonts-debug)
 
 ;;; toplevel customize group
+
+(defcustom unicode-fonts-use-persistent-storage "unicode-fonts"
+  "Use persistent disk storage when available.
+
+This greatly reduces startup time.
+
+Internally, this value is a string which is used for the filename
+of the persistent data store."
+  :type '(choice
+          (const :tag "Yes"  "unicode-fonts")
+          (const :tag "No"   nil))
+  :group 'unicode-fonts)
 
 (defcustom unicode-fonts-less-feedback nil
   "Give less echo area feedback.
@@ -4008,6 +4028,27 @@ these mappings."
 ;; note: variable outside unicode-fonts- namespace
 (defvar unicode-block-history                 nil "History of Unicode blocks entered in the minibuffer.")
 
+;;; compatibility functions
+
+(defun persistent-softest-store (symbol value location &optional expiration)
+  "Call `persistent-soft-store' but don't fail when library not present."
+  (ignore-errors (persistent-soft-store symbol value location expiration)))
+(defun persistent-softest-fetch (symbol location)
+  "Call `persistent-soft-fetch' but don't fail when library not present."
+  (ignore-errors (persistent-soft-fetch symbol location)))
+(defun persistent-softest-exists-p (symbol location)
+  "Call `persistent-soft-exists-p' but don't fail when library not present."
+  (ignore-errors (persistent-soft-exists-p symbol location)))
+(defun persistent-softest-flush (location)
+  "Call `persistent-soft-flush' but don't fail when library not present."
+  (ignore-errors (persistent-soft-flush location)))
+(defun persistent-softest-location-readable (location)
+  "Call `persistent-soft-location-readable' but don't fail when library not present."
+  (ignore-errors (persistent-soft-location-readable location)))
+(defun persistent-softest-location-destroy (location)
+  "Call `persistent-soft-location-destroy' but don't fail when library not present."
+  (ignore-errors (persistent-soft-location-destroy location)))
+
 ;;; utility functions
 
 ;;;###autoload
@@ -4542,21 +4583,15 @@ buffer instead of sending it to the *Messages* log."
 
 ;;; driver for setup
 
-(defun unicode-fonts--setup-1 (fontset-name)
-  "Driver for `unicode-fonts-setup'.
-
-FONTSET-NAME is a fontset to modify using `set-fontset-font'."
-  (when (display-multi-font-p)
-    (unicode-fonts--generate-instructions fontset-name)
-    (eval
-     (append
-      '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))))
-
 (defun unicode-fonts--generate-instructions (fontset-name)
-  "Create or load eval'able instructions for modifying FONTSET-NAME.
+  "Generate `eval'able instructions for modifying FONTSET-NAME.
 
-Instructions will be placed in variable `unicode-fonts--instructions'."
+This is the principal driver for the library, which converts
+`unicode-fonts-block-font-mapping' and other settings into as
+series of `set-fontset-font' instructions.
 
+Instructions for FONTSET-NAME will be placed in alist
+`unicode-fonts--instructions'."
   (when (and (display-multi-font-p)
              (or (not (assoc fontset-name unicode-fonts--instructions))
                  (not (cdr (assoc fontset-name unicode-fonts--instructions)))))
@@ -4680,15 +4715,114 @@ Instructions will be placed in variable `unicode-fonts--instructions'."
               (progress-reporter-done reporter)))
       (push (cons fontset-name (nreverse instructions)) unicode-fonts--instructions))))
 
+(defun unicode-fonts--configuration-checksum ()
+  "Return a global configuration checksum relevant to unicode-fonts.
+
+This can be used to invalidate cached instructions if the system
+has changed."
+  (md5 (format "%s" (list
+                     'font-utils-list-names                     (sort (font-utils-list-names) 'string<)
+                     'unicode-fonts-block-font-mapping          unicode-fonts-block-font-mapping
+                     'unicode-fonts-blocks                      unicode-fonts-blocks
+                     'unicode-fonts-existence-checks            unicode-fonts-existence-checks
+                     'unicode-fonts-fallback-font-list          unicode-fonts-fallback-font-list
+                     'unicode-fonts-fontset-names               unicode-fonts-fontset-names
+                     'unicode-fonts-ignore-overrides            unicode-fonts-ignore-overrides
+                     'unicode-fonts-known-font-characteristics  (sort unicode-fonts-known-font-characteristics #'(lambda (x y) (string< (car x) (car y))))
+                     'unicode-fonts-overrides-mapping           unicode-fonts-overrides-mapping
+                     'unicode-fonts-planes                      unicode-fonts-planes
+                     'unicode-fonts-restrict-to-fonts           unicode-fonts-restrict-to-fonts
+                     'unicode-fonts-skip-font-groups            (sort unicode-fonts-skip-font-groups 'string<)
+                     'unicode-fonts-skip-fonts                  (sort unicode-fonts-skip-fonts 'string<)
+                     'unicode-fonts-use-prepend                 unicode-fonts-use-prepend))
+       nil nil 'utf-8))
+
+(defun unicode-fonts--load-or-generate-instructions (fontset-name &optional regenerate)
+  "Load or generate `eval'able instructions for modifying FONTSET-NAME.
+
+When possible (and according to the setting of the customizable
+variable `unicode-fonts-use-persistent-storage'), instructions
+will be loaded from a disk cache.
+
+Optional REGENERATE requests that the disk cache be invalidated
+and regenerated.
+
+Instructions for FONTSET-NAME will be placed in alist
+`unicode-fonts--instructions'."
+  (when (display-multi-font-p)
+    (let ((data-version-store (intern (format "data-version-%s-%s-%s" fontset-name emacs-version window-system)))
+          (checksum-store     (intern (format "checksum-%s-%s-%s"     fontset-name emacs-version window-system)))
+          (instructions-store (intern (format "instructions-%s-%s-%s" fontset-name emacs-version window-system)))
+          (flag               unicode-fonts-use-persistent-storage)
+          (old-checksum       nil)
+          (new-checksum       nil))
+      (when (and flag
+                 (not (stringp (persistent-softest-fetch data-version-store flag))))
+        (setq regenerate t))
+      (when (and flag
+                 (stringp (persistent-softest-fetch data-version-store flag))
+                 (not (equal (persistent-softest-fetch data-version-store flag)
+                             (get 'unicode-fonts 'custom-version))))
+        (setq regenerate t))
+      (when regenerate
+        (persistent-softest-store checksum-store     nil flag)
+        (persistent-softest-store instructions-store nil flag)
+        (persistent-softest-store data-version-store nil flag)
+        (persistent-softest-flush flag))
+
+      (setq old-checksum (persistent-softest-fetch checksum-store flag))
+      (setq new-checksum (unicode-fonts--configuration-checksum))
+
+      (unless (cdr (assoc fontset-name unicode-fonts--instructions))
+        (when (equal old-checksum new-checksum)
+          (setq unicode-fonts--instructions
+                (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
+          (push (persistent-softest-fetch instructions-store flag)
+                unicode-fonts--instructions)))
+
+      (unless (cdr (assoc fontset-name unicode-fonts--instructions))
+        (unicode-fonts--generate-instructions fontset-name))
+
+      (when (and flag
+                 (cdr (assoc fontset-name unicode-fonts--instructions))
+                 (or regenerate
+                     (not (equal old-checksum new-checksum))))
+        (persistent-softest-store checksum-store new-checksum flag)
+        (let ((persistent-soft-inhibit-sanity-checks t))
+          (persistent-softest-store instructions-store
+                                    (assoc fontset-name unicode-fonts--instructions) flag))
+        (persistent-softest-store data-version-store
+                                  (get 'unicode-fonts 'custom-version) flag)
+        (persistent-softest-flush flag)))))
+
+(defun unicode-fonts--setup-1 (fontset-name &optional regenerate)
+  "Code evaluation driver for `unicode-fonts-setup'.
+
+FONTSET-NAME is a fontset to modify using `set-fontset-font'.
+
+Optional REGENERATE requests that the disk cache be invalidated
+and regenerated."
+  (when (display-multi-font-p)
+    (unicode-fonts--load-or-generate-instructions fontset-name regenerate)
+    (eval
+     (append
+      '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))
+    ;; clean up the evaluated code, as it may be very large
+    (setq unicode-fonts--instructions
+          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))))
+
 ;;; main entry point
 
 ;;;###autoload
-(defun unicode-fonts-setup (&optional fontset-names)
+(defun unicode-fonts-setup (&optional fontset-names regenerate)
   "Set up Unicode fonts for FONTSET-NAMES.
 
-FONTSET-NAMES must be a list of strings.  Fontset names
-which do not currently exist will be ignored.  The
-default value is `unicode-fonts-fontset-names'."
+Optional FONTSET-NAMES must be a list of strings.  Fontset names
+which do not currently exist will be ignored.  The default value
+is `unicode-fonts-fontset-names'.
+
+Optional REGENERATE requests that the disk cache be invalidated
+and regenerated."
   (interactive)
   (unicode-fonts-compute-skipped-fonts)
   (callf or fontset-names unicode-fonts-fontset-names)
@@ -4701,7 +4835,7 @@ default value is `unicode-fonts-fontset-names'."
           ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
           ;; seems more logical than after-init-hook, but s-l-h appears to have already happened.
           (add-hook 'after-init-hook `(lambda () (unicode-fonts--setup-1 ,fontset-name)))
-        (unicode-fonts--setup-1 fontset-name)))))
+        (unicode-fonts--setup-1 fontset-name regenerate)))))
 
 (provide 'unicode-fonts)
 
