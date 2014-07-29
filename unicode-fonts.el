@@ -441,11 +441,20 @@
 ;;
 ;; TODO
 ;;
-;;     Doc note about scripts vs blocks
+;;     provide additional interfaces
+;;     - dump set-fontset-font instructions
+;;     - immediately set font for character/current-character/range
+;;     - recommend font for current character
+;;     - alternatives to customize, which can be called before unicode-fonts-setup
+;;       - eg "prefer this font for this block"
+;;       - also character/range ie overrides
+;;
+;;     scripts vs blocks
+;;     - further doc note
+;;     - provide alternative interface via scripts
 ;;
 ;;     reorg font list by language?
-;;
-;;         - break down into living/dead/invented
+;;     - break down into living/dead/invented
 ;;
 ;;     support MUFI for PUA
 ;;
