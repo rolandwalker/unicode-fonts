@@ -439,3 +439,22 @@ of blocks and glyphs.
 Requires [fonts-utils.el](http://github.com/rolandwalker/font-utils), [ucs-utils.el](http://github.com/rolandwalker/ucs-utils)
 
 Uses if present: [persistent-soft.el](http://github.com/rolandwalker/persistent-soft) (Recommended)
+
+<!-- Emacs
+Local Variables:
+coding: utf-8
+End:
+
+LocalWords:  quickstart emoji chinese Unifont Quivira Consolas DejaVu elisp
+LocalWords:  arabic charset Symbola Noto fontset XQuartz Bamum Kaithi
+LocalWords:  Mandaic Meetei Mayek Doulos Gentium Akkadian Analecta
+LocalWords:  Musica Nilus Deseret Buginese Hanunoo Kharoshthi Limbu
+LocalWords:  Osmanya Syloti Nagri Thaana Phags Namdhinggo WenQuanYi
+LocalWords:  BabelStone Damase Batang Nuosu Xiaokai Daicing Jomolhari
+LocalWords:  Padauk Yunghkio TharLon Samyak AnmolUni Kedage Mukti
+LocalWords:  Akshar Gurmukhi Eeyek Mondulkiri Saysettha Alif Tham
+LocalWords:  Banna Amiri Avestan Ahuramzda Koodak Naskh Ethiopic N'ko
+LocalWords:  Abyssinica Estrangelo Nisibin Chakma Ribeng Adinatha
+LocalWords:  Brahmi FreeMono FreeFont Kayah Batak Mingzat Lepcha Lisu
+LocalWords:  Miao Cardo Junicode Dukor Parthian Antinoou
+ -->

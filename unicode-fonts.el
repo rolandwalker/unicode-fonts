@@ -4884,7 +4884,7 @@ and regenerated."
 ;; LocalWords: Livre Tournois Spesmilo Manat Spirant Hwair Kiyeok
 ;; LocalWords: Shei Alef Hiriq Shha Iotified Izhitsa Bashkir Palochka
 ;; LocalWords: FONTSET Abkhasian Cada Heta Sampi Pamphylian Digamma
-;; LocalWords: Fontset
+;; LocalWords: Fontset Hanja Kanji N'ko Mingzat XQuartz XLFD Zapf
 ;;
 
 ;;; unicode-fonts.el ends here
