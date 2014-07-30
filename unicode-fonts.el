@@ -3701,11 +3701,11 @@ Set to nil to disable."
                                                          ))
     ("Thai"                                             (
                                                          "Thonburi"
+                                                         "DokChampa"
                                                          "Ayuthaya"
                                                          "Silom"
                                                          "Krungthep"
                                                          "Sathu"
-                                                         "DokChampa"
                                                          "Angsana New"
                                                          "Code2000"
                                                          "Tahoma"
