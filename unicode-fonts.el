@@ -3709,6 +3709,7 @@ Set to nil to disable."
                                                          "Krungthep"
                                                          "Sathu"
                                                          "Angsana New"                  ; 87/87
+                                                         "AngsanaUPC"                   ; 87/87
                                                          "Code2000"
                                                          "Tahoma"                       ; 87/87
                                                          "Arial Unicode MS"             ; 87/87
