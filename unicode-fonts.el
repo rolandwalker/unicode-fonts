@@ -3702,6 +3702,8 @@ Set to nil to disable."
     ("Thai"                                             (
                                                          "Thonburi"
                                                          "DokChampa"
+                                                         "Noto Sans Thai"               ; 87/87
+                                                         "Noto Sans Thai UI"            ; 87/87
                                                          "Ayuthaya"
                                                          "Silom"
                                                          "Krungthep"
