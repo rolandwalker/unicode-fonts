@@ -3700,11 +3700,11 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 50/50
                                                          ))
     ("Thai"                                             (
+                                                         "Thonburi"
                                                          "Ayuthaya"
                                                          "Silom"
                                                          "Krungthep"
                                                          "Sathu"
-                                                         "Thonburi"
                                                          "DokChampa"
                                                          "Angsana New"
                                                          "Code2000"
