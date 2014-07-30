@@ -3701,17 +3701,17 @@ Set to nil to disable."
                                                          ))
     ("Thai"                                             (
                                                          "Thonburi"
-                                                         "DokChampa"
+                                                         "DokChampa"                    ; 87/87
                                                          "Noto Sans Thai"               ; 87/87
                                                          "Noto Sans Thai UI"            ; 87/87
                                                          "Ayuthaya"
                                                          "Silom"
                                                          "Krungthep"
                                                          "Sathu"
-                                                         "Angsana New"
+                                                         "Angsana New"                  ; 87/87
                                                          "Code2000"
-                                                         "Tahoma"
-                                                         "Arial Unicode MS"
+                                                         "Tahoma"                       ; 87/87
+                                                         "Arial Unicode MS"             ; 87/87
                                                          "Quivira"                      ; 87/87
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          ))
