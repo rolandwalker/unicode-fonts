@@ -3795,12 +3795,14 @@ Set to nil to disable."
                                                          ))
     ;; ("Warang Citi"                                   (""))                           ; todo added in Unicode 7.0
     ("Yi Radicals"                                      (
+                                                         "Noto Sans Yi"                 ; 55/55
                                                          "Nuosu SIL"                    ; 55/55
                                                          "Microsoft Yi Baiti"           ; 55/55
                                                          "STFangsong"                   ; 32/55
                                                          "Code2000"                     ; 55/55
                                                          ))
     ("Yi Syllables"                                     (
+                                                         "Noto Sans Yi"                 ; 1,165/1,165
                                                          "Nuosu SIL"                    ; 1,165/1,165
                                                          "Microsoft Yi Baiti"           ; 1,165/1,165
                                                          "STFangsong"                   ; 1,024/1,165
