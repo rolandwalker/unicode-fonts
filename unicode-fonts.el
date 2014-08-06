@@ -3802,7 +3802,6 @@ Set to nil to disable."
                                                          ))
     ("Yi Syllables"                                     (
                                                          "STFangsong"                   ; 1,024/1,165
-                                                         "AppleMyungjo"
                                                          "Microsoft Yi Baiti"           ; 1,165/1,165
                                                          "Nuosu SIL"                    ; 1,165/1,165
                                                          "Code2000"                     ; 1,165/1,165
