@@ -1,0 +1,19 @@
+
+# from http://www.babelstone.co.uk/Yi/lesson_01.html
+
+ꃅꇢ：ꐋꀨ，ꆏꇿꄉꇁ？
+ꃅꇫ：ꉢꏪꐦꇓꈓꄉꇁ。
+ꃅꇢ：ꆍꏤꋬꂺꀕ？
+ꃅꇫ：ꋬꂻꈨꅪꄸ。
+ꃅꇢ：ꆏꇿꁧꂯ？
+ꃅꇫ：ꉢꀒꎂꁧꂯ。
+ꃅꇫ：ꆍꏤꑌꋬꂻꀞ？
+ꃅꇢ：ꋬꂻꈨꅪ，ꐥꅍꀋꐥ。
+ꃅꇫ：ꆏꇿꒉ？
+ꃅꇢ：ꉢꑌꀒꎂꒉ。
+ꃅꇫ：ꑷ！ ꉣꑊꐮꐊꁧꂿ。
+ꃅꇢ：ꑷ！ ꆏꂴꐊ，ꉢꊁꐊ。
+
+# radicals are used for lookup
+ꆹ is ꒑ ("Yi Radical Li") plus one stroke
+ꃅ is ꒑ ("Yi Radical Li") plus two strokes
