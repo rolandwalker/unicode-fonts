@@ -2550,6 +2550,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 94/94
                                                          "MPH 2B Damase"
                                                          "Quivira"                      ; 94/94
+                                                         "FreeSerif"                    ; 86/94
                                                          "ALPHABETUM Unicode"           ; 94/94
                                                          ))
     ("Gothic"                                           (
