@@ -3209,6 +3209,7 @@ Set to nil to disable."
     ("Musical Symbols"                                  (
                                                          "Noto Sans Symbols"            ; 220/220
                                                          "Musica"                       ; 220/220 - OS X rendering issue? see "Musical Symbol G Clef"
+                                                         "FreeSerif"                    ; 220/220
                                                          "Symbola"                      ; 220/220 - OS X rendering issue? see "Musical Symbol G Clef"
                                                          "Quivira"                      ;  92/220
                                                          ))
