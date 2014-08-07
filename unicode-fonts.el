@@ -2337,6 +2337,7 @@ Set to nil to disable."
     ("Cyrillic Extended-A"                              (
                                                          "Quivira"                      ; 32/32
                                                          "Everson Mono:weight=bold"     ; 32/32
+                                                         "FreeSerif"                    ; 32/32
                                                          "ALPHABETUM Unicode"           ; 32/32
                                                          ))
     ("Cyrillic Extended-B"                              (
