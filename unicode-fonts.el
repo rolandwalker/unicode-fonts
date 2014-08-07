@@ -2702,6 +2702,7 @@ Set to nil to disable."
                                                          "Noto Sans Hanunoo"            ; 23/23
                                                          "MPH 2B Damase"
                                                          "Quivira"                      ; 23/23
+                                                         "FreeSerif"                    ; 23/23
                                                          ))
     ("Hebrew"                                           (
                                                          "Miriam Fixed"
