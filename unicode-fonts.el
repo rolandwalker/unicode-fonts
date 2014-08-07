@@ -3751,6 +3751,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 31/31
                                                          "Andagii"                      ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
+                                                         "FreeSans"                     ; 31/31
                                                          "ALPHABETUM Unicode"           ; 31/31
                                                          ))
     ("Unified Canadian Aboriginal Syllabics"            (
