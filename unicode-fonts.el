@@ -3302,6 +3302,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"                ; 50/50
                                                          "Aegean"                       ; 50/50
                                                          "Code2001"                     ; 50/50
+                                                         "FreeSans"                     ; 50/50
                                                          "ALPHABETUM Unicode"           ; 50/50
                                                          ))
     ("Old South Arabian"                                (
