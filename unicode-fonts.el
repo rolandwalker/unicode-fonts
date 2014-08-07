@@ -1980,6 +1980,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 246/246
                                                          "Musica"
                                                          "Symbola"                      ; 246/246
+                                                         "FreeSerif"                    ; 246/246
                                                          ))
     ("Carian"                                           (
                                                          "Noto Sans Carian"             ; 49/49
