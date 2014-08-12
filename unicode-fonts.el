@@ -2910,6 +2910,7 @@ Set to nil to disable."
     ("Khmer"                                            (
                                                          "Noto Sans Khmer"              ; 114/114  ; fails to appear on OS X
                                                          "Noto Sans Khmer UI"           ; 114/114  ; fails to appear on OS X
+                                                         "Noto Serif Khmer"             ; 114/114
                                                          "Khmer Sangam MN"
                                                          "DaunPenh"                     ; 114/114
                                                          "Code2000"                     ; 114/114
@@ -2920,6 +2921,7 @@ Set to nil to disable."
     ("Khmer Symbols"                                    (
                                                          "Noto Sans Khmer"              ; 32/32  ; fails to appear on OS X
                                                          "Noto Sans Khmer UI"           ; 32/32  ; fails to appear on OS X
+                                                         "Noto Serif Khmer"             ; 32/32
                                                          "Khmer Sangam MN"
                                                          "MoolBoran"                    ; 32/32
                                                          "Khmer Mondulkiri"             ; 32/32
