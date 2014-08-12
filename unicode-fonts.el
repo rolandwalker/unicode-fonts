@@ -2933,6 +2933,7 @@ Set to nil to disable."
     ("Lao"                                              (
                                                          "Noto Sans Lao"                ; 67/67
                                                          "Noto Sans Lao UI"             ; 67/67
+                                                         "Noto Serif Lao"               ; 67/67
                                                          "Lao Sangam MN"
                                                          "DokChampa"                    ; 65/67
                                                          "DejaVu Sans Mono"             ; 46/67
