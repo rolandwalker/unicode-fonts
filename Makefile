@@ -35,13 +35,13 @@ TEST_DEP_1=ert
 TEST_DEP_1_STABLE_URL=http://git.savannah.gnu.org/cgit/emacs.git/plain/lisp/emacs-lisp/ert.el?h=emacs-24.3
 TEST_DEP_1_LATEST_URL=http://git.savannah.gnu.org/cgit/emacs.git/plain/lisp/emacs-lisp/ert.el?h=master
 TEST_DEP_2=pcache
-TEST_DEP_2_STABLE_URL=https://raw.githubusercontent.com/sigma/pcache/fa8f863546e2e8f2fc0a70f5cc766a7f584e01b6/pcache.el
+TEST_DEP_2_STABLE_URL=https://raw.githubusercontent.com/sigma/pcache/e5539ed2c8b3d0bb6b40ff4295883b50c3b73e6f/pcache.el
 TEST_DEP_2_LATEST_URL=https://raw.githubusercontent.com/sigma/pcache/master/pcache.el
 TEST_DEP_3=list-utils
 TEST_DEP_3_STABLE_URL=https://raw.githubusercontent.com/rolandwalker/list-utils/ecd6c91c71e37734af9ff4df003cb96b9d236a97/list-utils.el
 TEST_DEP_3_LATEST_URL=https://raw.githubusercontent.com/rolandwalker/list-utils/master/list-utils.el
 TEST_DEP_4=persistent-soft
-TEST_DEP_4_STABLE_URL=https://raw.githubusercontent.com/rolandwalker/persistent-soft/3529e1c0264326ec9a5ab9e1ed35037012e7fbd6/persistent-soft.el
+TEST_DEP_4_STABLE_URL=https://raw.githubusercontent.com/rolandwalker/persistent-soft/a1e0ddf2a12a6f18cab565dee250f070384cbe02/persistent-soft.el
 TEST_DEP_4_LATEST_URL=https://raw.githubusercontent.com/rolandwalker/persistent-soft/master/persistent-soft.el
 TEST_DEP_5=ucs-utils
 TEST_DEP_5_STABLE_URL=https://raw.githubusercontent.com/rolandwalker/ucs-utils/ea52b63ca0f3dbcf33a6902e43e166018279f679/ucs-utils.el
