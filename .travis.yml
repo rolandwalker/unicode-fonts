@@ -17,6 +17,7 @@
 
 # travis-lint no longer permits this value
 # language: emacs-lisp
+language: ruby
 
 ###
 ### defining the build matrix
