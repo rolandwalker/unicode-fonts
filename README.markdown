@@ -28,7 +28,7 @@ Configure Unicode fonts for Emacs.
  * Install these fonts
 	* <https://web.archive.org/web/20150322130623/http://users.teilar.gr/~g1951d/Symbola.zip>
 	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
-	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.34/dejavu-fonts-ttf-2.34.tar.bz2>
+	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.35/dejavu-fonts-ttf-2.35.tar.bz2>
 	* <https://github.com/googlei18n/noto-fonts/blob/master/hinted/NotoSans-Regular.ttc?raw=true>
 	* <https://github.com/googlei18n/noto-fonts/blob/master/unhinted/NotoSansSymbols-Regular.ttf?raw=true>
 
