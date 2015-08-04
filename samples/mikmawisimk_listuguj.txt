@@ -1,0 +1,14 @@
+# Language: Micmac
+#   ISO 639-3: mic
+#   Alt Name: Míkmawísimk
+#   Alt Name: Mi'gmawi'simg
+# Dialect:
+# Orthography: Listuguj
+# Source: http://www.languagegeek.com/algon/mikmawisimk/mikmawisimktext.html
+# Original source: DeBlois, Albert D. 1990. Micmac texts. Ottawa: Canadian Museum of Civilization. PM1791 .D52 1990
+#
+
+E’ye e’ye. Gi’s sa’q nestuwita’sultimg, Lnu’g eygig Unama’gig. Weja’tegemgeg G’listo’po’q pegisingeg. Tujiw wejimigwite’tasit ta’n goqowey t’la’sitew, ta’n t’litutew mimajuwaqan ge’ we’gaw. G’listo’po’q etlipgising gissetta’newimg, na’ tami semiselewimg. Pegising etlimewisultiyeg; pgwimann, etligtantu’titl mimajuwinu’g, ta’n ula’ gesigeweyl gispastaq. Gispasmi’titl pgwimann wujjit gesigewey.
+
+Na tujiw G’listo’p oqwa’t. G’listo’p oqwa’t, uti, oqwa’t. Teluwet, “Tett iga’q manasu’lgw apaqtu’jg; apaqtug.” Nige’ wigi’ti’tij apaqtug. Uti, piltuwaptm ta’n goqowey. Oqote’tut, amsgwes nemitumg na tujiw manasu’lgw. E’e, na paqasa’to’q gullpisuneg. Wejgwina’taqamisugwit. Sawtaqa’taqan, welipotji’j e’wɨg. Wel na wejgwina’taqamisugwit. Qasge’g iga’j, e’ya oqwasa’toq wtul. Uti, ge’gwipuguwa’ij gunntew mesgi’g eteg, tett aglasiyewi’sit etug.
+
