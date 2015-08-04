@@ -26,7 +26,7 @@ Configure Unicode fonts for Emacs.
  * Remove Unifont from your system.
 
  * Install these fonts
-	* <http://users.teilar.gr/~g1951d/Symbola.zip>
+	* <https://web.archive.org/web/20150322130623/http://users.teilar.gr/~g1951d/Symbola.zip>
 	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
 	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.34/dejavu-fonts-ttf-2.34.tar.bz2>
 	* <http://noto.googlecode.com/git/fonts/individual/hinted/NotoSans-Regular.ttc>
@@ -105,7 +105,7 @@ From <http://www.quivira-font.com/downloads.php>
 
 	Quivira
 
-From <http://users.teilar.gr/~g1951d/>
+From <https://web.archive.org/web/20150322130623/http://users.teilar.gr/~g1951d/Symbola.zip>
 
 	Symbola
 
@@ -193,12 +193,12 @@ From <http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download>
 
 	Gentium Plus                  ; Greek
 
-From <http://users.teilar.gr/~g1951d/>
+From <https://web.archive.org/web/20150625020428/http://users.teilar.gr/~g1951d/>
 
 	Aegean, Aegyptus, Akkadian    ; Ancient languages
-	Analecta                      ; Ancient languages, Deseret
+	Analecta                      ; Ancient languages, Deseret - may be unavailable
 	Musica                        ; Musical Symbols
-	Nilus                         ; Ancient languages
+	Nilus                         ; Ancient languages - may be unavailable
 
 From <http://www.wazu.jp/gallery/views/View_MPH2BDamase.html>
 
