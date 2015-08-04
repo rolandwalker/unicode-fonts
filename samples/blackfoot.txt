@@ -1,0 +1,23 @@
+# Language: Blackfoot
+#   ISO 639-3: bla
+#   Alt Name: Siksika
+#   Alt Name: Kainaa
+#   Alt Name: Piikani
+#   Alt Name: ᓱᖽᐧᖿ
+#   Alt Name: ᖿᐟᖻ
+#   Alt Name: ᑯᖾᖹ
+# Dialect: Siksika
+# Orthography: Syllabic
+# Source: http://www.languagegeek.com/algon/siksika/sik_example.html
+# Original Source: Bad Boy, Margaret, Beatrice Poor Eagle. 1994. Aakaitapitsinniksiists - Siksika Old Stories. Siksikai'powahsin - Siksika language series kit. Edmonton: Duval House Publishing. (Roman) PM2341 .B32 1994 ISBN: 1-895850-58-4
+#
+
+ᖽᔦᔭ ᖽ ᖽᐧᔈᒧᐧᖾᒉᖽ
+
+ᖳᒐᑊᖿ ᖹᒣᔦᖽᒧᐧᖹᖿᒣᖷᑊᖿ ᖿᑉᔦᐠᖷᑊᖿ ᖽ ᖲᒉᑊᖿ ᖽᑯᒣᖽᖷᑊᖿ ᖳᖹᔈᒣᖷ ᖽᐧᔈᒧᐧᖾᒉᖽ᙮ ᖱᒪᐟᓱᔪᐦ᙮ ᖱᖽᐧᑯᑊᒧᐧ ᖲᒍ ᖲᒧᐧᒪᒪᐟᔈᑯᒉ ᒍᖹ᙮
+
+ᖱᖹᔈᒧᐧᔈᒣ, ᖽ ᖲᒉᑊᖾᘁ ᔈᒣᒐᑊᒪ᙮ ᒍ ᔈᒣᒍᒪᒪ ᒍᔈᒧᐧ ᒍᖹᔈᒧᐧ᙮ ᖹᒪᑊᒣᑫᖷᖷᑊᖿ᙮ ᖽ ᖳᖹᔈᒧᒋ ᔈᒣᒍᒪᒪᔪᑊᖿ᙮ ᖽ ᖲᒍᒉᐦᔈ ᖱᒪᖷᒧᐧᒉᖹᖹ ᖽᔦᔭᔪ᙮ ᔈᒣᒍᐡᖹᓭᐠᖷ ᖽ ᖱᒪᒉᒣᑫᔦᖾᐟᓱ᙮ ᖽ ᖱᒣᒐᐧᖾᑊᖾᐟᒣᑯᒍ ᖲᑊᑯᐨᔈᒧᐧᔈᖾᐟᓯ ᖲᒍᔈᒧᐧ ᖲᖾᖹᒉᖹᔈᒧᐧ, ᖲᒍ ᖿᑉᔭᔪ᙮ ᖽ ᖲᓴᒣᒍᐧᖽᐧᑲᖼ ᖳᒐᔪ ᖲᒧᐧᓱᔨ, ᖳᒐ ᖲᑊᖽᐡᔈᒧᐧᔈ ᔈᒣᒐᑊᖿᖸᓱᓱᖽᐧᐡᔈᒧᐧᒍᖹ ᖳᒍ ᖿᑉᔭᔪ᙮
+
+ᖽ ᖳᐡᖻᒐᘁ ᔈᒣᒍᒥᑊᒧᐧ, ᖲᒉᒧᐧᖹᖿᒧᐧᒥᐧ, ᖳᖹ ᖿᖾᑊᖿᖸᓱᓱᖽᐧᐡᔈᒧᐧᒍᖸ ᖲᑊᖽᐡᔈᒧᐧᔈ᙮
+
+ᖽ ᖳᐡᖻᒐᘁ ᔈᒣᒍᒥᑊᒧᐧ, ᖽ ᖲᒥᓭᖷᐠᒪᑊᓱ ᖽ ᖲᒍᖽᐧ ᖱᒧᐧᒣᑲᒉᑊᖿᔪᑊᖽ᙮ ᖲᒧᐧᒪᒣᑫᐧᐢᒐᖽᑊᖿ᙮ ᒣᒐᐧᖽᒥᑊᒧᐧᔪᑊᖿ᙮ ᒍ ᖲᒪᒪᖹᓱᔈᒣᑊᐤ ᖳᐡᖹᒐᖽᐦ ᖱᒥᑲᔪ᙮ ᖽ ᔈᒣᒍᒧᐧᔈᖽᐧᐢᒉᒣ ᖲᒍ ᖲᒧᐧᒪᑊᖽᒪᑯᑊᑯ᙮ ᒍᐦ ᔈᒣᒉᑊᖿᑯᔦᖷ᙮ ᔈᒣᒐᒣᑊᖿᑫᑉᖷ ᖲᒍ ᖲᖾᖷᔪ᙮ ᖽ ᖱᒣᐠᒪᐟᒧᐧᖿᒧᐧᔦᖴ, ᖲᑯᖺᒐᔪᔦᖴ᙮ ᔈᒣᒐᑊᖿᖸᔈᒪᖻᐨᔈᑯᖽᑊᒧᐧᔪᐦ ᖲᒍ ᖳᑫᖹ, ᖳᖽᐧᖾᔪ᙮
