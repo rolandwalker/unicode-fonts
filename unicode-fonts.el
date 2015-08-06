@@ -4796,10 +4796,11 @@ and regenerated.
 Instructions for FONTSET-NAME will be placed in alist
 `unicode-fonts--instructions'."
   (when (display-multi-font-p)
-    (let* ((cache-id (format "f.%s-w.%s-h.%s-e.%s" fontset-name
+    (let* ((cache-id (format "f.%s-w.%s-h.%s-e.%s-l.%s" fontset-name
                                                    window-system
                                                    (font-utils-client-hostname)
-                                                   emacs-version))
+                                                   emacs-version
+                                                   (get 'unicode-fonts 'custom-version)))
            (data-version-key (intern (format "data-version-%s" cache-id)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
