@@ -26,7 +26,7 @@ Configure Unicode fonts for Emacs.
  * Remove Unifont from your system.
 
  * Install these fonts
-	* <https://web.archive.org/web/20150322130623/http://users.teilar.gr/~g1951d/Symbola.zip>
+	* <http://users.teilar.gr/~g1951d/Symbola.zip>       ; *NOTE: site is down as of July 2015*
 	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
 	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.35/dejavu-fonts-ttf-2.35.tar.bz2>
 	* <https://github.com/googlei18n/noto-fonts/blob/master/hinted/NotoSans-Regular.ttc?raw=true>
@@ -105,7 +105,7 @@ From <http://www.quivira-font.com/downloads.php>
 
 	Quivira
 
-From <https://web.archive.org/web/20150322130623/http://users.teilar.gr/~g1951d/Symbola.zip>
+From <http://users.teilar.gr/~g1951d/Symbola.zip>   ; *NOTE: site is down as of July 2015*
 
 	Symbola
 
@@ -193,12 +193,12 @@ From <http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium_download>
 
 	Gentium Plus                  ; Greek
 
-From <https://web.archive.org/web/20150625020428/http://users.teilar.gr/~g1951d/>
+From <http://users.teilar.gr/~g1951d/>    ; *NOTE: site is down as of July 2015*
 
 	Aegean, Aegyptus, Akkadian    ; Ancient languages
-	Analecta                      ; Ancient languages, Deseret - may be unavailable
+	Analecta                      ; Ancient languages, Deseret
 	Musica                        ; Musical Symbols
-	Nilus                         ; Ancient languages - may be unavailable
+	Nilus                         ; Ancient languages
 
 From <http://www.wazu.jp/gallery/views/View_MPH2BDamase.html>
 
