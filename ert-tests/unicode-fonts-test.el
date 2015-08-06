@@ -1,12 +1,12 @@
 
 ;;; no tests for
 ;;;
-;;;    unicode-fonts-debug-info-at-point
-;;;    unicode-fonts-debug-change-font-for-block
-;;;    unicode-fonts-debug-change-all-fonts
-;;;    unicode-fonts-debug-interactively
-;;;    unicode-fonts-setup
-;;;    unicode-fonts--setup-1
+;;;     unicode-fonts-debug-info-at-point
+;;;     unicode-fonts-debug-change-font-for-block
+;;;     unicode-fonts-debug-change-all-fonts
+;;;     unicode-fonts-debug-interactively
+;;;     unicode-fonts-setup
+;;;     nicode-fonts--setup-1
 ;;;
 
 ;;; todo
