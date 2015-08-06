@@ -4803,47 +4803,47 @@ Instructions for FONTSET-NAME will be placed in alist
            (data-version-key (intern (format "data-version-%s" cache-id)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
-          (flag               unicode-fonts-use-persistent-storage)
+          (store-place               unicode-fonts-use-persistent-storage)
           (old-checksum       nil)
           (new-checksum       nil))
-      (when (and flag
-                 (not (stringp (persistent-softest-fetch data-version-key flag))))
+      (when (and store-place
+                 (not (stringp (persistent-softest-fetch data-version-key store-place))))
         (setq regenerate t))
-      (when (and flag
-                 (stringp (persistent-softest-fetch data-version-key flag))
-                 (not (equal (persistent-softest-fetch data-version-key flag)
+      (when (and store-place
+                 (stringp (persistent-softest-fetch data-version-key store-place))
+                 (not (equal (persistent-softest-fetch data-version-key store-place)
                              (get 'unicode-fonts 'custom-version))))
         (setq regenerate t))
       (when regenerate
-        (persistent-softest-store checksum-key     nil flag)
-        (persistent-softest-store instructions-key nil flag)
-        (persistent-softest-store data-version-key nil flag)
-        (persistent-softest-flush flag))
+        (persistent-softest-store checksum-key     nil store-place)
+        (persistent-softest-store instructions-key nil store-place)
+        (persistent-softest-store data-version-key nil store-place)
+        (persistent-softest-flush store-place))
 
-      (setq old-checksum (persistent-softest-fetch checksum-key flag))
+      (setq old-checksum (persistent-softest-fetch checksum-key store-place))
       (setq new-checksum (unicode-fonts--configuration-checksum))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
         (when (equal old-checksum new-checksum)
           (setq unicode-fonts--instructions
                 (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
-          (push (persistent-softest-fetch instructions-key flag)
+          (push (persistent-softest-fetch instructions-key store-place)
                 unicode-fonts--instructions)))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
         (unicode-fonts--generate-instructions fontset-name))
 
-      (when (and flag
+      (when (and store-place
                  (cdr (assoc fontset-name unicode-fonts--instructions))
                  (or regenerate
                      (not (equal old-checksum new-checksum))))
-        (persistent-softest-store checksum-key new-checksum flag)
+        (persistent-softest-store checksum-key new-checksum store-place)
         (let ((persistent-soft-inhibit-sanity-checks t))
           (persistent-softest-store instructions-key
-                                    (assoc fontset-name unicode-fonts--instructions) flag))
+                                    (assoc fontset-name unicode-fonts--instructions) store-place))
         (persistent-softest-store data-version-key
-                                  (get 'unicode-fonts 'custom-version) flag)
-        (persistent-softest-flush flag)))))
+                                  (get 'unicode-fonts 'custom-version) store-place)
+        (persistent-softest-flush store-place)))))
 
 (defun unicode-fonts--setup-1 (fontset-name &optional regenerate)
   "Code evaluation driver for `unicode-fonts-setup'.
