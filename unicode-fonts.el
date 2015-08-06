@@ -548,6 +548,7 @@
 (autoload 'font-utils-name-from-xlfd           "font-utils"  "Return the font-family name from XLFD, a string.")
 (autoload 'font-utils-is-qualified-variant     "font-utils"  "Test whether FONT-NAME-1 and FONT-NAME-2 are qualified variants of the same font.")
 (autoload 'font-utils-list-names               "font-utils"  "Return a list of all font names on the current system.")
+(autoload 'font-utils-client-hostname          "font-utils"  "Guess the client hostname, respecting $SSH_CONNECTION.")
 
 (autoload 'ucs-utils-char                      "ucs-utils"   "Return the character corresponding to NAME, a UCS name.")
 (autoload 'ucs-utils-pretty-name               "ucs-utils"   "Return a prettified UCS name for CHAR.")
@@ -4795,9 +4796,10 @@ and regenerated.
 Instructions for FONTSET-NAME will be placed in alist
 `unicode-fonts--instructions'."
   (when (display-multi-font-p)
-    (let* ((cache-id (format "f.%s-w.%s-e.%s" fontset-name
-                                              window-system
-                                              emacs-version))
+    (let* ((cache-id (format "f.%s-w.%s-h.%s-e.%s" fontset-name
+                                                   window-system
+                                                   (font-utils-client-hostname)
+                                                   emacs-version))
            (data-version-key (intern (format "data-version-%s" cache-id)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
