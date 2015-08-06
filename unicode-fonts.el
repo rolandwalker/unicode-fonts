@@ -4795,34 +4795,34 @@ and regenerated.
 Instructions for FONTSET-NAME will be placed in alist
 `unicode-fonts--instructions'."
   (when (display-multi-font-p)
-    (let ((data-version-store (intern (format "data-version-%s-%s-%s" fontset-name emacs-version window-system)))
-          (checksum-store     (intern (format "checksum-%s-%s-%s"     fontset-name emacs-version window-system)))
-          (instructions-store (intern (format "instructions-%s-%s-%s" fontset-name emacs-version window-system)))
+    (let ((data-version-key (intern (format "data-version-%s-%s-%s" fontset-name emacs-version window-system)))
+          (checksum-key     (intern (format "checksum-%s-%s-%s"     fontset-name emacs-version window-system)))
+          (instructions-key (intern (format "instructions-%s-%s-%s" fontset-name emacs-version window-system)))
           (flag               unicode-fonts-use-persistent-storage)
           (old-checksum       nil)
           (new-checksum       nil))
       (when (and flag
-                 (not (stringp (persistent-softest-fetch data-version-store flag))))
+                 (not (stringp (persistent-softest-fetch data-version-key flag))))
         (setq regenerate t))
       (when (and flag
-                 (stringp (persistent-softest-fetch data-version-store flag))
-                 (not (equal (persistent-softest-fetch data-version-store flag)
+                 (stringp (persistent-softest-fetch data-version-key flag))
+                 (not (equal (persistent-softest-fetch data-version-key flag)
                              (get 'unicode-fonts 'custom-version))))
         (setq regenerate t))
       (when regenerate
-        (persistent-softest-store checksum-store     nil flag)
-        (persistent-softest-store instructions-store nil flag)
-        (persistent-softest-store data-version-store nil flag)
+        (persistent-softest-store checksum-key     nil flag)
+        (persistent-softest-store instructions-key nil flag)
+        (persistent-softest-store data-version-key nil flag)
         (persistent-softest-flush flag))
 
-      (setq old-checksum (persistent-softest-fetch checksum-store flag))
+      (setq old-checksum (persistent-softest-fetch checksum-key flag))
       (setq new-checksum (unicode-fonts--configuration-checksum))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
         (when (equal old-checksum new-checksum)
           (setq unicode-fonts--instructions
                 (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
-          (push (persistent-softest-fetch instructions-store flag)
+          (push (persistent-softest-fetch instructions-key flag)
                 unicode-fonts--instructions)))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
@@ -4832,11 +4832,11 @@ Instructions for FONTSET-NAME will be placed in alist
                  (cdr (assoc fontset-name unicode-fonts--instructions))
                  (or regenerate
                      (not (equal old-checksum new-checksum))))
-        (persistent-softest-store checksum-store new-checksum flag)
+        (persistent-softest-store checksum-key new-checksum flag)
         (let ((persistent-soft-inhibit-sanity-checks t))
-          (persistent-softest-store instructions-store
+          (persistent-softest-store instructions-key
                                     (assoc fontset-name unicode-fonts--instructions) flag))
-        (persistent-softest-store data-version-store
+        (persistent-softest-store data-version-key
                                   (get 'unicode-fonts 'custom-version) flag)
         (persistent-softest-flush flag)))))
 
