@@ -4795,9 +4795,9 @@ and regenerated.
 Instructions for FONTSET-NAME will be placed in alist
 `unicode-fonts--instructions'."
   (when (display-multi-font-p)
-    (let* ((cache-id (format "f.%s-e.%s-w.%s" fontset-name
-                                              emacs-version
-                                              window-system))
+    (let* ((cache-id (format "f.%s-w.%s-e.%s" fontset-name
+                                              window-system
+                                              emacs-version))
            (data-version-key (intern (format "data-version-%s" cache-id)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
