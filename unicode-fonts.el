@@ -4796,29 +4796,36 @@ and regenerated.
 Instructions for FONTSET-NAME will be placed in alist
 `unicode-fonts--instructions'."
   (when (display-multi-font-p)
-    (let* ((cache-id (format "f:%s-w:%s-h:%s-e:%s-l:%s" fontset-name
-                                                   window-system
-                                                   (font-utils-client-hostname)
-                                                   emacs-version
-                                                   (get 'unicode-fonts 'custom-version)))
+    (let* ((cache-id (format "f:%s-w:%s-h:%s-e:%s-l:%s"
+                             fontset-name
+                             window-system
+                             (font-utils-client-hostname)
+                             emacs-version
+                             (get 'unicode-fonts 'custom-version)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
-          (store-place               unicode-fonts-use-persistent-storage)
-          (old-checksum       nil)
-          (new-checksum       nil))
+           (store-place      unicode-fonts-use-persistent-storage)
+           (old-checksum     nil)
+           (new-checksum     nil))
       (when regenerate
-        (persistent-softest-store checksum-key     nil store-place)
-        (persistent-softest-store instructions-key nil store-place)
+        (persistent-softest-store checksum-key
+                                  nil
+                                  store-place)
+        (persistent-softest-store instructions-key
+                                  nil
+                                  store-place)
         (persistent-softest-flush store-place))
 
-      (setq old-checksum (persistent-softest-fetch checksum-key store-place))
+      (setq old-checksum (persistent-softest-fetch checksum-key
+                                                   store-place))
       (setq new-checksum (unicode-fonts--configuration-checksum))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
         (when (equal old-checksum new-checksum)
           (setq unicode-fonts--instructions
                 (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
-          (push (persistent-softest-fetch instructions-key store-place)
+          (push (persistent-softest-fetch instructions-key
+                                          store-place)
                 unicode-fonts--instructions)))
 
       (unless (cdr (assoc fontset-name unicode-fonts--instructions))
@@ -4828,10 +4835,13 @@ Instructions for FONTSET-NAME will be placed in alist
                  (cdr (assoc fontset-name unicode-fonts--instructions))
                  (or regenerate
                      (not (equal old-checksum new-checksum))))
-        (persistent-softest-store checksum-key new-checksum store-place)
+        (persistent-softest-store checksum-key
+                                  new-checksum
+                                  store-place)
         (let ((persistent-soft-inhibit-sanity-checks t))
           (persistent-softest-store instructions-key
-                                    (assoc fontset-name unicode-fonts--instructions) store-place))
+                                    (assoc fontset-name unicode-fonts--instructions)
+                                    store-place))
         (persistent-softest-flush store-place)))))
 
 (defun unicode-fonts--setup-1 (fontset-name &optional regenerate)
