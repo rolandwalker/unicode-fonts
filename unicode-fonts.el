@@ -4801,24 +4801,14 @@ Instructions for FONTSET-NAME will be placed in alist
                                                    (font-utils-client-hostname)
                                                    emacs-version
                                                    (get 'unicode-fonts 'custom-version)))
-           (data-version-key (intern (format "data-version-%s" cache-id)))
            (checksum-key     (intern (format "checksum-%s"     cache-id)))
            (instructions-key (intern (format "instructions-%s" cache-id)))
           (store-place               unicode-fonts-use-persistent-storage)
           (old-checksum       nil)
           (new-checksum       nil))
-      (when (and store-place
-                 (not (stringp (persistent-softest-fetch data-version-key store-place))))
-        (setq regenerate t))
-      (when (and store-place
-                 (stringp (persistent-softest-fetch data-version-key store-place))
-                 (not (equal (persistent-softest-fetch data-version-key store-place)
-                             (get 'unicode-fonts 'custom-version))))
-        (setq regenerate t))
       (when regenerate
         (persistent-softest-store checksum-key     nil store-place)
         (persistent-softest-store instructions-key nil store-place)
-        (persistent-softest-store data-version-key nil store-place)
         (persistent-softest-flush store-place))
 
       (setq old-checksum (persistent-softest-fetch checksum-key store-place))
@@ -4842,8 +4832,6 @@ Instructions for FONTSET-NAME will be placed in alist
         (let ((persistent-soft-inhibit-sanity-checks t))
           (persistent-softest-store instructions-key
                                     (assoc fontset-name unicode-fonts--instructions) store-place))
-        (persistent-softest-store data-version-key
-                                  (get 'unicode-fonts 'custom-version) store-place)
         (persistent-softest-flush store-place)))))
 
 (defun unicode-fonts--setup-1 (fontset-name &optional regenerate)
