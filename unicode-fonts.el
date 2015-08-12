@@ -441,6 +441,8 @@
 ;;
 ;; TODO
 ;;
+;;     Unicode 8.0
+;;
 ;;     provide additional interfaces
 ;;     - dump set-fontset-font instructions
 ;;     - immediately set font for character/current-character/range
