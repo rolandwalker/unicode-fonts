@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 215 of the 245 blocks in
-;; the Unicode 7.0 standard which are public and have displayable
+;; This library provides font mappings for 215 of the 255 blocks in
+;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  24/245 blocks are not mapped to any known font.
+;; default font.  34/245 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -443,8 +443,6 @@
 ;;
 ;; TODO
 ;;
-;;     Unicode 8.0
-;;
 ;;     provide additional interfaces
 ;;     - dump set-fontset-font instructions
 ;;     - immediately set font for character/current-character/range
@@ -567,12 +565,14 @@
     ("unicode-ssp"         #xE0000   #xEFFFF)           ; plane  14
     ("unicode-pua-a"       #xF0000   #xFFFFF)           ; plane  15
     ("unicode-pua-b"       #x100000  #x10FFFF))         ; plane  16
-  "Alist of Unicode 7.0 planes.")
+  "Alist of Unicode 8.0 planes.")
 
 (defconst unicode-fonts-blocks
   '(("Aegean Numbers"                                  #x10100  #x1013F)
+    ("Ahom"                                            #x11700  #x1173F)
     ("Alchemical Symbols"                              #x1F700  #x1F77F)
     ("Alphabetic Presentation Forms"                   #xFB00   #xFB4F)
+    ("Anatolian Hieroglyphs"                           #x14400  #x1467F)
     ("Ancient Greek Musical Notation"                  #x1D200  #x1D24F)
     ("Ancient Greek Numbers"                           #x10140  #x1018F)
     ("Ancient Symbols"                                 #x10190  #x101CF)
@@ -606,6 +606,7 @@
     ("Chakma"                                          #x11100  #x1114F)
     ("Cham"                                            #xAA00   #xAA5F)
     ("Cherokee"                                        #x13A0   #x13FF)
+    ("Cherokee Supplement"                             #xAB70   #xABBF)
     ("CJK Compatibility"                               #x3300   #x33FF)
     ("CJK Compatibility Forms"                         #xFE30   #xFE4F)
     ("CJK Compatibility Ideographs"                    #xF900   #xFAFF)
@@ -618,6 +619,7 @@
     ("CJK Unified Ideographs Extension B"              #x20000  #x2A6DF)
     ("CJK Unified Ideographs Extension C"              #x2A700  #x2B73F)
     ("CJK Unified Ideographs Extension D"              #x2B740  #x2B81F)
+    ("CJK Unified Ideographs Extension E"              #x2B820  #x2CEAF)
     ("Combining Diacritical Marks"                     #x0300   #x036F)
     ("Combining Diacritical Marks Extended"            #x1AB0   #x1AFF)
     ("Combining Diacritical Marks Supplement"          #x1DC0   #x1DFF)
@@ -642,6 +644,7 @@
     ("Dingbats"                                        #x2700   #x27BF)
     ("Domino Tiles"                                    #x1F030  #x1F09F)
     ("Duployan"                                        #x1BC00  #x1BC9F)
+    ("Early Dynastic Cuneiform"                        #x12480  #x1254F)
     ("Egyptian Hieroglyphs"                            #x13000  #x1342F)
     ("Elbasan"                                         #x10500  #x1052F)
     ("Emoticons"                                       #x1F600  #x1F64F)
@@ -672,6 +675,7 @@
     ("Hangul Jamo Extended-B"                          #xD7B0   #xD7FF)
     ("Hangul Syllables"                                #xAC00   #xD7AF)
     ("Hanunoo"                                         #x1720   #x173F)
+    ("Hatran"                                          #x108E0  #x108FF)
     ("Hebrew"                                          #x0590   #x05FF)
     ;; ("High Private Use Surrogates"                  #xDB80   #xDBFF) ; no displayable characters
     ;; ("High Surrogates"                              #xD800   #xDB7F) ; no displayable characters
@@ -736,6 +740,7 @@
     ("Modifier Tone Letters"                           #xA700   #xA71F)
     ("Mongolian"                                       #x1800   #x18AF)
     ("Mro"                                             #x16A40  #x16A6F)
+    ("Multani"                                         #x11280  #x112AF)
     ("Musical Symbols"                                 #x1D100  #x1D1FF)
     ("Myanmar"                                         #x1000   #x109F)
     ("Myanmar Extended-A"                              #xAA60   #xAA7F)
@@ -746,6 +751,7 @@
     ("Number Forms"                                    #x2150   #x218F)
     ("Ogham"                                           #x1680   #x169F)
     ("Ol Chiki"                                        #x1C50   #x1C7F)
+    ("Old Hungarian"                                   #x10C80  #x10CFF)
     ("Old Italic"                                      #x10300  #x1032F)
     ("Old North Arabian"                               #x10A80  #x10A9F)
     ("Old Permic"                                      #x10350  #x1037F)
@@ -790,8 +796,10 @@
     ("Supplemental Arrows-C"                           #x1F800  #x1F8FF)
     ("Supplemental Mathematical Operators"             #x2A00   #x2AFF)
     ("Supplemental Punctuation"                        #x2E00   #x2E7F)
+    ("Supplemental Symbols and Pictographs"            #x1F900  #x1F9FF)
     ("Supplementary Private Use Area-A"                #xF0000  #xFFFFF)
     ("Supplementary Private Use Area-B"                #x100000 #x10FFFF)
+    ("Sutton SignWriting"                              #x1D800  #x1DAAF)
     ("Syloti Nagri"                                    #xA800   #xA82F)
     ("Syriac"                                          #x0700   #x074F)
     ("Tagalog"                                         #x1700   #x171F)
@@ -822,7 +830,7 @@
     ("Yi Radicals"                                     #xA490   #xA4CF)
     ("Yi Syllables"                                    #xA000   #xA48F)
     ("Yijing Hexagram Symbols"                         #x4DC0   #x4DFF))
-  "Alist of Unicode 7.0 blocks.")
+  "Alist of Unicode 8.0 blocks.")
 
 (defvar unicode-fonts-known-font-characteristics
   '(("Abadi MT Condensed"                  :licenses (microsoft))
@@ -1720,6 +1728,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 57/57
                                                          "ALPHABETUM Unicode"           ; 57/57
                                                          ))
+    ;; ("Ahom"                                          (""))                           ; todo added in Unicode 8.0
     ("Alchemical Symbols"                               (
                                                          "Noto Sans Symbols"            ; 116/116
                                                          "Symbola"                      ; 116/116
@@ -1736,6 +1745,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 52/58
                                                          "ALPHABETUM Unicode"           ; 53/58
                                                          ))
+    ;; ("Anatolian Hieroglyphs"                         (""))                           ; todo added in Unicode 8.0
     ("Ancient Greek Musical Notation"                   (
                                                          "Cardo"                        ; 70/70
                                                          "Noto Sans Symbols"            ; 70/70
@@ -2032,6 +2042,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 85/85
                                                          "Code2000"
                                                          ))
+    ;; ("Cherokee Supplement"                           (""))                           ; todo added in Unicode 8.0
     ("CJK Compatibility"                                (
                                                          "SimHei"
                                                          "FangSong"
@@ -2212,6 +2223,7 @@ Set to nil to disable."
                                                          "HanaMinB"                     ; 222/222
                                                          "BabelStone Han"               ; 222/222
                                                          ))
+    ;; ("CJK Unified Ideographs Extension E"            (""))                           ; todo added in Unicode 8.0
     ("Combining Diacritical Marks"                      (
                                                          "Monaco"                       ; 112/112
                                                          "Consolas"
@@ -2431,6 +2443,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 100/100
                                                          ))
     ;; ("Duployan"                                      (""))                           ; todo added in Unicode 7.0
+    ;; ("Early Dynastic Cuneiform"                      (""))                           ; todo added in Unicode 8.0
     ("Egyptian Hieroglyphs"                             (
                                                          "Noto Sans Egyptian Hieroglyphs"      ; 1,071/1,071
                                                          "Aegyptus"                            ; 1,071/1,071
@@ -2730,6 +2743,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 23/23
                                                          "FreeSerif"                    ; 23/23
                                                          ))
+    ;; ("Hatran"                                        (""))                           ; todo added in Unicode 8.0
     ("Hebrew"                                           (
                                                          "Miriam Fixed"
                                                          "Ezra SIL"                     ; 87/87
@@ -3235,6 +3249,7 @@ Set to nil to disable."
     ("Mro"                                              (
                                                          "Mro Unicode"                  ; 43/43
                                                          ))
+    ;; ("Multani"                                       (""))                           ; todo added in Unicode 8.0
     ("Musical Symbols"                                  (
                                                          "Noto Sans Symbols"            ; 220/220
                                                          "Musica"                       ; 220/220 - OS X rendering issue? see "Musical Symbol G Clef"
@@ -3311,6 +3326,7 @@ Set to nil to disable."
                                                          "Noto Sans Ol Chiki"           ; 48/48
                                                          "Code2000"                     ; 48/48
                                                          ))
+    ;; ("Old Hungarian"                                 (""))                           ; todo added in Unicode 8.0
     ("Old Italic"                                       (
                                                          "Segoe UI Symbol"              ; 35/36
                                                          "DejaVu Sans:width=condensed"  ; 35/36
@@ -3635,6 +3651,7 @@ Set to nil to disable."
                                                          "Code2000"                     ; 49/67
                                                          "ALPHABETUM Unicode"           ; 50/67
                                                          ))
+    ;; ("Supplemental Symbols and Pictographs"          (""))                           ; todo added in Unicode 8.0
     ;; ("Supplementary Private Use Area-A"              (
     ;;                                                   "Aegean"                       ; 3,600/65,534
     ;;                                                   "Aegyptus"                     ; 7,243/65,534
@@ -3647,6 +3664,7 @@ Set to nil to disable."
     ;;                                                   "Akkadian"                     ;    17/65,534
     ;;                                                   ))
     ;; ("Supplementary Private Use Area-B"              (""))
+    ;; ("Sutton SignWriting"                            (""))                           ; todo added in Unicode 8.0
     ("Syloti Nagri"                                     (
                                                          "Noto Sans Syloti Nagri"       ; 44/44
                                                          "MPH 2B Damase"
