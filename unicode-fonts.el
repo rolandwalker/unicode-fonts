@@ -9,7 +9,7 @@
 ;; Last-Updated:  6 Aug 2015
 ;; EmacsWiki: UnicodeFonts
 ;; Keywords: i18n, faces, frames, wp, interface
-;; Package-Requires: ((font-utils "0.7.8") (ucs-utils "0.8.0") (list-utils "0.4.2") (persistent-soft "0.8.10") (pcache "0.3.1"))
+;; Package-Requires: ((font-utils "0.7.8") (ucs-utils "0.8.2") (list-utils "0.4.2") (persistent-soft "0.8.10") (pcache "0.3.1"))
 ;;
 ;; Simplified BSD License
 ;;
