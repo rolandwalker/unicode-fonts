@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 217 of the 255 blocks in
+;; This library provides font mappings for 218 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  32/245 blocks are not mapped to any known font.
+;; default font.  31/245 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -2228,7 +2228,10 @@ Set to nil to disable."
                                                          "HanaMinB"                     ; 222/222
                                                          "BabelStone Han"               ; 222/222
                                                          ))
-    ;; ("CJK Unified Ideographs Extension E"            (""))                           ; todo added in Unicode 8.0
+    ("CJK Unified Ideographs Extension E"               (
+                                                         "HanaMinB"                     ; 5,762/5,762
+                                                         "BabelStone Han"               ; 1,125/5,762
+                                                         ))
     ("Combining Diacritical Marks"                      (
                                                          "Monaco"                       ; 112/112
                                                          "Consolas"
