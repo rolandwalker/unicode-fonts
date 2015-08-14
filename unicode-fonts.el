@@ -1810,8 +1810,8 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Arabic Extended-A"                                (
-                                                         "Scheherazade"                 ; 47/47
-                                                         "Amiri"                        ;  4/47
+                                                         "Scheherazade"                 ; 47/50
+                                                         "Amiri"                        ;  4/50
                                                          ))
     ("Arabic Mathematical Alphabetic Symbols"           (
                                                          "Amiri"                        ; 141/143
@@ -2031,15 +2031,15 @@ Set to nil to disable."
                                                          "Code2000"                     ; 83/83
                                                          ))
     ("Cherokee"                                         (
-                                                         "Aboriginal Sans"              ; 85/85
-                                                         "Aboriginal Serif"             ; 85/85
+                                                         "Aboriginal Sans"              ; 85/92
+                                                         "Aboriginal Serif"             ; 85/92
                                                          "Plantagenet Cherokee"
-                                                         "Noto Sans Cherokee"           ; 85/85
+                                                         "Noto Sans Cherokee"           ; 85/92
                                                          "Gadugi"
                                                          "MPH 2B Damase"
-                                                         "Quivira"                      ; 85/85
-                                                         "Everson Mono:weight=bold"     ; 85/85
-                                                         "FreeMono"                     ; 85/85
+                                                         "Quivira"                      ; 85/92
+                                                         "Everson Mono:weight=bold"     ; 85/92
+                                                         "FreeMono"                     ; 85/92
                                                          "Code2000"
                                                          ))
     ;; ("Cherokee Supplement"                           (""))                           ; todo added in Unicode 8.0
@@ -2157,28 +2157,28 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("CJK Unified Ideographs"                           (
-                                                         "WenQuanYi Zen Hei Mono"       ; 20,932/20,941
+                                                         "WenQuanYi Zen Hei Mono"       ; 20,932/20,950
                                                          "Lantinghei SC"
-                                                         "Songti SC"                    ; 20,910/20,941
+                                                         "Songti SC"                    ; 20,910/20,950
                                                          "SimHei"
                                                          "FangSong"
-                                                         "STFangsong"                   ; 20,910/20,941
+                                                         "STFangsong"                   ; 20,910/20,950
                                                          "SimSun"
-                                                         "LiSong Pro"                   ; 17,595/20,941
-                                                         "Baoli SC"                     ;  7,103/20,941
-                                                         "HanaMinA"                     ; 20,941/20,941
-                                                         "BabelStone Han"               ; 19,051/20,941
-                                                         "Apple LiGothic"               ; 13,060/20,941
+                                                         "LiSong Pro"                   ; 17,595/20,950
+                                                         "Baoli SC"                     ;  7,103/20,950
+                                                         "HanaMinA"                     ; 20,941/20,950
+                                                         "BabelStone Han"               ; 19,051/20,950
+                                                         "Apple LiGothic"               ; 13,060/20,950
                                                          "Lantinghei TC"
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "HAN NOM A"                    ; 20,902/20,941
+                                                         "HAN NOM A"                    ; 20,902/20,950
                                                          "DFKai-SB"
                                                          "Arial Unicode MS"
-                                                         "Xingkai SC"                   ;  7,103/20,941
-                                                         "GB18030 Bitmap"               ; 20,902/20,941
-                                                         "UnBatang"                     ;  4,260/20,941
+                                                         "Xingkai SC"                   ;  7,103/20,950
+                                                         "GB18030 Bitmap"               ; 20,902/20,950
+                                                         "UnBatang"                     ;  4,260/20,950
                                                          ))
     ("CJK Unified Ideographs Extension A"               (
                                                          "SimHei"
@@ -2273,10 +2273,10 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 18/33
                                                          ))
     ("Combining Half Marks"                             (
-                                                         "Consolas"                     ;  4/14
-                                                         "DejaVu Sans:width=condensed"  ;  4/14
-                                                         "Everson Mono:weight=bold"     ;  7/14
-                                                         "Symbola"                      ; 14/14
+                                                         "Consolas"                     ;  4/16
+                                                         "DejaVu Sans:width=condensed"  ;  4/16
+                                                         "Everson Mono:weight=bold"     ;  7/16
+                                                         "Symbola"                      ; 14/16
                                                          ))
     ("Common Indic Number Forms"                        (
                                                          "Noto Sans Kaithi"             ; 10/10
@@ -2321,7 +2321,7 @@ Set to nil to disable."
                                                          "Code2001"                     ; 18/18
                                                          ))
     ("Cuneiform"                                        (
-                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 879/921
+                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 879/922
                                                          "Akkadian"
                                                          ))
     ("Cuneiform Numbers and Punctuation"                (
@@ -2329,18 +2329,18 @@ Set to nil to disable."
                                                          "Noto Sans Sumero-Akkadian Cuneiform" ; 103/116
                                                          ))
     ("Currency Symbols"                                 (
-                                                         "Monaco"                       ; 19/30
-                                                         "DejaVu Sans Mono"             ; 24/30
-                                                         "DejaVu Sans:width=condensed"  ; 24/30
-                                                         "Consolas"                     ; 25/30
-                                                         "Noto Sans Symbols"            ; 29/30
-                                                         "Noto Sans"                    ; 23/30
-                                                         "Segoe UI"                     ; 27/30
-                                                         "Apple Symbols"                ; 22/30
-                                                         "Symbola"                      ; 30/30
-                                                         "Quivira"                      ; 27/30
-                                                         "Everson Mono:weight=bold"     ; 27/30
-                                                         "FreeMono"                     ; 23/30
+                                                         "Monaco"                       ; 19/31
+                                                         "DejaVu Sans Mono"             ; 24/31
+                                                         "DejaVu Sans:width=condensed"  ; 24/31
+                                                         "Consolas"                     ; 25/31
+                                                         "Noto Sans Symbols"            ; 29/31
+                                                         "Noto Sans"                    ; 23/31
+                                                         "Segoe UI"                     ; 27/31
+                                                         "Apple Symbols"                ; 22/31
+                                                         "Symbola"                      ; 30/31
+                                                         "Quivira"                      ; 27/31
+                                                         "Everson Mono:weight=bold"     ; 27/31
+                                                         "FreeMono"                     ; 23/31
                                                          ))
     ("Cypriot Syllabary"                                (
                                                          "Noto Sans Cypriot"            ; 55/55
@@ -2377,9 +2377,9 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 32/32
                                                          ))
     ("Cyrillic Extended-B"                              (
-                                                         "Quivira"                      ; 80/95
-                                                         "Code2000"                     ; 78/95
-                                                         "Everson Mono:weight=bold"     ; 95/95
+                                                         "Quivira"                      ; 80/96
+                                                         "Code2000"                     ; 78/96
+                                                         "Everson Mono:weight=bold"     ; 95/96
                                                          ))
     ("Cyrillic Supplement"                              (
                                                          "Consolas"                     ; 20/48
@@ -2417,8 +2417,8 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 117/128
                                                          ))
     ("Devanagari Extended"                              (
-                                                         "Siddhanta"                    ; 28/28
-                                                         "FreeSerif"                    ; 28/28
+                                                         "Siddhanta"                    ; 28/30
+                                                         "FreeSerif"                    ; 28/30
                                                          ))
     ("Dingbats"                                         (
                                                          "Apple Color Emoji"
@@ -2452,9 +2452,9 @@ Set to nil to disable."
     ;; ("Elbasan"                                       (""))                           ; todo added in Unicode 7.0
     ("Emoticons"                                        (
                                                          "Apple Color Emoji"
-                                                         "Segoe UI Symbol"              ; 76/78
-                                                         "Symbola"                      ; 78/78
-                                                         "Quivira"                      ; 76/78
+                                                         "Segoe UI Symbol"              ; 76/80
+                                                         "Symbola"                      ; 78/80
+                                                         "Quivira"                      ; 76/80
                                                          ))
     ("Enclosed Alphanumeric Supplement"                 (
                                                          "Segoe UI Symbol"              ; 169/173
@@ -2653,16 +2653,16 @@ Set to nil to disable."
                                                          "Noto Sans Coptic"             ;  14/135
                                                          ))
     ("Gujarati"                                         (
-                                                         "Nirmala UI"                   ; 83/84
-                                                         "Noto Sans Gujarati"           ; 84/84
-                                                         "Noto Sans Gujarati UI"        ; 84/84
+                                                         "Nirmala UI"                   ; 83/85
+                                                         "Noto Sans Gujarati"           ; 84/85
+                                                         "Noto Sans Gujarati UI"        ; 84/85
                                                          "Gujarati MT"
-                                                         "Shruti"                       ; 83/84
+                                                         "Shruti"                       ; 83/85
                                                          "Samyak Gujarati"
-                                                         "Samyak"                       ; 84/84
+                                                         "Samyak"                       ; 84/85
                                                          "Gujarati Sangam MN"
-                                                         "Code2000"                     ; 83/84
-                                                         "Arial Unicode MS"             ; 78/84
+                                                         "Code2000"                     ; 83/85
+                                                         "Arial Unicode MS"             ; 78/85
                                                          ))
     ("Gurmukhi"                                         (
                                                          "Gurmukhi Sangam MN"
@@ -3016,20 +3016,20 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 32/32
                                                          ))
     ("Latin Extended-D"                                 (
-                                                         "FreeMono"                     ;   5/152  ; this will give poor results if existence-checks is set to 'first
-                                                         "DejaVu Sans Mono"             ;  14/152
-                                                         "DejaVu Sans:width=condensed"  ;  62/152
-                                                         "Charis SIL"                   ;  38/152
-                                                         "Doulos SIL"                   ;  38/152
-                                                         "Junicode"                     ;  97/152
-                                                         "Cardo"                        ;  93/152
-                                                         "Quivira"                      ; 134/152
-                                                         "Code2000"                     ; 114/152
-                                                         "Everson Mono:weight=bold"     ; 152/152
-                                                         "ALPHABETUM Unicode"           ;  94/152
+                                                         "FreeMono"                     ;   5/159  ; this will give poor results if existence-checks is set to 'first
+                                                         "DejaVu Sans Mono"             ;  14/159
+                                                         "DejaVu Sans:width=condensed"  ;  62/159
+                                                         "Charis SIL"                   ;  38/159
+                                                         "Doulos SIL"                   ;  38/159
+                                                         "Junicode"                     ;  97/159
+                                                         "Cardo"                        ;  93/159
+                                                         "Quivira"                      ; 134/159
+                                                         "Code2000"                     ; 114/159
+                                                         "Everson Mono:weight=bold"     ; 152/159
+                                                         "ALPHABETUM Unicode"           ;  94/159
                                                          ))
     ("Latin Extended-E"                                 (                               ; todo free coverage, added in Unicode 7.0
-                                                         "Everson Mono:weight=bold"     ; 48/50
+                                                         "Everson Mono:weight=bold"     ; 48/54
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
@@ -3116,13 +3116,13 @@ Set to nil to disable."
                                                          ))
     ("Malayalam"                                        (
                                                          "Malayalam Sangam MN"
-                                                         "Nirmala UI"                   ; 98/99
-                                                         "Kartika"                      ; 98/99
-                                                         "Code2000"                     ; 95/99
-                                                         "Akshar Unicode"               ; 83/99
-                                                         "Samyak Malayalam"             ; 68/99
-                                                         "Samyak"                       ; 66/99
-                                                         "Arial Unicode MS"             ; 78/99
+                                                         "Nirmala UI"                   ; 98/100
+                                                         "Kartika"                      ; 98/100
+                                                         "Code2000"                     ; 95/100
+                                                         "Akshar Unicode"               ; 83/100
+                                                         "Samyak Malayalam"             ; 68/100
+                                                         "Samyak"                       ; 66/100
+                                                         "Arial Unicode MS"             ; 78/100
                                                          ))
     ("Mandaic"                                          (
                                                          "Noto Sans Mandaic"            ; 29/29
@@ -3161,8 +3161,8 @@ Set to nil to disable."
                                                          ))
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
-                                                         "Segoe UI Symbol"              ; 26/26
-                                                         "Nilus"                        ; 26/26
+                                                         "Segoe UI Symbol"              ; 26/90
+                                                         "Nilus"                        ; 26/90
                                                          ))
     ("Meroitic Hieroglyphs"                             (
                                                          "Nilus"                        ; 32/32
@@ -3204,17 +3204,17 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 191/256
                                                          ))
     ("Miscellaneous Symbols and Arrows"                 (
-                                                         "Symbola"                      ; 202/202
-                                                         "Quivira"                      ;  87/202
-                                                         "Code2000"                     ;  82/202
-                                                         "Segoe UI Symbol"              ;  87/202
-                                                         "Noto Sans Symbols"            ;  87/202
+                                                         "Symbola"                      ; 202/206
+                                                         "Quivira"                      ;  87/206
+                                                         "Code2000"                     ;  82/206
+                                                         "Segoe UI Symbol"              ;  87/206
+                                                         "Noto Sans Symbols"            ;  87/206
                                                          ))
     ("Miscellaneous Symbols and Pictographs"            (
-                                                         "Apple Color Emoji"            ; 533/742
-                                                         "Segoe UI Symbol"              ; 529/742
-                                                         "Symbola"                      ; 742/742
-                                                         "Quivira"                      ; 159/742
+                                                         "Apple Color Emoji"            ; 533/766
+                                                         "Segoe UI Symbol"              ; 529/766
+                                                         "Symbola"                      ; 742/766
+                                                         "Quivira"                      ; 159/766
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Segoe UI Symbol"              ; 244/251
@@ -3251,11 +3251,11 @@ Set to nil to disable."
                                                          ))
     ;; ("Multani"                                       (""))                           ; todo added in Unicode 8.0
     ("Musical Symbols"                                  (
-                                                         "Noto Sans Symbols"            ; 220/220
-                                                         "Musica"                       ; 220/220 - OS X rendering issue? see "Musical Symbol G Clef"
-                                                         "FreeSerif"                    ; 220/220
-                                                         "Symbola"                      ; 220/220 - OS X rendering issue? see "Musical Symbol G Clef"
-                                                         "Quivira"                      ;  92/220
+                                                         "Noto Sans Symbols"            ; 220/231
+                                                         "Musica"                       ; 220/231 - OS X rendering issue? see "Musical Symbol G Clef"
+                                                         "FreeSerif"                    ; 220/231
+                                                         "Symbola"                      ; 220/231 - OS X rendering issue? see "Musical Symbol G Clef"
+                                                         "Quivira"                      ;  92/231
                                                          ))
     ("Myanmar"                                          (
                                                          "Noto Sans Myanmar"            ; 160/160
@@ -3298,17 +3298,17 @@ Set to nil to disable."
                                                          "Code2000"                     ; 59/59
                                                          ))
     ("Number Forms"                                     (
-                                                         "DejaVu Sans:width=condensed"  ; 55/58
-                                                         "Arial Unicode MS"             ; 48/58
-                                                         "Junicode"                     ; 58/58
-                                                         "Symbola"                      ; 58/58
-                                                         "Quivira"                      ; 58/58
-                                                         "Charis SIL"                   ; 54/58
-                                                         "Doulos SIL"                   ; 54/58
-                                                         "Code2000"                     ; 54/58
-                                                         "Everson Mono:weight=bold"     ; 58/58
-                                                         "FreeMono"                     ; 45/58
-                                                         "ALPHABETUM Unicode"           ; 58/58
+                                                         "DejaVu Sans:width=condensed"  ; 55/60
+                                                         "Arial Unicode MS"             ; 48/60
+                                                         "Junicode"                     ; 58/60
+                                                         "Symbola"                      ; 58/60
+                                                         "Quivira"                      ; 58/60
+                                                         "Charis SIL"                   ; 54/60
+                                                         "Doulos SIL"                   ; 54/60
+                                                         "Code2000"                     ; 54/60
+                                                         "Everson Mono:weight=bold"     ; 58/60
+                                                         "FreeMono"                     ; 45/60
+                                                         "ALPHABETUM Unicode"           ; 58/60
                                                          ))
     ("Ogham"                                            (
                                                          "Segoe UI Symbol"              ; 29/29
@@ -3736,15 +3736,15 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 61/72
                                                          ))
     ("Telugu"                                           (
-                                                         "Noto Sans Telugu"             ; 93/95
-                                                         "Noto Sans Telugu UI"          ; 93/95
+                                                         "Noto Sans Telugu"             ; 93/96
+                                                         "Noto Sans Telugu UI"          ; 93/96
                                                          "Telugu Sangam MN"
-                                                         "Vani"                         ; 93/95
-                                                         "Nirmala UI"                   ; 93/95
-                                                         "Gautami"                      ; 93/95
-                                                         "Akshar Unicode"               ; 80/95
-                                                         "Code2000"                     ; 93/95
-                                                         "Arial Unicode MS"             ; 80/95
+                                                         "Vani"                         ; 93/96
+                                                         "Nirmala UI"                   ; 93/96
+                                                         "Gautami"                      ; 93/96
+                                                         "Akshar Unicode"               ; 80/96
+                                                         "Code2000"                     ; 93/96
+                                                         "Arial Unicode MS"             ; 80/96
                                                          ))
     ("Thaana"                                           (
                                                          "MV Boli"                      ; 50/50
@@ -3790,8 +3790,8 @@ Set to nil to disable."
     ;; ("Tirhuta"                                       (""))                           ; todo added in Unicode 7.0
     ("Transport and Map Symbols"                        (
                                                          "Apple Color Emoji"
-                                                         "Segoe UI Symbol"              ; 70/97
-                                                         "Symbola"                      ; 97/97
+                                                         "Segoe UI Symbol"              ; 70/98
+                                                         "Symbola"                      ; 97/98
                                                          ))
     ("Ugaritic"                                         (
                                                          "Noto Sans Ugaritic"           ; 31/31
