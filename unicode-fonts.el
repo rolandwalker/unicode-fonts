@@ -3768,8 +3768,8 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 80/96
                                                          ))
     ("Thaana"                                           (
-                                                         "Noto Sans Thaana"             ; 50/50
                                                          "MV Boli"                      ; 50/50
+                                                         "Noto Sans Thaana"             ; 50/50
                                                          "MPH 2B Damase"                ; 50/50
                                                          "Code2000"                     ; 50/50
                                                          "Everson Mono:weight=bold"     ; 50/50
