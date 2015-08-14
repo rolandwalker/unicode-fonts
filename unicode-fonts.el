@@ -150,7 +150,7 @@
 ;;
 ;;     From http://www.google.com/get/noto/
 ;;
-;;         Noto Sans and friends         ; 179 Unicode blocks and counting; sole
+;;         Noto Sans and friends         ; 180 Unicode blocks and counting; sole
 ;;                                       ; source for these blocks:
 ;;                                       ;
 ;;                                       ;   Bamum / Bamum Supplement / Kaithi
@@ -1324,6 +1324,7 @@
     ("Noto Sans Old Persian"               :licenses (free))
     ("Noto Sans Old South Arabian"         :licenses (free))
     ("Noto Sans Old Turkic"                :licenses (free))
+    ("Noto Sans Oriya"                     :licenses (free))
     ("Noto Sans Osmanya"                   :licenses (free))
     ("Noto Sans Phags-pa"                  :licenses (free))
     ("Noto Sans Phoenician"                :licenses (free))
@@ -3379,6 +3380,7 @@ Set to nil to disable."
                                                          "Everson Mono"                 ; 11/11
                                                          ))
     ("Oriya"                                            (
+                                                         "Noto Sans Oriya"              ; 90/90
                                                          "Oriya Sangam MN"
                                                          "Nirmala UI"                   ; 84/90
                                                          "Kalinga"                      ; 84/90
