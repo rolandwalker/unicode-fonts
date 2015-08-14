@@ -65,7 +65,7 @@
 ;; This library provides font mappings for 219 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  30/245 blocks are not mapped to any known font.
+;; default font.  30/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
