@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 216 of the 255 blocks in
+;; This library provides font mappings for 217 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  33/245 blocks are not mapped to any known font.
+;; default font.  32/245 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -2045,7 +2045,9 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 85/92
                                                          "Code2000"
                                                          ))
-    ;; ("Cherokee Supplement"                           (""))                           ; todo added in Unicode 8.0
+    ("Cherokee Supplement"                              (                               ; todo free alternative
+                                                         "Everson Mono:weight=bold"     ; 80/80
+                                                         ))
     ("CJK Compatibility"                                (
                                                          "SimHei"
                                                          "FangSong"
