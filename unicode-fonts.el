@@ -2153,7 +2153,7 @@ Set to nil to disable."
                                                          "HAN NOM A"                    ; 60/64
                                                          "Arial Unicode MS"
                                                          "PCMyungjo"                    ; 30/64
-                                                         "BabelStone Han"               ; 54/64
+                                                         "BabelStone Han"               ; 55/64
                                                          "Osaka:spacing=m"
                                                          "Code2000"
                                                          ))
@@ -2168,7 +2168,7 @@ Set to nil to disable."
                                                          "LiSong Pro"                   ; 17,595/20,950
                                                          "Baoli SC"                     ;  7,103/20,950
                                                          "HanaMinA"                     ; 20,941/20,950
-                                                         "BabelStone Han"               ; 19,051/20,950
+                                                         "BabelStone Han"               ; 20,950/20,950
                                                          "Apple LiGothic"               ; 13,060/20,950
                                                          "Lantinghei TC"
                                                          "MingLiU"
@@ -2196,7 +2196,7 @@ Set to nil to disable."
                                                          "HAN NOM A"                    ; 6,582/6,582
                                                          "Code2000"
                                                          "DFKai-SB"
-                                                         "BabelStone Han"               ;   691/6,582
+                                                         "BabelStone Han"               ; 1,639/6,582
                                                          "GB18030 Bitmap"               ; 6,578/6,582
                                                          ))
     ("CJK Unified Ideographs Extension B"               (
@@ -2212,12 +2212,12 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          "Microsoft JhengHei"
                                                          "Microsoft JhengHei UI"
-                                                         "BabelStone Han"               ;    625/42,711
+                                                         "BabelStone Han"               ;  2,616/42,711
                                                          "DFKai-SB"
                                                          ))
     ("CJK Unified Ideographs Extension C"               (
                                                          "HanaMinB"                     ; 4,149/4,149
-                                                         "BabelStone Han"               ;   399/4,149
+                                                         "BabelStone Han"               ; 1,542/4,149
                                                          "HAN NOM B"                    ;   106/4,149
                                                          ))
     ("CJK Unified Ideographs Extension D"               (
@@ -2464,7 +2464,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 171/173
                                                          "Symbola"                      ; 173/173
                                                          "Quivira"                      ; 171/173
-                                                         "BabelStone Han"               ; 171/173
+                                                         "BabelStone Han"               ; 173/173
                                                          "BabelStone Modern"            ; 169/173
                                                          ))
     ("Enclosed Alphanumerics"                           (
@@ -3465,11 +3465,11 @@ Set to nil to disable."
     ;;                                                   "UnBatang"                     ; 2,048/6,400
     ;;                                                   "Jomolhari"                    ; 1,537/6,400
     ;;                                                   "Code2000"                     ; 1,373/6,400 conflicts MUFI
+    ;;                                                   "BabelStone Han"               ; 1,346/6,400
     ;;                                                   "Siddhanta"                    ; 1,292/6,400
     ;;                                                   "Cardo"                        ; 1,209/6,400 MUFI
     ;;                                                   "Unidings"                     ; 1,024/6,400 conflicts MUFI
     ;;                                                   "Junicode"                     ;   841/6,400 MUFI
-    ;;                                                   "BabelStone Han"               ;   665/6,400
     ;;                                                   "Quivira"                      ;   589/6,400
     ;;                                                   "Code2001"                     ;   362/6,400
     ;;                                                   "MS Reference Sans Serif"      ;   312/6,400
