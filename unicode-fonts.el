@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 219 of the 255 blocks in
+;; This library provides font mappings for 220 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  30/255 blocks are not mapped to any known font.
+;; default font.  29/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -3297,7 +3297,9 @@ Set to nil to disable."
                                                          "TharLon"                      ; 7/31
                                                          "Yunghkio"                     ; 7/31
                                                          ))
-    ;; ("Nabataean"                                     (""))                           ; todo added in Unicode 7.0
+    ("Nabataean"                                        (                               ; todo free alternative
+                                                         "Everson Mono:weight=bold"     ; 40/40
+                                                         ))
     ("New Tai Lue"                                      (
                                                          "Noto Sans New Tai Lue"        ; 83/83
                                                          "Microsoft New Tai Lue"
