@@ -3042,8 +3042,10 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 152/159
                                                          "ALPHABETUM Unicode"           ;  94/159
                                                          ))
-    ("Latin Extended-E"                                 (                               ; todo free coverage, added in Unicode 7.0
+    ("Latin Extended-E"                                 (                               ;
+                                                         "Quivira"                      ; 50/54
                                                          "Everson Mono:weight=bold"     ; 48/54
+                                                         "HanaMinA"                     ; 29/54
                                                          ))
     ;; ("Latin-1 Supplement"                            (                               ; hopefully well-covered by the default font
     ;;                                                   "Monaco"
