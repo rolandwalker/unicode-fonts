@@ -3166,8 +3166,8 @@ Set to nil to disable."
                                                          ))
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
+                                                         "Nilus"                        ; 90/90
                                                          "Segoe UI Symbol"              ; 26/90
-                                                         "Nilus"                        ; 26/90
                                                          ))
     ("Meroitic Hieroglyphs"                             (
                                                          "Nilus"                        ; 32/32
