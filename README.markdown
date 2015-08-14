@@ -74,10 +74,10 @@ mappings from
 
 and makes the settings available via the customization interface.
 
-This library provides font mappings for 221 of the 255 blocks in
+This library provides font mappings for 222 of the 255 blocks in
 the Unicode 8.0 standard which are public and have displayable
 characters.  It assumes that 6 Latin blocks are covered by the
-default font.  28/255 blocks are not mapped to any known font.
+default font.  27/255 blocks are not mapped to any known font.
 
 To use unicode-fonts, place the `unicode-fonts.el` file somewhere
 Emacs can find it, and add the following to your `~/.emacs` file:
@@ -408,6 +408,11 @@ From <http://www.evertype.com/fonts/coptic/>
 From <http://apagreekkeys.org/NAUdownload.html>
 
 	New Athena Unicode            ; Ancient Languages / Symbols
+
+From <http://markmail.org/thread/g57mk4sbdycblxds>
+
+	KhojkiUnicodeOT               ; Khojki
+
 
 ## Non-free Fonts
 
