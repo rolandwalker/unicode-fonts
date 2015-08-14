@@ -169,12 +169,12 @@
 ;;
 ;;         Gentium Plus                  ; Greek
 ;;
-;;     From http://users.teilar.gr/~g1951d/>    ; NOTE: site is down as of July 2015
+;;     From http://users.teilar.gr/~g1951d/    ; NOTE: site is down as of July 2015
 ;;
 ;;         Aegean, Aegyptus, Akkadian    ; Ancient languages
-;;         Analecta                      ; Ancient languages, Deseret - may be unavailable
+;;         Analecta                      ; Ancient languages, Deseret
 ;;         Musica                        ; Musical Symbols
-;;         Nilus                         ; Ancient languages - may be unavailable
+;;         Nilus                         ; Ancient languages
 ;;
 ;;     From http://www.wazu.jp/gallery/views/View_MPH2BDamase.html
 ;;
