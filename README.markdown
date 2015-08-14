@@ -174,7 +174,7 @@ that Noto Sans provides coverage:
 
 From <http://www.google.com/get/noto/>
 
-	Noto Sans and friends         ; 178 Unicode blocks and counting; sole
+	Noto Sans and friends         ; 179 Unicode blocks and counting; sole
 	                              ; source for these blocks:
 	                              ;
 	                              ;   Bamum / Bamum Supplement / Kaithi

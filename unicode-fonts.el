@@ -150,7 +150,7 @@
 ;;
 ;;     From http://www.google.com/get/noto/
 ;;
-;;         Noto Sans and friends         ; 178 Unicode blocks and counting; sole
+;;         Noto Sans and friends         ; 179 Unicode blocks and counting; sole
 ;;                                       ; source for these blocks:
 ;;                                       ;
 ;;                                       ;   Bamum / Bamum Supplement / Kaithi
@@ -1351,6 +1351,7 @@
     ("Noto Sans Tamil UI"                  :licenses (free))
     ("Noto Sans Telugu"                    :licenses (free))
     ("Noto Sans Telugu UI"                 :licenses (free))
+    ("Noto Sans Thaana"                    :licenses (free))
     ("Noto Sans Thai"                      :licenses (free))
     ("Noto Sans Thai UI"                   :licenses (free))
     ("Noto Sans Tifinagh"                  :licenses (free))
@@ -3750,6 +3751,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 80/96
                                                          ))
     ("Thaana"                                           (
+                                                         "Noto Sans Thaana"             ; 50/50
                                                          "MV Boli"                      ; 50/50
                                                          "MPH 2B Damase"                ; 50/50
                                                          "Code2000"                     ; 50/50
