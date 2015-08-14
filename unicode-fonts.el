@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 223 of the 255 blocks in
+;; This library provides font mappings for 224 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  26/255 blocks are not mapped to any known font.
+;; default font.  25/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -173,6 +173,7 @@
 ;;
 ;;         Aegean, Aegyptus, Akkadian    ; Ancient languages
 ;;         Analecta                      ; Ancient languages, Deseret
+;;         Anatolian                     ; Ancient languages
 ;;         Musica                        ; Musical Symbols
 ;;         Nilus                         ; Ancient languages
 ;;
@@ -871,6 +872,7 @@
     ("American Uncial"                     :licenses (microsoft))
     ("Amiri"                               :licenses (free) :arabic naskh)
     ("Analecta"                            :licenses (free))
+    ("Anatolian"                           :licenses (free))
     ("Andagii"                             :licenses (free))
     ("Andale Mono"                         :spacing mono :licenses (apple microsoft))
     ("Andalus"                             :licenses (microsoft))
@@ -1760,7 +1762,9 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 52/58
                                                          "ALPHABETUM Unicode"           ; 53/58
                                                          ))
-    ;; ("Anatolian Hieroglyphs"                         (""))                           ; todo added in Unicode 8.0
+    ("Anatolian Hieroglyphs"                            (
+                                                         "Anatolian"                    ; 583/583
+                                                         ))
     ("Ancient Greek Musical Notation"                   (
                                                          "Cardo"                        ; 70/70
                                                          "Noto Sans Symbols"            ; 70/70
