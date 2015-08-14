@@ -2057,7 +2057,7 @@ Set to nil to disable."
                                                          "HAN NOM A"                    ; 249/256
                                                          "Arial Unicode MS"
                                                          "WenQuanYi Zen Hei Mono"       ; 154/256
-                                                         "HanaMinA"                     ; 149/256
+                                                         "HanaMinA"                     ; 256/256
                                                          "BabelStone Han"               ;  73/256
                                                          "Code2000"
                                                          ))
@@ -2142,7 +2142,7 @@ Set to nil to disable."
                                                          "SimHei"
                                                          "FangSong"
                                                          "SimSun"
-                                                         "HanaMinA"                     ; 45/64
+                                                         "HanaMinA"                     ; 58/64
                                                          "WenQuanYi Zen Hei Mono"       ; 38/64
                                                          "LiSong Pro"                   ; 33/64
                                                          "STFangsong"                   ; 35/64
@@ -2167,7 +2167,7 @@ Set to nil to disable."
                                                          "SimSun"
                                                          "LiSong Pro"                   ; 17,595/20,950
                                                          "Baoli SC"                     ;  7,103/20,950
-                                                         "HanaMinA"                     ; 20,941/20,950
+                                                         "HanaMinA"                     ; 20,945/20,950
                                                          "BabelStone Han"               ; 20,950/20,950
                                                          "Apple LiGothic"               ; 13,060/20,950
                                                          "Lantinghei TC"
@@ -2489,7 +2489,7 @@ Set to nil to disable."
                                                          "MingLiU"
                                                          ;; "Aqua Kana"
                                                          "Arial Unicode MS"
-                                                         "HanaMinA"                     ; 249/254
+                                                         "HanaMinA"                     ; 254/254
                                                          "Meiryo"                       ; 174/254
                                                          "BabelStone Han"               ; 191/254
                                                          "Quivira"                      ;  39/254
