@@ -1272,6 +1272,7 @@
     ("Noto Sans Cham"                      :licenses (free)) ; note, OS X bug?
     ("Noto Sans Cherokee"                  :licenses (free))
     ("Noto Sans Coptic"                    :licenses (free))
+    ("Noto Sans Cuneiform"                 :licenses (free)) ; new name
     ("Noto Sans Cypriot"                   :licenses (free))
     ("Noto Sans Deseret"                   :licenses (free))
     ("Noto Sans Devanagari"                :licenses (free))
@@ -1333,7 +1334,7 @@
     ("Noto Sans Saurashtra"                :licenses (free))
     ("Noto Sans Shavian"                   :licenses (free))
     ("Noto Sans Sinhala"                   :licenses (free))
-    ("Noto Sans Sumero-Akkadian Cuneiform" :licenses (free))
+    ("Noto Sans Sumero-Akkadian Cuneiform" :licenses (free)) ; old name
     ("Noto Sans Sundanese"                 :licenses (free))
     ("Noto Sans Syloti Nagri"              :licenses (free))
     ("Noto Sans Symbols"                   :licenses (free))
@@ -2321,12 +2322,14 @@ Set to nil to disable."
                                                          "Code2001"                     ; 18/18
                                                          ))
     ("Cuneiform"                                        (
-                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 879/922
+                                                         "Noto Sans Cuneiform"                 ; 879/922
+                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 879/922 - old name
                                                          "Akkadian"
                                                          ))
     ("Cuneiform Numbers and Punctuation"                (
                                                          "Akkadian"
-                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 103/116
+                                                         "Noto Sans Cuneiform"                 ; 103/116
+                                                         "Noto Sans Sumero-Akkadian Cuneiform" ; 103/116 - old name
                                                          ))
     ("Currency Symbols"                                 (
                                                          "Monaco"                       ; 19/31
