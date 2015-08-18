@@ -1843,7 +1843,7 @@ Set to nil to disable."
                                                          "Arabic Typesetting"
                                                          "Traditional Arabic"
                                                          "Scheherazade"                 ; 255/255
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ;  99/255  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"
                                                          "Arial Unicode MS"
                                                          "Nadeem"
@@ -1877,13 +1877,13 @@ Set to nil to disable."
                                                          "Adobe Arabic"                 ; 171/611
                                                          "DecoType Naskh"               ;  57/611
                                                          "Al Bayan"                     ;  62/611
-                                                         "DejaVu Sans Mono"             ;  72/611
+                                                         "DejaVu Sans Mono"             ;  72/611  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ;  98/611
                                                          "MPH 2B Damase"                ;  24/611
                                                          "Code2000"                     ; 155/611
                                                          ))
     ("Arabic Presentation Forms-B"                      (
-                                                         "DejaVu Sans Mono"             ; 140/141
+                                                         "DejaVu Sans Mono"             ; 141/141  @2.35 @2.34999084472656
                                                          "Geeza Pro"                    ; 140/141
                                                          "Amiri"                        ; 139/141
                                                          "Adobe Arabic"                 ; 125/141
@@ -1927,7 +1927,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 87/89
                                                          ))
     ("Arrows"                                           (
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ; 112/112  @2.35 @2.34999084472656
                                                          "Apple Symbols"                ; 112/112
                                                          "Cambria Math"                 ; 112/112
                                                          "Segoe UI Symbol"              ; 112/112
@@ -1975,7 +1975,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 87/93
                                                          ))
     ("Block Elements"                                   (
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ; 32/32  @2.35 @2.34999084472656
                                                          "Noto Sans Symbols"            ; 32/32
                                                          "FreeMono"                     ; 32/32
                                                          "DejaVu Sans:width=condensed"
@@ -2021,7 +2021,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("Box Drawing"                                      (
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ; 128/128  @2.35 @2.34999084472656
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
                                                          "Everson Mono"                 ; 128/128
@@ -2287,7 +2287,7 @@ Set to nil to disable."
                                                          "Doulos SIL"                   ; 104/112
                                                          "Courier New"
                                                          "DejaVu Sans:width=condensed"
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ;  67/112  @2.35 @2.34999084472656
                                                          "Cardo"                        ; 112/112
                                                          "Code2000"                     ; 112/112
                                                          "Gentium Plus"                 ; 108/112
@@ -2386,7 +2386,7 @@ Set to nil to disable."
                                                          ))
     ("Currency Symbols"                                 (
                                                          "Monaco"                       ; 19/31
-                                                         "DejaVu Sans Mono"             ; 24/31
+                                                         "DejaVu Sans Mono"             ; 24/31  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 24/31
                                                          "Consolas"                     ; 25/31
                                                          "Noto Sans Symbols"            ; 29/31
@@ -2408,7 +2408,7 @@ Set to nil to disable."
     ("Cyrillic"                                         (
                                                          "Consolas"                     ; 255/256
                                                          "Monaco"                       ; 191/256
-                                                         "DejaVu Sans Mono"             ; 180/256
+                                                         "DejaVu Sans Mono"             ; 180/256  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 256/256
                                                          "Noto Sans"                    ; 256/256
                                                          "Courier New"                  ; 118/256
@@ -2478,7 +2478,7 @@ Set to nil to disable."
                                                          ))
     ("Dingbats"                                         (
                                                          "Apple Color Emoji"
-                                                         "DejaVu Sans Mono"             ; 144/192
+                                                         "DejaVu Sans Mono"             ; 144/192  @2.35 @2.34999084472656
                                                          "Segoe UI Symbol"              ; 191/192
                                                          "Zapf Dingbats"                ; 174/192
                                                          "DejaVu Sans:width=condensed"  ; 174/192
@@ -2596,7 +2596,7 @@ Set to nil to disable."
                                                          "Apple Symbols"                ; 106/111
                                                          "Segoe UI Symbol"              ; 107/111
                                                          "Cambria Math"                 ;  36/111
-                                                         "DejaVu Sans Mono"             ;  52/111
+                                                         "DejaVu Sans Mono"             ;  54/111  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 107/111
                                                          "Charis SIL"                   ;  74/111
                                                          "Doulos SIL"                   ;  74/111
@@ -2610,7 +2610,7 @@ Set to nil to disable."
                                                          "BabelStone Modern"            ;  96/111
                                                          ))
     ("Geometric Shapes"                                 (
-                                                         "DejaVu Sans Mono"             ; 96/96
+                                                         "DejaVu Sans Mono"             ; 96/96  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 96/96
                                                          "Segoe UI Symbol"              ; 96/96
                                                          "Arial Unicode MS"             ; 80/96
@@ -2626,7 +2626,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 85/85
                                                          ))
     ("Georgian"                                         (
-                                                         "DejaVu Sans Mono"             ; 45/88
+                                                         "DejaVu Sans Mono"             ; 45/88  @2.35 @2.34999084472656
                                                          "Noto Sans Georgian"           ; 83/88
                                                          "Noto Serif Georgian"          ; 83/88
                                                          "DejaVu Sans:width=condensed"  ; 83/88
@@ -2669,7 +2669,7 @@ Set to nil to disable."
     ;; ("Grantha"                                       (""))                           ; todo added in Unicode 7.0
     ("Greek Extended"                                   (
                                                          "Consolas"                     ; 232/233
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ; 233/233  @2.35 @2.34999084472656
                                                          "Courier New"
                                                          "Antinoou"                     ; 233/233
                                                          "Noto Sans"                    ; 233/233
@@ -2692,7 +2692,7 @@ Set to nil to disable."
                                                          ))
     ("Greek and Coptic"                                 (
                                                          "Consolas"                     ;  75/135
-                                                         "DejaVu Sans Mono"             ; 110/135
+                                                         "DejaVu Sans Mono"             ; 110/135  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 134/135
                                                          "Antinoou"                     ; 135/135
                                                          "Noto Sans"                    ; 127/135
@@ -2880,7 +2880,7 @@ Set to nil to disable."
     ("IPA Extensions"                                   (
                                                          "Monaco"                       ; 78/96
                                                          "Consolas"                     ; 96/96
-                                                         "DejaVu Sans Mono"             ; 96/96
+                                                         "DejaVu Sans Mono"             ; 96/96  @2.35 @2.34999084472656
                                                          "Courier New"
                                                          "Noto Sans"                    ; 96/96
                                                          "Arial Unicode MS"
@@ -3039,7 +3039,7 @@ Set to nil to disable."
                                                          "Noto Serif Lao"               ; 67/67
                                                          "Lao Sangam MN"
                                                          "DokChampa"                    ; 65/67
-                                                         "DejaVu Sans Mono"             ; 46/67
+                                                         "DejaVu Sans Mono"             ; 46/67  @2.35 @2.34999084472656
                                                          "Arial Unicode MS"             ; 65/67
                                                          "Saysettha MX"                 ; 65/67
                                                          "DejaVu Sans:width=condensed"  ; 65/67
@@ -3082,7 +3082,7 @@ Set to nil to disable."
                                                          ))
     ("Latin Extended-D"                                 (
                                                          "FreeMono"                     ;   5/159  ; this will give poor results if existence-checks is set to 'first
-                                                         "DejaVu Sans Mono"             ;  14/159
+                                                         "DejaVu Sans Mono"             ;  17/159  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ;  62/159
                                                          "Charis SIL"                   ;  38/159
                                                          "Doulos SIL"                   ;  38/159
@@ -3205,7 +3205,7 @@ Set to nil to disable."
                                                          ))
     ("Mathematical Operators"                           (
                                                          "Monaco"                       ;  47/256
-                                                         "DejaVu Sans Mono"             ; 159/256
+                                                         "DejaVu Sans Mono"             ; 178/256  @2.35 @2.34999084472656
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Cambria Math"                 ; 256/256
                                                          "DejaVu Sans:width=condensed"  ; 256/256
@@ -3261,7 +3261,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 256/256
                                                          "Segoe UI Symbol"              ; 256/256
                                                          "Apple Symbols"                ; 256/256
-                                                         "DejaVu Sans Mono"             ; 149/256
+                                                         "DejaVu Sans Mono"             ; 149/256  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 187/256
                                                          "Arial Unicode MS"             ; 106/256
                                                          "Symbola"                      ; 220/256
@@ -3524,7 +3524,7 @@ Set to nil to disable."
                                                          "Charis SIL"                   ; 64/64
                                                          "Doulos SIL"                   ; 64/64
                                                          "Quivira"                      ; 64/64
-                                                         "DejaVu Sans Mono"             ; 37/64
+                                                         "DejaVu Sans Mono"             ; 37/64  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 38/64
                                                          "Code2000"                     ; 64/64
                                                          "Everson Mono:weight=bold"     ; 64/64
@@ -3657,7 +3657,7 @@ Set to nil to disable."
                                                          "Apple Symbols"                ; 5/5
                                                          "Arial Unicode MS"
                                                          "Symbola"                      ; 5/5
-                                                         "DejaVu Sans Mono"
+                                                         "DejaVu Sans Mono"             ; 5/5  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"
                                                          "Quivira"                      ; 5/5
                                                          "FreeMono"                     ; 5/5
@@ -3675,7 +3675,7 @@ Set to nil to disable."
                                                          "Monaco"                       ; 29/42
                                                          "Apple Symbols"                ; 29/42
                                                          "Cambria Math"                 ; 34/42
-                                                         "DejaVu Sans Mono"             ; 42/42
+                                                         "DejaVu Sans Mono"             ; 42/42  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 42/42
                                                          "Segoe UI Symbol"              ; 42/42
                                                          "Charis SIL"                   ; 34/42
@@ -3722,7 +3722,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 195/256
                                                          ))
     ("Supplemental Punctuation"                         (
-                                                         "DejaVu Sans Mono"             ;  6/67  ; this will give poor results if existence-checks is set to 'first
+                                                         "DejaVu Sans Mono"             ;  7/67  @2.35 @2.34999084472656 ; this will give poor results if existence-checks is set to 'first
                                                          "Segoe UI Symbol"              ; 50/67
                                                          "Noto Sans Symbols"            ; 60/67
                                                          "Antinoou"                     ; 46/67
