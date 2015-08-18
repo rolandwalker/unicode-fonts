@@ -150,7 +150,7 @@
 ;;
 ;;     From http://www.google.com/get/noto/
 ;;
-;;         Noto Sans and friends         ; 180 Unicode blocks and counting; sole
+;;         Noto Sans and friends         ; 181 Unicode blocks and counting; sole
 ;;                                       ; source for these blocks:
 ;;                                       ;
 ;;                                       ;   Bamum / Bamum Supplement / Kaithi
@@ -1393,6 +1393,7 @@
     ("Noto Sans Thaana"                    :licenses (free))
     ("Noto Sans Thai"                      :licenses (free))
     ("Noto Sans Thai UI"                   :licenses (free))
+    ("Noto Sans Tibetan"                   :licenses (free))
     ("Noto Sans Tifinagh"                  :licenses (free))
     ("Noto Sans Ugaritic"                  :licenses (free))
     ("Noto Sans Vai"                       :licenses (free))
@@ -3856,6 +3857,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          ))
     ("Tibetan"                                          (
+                                                         "Noto Sans Tibetan"            ; 211/211  @1.00 @1
                                                          "Kailasa"
                                                          "Kokonor"
                                                          "Tibetan Machine Uni"          ; 206/211
