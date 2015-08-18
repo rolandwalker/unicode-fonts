@@ -1338,7 +1338,8 @@
     ("Noto Sans Khmer"                     :licenses (free))
     ("Noto Sans Khmer UI"                  :licenses (free))
     ("Noto Sans Korean"                    :chinese hanja :licenses (free))
-    ("Noto Sans Kufi Arabic"               :licenses (free) :arabic kufic)
+    ("Noto Sans Kufi Arabic"               :licenses (free) :arabic kufic) ; old name
+    ("Noto Kufi Arabic"                    :licenses (free) :arabic kufic) ; new name
     ("Noto Sans Lao"                       :licenses (free))
     ("Noto Sans Lao UI"                    :licenses (free))
     ("Noto Sans Lepcha"                    :licenses (free))
