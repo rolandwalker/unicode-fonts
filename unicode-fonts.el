@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 227 of the 255 blocks in
+;; This library provides font mappings for 228 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  22/255 blocks are not mapped to any known font.
+;; default font.  21/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -405,6 +405,10 @@
 ;;     From https://github.com/MihailJP/MarathiCursive/releases
 ;;
 ;;         MarathiCursiveG               ; Modi  (note trailing "G" on font name)
+;;
+;;     From https://github.com/OldHungarian/old-hungarian-font/releases
+;;
+;;         OldHungarian                  ; Old Hungarian
 ;;
 ;; Compatibility and Requirements
 ;;
@@ -1399,6 +1403,7 @@
     ("OCRB"                                :licenses (microsoft))
     ("Old Antic Bold"                      :licenses (microsoft) :decorative t :arabic naskh)
     ("Old English Text MT"                 :licenses (microsoft))
+    ("OldHungarian"                        :licenses (free))
     ("OldSindhi"                           :licenses (free))
     ("Onyx"                                :licenses (microsoft))
     ("Optima"                              :licenses (apple))
@@ -3381,7 +3386,9 @@ Set to nil to disable."
                                                          "Noto Sans Ol Chiki"           ; 48/48
                                                          "Code2000"                     ; 48/48
                                                          ))
-    ;; ("Old Hungarian"                                 (""))                           ; todo added in Unicode 8.0
+    ("Old Hungarian"                                    (
+                                                         "OldHungarian"                 ; 108/108
+                                                         ))
     ("Old Italic"                                       (
                                                          "Segoe UI Symbol"              ; 35/36
                                                          "DejaVu Sans:width=condensed"  ; 35/36
