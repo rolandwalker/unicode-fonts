@@ -74,10 +74,10 @@ mappings from
 
 and makes the settings available via the customization interface.
 
-This library provides font mappings for 228 of the 255 blocks in
+This library provides font mappings for 231 of the 255 blocks in
 the Unicode 8.0 standard which are public and have displayable
 characters.  It assumes that 6 Latin blocks are covered by the
-default font.  21/255 blocks are not mapped to any known font.
+default font.  18/255 blocks are not mapped to any known font.
 
 To use unicode-fonts, place the `unicode-fonts.el` file somewhere
 Emacs can find it, and add the following to your `~/.emacs` file:
@@ -433,6 +433,10 @@ From <https://github.com/MihailJP/MarathiCursive/releases>
 From <https://github.com/OldHungarian/old-hungarian-font/releases>
 
 	OldHungarian                  ; Old Hungarian
+
+From <http://tutohtml.perso.sfr.fr/unicode.html>
+
+	Albanian                      ; Elbasan / Takri / Sharada
 
 
 ## Non-free Fonts

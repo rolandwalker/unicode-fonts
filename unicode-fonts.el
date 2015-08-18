@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 228 of the 255 blocks in
+;; This library provides font mappings for 231 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  21/255 blocks are not mapped to any known font.
+;; default font.  18/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -409,6 +409,10 @@
 ;;     From https://github.com/OldHungarian/old-hungarian-font/releases
 ;;
 ;;         OldHungarian                  ; Old Hungarian
+;;
+;;     From http://tutohtml.perso.sfr.fr/unicode.html
+;;
+;;         Albanian                      ; Elbasan / Takri / Sharada
 ;;
 ;; Compatibility and Requirements
 ;;
@@ -869,6 +873,7 @@
     ("African Sans"                        :licenses (free))
     ("African Serif"                       :licenses (free))
     ("Aldhabi"                             :licenses (microsoft) :arabic naskh)
+    ("Albanian"                            :licenses (free))
     ("Aegean"                              :licenses (free))
     ("Aegyptus"                            :licenses (free))
     ("Agency FB"                           :licenses (microsoft))
@@ -2497,7 +2502,8 @@ Set to nil to disable."
                                                          "Aegyptus"                            ; 1,071/1,071
                                                          "Gardiner"                            ; 1,071/1,071
                                                          ))
-    ("Elbasan"                                          (                               ; todo free alternative
+    ("Elbasan"                                          (
+                                                         "Albanian"                     ; 40/40
                                                          "Everson Mono:weight=bold"     ; 40/40
                                                          ))
     ("Emoticons"                                        (
@@ -3225,6 +3231,7 @@ Set to nil to disable."
                                                          ))
     ("Miao"                                             (
                                                          "Miao Unicode"                 ; 133/133
+                                                         "Albanian"                     ; 106/133
                                                          ))
     ("Miscellaneous Mathematical Symbols-A"             (
                                                          "Noto Sans Symbols"            ; 48/48
@@ -3396,6 +3403,7 @@ Set to nil to disable."
                                                          "New Athena Unicode"           ; 35/36
                                                          "Aegean"                       ; 36/36
                                                          "Noto Sans Old Italic"         ; 35/36, characters are RTL
+                                                         "Albanian"                     ; 36/36
                                                          "Code2001"                     ; 35/36, characters are RTL
                                                          "Quivira"                      ; 35/36
                                                          "Everson Mono:weight=bold"     ; 35/36
@@ -3591,7 +3599,9 @@ Set to nil to disable."
                                                          "Code2000"
                                                          "Sourashtra"
                                                          ))
-    ;; ("Sharada"                                       (""))                           ; todo
+    ("Sharada"                                          (
+                                                         "Albanian"                     ; 85/94
+                                                         ))
     ("Shavian"                                          (
                                                          "Noto Sans Shavian"            ; 48/48
                                                          "Andagii"                      ; 48/48
@@ -3785,7 +3795,9 @@ Set to nil to disable."
                                                          "Code2001"                     ; 87/87
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          ))
-    ;; ("Takri"                                         (""))                           ; todo
+    ("Takri"                                            (
+                                                         "Albanian"                     ; 66/66
+                                                         ))
     ("Tamil"                                            (
                                                          "Latha"                        ; 72/72
                                                          "Noto Sans Tamil"              ; 72/72
@@ -4133,7 +4145,10 @@ are given, each is tried in order."
     ;; Greek and Coptic block
     ("Greek Capital Letter Heta"                "Greek Small Letter Archaic Sampi"       ("DejaVu Sans:width=condensed" "Symbola" "Quivira"))
     ("Greek Capital Letter Pamphylian Digamma"  "Greek Small Letter Pamphylian Digamma"  ("DejaVu Sans:width=condensed" "Symbola" "Quivira"))
-    ("Greek Capital Kai Symbol"                 "Greek Capital Kai Symbol"               ("DejaVu Sans:width=condensed" "Symbola" "Quivira")))
+    ("Greek Capital Kai Symbol"                 "Greek Capital Kai Symbol"               ("DejaVu Sans:width=condensed" "Symbola" "Quivira"))
+
+    ;; Old Italic block
+    ("Old Italic Letter Ess"                    "Old Italic Letter Ess"                  ("Albanian")))
 
   "Overrides for `unicode-fonts-block-font-mapping' over arbitrary ranges.
 
