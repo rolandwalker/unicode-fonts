@@ -497,6 +497,8 @@
 ;;
 ;;     Include all Windows 8 fonts
 ;;
+;;     Include all Windows 10 fonts
+;;
 ;;     Remove very old Microsoft entries (eg Monotype.com which was
 ;;     renamed Andale)
 ;;
