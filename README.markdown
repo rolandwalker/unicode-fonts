@@ -271,7 +271,11 @@ From <http://sourceforge.net/projects/prahita/files/Myanmar%20Unicode%20Fonts/Ma
 
 From <http://sarovar.org/projects/samyak/>
 
-	Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
+	Samyak                        ; Gujarati, Malayalam, Oriya, Tamil
+
+From <http://software.sil.org/annapurna/download/>
+
+	Annapurna SIL                 ; Devanagari
 
 From <http://guca.sourceforge.net/typography/fonts/anmoluni/>
 

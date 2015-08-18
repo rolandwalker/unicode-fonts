@@ -247,7 +247,11 @@
 ;;
 ;;     From http://sarovar.org/projects/samyak/
 ;;
-;;         Samyak                        ; Devanagari, Gujarati, Malayalam, Oriya, Tamil
+;;         Samyak                        ; Gujarati, Malayalam, Oriya, Tamil
+;;
+;;     From http://software.sil.org/annapurna/download/
+;;
+;;         Annapurna SIL                 ; Devanagari
 ;;
 ;;     From http://guca.sourceforge.net/typography/fonts/anmoluni/
 ;;
@@ -903,6 +907,7 @@
     ("Angsana New"                         :licenses (microsoft))
     ("AngsanaUPC"                          :licenses (microsoft))
     ("AnmolUni"                            :licenses (free))
+    ("Annapurna SIL"                       :licenses (free))
     ("Antinoou"                            :licenses (free))
     ("Aparajita"                           :licenses (microsoft))
     ("Apple Braille"                       :licenses (apple))
@@ -2461,6 +2466,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 80/80
                                                          ))
     ("Devanagari"                                       (
+                                                         "Annapurna SIL"                ; 128/128  @1.200 @1.19999694824219
                                                          "Noto Sans Devanagari"         ; 112/128
                                                          "Devanagari Sangam MN"
                                                          "Devanagari MT"
@@ -2475,6 +2481,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 117/128
                                                          ))
     ("Devanagari Extended"                              (
+                                                         "Annapurna SIL"                ; 28/30  @1.200 @1.19999694824219
                                                          "Siddhanta"                    ; 28/30
                                                          "FreeSerif"                    ; 28/30
                                                          ))
