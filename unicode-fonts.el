@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 226 of the 255 blocks in
+;; This library provides font mappings for 227 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  23/255 blocks are not mapped to any known font.
+;; default font.  22/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -401,6 +401,10 @@
 ;;     From https://github.com/MihailJP/Muktamsiddham/releases
 ;;
 ;;         MuktamsiddhamG                ; Siddham  (note trailing "G" on font name)
+;;
+;;     From https://github.com/MihailJP/MarathiCursive/releases
+;;
+;;         MarathiCursiveG               ; Modi  (note trailing "G" on font name)
 ;;
 ;; Compatibility and Requirements
 ;;
@@ -1197,6 +1201,7 @@
     ("Mangal"                              :licenses (microsoft))
     ("Map Symbols"                         :licenses (microsoft))
     ("Marion"                              :licenses (apple))
+    ("MarathiCursiveG"                     :licenses (free))
     ("Marker Felt"                         :licenses (apple) :decorative t)
     ("Marlett"                             :licenses (microsoft))
     ("Masinahikan"                         :licenses (free))
@@ -3272,7 +3277,9 @@ Set to nil to disable."
                                                          "Quivira"                      ; 244/251
                                                          "Everson Mono:weight=bold"     ; 244/251
                                                          ))
-    ;; ("Modi"                                          (""))                           ; todo added in Unicode 7.0
+    ("Modi"                                             (
+                                                         "MarathiCursiveG"              ; 79/79
+                                                         ))
     ("Modifier Tone Letters"                            (
                                                          "Apple Symbols"                ; 27/32
                                                          "Noto Sans Symbols"            ; 32/32
