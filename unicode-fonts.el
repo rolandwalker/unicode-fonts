@@ -3857,14 +3857,14 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          ))
     ("Tibetan"                                          (
-                                                         "Noto Sans Tibetan"            ; 211/211  @1.00 @1
-                                                         "Kailasa"
-                                                         "Kokonor"
-                                                         "Tibetan Machine Uni"          ; 206/211
-                                                         "Microsoft Himalaya"
-                                                         "Jomolhari"                    ; 196/211
-                                                         "Monlam Uni Sans Serif"        ; 193/211
-                                                         "Arial Unicode MS"
+                                                         "Noto Sans Tibetan"            ; 211/211  @1.00              @1
+                                                         "Kailasa"                      ; 205/211  @7.0d2e4           @3.00799560546875
+                                                         "Kokonor"                      ; 205/211  @7.0d1e2           @10.0110015869141
+                                                         "Tibetan Machine Uni"          ; 205/211  @1.901_2007        @1.90098571777344
+                                                         "Microsoft Himalaya"           ; 197/211  @5.10              @5.10000610351562
+                                                         "Jomolhari"                    ; 195/211  @alpha_0.003c_2006 @0.0030059814453125
+                                                         "Monlam Uni Sans Serif"        ; 193/211  @3.0_2008          @1.42298889160156
+                                                         "Arial Unicode MS"             ; 168/211  @1.01              @1
                                                          ))
     ("Tifinagh"                                         (
                                                          "Noto Sans Tifinagh"           ; 59/59
