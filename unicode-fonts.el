@@ -3070,6 +3070,7 @@ Set to nil to disable."
     ;;                                                   "Quivira"
     ;;                                                  ))
     ("Latin Extended-C"                                 (
+                                                         "DejaVu Sans Mono"             ; 14/32  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"
                                                          "Noto Sans"                    ; 21/32
                                                          "Cambria Math"
