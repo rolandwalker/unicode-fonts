@@ -2051,6 +2051,7 @@ Set to nil to disable."
     ("Buginese"                                         (
                                                          "Noto Sans Buginese"           ; 30/30
                                                          "MPH 2B Damase"                ; 30/30
+                                                         "Monlam Uni Sans Serif"        ; 30/30  @3.0 2008 @1.42298889160156
                                                          "Code2000"                     ; 30/30
                                                          ))
     ("Buhid"                                            (
@@ -3783,6 +3784,7 @@ Set to nil to disable."
                                                          "Lanna Alif"                   ; 127/127
                                                          "Chiangsaen Alif"              ; 127/127
                                                          "Lanna Unicode UI"             ; 127/127
+                                                         "Monlam Uni Sans Serif"        ; 127/127  @3.0 2008 @1.42298889160156
                                                          ))
     ("Tai Viet"                                         (
                                                          "Tai Heritage Pro"             ; 72/72
