@@ -1915,6 +1915,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          ))
     ("Armenian"                                         (
+                                                         "DejaVu Sans Mono"             ; 86/89  @2.35 @2.34999084472656
                                                          "Noto Sans Armenian"           ; 87/89
                                                          "Mshtakan"
                                                          "Sylfaen"
