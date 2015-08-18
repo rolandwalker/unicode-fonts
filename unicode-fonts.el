@@ -3974,8 +3974,8 @@ are given, each is tried in order."
     ("Livre Tournois Sign"                            "Spesmilo Sign"                               ("Noto Sans Symbols" "Symbola"            ))
     ("Turkish Lira Sign"                              "Turkish Lira Sign"                           ("Noto Sans Symbols" "Symbola" "Noto Sans"))
     ("Nordic Mark Sign"                               "Nordic Mark Sign"                            ("Symbola"                                ))
-    ("Manat Sign"                                     "Ruble Sign"                                  ("Noto Sans Symbols" "Symbola"            ))
-    (#x20BE                                           #x20CF                                        ("Symbola"                                ))
+    ("Manat Sign"                                     "Lari Sign"                                   ("Noto Sans Symbols" "Symbola"            ))
+    (#x20BF                                           #x20CF                                        ("Symbola"                                ))
 
     ;; Dingbats block
     ("White Heavy Check Mark"                         "White Heavy Check Mark"                          ("Symbola"                      ))
