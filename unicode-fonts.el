@@ -62,10 +62,10 @@
 ;;
 ;; and makes the settings available via the customization interface.
 ;;
-;; This library provides font mappings for 224 of the 255 blocks in
+;; This library provides font mappings for 225 of the 255 blocks in
 ;; the Unicode 8.0 standard which are public and have displayable
 ;; characters.  It assumes that 6 Latin blocks are covered by the
-;; default font.  25/255 blocks are not mapped to any known font.
+;; default font.  24/255 blocks are not mapped to any known font.
 ;;
 ;; To use unicode-fonts, place the unicode-fonts.el file somewhere
 ;; Emacs can find it, and add the following to your ~/.emacs file:
@@ -393,6 +393,10 @@
 ;;     From https://github.com/andjc/ahom-unicode/tree/master/font
 ;;
 ;;         AhomUnicode                   ; Ahom
+;;
+;;     From https://github.com/MihailJP/oldsindhi/releases
+;;
+;;         OldSindhi                     ; Khudawadi
 ;;
 ;; Compatibility and Requirements
 ;;
@@ -1385,6 +1389,7 @@
     ("OCRB"                                :licenses (microsoft))
     ("Old Antic Bold"                      :licenses (microsoft) :decorative t :arabic naskh)
     ("Old English Text MT"                 :licenses (microsoft))
+    ("OldSindhi"                           :licenses (free))
     ("Onyx"                                :licenses (microsoft))
     ("Optima"                              :licenses (apple))
     ("Oriya MN"                            :licenses (apple))
@@ -2999,7 +3004,9 @@ Set to nil to disable."
     ("Khojki"                                           (
                                                          "KhojkiUnicodeOT"              ; 61/61
                                                          ))
-    ;; ("Khudawadi"                                     (""))                           ; todo added in Unicode 7.0
+    ("Khudawadi"                                        (
+                                                         "OldSindhi"                    ; 69/69
+                                                         ))
     ("Lao"                                              (
                                                          "Noto Sans Lao"                ; 67/67
                                                          "Noto Sans Lao UI"             ; 67/67
