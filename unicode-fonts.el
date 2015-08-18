@@ -484,7 +484,7 @@
 ;;     - further doc note
 ;;     - provide alternative interface via scripts
 ;;
-;;     reorg font list by language?
+;;     reorganize font list by language?
 ;;     - break down into living/dead/invented
 ;;
 ;;     support MUFI for PUA
@@ -5037,6 +5037,10 @@ and regenerated."
 ;; LocalWords: Shei Alef Hiriq Shha Iotified Izhitsa Bashkir Palochka
 ;; LocalWords: FONTSET Abkhasian Cada Heta Sampi Pamphylian Digamma
 ;; LocalWords: Fontset Hanja Kanji N'ko Mingzat XQuartz XLFD Zapf
+;; LocalWords: pcache KhojkiUnicodeOT AhomUnicode Ahom OldSindhi
+;; LocalWords: MuktamsiddhamG MarathiCursiveG OldHungarian devel
+;; LocalWords: ConScript Alist Hatran Multani SignWriting Abadi Geeza
+;; LocalWords: alist multi
 ;;
 
 ;;; unicode-fonts.el ends here

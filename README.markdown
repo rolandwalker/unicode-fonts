@@ -478,15 +478,17 @@ coding: utf-8
 End:
 
 LocalWords:  quickstart emoji chinese Unifont Quivira Consolas DejaVu elisp
-LocalWords:  arabic charset Symbola Noto fontset XQuartz Bamum Kaithi
-LocalWords:  Mandaic Meetei Mayek Doulos Gentium Akkadian Analecta
-LocalWords:  Musica Nilus Deseret Buginese Hanunoo Kharoshthi Limbu
-LocalWords:  Osmanya Syloti Nagri Thaana Phags Namdhinggo WenQuanYi
-LocalWords:  BabelStone Damase Batang Nuosu Xiaokai Daicing Jomolhari
-LocalWords:  Padauk Yunghkio TharLon Samyak AnmolUni Kedage Mukti
-LocalWords:  Akshar Gurmukhi Eeyek Mondulkiri Saysettha Alif Tham
-LocalWords:  Banna Amiri Avestan Ahuramzda Koodak Naskh Ethiopic N'ko
-LocalWords:  Abyssinica Estrangelo Nisibin Chakma Ribeng Adinatha
-LocalWords:  Brahmi FreeMono FreeFont Kayah Batak Mingzat Lepcha Lisu
-LocalWords:  Miao Cardo Junicode Dukor Parthian Antinoou
+LocalWords:  arabic charset Symbola Noto fontset XQuartz Bamum Kaithi multi
+LocalWords:  Mandaic Meetei Mayek Doulos Gentium Akkadian Analecta Khojki
+LocalWords:  Musica Nilus Deseret Buginese Hanunoo Kharoshthi Limbu Ahom
+LocalWords:  Osmanya Syloti Nagri Thaana Phags Namdhinggo WenQuanYi Siddham
+LocalWords:  BabelStone Damase Batang Nuosu Xiaokai Daicing Jomolhari Modi
+LocalWords:  Padauk Yunghkio TharLon Samyak AnmolUni Kedage Mukti OldSindhi
+LocalWords:  Akshar Gurmukhi Eeyek Mondulkiri Saysettha Alif Tham Khudawadi
+LocalWords:  Banna Amiri Avestan Ahuramzda Koodak Naskh Ethiopic N'ko Takri
+LocalWords:  Abyssinica Estrangelo Nisibin Chakma Ribeng Adinatha Elbasan
+LocalWords:  Brahmi FreeMono FreeFont Kayah Batak Mingzat Lepcha Lisu devel
+LocalWords:  Miao Cardo Junicode Dukor Parthian Antinoou KhojkiUnicodeOT
+LocalWords:  AhomUnicode MuktamsiddhamG MarathiCursiveG OldHungarian
+LocalWords:  Sharada
  -->
