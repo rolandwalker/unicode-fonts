@@ -1773,7 +1773,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 57/57
                                                          "Aegean"                       ; 57/57
                                                          "Symbola"                      ; 57/57
-                                                         "Quivira"                      ; 57/57
+                                                         "Quivira"                      ; 57/57  @4.1 @3.80000305175781
                                                          "Code2001"                     ; 57/57
                                                          "Everson Mono:weight=bold"     ; 57/57
                                                          "ALPHABETUM Unicode"           ; 57/57
@@ -1784,7 +1784,7 @@ Set to nil to disable."
     ("Alchemical Symbols"                               (
                                                          "Noto Sans Symbols"            ; 116/116
                                                          "Symbola"                      ; 116/116
-                                                         "Quivira"                      ; 116/116
+                                                         "Quivira"                      ; 116/116  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 116/116
                                                          ))
     ("Alphabetic Presentation Forms"                    (
@@ -1792,7 +1792,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 57/58
                                                          "Cardo"                        ; 58/58
                                                          "Code2000"
-                                                         "Quivira"                      ; 58/58
+                                                         "Quivira"                      ; 58/58  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 58/58
                                                          "FreeMono"                     ; 52/58
                                                          "ALPHABETUM Unicode"           ; 53/58
@@ -1807,7 +1807,7 @@ Set to nil to disable."
                                                          "New Athena Unicode"           ; 70/70
                                                          "Musica"                       ; 70/70
                                                          "Symbola"                      ; 70/70
-                                                         "Quivira"                      ; 70/70
+                                                         "Quivira"                      ; 70/70  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 70/70
                                                          "ALPHABETUM Unicode"           ; 70/70
                                                          ))
@@ -1817,7 +1817,7 @@ Set to nil to disable."
                                                          "New Athena Unicode"           ; 75/77
                                                          "Cardo"                        ; 75/77
                                                          "Aegean"                       ; 75/77
-                                                         "Quivira"                      ; 75/77
+                                                         "Quivira"                      ; 77/77  @4.1 @3.80000305175781
                                                          "Symbola"                      ; 77/77
                                                          "Everson Mono:weight=bold"     ; 75/77
                                                          "ALPHABETUM Unicode"           ; 75/77
@@ -1828,7 +1828,7 @@ Set to nil to disable."
                                                          "New Athena Unicode"           ; 12/13
                                                          "Cardo"                        ; 12/13
                                                          "Aegean"                       ; 13/13
-                                                         "Quivira"                      ; 12/13
+                                                         "Quivira"                      ; 13/13  @4.1 @3.80000305175781
                                                          "Symbola"                      ; 13/13
                                                          "Everson Mono:weight=bold"     ; 12/13
                                                          "ALPHABETUM Unicode"           ; 12/13
@@ -1926,7 +1926,7 @@ Set to nil to disable."
                                                          "Mshtakan"
                                                          "Sylfaen"
                                                          "DejaVu Sans:width=condensed"
-                                                         "Quivira"                      ; 87/89
+                                                         "Quivira"                      ; 89/89  @4.1 @3.80000305175781
                                                          "MPH 2B Damase"
                                                          "Code2000"
                                                          "Arial Unicode MS"
@@ -1942,7 +1942,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"
                                                          "BabelStone Modern"            ; 102/112
                                                          "Symbola"                      ; 112/112
-                                                         "Quivira"                      ; 112/112
+                                                         "Quivira"                      ; 112/112  @4.1 @3.80000305175781
                                                          "Code2000"
                                                          "Noto Sans Symbols"            ; 112/112
                                                          "Everson Mono:weight=bold"     ; 112/112
@@ -1990,7 +1990,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 32/32
                                                          "BabelStone Modern"            ; 32/32
                                                          "Symbola"                      ; 32/32
-                                                         "Quivira"                      ; 32/32
+                                                         "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 32/32
                                                          ))
@@ -2032,7 +2032,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 128/128
                                                          "DejaVu Sans"
                                                          "Everson Mono"                 ; 128/128
-                                                         "Quivira"                      ; 128/128
+                                                         "Quivira"                      ; 128/128  @4.1 @3.80000305175781
                                                          "Code2000"
                                                          "Noto Sans Symbols"            ; 128/128
                                                          "Segoe UI Symbol"              ; 128/128
@@ -2044,7 +2044,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ;  85/109
                                                          ))
     ("Braille Patterns"                                 (
-                                                         "Quivira"                      ; 256/256
+                                                         "Quivira"                      ; 256/256  @4.1 @3.80000305175781
                                                          "Apple Braille"                ; 256/256
                                                          "DejaVu Sans:width=condensed"
                                                          "Apple Symbols"                ; 256/256
@@ -2063,7 +2063,7 @@ Set to nil to disable."
                                                          ))
     ("Buhid"                                            (
                                                          "Noto Sans Buhid"              ; 20/20
-                                                         "Quivira"                      ; 20/20
+                                                         "Quivira"                      ; 20/20  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 20/20
                                                          ))
     ("Byzantine Musical Symbols"                        (
@@ -2075,7 +2075,7 @@ Set to nil to disable."
     ("Carian"                                           (
                                                          "Noto Sans Carian"             ; 49/49
                                                          "Aegean"                       ; 49/49
-                                                         "Quivira"                      ; 49/49
+                                                         "Quivira"                      ; 49/49  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 49/49
                                                          "ALPHABETUM Unicode"           ; 49/49
                                                          ))
@@ -2093,7 +2093,7 @@ Set to nil to disable."
                                                          "Noto Sans Cherokee"           ; 85/92
                                                          "Gadugi"
                                                          "MPH 2B Damase"
-                                                         "Quivira"                      ; 85/92
+                                                         "Quivira"                      ; 85/92  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 85/92
                                                          "FreeMono"                     ; 85/92
                                                          "Code2000"
@@ -2302,7 +2302,7 @@ Set to nil to disable."
                                                          "Tahoma"
                                                          "Microsoft Sans Serif"
                                                          "Arial"
-                                                         "Quivira"                      ; 112/112
+                                                         "Quivira"                      ; 112/112  @4.1 @3.80000305175781
                                                          "Symbola"                      ; 112/112
                                                          "Everson Mono"                 ; 112/112
                                                          "FreeMono"                     ; 112/112
@@ -2351,7 +2351,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 39/39
                                                          "Arial Unicode MS"
                                                          "Symbola"                      ; 39/39
-                                                         "Quivira"                      ; 39/39
+                                                         "Quivira"                      ; 39/39  @4.1 @3.80000305175781
                                                          "FreeMono"                     ; 39/39
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 39/39
@@ -2361,7 +2361,7 @@ Set to nil to disable."
                                                          "Antinoou"                     ; 123/123
                                                          "New Athena Unicode"           ; 121/123
                                                          "Segoe UI Symbol"              ; 123/123
-                                                         "Quivira"                      ; 123/123
+                                                         "Quivira"                      ; 123/123  @4.1 @3.80000305175781
                                                          "Analecta"                     ; 123/123
                                                          "Nilus"                        ; 123/123
                                                          "Code2000"                     ; 114/123
@@ -2377,7 +2377,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 18/18
                                                          "BabelStone Modern"            ; 18/18
                                                          "Symbola"                      ; 18/18
-                                                         "Quivira"                      ; 18/18
+                                                         "Quivira"                      ; 18/18  @4.1 @3.80000305175781
                                                          "Apple Symbols"                ; 18/18
                                                          "Code2001"                     ; 18/18
                                                          ))
@@ -2401,7 +2401,7 @@ Set to nil to disable."
                                                          "Segoe UI"                     ; 27/31
                                                          "Apple Symbols"                ; 22/31
                                                          "Symbola"                      ; 30/31
-                                                         "Quivira"                      ; 27/31
+                                                         "Quivira"                      ; 30/31  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 27/31
                                                          "FreeMono"                     ; 23/31
                                                          ))
@@ -2426,7 +2426,7 @@ Set to nil to disable."
                                                          "Charis SIL"                   ; 220/256
                                                          "Doulos SIL"                   ; 220/256
                                                          "Symbola"                      ; 256/256
-                                                         "Quivira"                      ; 256/256
+                                                         "Quivira"                      ; 256/256  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 256/256
                                                          "FreeMono"                     ; 251/256
                                                          "Charcoal CY"                  ;  94/256
@@ -2434,13 +2434,13 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 256/256
                                                          ))
     ("Cyrillic Extended-A"                              (
-                                                         "Quivira"                      ; 32/32
+                                                         "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 32/32
                                                          "FreeSerif"                    ; 32/32
                                                          "ALPHABETUM Unicode"           ; 32/32
                                                          ))
     ("Cyrillic Extended-B"                              (
-                                                         "Quivira"                      ; 80/96
+                                                         "Quivira"                      ; 95/96  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 78/96
                                                          "Everson Mono:weight=bold"     ; 95/96
                                                          ))
@@ -2453,7 +2453,7 @@ Set to nil to disable."
                                                          "Charis SIL"                   ; 40/48
                                                          "Doulos SIL"                   ; 40/48
                                                          "Symbola"                      ; 48/48
-                                                         "Quivira"                      ; 40/48
+                                                         "Quivira"                      ; 48/48  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 36/48
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
@@ -2495,13 +2495,13 @@ Set to nil to disable."
                                                          "Code2000"                     ; 174/192
                                                          "Noto Sans Symbols"            ; 191/192
                                                          "Symbola"                      ; 192/192
-                                                         "Quivira"                      ; 160/192
+                                                         "Quivira"                      ; 160/192  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 192/192
                                                          ))
     ("Domino Tiles"                                     (
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"                      ; 100/100
-                                                         "Quivira"                      ; 100/100
+                                                         "Quivira"                      ; 100/100  @4.1 @3.80000305175781
                                                          "Segoe UI Symbol"              ; 100/100
                                                          "Noto Sans Symbols"            ; 100/100
                                                          "Code2001"                     ; 100/100
@@ -2524,13 +2524,13 @@ Set to nil to disable."
                                                          "Apple Color Emoji"
                                                          "Segoe UI Symbol"              ; 76/80
                                                          "Symbola"                      ; 78/80
-                                                         "Quivira"                      ; 76/80
+                                                         "Quivira"                      ; 78/80  @4.1 @3.80000305175781
                                                          ))
     ("Enclosed Alphanumeric Supplement"                 (
                                                          "Segoe UI Symbol"              ; 169/173
                                                          "Noto Sans Symbols"            ; 171/173
                                                          "Symbola"                      ; 173/173
-                                                         "Quivira"                      ; 171/173
+                                                         "Quivira"                      ; 173/173  @4.1 @3.80000305175781
                                                          "BabelStone Han"               ; 173/173
                                                          "BabelStone Modern"            ; 169/173
                                                          ))
@@ -2541,7 +2541,7 @@ Set to nil to disable."
                                                          "Junicode"                     ; 160/160
                                                          "Arial Unicode MS"             ; 139/160
                                                          "Symbola"                      ; 160/160
-                                                         "Quivira"                      ; 160/160
+                                                         "Quivira"                      ; 160/160  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 160/160
                                                          "BabelStone Han"               ; 160/160
                                                          "WenQuanYi Zen Hei Mono"       ; 160/160
@@ -2559,7 +2559,7 @@ Set to nil to disable."
                                                          "HanaMinA"                     ; 254/254
                                                          "Meiryo"                       ; 174/254
                                                          "BabelStone Han"               ; 191/254
-                                                         "Quivira"                      ;  39/254
+                                                         "Quivira"                      ;  39/254  @4.1 @3.80000305175781
                                                          "Code2000"
                                                          "UnBatang"                     ;  58/254
                                                          "HAN NOM A"                    ; 232/254
@@ -2612,7 +2612,7 @@ Set to nil to disable."
                                                          "Antinoou"                     ; 106/111
                                                          "Symbola"                      ; 111/111
                                                          "Code2000"                     ; 106/111
-                                                         "Quivira"                      ; 105/111
+                                                         "Quivira"                      ; 105/111  @4.1 @3.80000305175781
                                                          "Noto Sans"                    ;  56/111
                                                          "Everson Mono:weight=bold"     ; 107/111
                                                          "FreeMono"                     ; 101/111
@@ -2625,7 +2625,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 80/96
                                                          "Symbola"                      ; 96/96
                                                          "Noto Sans Symbols"            ; 96/96
-                                                         "Quivira"                      ; 96/96
+                                                         "Quivira"                      ; 96/96  @4.1 @3.80000305175781
                                                          "BabelStone Modern"            ; 96/96
                                                          "Everson Mono"                 ; 96/96
                                                          "FreeMono"                     ; 96/96
@@ -2641,7 +2641,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 83/88
                                                          "Arial Unicode MS"             ; 78/88
                                                          "Code2000"                     ; 83/88
-                                                         "Quivira"                      ; 88/88
+                                                         "Quivira"                      ; 88/88  @4.1 @3.80000305175781
                                                          "Sylfaen"                      ; 40/88
                                                          "MPH 2B Damase"                ; 39/88
                                                          "Everson Mono:weight=bold"     ; 88/88
@@ -2651,14 +2651,14 @@ Set to nil to disable."
                                                          "Noto Serif Georgian"          ; 38/40
                                                          "DejaVu Serif:width=condensed" ; 38/40
                                                          "MPH 2B Damase"                ; 38/40
-                                                         "Quivira"                      ; 40/40
+                                                         "Quivira"                      ; 40/40  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 40/40
                                                          ))
     ("Glagolitic"                                       (
                                                          "Noto Sans Glagolitic"         ; 94/94
                                                          "Segoe UI Symbol"              ; 94/94
                                                          "MPH 2B Damase"
-                                                         "Quivira"                      ; 94/94
+                                                         "Quivira"                      ; 94/94  @4.1 @3.80000305175781
                                                          "FreeSerif"                    ; 86/94
                                                          "ALPHABETUM Unicode"           ; 94/94
                                                          ))
@@ -2671,7 +2671,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"                ; 27/27
                                                          "FreeSerif"                    ; 27/27
                                                          "Code2001"                     ; 27/27
-                                                         "Quivira"                      ; 27/27
+                                                         "Quivira"                      ; 27/27  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 27/27
                                                          "ALPHABETUM Unicode"           ; 27/27
                                                          ))
@@ -2694,7 +2694,7 @@ Set to nil to disable."
                                                          "Tahoma"
                                                          "Aegean"                       ; 233/233
                                                          "Code2000"
-                                                         "Quivira"                      ; 233/233
+                                                         "Quivira"                      ; 233/233  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 233/233
                                                          "FreeMono"                     ; 233/233
                                                          "ALPHABETUM Unicode"           ; 233/233
@@ -2717,7 +2717,7 @@ Set to nil to disable."
                                                          "Aegean"                       ; 134/135
                                                          "Code2000"
                                                          "Symbola"                      ; 135/135
-                                                         "Quivira"                      ; 134/135
+                                                         "Quivira"                      ; 135/135  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 135/135
                                                          "ALPHABETUM Unicode"           ; 134/135
                                                          "Noto Sans Coptic"             ;  14/135
@@ -2754,7 +2754,7 @@ Set to nil to disable."
                                                          "Microsoft YaHei UI"           ; 224/225
                                                          "BabelStone Han"               ; 173/225
                                                          "Apple Symbols"                ;  55/225
-                                                         "Quivira"                      ; 110/225
+                                                         "Quivira"                      ; 110/225  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 186/225
                                                          "HAN NOM A"                    ; 170/225
                                                          ))
@@ -2810,7 +2810,7 @@ Set to nil to disable."
     ("Hanunoo"                                          (
                                                          "Noto Sans Hanunoo"            ; 23/23
                                                          "MPH 2B Damase"
-                                                         "Quivira"                      ; 23/23
+                                                         "Quivira"                      ; 23/23  @4.1 @3.80000305175781
                                                          "FreeSerif"                    ; 23/23
                                                          ))
     ;; ("Hatran"                                        (""))                           ; todo added in Unicode 8.0
@@ -2838,7 +2838,7 @@ Set to nil to disable."
                                                          "Lucida Sans Unicode"
                                                          "Arial Unicode MS"
                                                          "Arial"
-                                                         "Quivira"                      ; 87/87
+                                                         "Quivira"                      ; 87/87  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          "ALPHABETUM Unicode"           ; 87/87
                                                          ))
@@ -2875,13 +2875,13 @@ Set to nil to disable."
                                                          "AppleMyungjo"
                                                          "HanaMinA"                     ; 12/12
                                                          "HAN NOM A"                    ; 12/12
-                                                         "Quivira"                      ; 12/12
+                                                         "Quivira"                      ; 12/12  @4.1 @3.80000305175781
                                                          "DFKai-SB"
                                                          "Code2000"
                                                          ))
     ("Imperial Aramaic"                                 (
                                                          "Aramaic Imperial Yeb"         ; 31/31
-                                                         "Quivira"                      ; 31/31
+                                                         "Quivira"                      ; 31/31  @4.1 @3.80000305175781
                                                          "Noto Sans Imperial Aramaic"   ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          "ALPHABETUM Unicode"           ; 31/31
@@ -2899,7 +2899,7 @@ Set to nil to disable."
                                                          "Aboriginal Sans"              ; 91/96
                                                          "Cardo"                        ; 96/96
                                                          "Symbola"                      ; 96/96
-                                                         "Quivira"                      ; 96/96
+                                                         "Quivira"                      ; 96/96  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 96/96
                                                          "FreeMono"                     ; 96/96
                                                          "Code2000"
@@ -3086,7 +3086,7 @@ Set to nil to disable."
                                                          "Charis SIL"                   ; 30/32
                                                          "Doulos SIL"                   ; 30/32
                                                          "Code2000"
-                                                         "Quivira"                      ; 32/32
+                                                         "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 32/32
                                                          "ALPHABETUM Unicode"           ; 32/32
                                                          ))
@@ -3098,13 +3098,13 @@ Set to nil to disable."
                                                          "Doulos SIL"                   ;  38/159
                                                          "Junicode"                     ;  97/159
                                                          "Cardo"                        ;  93/159
-                                                         "Quivira"                      ; 134/159
+                                                         "Quivira"                      ; 152/159  @4.1 @3.80000305175781
                                                          "Code2000"                     ; 114/159
                                                          "Everson Mono:weight=bold"     ; 152/159
                                                          "ALPHABETUM Unicode"           ;  94/159
                                                          ))
-    ("Latin Extended-E"                                 (                               ;
-                                                         "Quivira"                      ; 50/54
+    ("Latin Extended-E"                                 (
+                                                         "Quivira"                      ; 50/54  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 48/54
                                                          "HanaMinA"                     ; 29/54
                                                          ))
@@ -3130,7 +3130,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 57/80
                                                          "Code2000"                     ; 80/80
                                                          "Symbola"                      ; 80/80
-                                                         "Quivira"                      ; 80/80
+                                                         "Quivira"                      ; 80/80  @4.1 @3.80000305175781
                                                          "HAN NOM A"                    ; 56/80
                                                          "Everson Mono:weight=bold"     ; 80/80
                                                          ))
@@ -3165,21 +3165,21 @@ Set to nil to disable."
                                                          "Miao Unicode"                 ; 48/48
                                                          "Noto Sans Lisu"               ; 48/48
                                                          "Lisu Tzimu"                   ; 48/48
-                                                         "Quivira"                      ; 48/48
+                                                         "Quivira"                      ; 48/48  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
     ;; ("Low Surrogates"                                (""))                           ; no displayable characters
     ("Lycian"                                           (
                                                          "Noto Sans Lycian"             ; 29/29
                                                          "Aegean"                       ; 29/29
-                                                         "Quivira"                      ; 29/29
+                                                         "Quivira"                      ; 29/29  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          "ALPHABETUM Unicode"           ; 29/29
                                                          ))
     ("Lydian"                                           (
                                                          "Noto Sans Lydian"             ; 27/27
                                                          "Aegean"                       ; 27/27
-                                                         "Quivira"                      ; 27/27
+                                                         "Quivira"                      ; 27/27  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 27/27
                                                          "ALPHABETUM Unicode"           ; 27/27
                                                          ))
@@ -3188,7 +3188,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 44/44
                                                          "Symbola"                      ; 44/44
                                                          "Noto Sans Symbols"            ; 44/44
-                                                         "Quivira"                      ; 44/44
+                                                         "Quivira"                      ; 44/44  @4.1 @3.80000305175781
                                                          "Everson Mono"                 ; 44/44
                                                          ))
     ("Malayalam"                                        (
@@ -3210,7 +3210,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 996/996
                                                          "Code2001"                     ; 994/996
                                                          "Symbola"                      ; 996/996
-                                                         "Quivira"                      ; 996/996
+                                                         "Quivira"                      ; 996/996  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 992/996
                                                          ))
     ("Mathematical Operators"                           (
@@ -3224,7 +3224,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 242/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
-                                                         "Quivira"                      ; 256/256
+                                                         "Quivira"                      ; 256/256  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 256/256
                                                          "FreeMono"                     ; 242/256
                                                          ))
@@ -3254,7 +3254,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 46/48
                                                          "Code2000"
                                                          "Symbola"                      ; 48/48
-                                                         "Quivira"                      ; 48/48
+                                                         "Quivira"                      ; 48/48  @4.1 @3.80000305175781
                                                          "Cambria Math"                 ; 28/48
                                                          "Everson Mono:weight=bold"     ; 48/48
                                                          ))
@@ -3265,7 +3265,7 @@ Set to nil to disable."
                                                          "Cambria Math"                 ; 128/128
                                                          "Code2000"                     ; 128/128
                                                          "Symbola"                      ; 128/128
-                                                         "Quivira"                      ; 128/128
+                                                         "Quivira"                      ; 128/128  @4.1 @3.80000305175781
                                                          ))
     ("Miscellaneous Symbols"                            (
                                                          "Noto Sans Symbols"            ; 256/256
@@ -3275,7 +3275,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 187/256
                                                          "Arial Unicode MS"             ; 106/256
                                                          "Symbola"                      ; 220/256
-                                                         "Quivira"                      ; 256/256
+                                                         "Quivira"                      ; 220/256  @4.1 @3.80000305175781
                                                          "MS Reference Sans Serif"      ;  33/256
                                                          "Cardo"                        ;  31/256
                                                          "Code2000"                     ; 183/256
@@ -3283,7 +3283,7 @@ Set to nil to disable."
                                                          ))
     ("Miscellaneous Symbols and Arrows"                 (
                                                          "Symbola"                      ; 202/206
-                                                         "Quivira"                      ;  87/206
+                                                         "Quivira"                      ; 202/206  @4.1 @3.80000305175781
                                                          "Code2000"                     ;  82/206
                                                          "Segoe UI Symbol"              ;  87/206
                                                          "Noto Sans Symbols"            ;  87/206
@@ -3292,7 +3292,7 @@ Set to nil to disable."
                                                          "Apple Color Emoji"            ; 533/766
                                                          "Segoe UI Symbol"              ; 529/766
                                                          "Symbola"                      ; 742/766
-                                                         "Quivira"                      ; 159/766
+                                                         "Quivira"                      ; 191/766  @4.1 @3.80000305175781
                                                          ))
     ("Miscellaneous Technical"                          (
                                                          "Segoe UI Symbol"              ; 244/251
@@ -3302,7 +3302,7 @@ Set to nil to disable."
                                                          "DejaVu Sans Mono"             ; 136/251  @2.35 @2.34999084472656
                                                          "Code2000"                     ; 228/251
                                                          "Symbola"                      ; 244/251
-                                                         "Quivira"                      ; 244/251
+                                                         "Quivira"                      ; 251/251  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 244/251
                                                          ))
     ("Modi"                                             (
@@ -3313,7 +3313,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 32/32
                                                          "Gentium Plus"                 ; 32/32
                                                          "Code2000"                     ; 32/32
-                                                         "Quivira"                      ; 32/32
+                                                         "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Charis SIL"                   ; 32/32
                                                          "Doulos SIL"                   ; 32/32
                                                          "DejaVu Sans Mono"             ; 20/32  @2.35 @2.34999084472656
@@ -3337,7 +3337,7 @@ Set to nil to disable."
                                                          "Musica"                       ; 220/231 - OS X rendering issue? see "Musical Symbol G Clef"
                                                          "FreeSerif"                    ; 220/231
                                                          "Symbola"                      ; 220/231 - OS X rendering issue? see "Musical Symbol G Clef"
-                                                         "Quivira"                      ;  92/231
+                                                         "Quivira"                      ;  92/231  @4.1 @3.80000305175781
                                                          ))
     ("Myanmar"                                          (
                                                          "Noto Sans Myanmar"            ; 160/160
@@ -3386,7 +3386,7 @@ Set to nil to disable."
                                                          "Arial Unicode MS"             ; 48/60
                                                          "Junicode"                     ; 58/60
                                                          "Symbola"                      ; 58/60
-                                                         "Quivira"                      ; 58/60
+                                                         "Quivira"                      ; 58/60  @4.1 @3.80000305175781
                                                          "Charis SIL"                   ; 54/60
                                                          "Doulos SIL"                   ; 54/60
                                                          "Code2000"                     ; 54/60
@@ -3401,7 +3401,7 @@ Set to nil to disable."
                                                          "BabelStone Modern"            ; 29/29
                                                          "Code2000"
                                                          "Aboriginal Serif"             ; 29/29
-                                                         "Quivira"                      ; 29/29
+                                                         "Quivira"                      ; 29/29  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          "ALPHABETUM Unicode"           ; 29/29
                                                          ))
@@ -3422,7 +3422,7 @@ Set to nil to disable."
                                                          "Noto Sans Old Italic"         ; 35/36, characters are RTL
                                                          "Albanian"                     ; 36/36
                                                          "Code2001"                     ; 35/36, characters are RTL
-                                                         "Quivira"                      ; 35/36
+                                                         "Quivira"                      ; 36/36  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 35/36
                                                          "FreeMono"                     ; 35/36
                                                          "ALPHABETUM Unicode"           ; 35/36
@@ -3443,14 +3443,14 @@ Set to nil to disable."
                                                          ))
     ("Old South Arabian"                                (
                                                          "Noto Sans Old South Arabian"  ; 32/32
-                                                         "Quivira"                      ; 32/32
+                                                         "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Qataban"                      ; 32/32
                                                          "Everson Mono:weight=bold"     ; 32/32
                                                          ))
     ("Old Turkic"                                       (
                                                          "Noto Sans Old Turkic"         ; 73/73
                                                          "Segoe UI Symbol"              ; 73/73
-                                                         "Quivira"                      ; 73/73
+                                                         "Quivira"                      ; 73/73  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 73/73
                                                          ))
     ("Optical Character Recognition"                    (
@@ -3459,7 +3459,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 11/11
                                                          "Arial Unicode MS"
                                                          "Symbola"                      ; 11/11
-                                                         "Quivira"                      ; 11/11
+                                                         "Quivira"                      ; 11/11  @4.1 @3.80000305175781
                                                          "FreeMono"                     ; 11/11
                                                          "BabelStone Modern"            ; 11/11
                                                          "Code2000"
@@ -3507,7 +3507,7 @@ Set to nil to disable."
     ("Phoenician"                                       (
                                                          "Noto Sans Phoenician"         ; 29/29
                                                          "Aegean"                       ; 29/29
-                                                         "Quivira"                      ; 29/29
+                                                         "Quivira"                      ; 29/29  @4.1 @3.80000305175781
                                                          "Code2001"                     ; 27/29
                                                          "Everson Mono:weight=bold"     ; 29/29
                                                          "ALPHABETUM Unicode"           ; 29/29
@@ -3520,7 +3520,7 @@ Set to nil to disable."
                                                          "Aboriginal Sans"              ;  79/128
                                                          "Charis SIL"                   ; 128/128
                                                          "Doulos SIL"                   ; 128/128
-                                                         "Quivira"                      ; 128/128
+                                                         "Quivira"                      ; 128/128  @4.1 @3.80000305175781
                                                          "Courier New"                  ; 128/128
                                                          "DejaVu Sans:width=condensed"
                                                          "Code2000"
@@ -3535,7 +3535,7 @@ Set to nil to disable."
                                                          "Aboriginal Sans"              ; 35/64
                                                          "Charis SIL"                   ; 64/64
                                                          "Doulos SIL"                   ; 64/64
-                                                         "Quivira"                      ; 64/64
+                                                         "Quivira"                      ; 64/64  @4.1 @3.80000305175781
                                                          "DejaVu Sans Mono"             ; 37/64  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"  ; 38/64
                                                          "Code2000"                     ; 64/64
@@ -3547,7 +3547,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 82/82
                                                          "Noto Sans Symbols"            ; 59/82
                                                          "Segoe UI Symbol"              ; 59/82
-                                                         "Quivira"                      ; 59/82
+                                                         "Quivira"                      ; 82/82  @4.1 @3.80000305175781
                                                          ))
     ;; ("Private Use Area"                              (
     ;;                                                   "ALPHABETUM Unicode"           ; 2,405/6,400 MUFI
@@ -3558,8 +3558,8 @@ Set to nil to disable."
     ;;                                                   "Siddhanta"                    ; 1,292/6,400
     ;;                                                   "Cardo"                        ; 1,209/6,400 MUFI
     ;;                                                   "Unidings"                     ; 1,024/6,400 conflicts MUFI
+    ;;                                                   "Quivira"                      ;   894/6,400  @4.1 @3.80000305175781
     ;;                                                   "Junicode"                     ;   841/6,400 MUFI
-    ;;                                                   "Quivira"                      ;   589/6,400
     ;;                                                   "Code2001"                     ;   362/6,400
     ;;                                                   "MS Reference Sans Serif"      ;   312/6,400
     ;;                                                   "Doulos SIL"                   ;   229/6,400
@@ -3602,7 +3602,7 @@ Set to nil to disable."
                                                          "Aboriginal Serif"             ; 81/89
                                                          "Junicode"                     ; 81/89
                                                          "FreeMono"                     ; 81/89
-                                                         "Quivira"                      ; 81/89
+                                                         "Quivira"                      ; 89/89  @4.1 @3.80000305175781
                                                          "Code2000"
                                                          "Cardo"                        ; 81/89
                                                          "Everson Mono:weight=bold"     ; 89/89
@@ -3610,7 +3610,7 @@ Set to nil to disable."
                                                          ))
     ("Samaritan"                                        (
                                                          "Noto Sans Samaritan"          ; 61/61
-                                                         "Quivira"                      ; 61/61
+                                                         "Quivira"                      ; 61/61  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 61/61
                                                          ))
     ("Saurashtra"                                       (
@@ -3671,7 +3671,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 5/5
                                                          "DejaVu Sans Mono"             ; 5/5  @2.35 @2.34999084472656
                                                          "DejaVu Sans:width=condensed"
-                                                         "Quivira"                      ; 5/5
+                                                         "Quivira"                      ; 5/5  @4.1 @3.80000305175781
                                                          "FreeMono"                     ; 5/5
                                                          "BabelStone Han"               ; 5/5
                                                          ))
@@ -3693,7 +3693,7 @@ Set to nil to disable."
                                                          "Charis SIL"                   ; 34/42
                                                          "Doulos SIL"                   ; 34/42
                                                          "Symbola"                      ; 42/42
-                                                         "Quivira"                      ; 42/42
+                                                         "Quivira"                      ; 42/42  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 42/42
                                                          "FreeMono"                     ; 34/42
                                                          ))
@@ -3701,7 +3701,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 16/16
                                                          "Cambria Math"                 ; 16/16
                                                          "DejaVu Sans:width=condensed"  ; 16/16
-                                                         "Quivira"                      ; 16/16
+                                                         "Quivira"                      ; 16/16  @4.1 @3.80000305175781
                                                          "Symbola"                      ; 16/16
                                                          "Apple Symbols"                ; 16/16
                                                          "Noto Sans Symbols"            ; 16/16
@@ -3715,7 +3715,7 @@ Set to nil to disable."
                                                          "Segoe UI Symbol"              ; 128/128
                                                          "Apple Symbols"                ; 128/128
                                                          "Noto Sans Symbols"            ; 128/128
-                                                         "Quivira"                      ; 128/128
+                                                         "Quivira"                      ; 128/128  @4.1 @3.80000305175781
                                                          "Symbola"                      ; 128/128
                                                          "Code2000"                     ; 128/128
                                                          "Everson Mono:weight=bold"     ; 128/128
@@ -3730,7 +3730,7 @@ Set to nil to disable."
                                                          "Apple Symbols"                ; 251/256
                                                          "Code2000"                     ; 256/256
                                                          "Symbola"                      ; 256/256
-                                                         "Quivira"                      ; 256/256
+                                                         "Quivira"                      ; 256/256  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 195/256
                                                          ))
     ("Supplemental Punctuation"                         (
@@ -3742,7 +3742,7 @@ Set to nil to disable."
                                                          "Cardo"                        ; 43/67
                                                          "Aegean"                       ; 48/67
                                                          "Symbola"                      ; 67/67
-                                                         "Quivira"                      ; 60/67
+                                                         "Quivira"                      ; 67/67  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 60/67
                                                          "Code2000"                     ; 49/67
                                                          "ALPHABETUM Unicode"           ; 50/67
@@ -3771,12 +3771,12 @@ Set to nil to disable."
                                                          "Code2000"                     ; 50/77
                                                         ))
     ("Tagalog"                                          (
-                                                         "Quivira"                      ; 20/20
+                                                         "Quivira"                      ; 20/20  @4.1 @3.80000305175781
                                                          "Noto Sans Tagalog"            ; 20/20
                                                          ))
     ("Tagbanwa"                                         (
                                                          "Noto Sans Tagbanwa"           ; 18/18
-                                                         "Quivira"                      ; 18/18
+                                                         "Quivira"                      ; 18/18  @4.1 @3.80000305175781
                                                          ))
     ("Tags"                                             (
                                                          "BabelStone Modern"            ; 97/97
@@ -3810,7 +3810,7 @@ Set to nil to disable."
                                                          "BabelStone Han"               ; 87/87
                                                          "DejaVu Sans:width=condensed"
                                                          "Symbola"                      ; 87/87
-                                                         "Quivira"                      ; 87/87
+                                                         "Quivira"                      ; 87/87  @4.1 @3.80000305175781
                                                          "BabelStone Modern"            ; 87/87
                                                          "Code2001"                     ; 87/87
                                                          "Everson Mono:weight=bold"     ; 87/87
@@ -3867,7 +3867,7 @@ Set to nil to disable."
                                                          "Code2000"
                                                          "Tahoma"                       ; 87/87
                                                          "Arial Unicode MS"             ; 87/87
-                                                         "Quivira"                      ; 87/87
+                                                         "Quivira"                      ; 87/87  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 87/87
                                                          ))
     ("Tibetan"                                          (
@@ -3885,7 +3885,7 @@ Set to nil to disable."
                                                          "Ebrima"
                                                          "DejaVu Sans:width=condensed"
                                                          "Code2000"
-                                                         "Quivira"                      ; 58/59
+                                                         "Quivira"                      ; 58/59  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 59/59
                                                          ))
     ;; ("Tirhuta"                                       (""))                           ; todo added in Unicode 7.0
@@ -3911,7 +3911,7 @@ Set to nil to disable."
                                                          "Euphemia UCAS"
                                                          "Euphemia"
                                                          "Code2000"
-                                                         "Quivira"                      ; 640/640
+                                                         "Quivira"                      ; 640/640  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 640/640
                                                          ))
     ("Unified Canadian Aboriginal Syllabics Extended"   (
@@ -3921,7 +3921,7 @@ Set to nil to disable."
                                                          "Gadugi"
                                                          "Euphemia UCAS"
                                                          "Euphemia"
-                                                         "Quivira"                      ; 70/70
+                                                         "Quivira"                      ; 70/70  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 70/70
                                                          ))
     ("Vai"                                              (
@@ -3930,7 +3930,7 @@ Set to nil to disable."
                                                          "Dukor"                        ; 300/300
                                                          "Wakor"                        ; 300/300
                                                          "Code2000"                     ; 300/300
-                                                         "Quivira"                      ; 300/300
+                                                         "Quivira"                      ; 300/300  @4.1 @3.80000305175781
                                                          ))
     ("Variation Selectors"                              (
                                                          "BabelStone Modern"            ; 16/16
@@ -3972,7 +3972,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"
                                                          "BabelStone Han"               ; 64/64
                                                          "Symbola"                      ; 64/64
-                                                         "Quivira"                      ; 64/64
+                                                         "Quivira"                      ; 64/64  @4.1 @3.80000305175781
                                                          "BabelStone Modern"            ; 64/64
                                                          "Code2000"
                                                          "Everson Mono:weight=bold"     ; 64/64
