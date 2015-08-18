@@ -3291,6 +3291,7 @@ Set to nil to disable."
                                                          "Noto Sans Symbols"            ; 244/251
                                                          "Apple Symbols"                ; 232/251
                                                          "Cambria Math"                 ; 208/251
+                                                         "DejaVu Sans Mono"             ; 136/251  @2.35 @2.34999084472656
                                                          "Code2000"                     ; 228/251
                                                          "Symbola"                      ; 244/251
                                                          "Quivira"                      ; 244/251
@@ -3307,6 +3308,7 @@ Set to nil to disable."
                                                          "Quivira"                      ; 32/32
                                                          "Charis SIL"                   ; 32/32
                                                          "Doulos SIL"                   ; 32/32
+                                                         "DejaVu Sans Mono"             ; 20/32  @2.35 @2.34999084472656
                                                          ))
     ("Mongolian"                                        (
                                                          "STFangsong"
