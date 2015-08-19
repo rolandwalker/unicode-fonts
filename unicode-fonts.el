@@ -2633,6 +2633,7 @@ Set to nil to disable."
                                                          ))
     ("Geometric Shapes Extended"                        (
                                                          "Symbola"                      ; 85/85
+                                                         "Quivira"                      ; 64/85  @4.1 @3.80000305175781
                                                          ))
     ("Georgian"                                         (
                                                          "DejaVu Sans Mono"             ; 45/88  @2.35 @2.34999084472656
@@ -3899,6 +3900,7 @@ Set to nil to disable."
                                                          "Aegean"                       ; 31/31
                                                          "Code2001"                     ; 31/31
                                                          "Andagii"                      ; 31/31
+                                                         "Quivira"                      ; 31/31  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          "FreeSans"                     ; 31/31
                                                          "ALPHABETUM Unicode"           ; 31/31
