@@ -4734,7 +4734,7 @@ buffer instead of sending it to the *Messages* log."
              (licenses nil))
         (funcall message-function "\n-----\nOverride %s\n-----" (list (car cell) (cadr cell)))
         (if (not char-range)
-            (funcall message-function "ERROR: invalid character range")
+            (funcall message-function (format "ERROR: invalid character range %s/%s" (car cell) (cadr cell)))
           ;; else
           (when (not (eq (ucs-utils-char (car cell) nil) (car char-range)))
             (funcall message-function "Warning: character range out of order"))
