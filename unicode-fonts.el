@@ -418,6 +418,10 @@
 ;;
 ;;         Albanian                      ; Elbasan / Takri / Sharada
 ;;
+;;     From https://github.com/enabling-languages/cham-unicode/tree/master/fonts/ttf
+;;
+;;         Cham OI_Tangin                ; Cham
+;;
 ;; Compatibility and Requirements
 ;;
 ;;     GNU Emacs version 25.1-devel     : not tested
@@ -987,6 +991,9 @@
     ("Chalkboard SE"                       :licenses (apple))
     ("Chalkboard"                          :licenses (apple))
     ("Chalkduster"                         :licenses (apple))
+    ("Cham OI_Kul"                         :licenses (free))
+    ("Cham OI_Kulbleng"                    :licenses (free))
+    ("Cham OI_Tangin"                      :licenses (free))
     ("Charcoal CY"                         :licenses (apple))
     ("Charis SIL"                          :licenses (free))
     ("Chiangsaen Alif"                     :licenses (free))
@@ -2083,7 +2090,10 @@ Set to nil to disable."
     ("Chakma"                                           (
                                                          "Ribeng"                       ; 67/67
                                                          ))
-    ("Cham"                                             (                               ; todo quality free alternative
+    ("Cham"                                             (
+                                                         "Cham OI_Tangin"               ; 83/83  @1.00_September_23_2013 @1
+                                                         "Cham OI_Kulbleng"             ; 83/83  @1.00_September_23_2013 @1
+                                                         "Cham OI_Kul"                  ; 83/83  @1.00_September_25_2013 @1
                                                          "Code2000"                     ; 83/83
                                                          ))
     ("Cherokee"                                         (

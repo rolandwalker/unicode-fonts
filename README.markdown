@@ -442,6 +442,10 @@ From <http://tutohtml.perso.sfr.fr/unicode.html>
 
 	Albanian                      ; Elbasan / Takri / Sharada
 
+From <https://github.com/enabling-languages/cham-unicode/tree/master/fonts/ttf>
+
+	Cham OI_Tangin                ; Cham
+
 
 ## Non-free Fonts
 
