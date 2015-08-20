@@ -2091,6 +2091,7 @@ Set to nil to disable."
                                                          "Ribeng"                       ; 67/67
                                                          ))
     ("Cham"                                             (
+                                                         "Noto Sans Cham"               ; 83/83  @1.00_December_21_2012_initial_release @1 - bug: does not appear under this name on OS X
                                                          "Cham OI_Tangin"               ; 83/83  @1.00_September_23_2013 @1
                                                          "Cham OI_Kulbleng"             ; 83/83  @1.00_September_23_2013 @1
                                                          "Cham OI_Kul"                  ; 83/83  @1.00_September_25_2013 @1
