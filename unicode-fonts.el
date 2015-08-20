@@ -2226,9 +2226,9 @@ Set to nil to disable."
                                                          "Code2000"
                                                          ))
     ("CJK Unified Ideographs"                           (
-                                                         "WenQuanYi Zen Hei Mono"       ; 20,932/20,950
+                                                         "WenQuanYi Zen Hei Mono"       ; 20,940/20,950
                                                          "Lantinghei SC"
-                                                         "Songti SC"                    ; 20,910/20,950
+                                                         "Songti SC"                    ; 20,921/20,950
                                                          "SimHei"
                                                          "FangSong"
                                                          "STFangsong"                   ; 20,910/20,950
