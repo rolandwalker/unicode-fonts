@@ -1495,6 +1495,7 @@
     ("Segoe Print"                         :licenses (microsoft))
     ("Segoe Script"                        :licenses (microsoft))
     ("Segoe UI"                            :licenses (microsoft) :cleartype t)
+    ("Segoe UI Historic"                   :licenses (microsoft) :cleartype t)
     ("Segoe UI Symbol"                     :licenses (microsoft) :cleartype t)
     ("Shonar Bangla"                       :licenses (microsoft))
     ("Showcard Gothic"                     :licenses (microsoft))
@@ -2046,6 +2047,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 128/128  @8.00 @8
                                                          ))
     ("Brahmi"                                           (
+                                                         "Segoe UI Historic"            ; 109/109  @1.00 @1
                                                          "Noto Sans Brahmi"             ; 108/109
                                                          "Adinatha Tamil Brahmi"        ;  45/109
                                                          "ALPHABETUM Unicode"           ;  85/109
@@ -2080,6 +2082,7 @@ Set to nil to disable."
                                                          "FreeSerif"                    ; 246/246
                                                          ))
     ("Carian"                                           (
+                                                         "Segoe UI Historic"            ; 49/49  @1.00 @1
                                                          "Noto Sans Carian"             ; 49/49
                                                          "Aegean"                       ; 49/49
                                                          "Quivira"                      ; 49/49  @4.1 @3.80000305175781
@@ -2371,6 +2374,7 @@ Set to nil to disable."
                                                          "Noto Sans Coptic"             ; 123/123
                                                          "Antinoou"                     ; 123/123
                                                          "New Athena Unicode"           ; 121/123
+                                                         "Segoe UI Historic"            ; 123/123  @1.00 @1
                                                          "Segoe UI Symbol"              ; 123/123
                                                          "Quivira"                      ; 123/123  @4.1 @3.80000305175781
                                                          "Analecta"                     ; 123/123
@@ -2393,12 +2397,14 @@ Set to nil to disable."
                                                          "Code2001"                     ; 18/18
                                                          ))
     ("Cuneiform"                                        (
+                                                         "Segoe UI Historic"                   ; 921/922  @1.00 @1
                                                          "Noto Sans Cuneiform"                 ; 879/922
                                                          "Noto Sans Sumero-Akkadian Cuneiform" ; 879/922 - old name
                                                          "Akkadian"
                                                          ))
     ("Cuneiform Numbers and Punctuation"                (
                                                          "Akkadian"
+                                                         "Segoe UI Historic"                   ; 116/116  @1.00 @1
                                                          "Noto Sans Cuneiform"                 ; 103/116
                                                          "Noto Sans Sumero-Akkadian Cuneiform" ; 103/116 - old name
                                                          ))
@@ -2417,6 +2423,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 23/31
                                                          ))
     ("Cypriot Syllabary"                                (
+                                                         "Segoe UI Historic"            ; 55/55  @1.00 @1
                                                          "Noto Sans Cypriot"            ; 55/55
                                                          "Aegean"                       ; 55/55
                                                          "Code2001"                     ; 55/55
@@ -2525,7 +2532,8 @@ Set to nil to disable."
     ("Egyptian Hieroglyphs"                             (
                                                          "Noto Sans Egyptian Hieroglyphs"      ; 1,071/1,071
                                                          "Aegyptus"                            ; 1,071/1,071
-                                                         "Gardiner"                            ; 1,071/1,071
+                                                         "Segoe UI Historic:weight=bold"              ; 1,071/1,071  @1.00 @1
+                                                         "Gardiner"                                   ; 1,071/1,071
                                                          ))
     ("Elbasan"                                          (
                                                          "Albanian"                     ; 40/40
@@ -2668,6 +2676,7 @@ Set to nil to disable."
                                                          ))
     ("Glagolitic"                                       (
                                                          "Noto Sans Glagolitic"         ; 94/94
+                                                         "Segoe UI Historic"            ; 94/94  @1.00 @1
                                                          "Segoe UI Symbol"              ; 94/94
                                                          "MPH 2B Damase"
                                                          "Quivira"                      ; 94/94  @4.1 @3.80000305175781
@@ -2676,6 +2685,7 @@ Set to nil to disable."
                                                          ))
     ("Gothic"                                           (
                                                          "Noto Sans Gothic"             ; 27/27
+                                                         "Segoe UI Historic"            ; 27/27  @1.00 @1
                                                          "Segoe UI Symbol"              ; 27/27
                                                          "Analecta"                     ; 27/27
                                                          "Junicode"                     ; 27/27
@@ -2717,6 +2727,7 @@ Set to nil to disable."
                                                          "DejaVu Sans:width=condensed"  ; 134/135
                                                          "Antinoou"                     ; 135/135
                                                          "Noto Sans"                    ; 127/135
+                                                         "Segoe UI Historic"            ; 83/135  @1.00 @1
                                                          "Segoe UI Symbol"              ; 134/135
                                                          "New Athena Unicode"           ; 134/135
                                                          "Calibri"                      ; 127/135
@@ -2894,6 +2905,7 @@ Set to nil to disable."
     ("Imperial Aramaic"                                 (
                                                          "Aramaic Imperial Yeb"         ; 31/31
                                                          "Quivira"                      ; 31/31  @4.1 @3.80000305175781
+                                                         "Segoe UI Historic"            ; 31/31  @1.00 @1
                                                          "Noto Sans Imperial Aramaic"   ; 31/31
                                                          "Everson Mono:weight=bold"     ; 31/31
                                                          "ALPHABETUM Unicode"           ; 31/31
@@ -2919,12 +2931,14 @@ Set to nil to disable."
                                                          ))
     ("Inscriptional Pahlavi"                            (
                                                          "ZH Mono"                             ; 27/27
+                                                         "Segoe UI Historic"                   ; 27/27  @1.00 @1
                                                          "Noto Sans Inscriptional Pahlavi"     ; 27/27
                                                          "ALPHABETUM Unicode"                  ; 27/27
                                                          "Ahuramzda:weight=bold"               ;  8/27
                                                          ))
     ("Inscriptional Parthian"                           (
                                                          "ZH Mono"                             ; 30/30
+                                                         "Segoe UI Historic"                   ; 30/30  @1.00 @1
                                                          "Noto Sans Inscriptional Parthian"    ; 30/30
                                                          "ALPHABETUM Unicode"                  ; 30/30
                                                          ))
@@ -3023,6 +3037,7 @@ Set to nil to disable."
                                                          "FreeMono"                     ; 48/48
                                                          ))
     ("Kharoshthi"                                       (
+                                                         "Segoe UI Historic"            ; 65/65  @1.00 @1
                                                          "Noto Sans Kharoshthi"         ; 65/65
                                                          "MPH 2B Damase"
                                                          "ALPHABETUM Unicode"           ; 65/65
@@ -3182,6 +3197,7 @@ Set to nil to disable."
                                                          ))
     ;; ("Low Surrogates"                                (""))                           ; no displayable characters
     ("Lycian"                                           (
+                                                         "Segoe UI Historic"            ; 29/29  @1.00 @1
                                                          "Noto Sans Lycian"             ; 29/29
                                                          "Aegean"                       ; 29/29
                                                          "Quivira"                      ; 29/29  @4.1 @3.80000305175781
@@ -3189,6 +3205,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 29/29
                                                          ))
     ("Lydian"                                           (
+                                                         "Segoe UI Historic"            ; 27/27  @1.00 @1
                                                          "Noto Sans Lydian"             ; 27/27
                                                          "Aegean"                       ; 27/27
                                                          "Quivira"                      ; 27/27  @4.1 @3.80000305175781
@@ -3251,6 +3268,7 @@ Set to nil to disable."
     ;; ("Mende Kikakui"                                 (""))                           ; todo added in Unicode 7.0
     ("Meroitic Cursive"                                 (
                                                          "Nilus"                        ; 90/90
+                                                         "Segoe UI Historic"            ; 26/90  @1.00 @1
                                                          "Segoe UI Symbol"              ; 26/90
                                                          ))
     ("Meroitic Hieroglyphs"                             (
@@ -3407,6 +3425,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 58/60
                                                          ))
     ("Ogham"                                            (
+                                                         "Segoe UI Historic"            ; 29/29  @1.00 @1
                                                          "Segoe UI Symbol"              ; 29/29
                                                          "Noto Sans Ogham"              ; 29/29
                                                          "DejaVu Sans:width=condensed"
@@ -3426,6 +3445,7 @@ Set to nil to disable."
                                                          "OldHungarian"                 ; 108/108
                                                          ))
     ("Old Italic"                                       (
+                                                         "Segoe UI Historic"            ; 35/36  @1.00 @1
                                                          "Segoe UI Symbol"              ; 35/36
                                                          "DejaVu Sans:width=condensed"  ; 35/36
                                                          "Cardo"                        ; 35/36
@@ -3446,6 +3466,7 @@ Set to nil to disable."
                                                          "Everson Mono:weight=bold"     ; 40/40
                                                          ))
     ("Old Persian"                                      (
+                                                         "Segoe UI Historic"            ; 50/50  @1.00 @1
                                                          "Noto Sans Old Persian"        ; 50/50
                                                          "MPH 2B Damase"                ; 50/50
                                                          "Aegean"                       ; 50/50
@@ -3454,6 +3475,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 50/50
                                                          ))
     ("Old South Arabian"                                (
+                                                         "Segoe UI Historic"            ; 32/32  @1.00 @1
                                                          "Noto Sans Old South Arabian"  ; 32/32
                                                          "Quivira"                      ; 32/32  @4.1 @3.80000305175781
                                                          "Qataban"                      ; 32/32
@@ -3461,6 +3483,7 @@ Set to nil to disable."
                                                          ))
     ("Old Turkic"                                       (
                                                          "Noto Sans Old Turkic"         ; 73/73
+                                                         "Segoe UI Historic"            ; 73/73  @1.00 @1
                                                          "Segoe UI Symbol"              ; 73/73
                                                          "Quivira"                      ; 73/73  @4.1 @3.80000305175781
                                                          "Everson Mono:weight=bold"     ; 73/73
@@ -3517,6 +3540,7 @@ Set to nil to disable."
                                                          "ALPHABETUM Unicode"           ; 46/46
                                                          ))
     ("Phoenician"                                       (
+                                                         "Segoe UI Historic"            ; 29/29  @1.00 @1
                                                          "Noto Sans Phoenician"         ; 29/29
                                                          "Aegean"                       ; 29/29
                                                          "Quivira"                      ; 29/29  @4.1 @3.80000305175781
@@ -3610,6 +3634,7 @@ Set to nil to disable."
                                                          ))
     ("Runic"                                            (
                                                          "Noto Sans Runic"              ; 81/89
+                                                         "Segoe UI Historic"            ; 81/89  @1.00 @1
                                                          "Segoe UI Symbol"              ; 81/89
                                                          "Aboriginal Serif"             ; 81/89
                                                          "Junicode"                     ; 81/89
@@ -3634,6 +3659,7 @@ Set to nil to disable."
                                                          "Albanian"                     ; 85/94
                                                          ))
     ("Shavian"                                          (
+                                                         "Segoe UI Historic"            ; 48/48  @1.00 @1
                                                          "Noto Sans Shavian"            ; 48/48
                                                          "Andagii"                      ; 48/48
                                                          "MPH 2B Damase"
@@ -3780,6 +3806,7 @@ Set to nil to disable."
                                                          "MPH 2B Damase"
                                                          ))
     ("Syriac"                                           (
+                                                         "Segoe UI Historic"            ; 77/77  @1.00 @1
                                                          "Estrangelo Edessa"            ; 77/77
                                                          "Estrangelo Nisibin"           ; 71/77
                                                          "Code2000"                     ; 50/77
@@ -3909,6 +3936,7 @@ Set to nil to disable."
                                                          "Symbola"                      ; 98/98  @8.00 @8
                                                          ))
     ("Ugaritic"                                         (
+                                                         "Segoe UI Historic"            ; 31/31  @1.00 @1
                                                          "Noto Sans Ugaritic"           ; 31/31
                                                          "Aegean"                       ; 31/31
                                                          "Code2001"                     ; 31/31
