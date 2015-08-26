@@ -2530,9 +2530,9 @@ Set to nil to disable."
                                                          "Akkadian"                     ; 196/196
                                                          ))
     ("Egyptian Hieroglyphs"                             (
-                                                         "Noto Sans Egyptian Hieroglyphs"      ; 1,071/1,071
-                                                         "Aegyptus"                            ; 1,071/1,071
                                                          "Segoe UI Historic:weight=bold"              ; 1,071/1,071  @1.00 @1
+                                                         "Noto Sans Egyptian Hieroglyphs:weight=bold" ; 1,071/1,071
+                                                         "Aegyptus:weight=bold"                       ; 1,071/1,071
                                                          "Gardiner"                                   ; 1,071/1,071
                                                          ))
     ("Elbasan"                                          (
