@@ -22,7 +22,7 @@
 ;;
 ;;     Install these fonts
 ;;
-;;         http://users.teilar.gr/~g1951d/Symbola.zip      ; NOTE: site is down as of July 2015
+;;         http://users.teilar.gr/~g1951d/Symbola.zip
 ;;         http://www.quivira-font.com/files/Quivira.ttf   ; or Quivira.otf
 ;;         http://sourceforge.net/projects/dejavu/files/dejavu/2.35/dejavu-fonts-ttf-2.35.tar.bz2
 ;;         https://github.com/googlei18n/noto-fonts/blob/master/hinted/NotoSans-Regular.ttc?raw=true
@@ -89,7 +89,7 @@
 ;;
 ;;     Quivira
 ;;
-;; From http://users.teilar.gr/~g1951d/Symbola.zip  ; NOTE: site is down as of July 2015
+;; From http://users.teilar.gr/~g1951d/Symbola.zip
 ;;
 ;;     Symbola
 ;;
@@ -169,7 +169,7 @@
 ;;
 ;;         Gentium Plus                  ; Greek
 ;;
-;;     From http://users.teilar.gr/~g1951d/    ; NOTE: site is down as of July 2015
+;;     From http://users.teilar.gr/~g1951d/
 ;;
 ;;         Aegean, Aegyptus, Akkadian    ; Ancient languages
 ;;         Analecta                      ; Ancient languages, Deseret
