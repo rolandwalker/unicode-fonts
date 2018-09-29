@@ -81,7 +81,7 @@
 ;; good multi-lingual fonts, though you would do very well to download
 ;; and install the four items below:
 ;;
-;; From http://dejavu-fonts.org/wiki/Download
+;; From https://dejavu-fonts.github.io/
 ;;
 ;;     DejaVu Sans, DejaVu Sans Mono
 ;;
