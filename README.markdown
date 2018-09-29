@@ -446,6 +446,9 @@ From <https://github.com/enabling-languages/cham-unicode/tree/master/fonts/ttf>
 
 	Cham OI_Tangin                ; Cham
 
+From <https://ctan.org/tex-archive/fonts/Asana-Math?lang=en>
+
+	Asana Math                    ; Mathematical Symbols
 
 ## Non-free Fonts
 
