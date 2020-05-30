@@ -22,7 +22,7 @@
 ;;
 ;;     Install these fonts
 ;;
-;;         http://users.teilar.gr/~g1951d/Symbola.zip
+;;         https://dn-works.com/wp-content/uploads/2020/UFAS-Fonts/Symbola.zip
 ;;         http://www.quivira-font.com/files/Quivira.ttf   ; or Quivira.otf
 ;;         http://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2
 ;;         https://github.com/googlei18n/noto-fonts/raw/master/hinted/NotoSans-Regular.ttf
@@ -89,7 +89,7 @@
 ;;
 ;;     Quivira
 ;;
-;; From http://users.teilar.gr/~g1951d/Symbola.zip
+;; From https://dn-works.com/wp-content/uploads/2020/UFAS-Fonts/Symbola.zip
 ;;
 ;;     Symbola
 ;;
