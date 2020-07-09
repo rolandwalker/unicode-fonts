@@ -1687,7 +1687,9 @@ Leave the list empty for no per-font exclusions."
 (defcustom unicode-fonts-skip-font-groups (cond
                                             ((eq window-system 'w32)
                                              '(buggy-before-vista decorative low-quality-glyphs multicolor))
-                                            ((eq window-system 'mac)
+                                            ((or (eq window-system 'mac)
+                                                 (and (> emacs-major-version 26)
+                                                      (eq window-system 'ns)))
                                              '(decorative low-quality-glyphs))
                                             (t
                                              '(decorative low-quality-glyphs multicolor)))
