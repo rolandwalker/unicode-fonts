@@ -1325,6 +1325,7 @@
     ("Noto Sans Carian"                    :licenses (free))
     ("Noto Sans Cham"                      :licenses (free)) ; note, OS X bug?
     ("Noto Sans Cherokee"                  :licenses (free))
+    ("Noto Sans CJK HK"                    :licenses (free) :chinese traditional)
     ("Noto Sans CJK JP"                    :licenses (free) :chinese kanji)
     ("Noto Sans CJK KR"                    :licenses (free) :chinese hanja)
     ("Noto Sans CJK SC"                    :licenses (free) :chinese simplified)
@@ -1345,6 +1346,7 @@
     ("Noto Sans Gurmukhi UI"               :licenses (free))
     ("Noto Sans Hanunoo"                   :licenses (free))
     ("Noto Sans Hebrew"                    :licenses (free))
+    ("Noto Sans HK"                        :licenses (free) :chinese traditional)
     ("Noto Sans Imperial Aramaic"          :licenses (free))
     ("Noto Sans Inscriptional Pahlavi"     :licenses (free))
     ("Noto Sans Inscriptional Parthian"    :licenses (free))
