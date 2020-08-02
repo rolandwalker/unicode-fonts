@@ -572,8 +572,8 @@
 
 ;;; requirements
 
-;; for callf, callf2, member*, incf, remove-if, remove-if-not
-(require 'cl)
+;; for cl-callf, cl-member, cl-incf, cl-remove-if, cl-remove-if-not, cl-assert, cl-loop, cl-copy-list
+(require 'cl-lib)
 
 (autoload 'persistent-soft-store               "persistent-soft" "Under SYMBOL, store VALUE in the LOCATION persistent data store."    )
 (autoload 'persistent-soft-fetch               "persistent-soft" "Return the value for SYMBOL in the LOCATION persistent data store."  )
@@ -4350,8 +4350,8 @@ font-name format.
 
 The font existence-check is lazy; fonts after the first hit are
 not checked."
-  (font-utils-first-existing-font (remove-if #'(lambda (x)
-                                                    (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal))
+  (font-utils-first-existing-font (cl-remove-if #'(lambda (x)
+                                                    (cl-member x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal))
                                                 font-names)))
 
 ;;;###autoload
@@ -4497,7 +4497,7 @@ Use `ido-completing-read' if IDO is set."
                    (stringp font-size)
                    (> (length font-name) 0)
                    (> (length font-size) 0))
-          (callf concat font-name "-" font-size))
+          (cl-callf concat font-name "-" font-size))
         (unless (and (stringp font-name)
                      (> (length font-name) 0))
           (setq font-name (font-utils-name-from-xlfd (font-xlfd-name font)))))
@@ -4526,14 +4526,14 @@ Temporarily change the font used for BLOCK-NAME to FONT-NAME.
 
 To permanently change the font for BLOCK-NAME, use the
 customization interface."
-  (callf or block-name (unicode-fonts-read-block-name 'ido))
-  (callf or font-name (font-utils-read-name 'ido))
-  (assert (assoc-string block-name unicode-fonts-blocks 'case-fold) nil "No such block")
-  (assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
+  (cl-callf or block-name (unicode-fonts-read-block-name 'ido))
+  (cl-callf or font-name (font-utils-read-name 'ido))
+  (cl-assert (assoc-string block-name unicode-fonts-blocks 'case-fold) nil "No such block")
+  (cl-assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
   (when (y-or-n-p (propertize "Really risk crashing Emacs?" 'face 'highlight))
     (message "")
     (let ((char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold))))
-      (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) unicode-fonts-fontset-names))
+      (dolist (fontset-name (cl-remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) unicode-fonts-fontset-names))
         (set-fontset-font fontset-name
                           (cons (decode-char 'ucs (car char-range)) (decode-char 'ucs (cadr char-range)))
                           (font-spec :name (concat font-name ":") :registry "iso10646-1"))))))
@@ -4542,10 +4542,10 @@ customization interface."
   "Calling this command can crash Emacs.
 
 Temporarily change the font used for all blocks to FONT-NAME."
-  (callf or font-name (font-utils-read-name 'ido))
-  (assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
+  (cl-callf or font-name (font-utils-read-name 'ido))
+  (cl-assert (unicode-fonts-font-exists-p font-name) nil "Font does not is exist or is not understood: %s" font-name)
   (when (y-or-n-p (propertize "Really risk crashing Emacs?" 'face 'highlight))
-    (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) unicode-fonts-fontset-names))
+    (dolist (fontset-name (cl-remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) unicode-fonts-fontset-names))
       (dolist (cell unicode-fonts-block-font-mapping)
         (let* ((block-name (car cell))
                (char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold))))
@@ -4569,7 +4569,7 @@ buffer or calling this function with negative ARG."
   "Insert all the characters from BLOCK-NAME for debugging purposes.
 
 See also: `list-charset-chars'."
-  (callf or block-name (unicode-fonts-read-block-name 'ido))
+  (cl-callf or block-name (unicode-fonts-read-block-name 'ido))
   (set-buffer-multibyte t)
   (cond
     ((eq block-name 'all)
@@ -4740,12 +4740,12 @@ See also: `list-charset-chars'."
        (let ((char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold)))
              (counter 0)
              (posn nil))
-         (assert (assoc-string block-name unicode-fonts-blocks 'case-fold) nil "No such block")
+         (cl-assert (assoc-string block-name unicode-fonts-blocks 'case-fold) nil "No such block")
          (unless (looking-at-p "^")
            (insert "\n"))
          (setq posn (point))
          (insert (replace-regexp-in-string " " "_" block-name) "\n-----\n")
-         (loop for i from (car char-range) to (cadr char-range)
+         (cl-loop for i from (car char-range) to (cadr char-range)
                do (progn
                     (insert (ucs-utils-char i)
                             "  "
@@ -4753,7 +4753,7 @@ See also: `list-charset-chars'."
                             "  "
                             "\"" (ucs-utils-pretty-name i) "\""
                             "\n")
-                    (incf counter)
+                    (cl-incf counter)
                     (when (eq 0 (% counter 16))
                       (insert "\n"))))
          (push-mark (point) t t)
@@ -4764,13 +4764,13 @@ See also: `list-charset-chars'."
 
 Returns a list of duplicates when there is more than one
 occurrence, otherwise nil."
-  (let ((matches (copy-list (member* font-name font-list :test 'font-utils-lenient-name-equal)))
+  (let ((matches (cl-copy-list (cl-member font-name font-list :test 'font-utils-lenient-name-equal)))
         (hits nil)
         (dupes nil))
     (setq matches (sort matches #'(lambda (a b)
                                     (equal a font-name))))
     (push (pop matches) dupes)
-    (while (setq hits (copy-list (member* font-name matches :test 'font-utils-lenient-name-equal)))
+    (while (setq hits (cl-copy-list (cl-member font-name matches :test 'font-utils-lenient-name-equal)))
       (let ((hit (pop hits)))
         (unless (font-utils-is-qualified-variant font-name hit)
           (push hit dupes)))
@@ -4797,7 +4797,7 @@ buffer instead of sending it to the *Messages* log."
     (setq reporter (make-progress-reporter "Checking fonts for duplicates ... " 0 (length known-fonts)))
     (setq counter 0)
     (dolist (font known-fonts)
-      (progress-reporter-update reporter (incf counter))
+      (progress-reporter-update reporter (cl-incf counter))
       (when (setq dupes (unicode-fonts-debug-check-duplicate-fonts font known-fonts))
         (funcall message-function "\n-----\nFont %s\n-----" font)
         (funcall message-function "ERROR: font occurs at least twice in known fonts: %s" dupes)))
@@ -4807,14 +4807,14 @@ buffer instead of sending it to the *Messages* log."
     (setq reporter (make-progress-reporter "Checking Unicode block mappings ... " 0 (length unicode-fonts-block-font-mapping)))
     (setq counter 0)
     (dolist (cell unicode-fonts-block-font-mapping)
-      (progress-reporter-update reporter (incf counter))
+      (progress-reporter-update reporter (cl-incf counter))
       (let* ((block-name (car cell))
              (char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold)))
              (all-fonts-with-qualifiers (cadr cell))
              (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) all-fonts-with-qualifiers))
-             (existing-fonts (remove-if-not 'unicode-fonts-font-exists-p all-fonts))
-             (existing-unskipped-fonts (remove-if #'(lambda (x)
-                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
+             (existing-fonts (cl-remove-if-not 'unicode-fonts-font-exists-p all-fonts))
+             (existing-unskipped-fonts (cl-remove-if #'(lambda (x)
+                                                      (cl-member x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
              (best-font (pop existing-unskipped-fonts))
              (licenses nil))
         (funcall message-function "\n-----\nBlock %s\n-----" block-name)
@@ -4842,12 +4842,12 @@ buffer instead of sending it to the *Messages* log."
     (setq reporter (make-progress-reporter "Checking overrides ... " 0 (length unicode-fonts-overrides-mapping)))
     (setq counter 0)
     (dolist (cell unicode-fonts-overrides-mapping)
-      (progress-reporter-update reporter (incf counter))
+      (progress-reporter-update reporter (cl-incf counter))
       (let* ((char-range (unicode-fonts--create-char-range (list (car cell) (cadr cell))))
              (all-fonts (mapcar #'(lambda (x) (replace-regexp-in-string ":.*\\'" "" x)) (car (last cell))))
-             (existing-fonts (remove-if-not 'unicode-fonts-font-exists-p all-fonts))
-             (existing-unskipped-fonts (remove-if #'(lambda (x)
-                                                      (member* x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
+             (existing-fonts (cl-remove-if-not 'unicode-fonts-font-exists-p all-fonts))
+             (existing-unskipped-fonts (cl-remove-if #'(lambda (x)
+                                                      (cl-member x unicode-fonts-skipped-fonts-computed :test 'font-utils-lenient-name-equal)) existing-fonts))
              (best-font (pop existing-unskipped-fonts))
              (licenses nil))
         (funcall message-function "\n-----\nOverride %s\n-----" (list (car cell) (cadr cell)))
@@ -4903,20 +4903,20 @@ Instructions for FONTSET-NAME will be placed in alist
               (current-msg (current-message))
               (message-log-max most-positive-fixnum))
           (dolist (cell unicode-fonts-block-font-mapping)
-            (callf append all-fonts (cadr cell)))
+            (cl-callf append all-fonts (cadr cell)))
           (delete-dups all-fonts)
           (setq reporter (make-progress-reporter "Unicode Fonts - Debugging Fonts ... " 0 (length all-fonts)))
           (setq counter 0)
           (dolist (font all-fonts)
-            (progress-reporter-update reporter (incf counter))
+            (progress-reporter-update reporter (cl-incf counter))
             (unless (unicode-fonts-font-exists-p font)
               (message "Unicode-fonts: font not found: %s" font)))
           (message current-msg))
         (progress-reporter-done reporter))
 
       ;; first, install fallback mapping
-      (let* ((fonts (remove-if #'(lambda (x)
-                                   (member* x unicode-fonts-skipped-fonts-computed
+      (let* ((fonts (cl-remove-if #'(lambda (x)
+                                   (cl-member x unicode-fonts-skipped-fonts-computed
                                             :test 'font-utils-lenient-name-equal))
                                unicode-fonts-fallback-font-list))
              (best-font nil))
@@ -4926,7 +4926,7 @@ Instructions for FONTSET-NAME will be placed in alist
           ((eq unicode-fonts-existence-checks 'first)
            (setq fonts (list (unicode-fonts-first-existing-font fonts))))
           (t    ; 'all
-           (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
+           (setq fonts (cl-remove-if-not 'unicode-fonts-font-exists-p fonts))))
         (setq best-font (pop fonts))
         (when best-font
           (push `(set-fontset-font ,fontset-name nil (font-spec :name ,(concat best-font ":") :registry "iso10646-1")) instructions))
@@ -4940,11 +4940,11 @@ Instructions for FONTSET-NAME will be placed in alist
         (setq counter 0))
       (dolist (cell unicode-fonts-block-font-mapping)
         (unless unicode-fonts-less-feedback
-          (progress-reporter-update reporter (incf counter)))
+          (progress-reporter-update reporter (cl-incf counter)))
         (let* ((block-name (car cell))
                (char-range (cdr (assoc-string block-name unicode-fonts-blocks 'case-fold)))
-               (fonts (remove-if #'(lambda (x)
-                                     (member* x unicode-fonts-skipped-fonts-computed
+               (fonts (cl-remove-if #'(lambda (x)
+                                     (cl-member x unicode-fonts-skipped-fonts-computed
                                               :test 'font-utils-lenient-name-equal))
                                  (cadr cell)))
                (best-font nil))
@@ -4955,7 +4955,7 @@ Instructions for FONTSET-NAME will be placed in alist
             ((eq unicode-fonts-existence-checks 'first)
              (setq fonts (list (unicode-fonts-first-existing-font fonts))))
             (t    ; 'all
-             (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
+             (setq fonts (cl-remove-if-not 'unicode-fonts-font-exists-p fonts))))
           (setq best-font (pop fonts))
           (when best-font
             (push `(set-fontset-font ,fontset-name
@@ -4975,10 +4975,10 @@ Instructions for FONTSET-NAME will be placed in alist
           (setq counter 0))
         (dolist (cell unicode-fonts-overrides-mapping)
           (unless unicode-fonts-less-feedback
-            (progress-reporter-update reporter (incf counter)))
+            (progress-reporter-update reporter (cl-incf counter)))
           (let* ((char-range (unicode-fonts--create-char-range (list (car cell) (cadr cell))))
-                 (fonts (remove-if #'(lambda (x)
-                                       (member* x unicode-fonts-skipped-fonts-computed
+                 (fonts (cl-remove-if #'(lambda (x)
+                                       (cl-member x unicode-fonts-skipped-fonts-computed
                                                 :test 'font-utils-lenient-name-equal))
                                    (car (last cell))))
                  (best-font nil))
@@ -4989,7 +4989,7 @@ Instructions for FONTSET-NAME will be placed in alist
                 ((eq unicode-fonts-existence-checks 'first)
                  (setq fonts (list (unicode-fonts-first-existing-font fonts))))
                 (t    ; 'all
-                 (setq fonts (remove-if-not 'unicode-fonts-font-exists-p fonts))))
+                 (setq fonts (cl-remove-if-not 'unicode-fonts-font-exists-p fonts))))
               (if unicode-fonts-use-prepend
                   (dolist (font (reverse fonts))
                     (push `(set-fontset-font ,fontset-name
@@ -5122,8 +5122,8 @@ Optional REGENERATE requests that the disk cache be invalidated
 and regenerated."
   (interactive)
   (unicode-fonts-compute-skipped-fonts)
-  (callf or fontset-names unicode-fonts-fontset-names)
-  (dolist (fontset-name (remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
+  (cl-callf or fontset-names unicode-fonts-fontset-names)
+  (dolist (fontset-name (cl-remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
     ;; Cocoa Emacs often crashes if this is run more than once for a fontset
     (unless (member fontset-name unicode-fonts-setup-done)
       (push fontset-name unicode-fonts-setup-done)
@@ -5159,7 +5159,7 @@ and regenerated."
 ;; LocalWords: Miao Chiki Osmanya Phags Rejang Rumi Saurashtra Tham
 ;; LocalWords: Sharada Tagbanwa Jing Xuan Takri Thaana Yijing Damase
 ;; LocalWords: Gentium Batang Hana Nuosu Daicing Xiaokai Jomolhari
-;; LocalWords: Alif Andale callf incf Kayah Lisu Sora Sompeng Syloti
+;; LocalWords: Alif Andale Kayah Lisu Sora Sompeng Syloti
 ;; LocalWords: Nagri Syllabics Arial glyphs Meetei Mayek Naskh Tahoma
 ;; LocalWords: ClearType Mshtakan Sylfaen Cambria Lucida Grande Yogh
 ;; LocalWords: Projective Sheqel Noto Nilus Namdhinggo Yunghkio Amiri
