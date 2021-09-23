@@ -23,22 +23,28 @@ Configure Unicode fonts for Emacs.
 
 ## Quickstart
 
+ * Make sure you have installed [`font-utils`](https://github.com/rolandwalker/font-utils), [`ucs-utils`](https://github.com/rolandwalker/ucs-utils) and [`list-utils`](https://github.com/rolandwalker/list-utils).
+
+ * Download the `unicode-fonts.el` file, and put it somewhere Emacs can find it, e.g. `~/.emacs.d/unicode-fonts`.
+
  * Remove Unifont from your system.
 
  * Install these fonts
 	* <https://dn-works.com/wp-content/uploads/2020/UFAS-Fonts/Symbola.zip>
 	* <http://www.quivira-font.com/files/Quivira.ttf>    ; or Quivira.otf
 	* <http://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2>
-	* <https://github.com/googlei18n/noto-fonts/raw/master/hinted/NotoSans-Regular.ttf>
-	* <https://github.com/googlei18n/noto-fonts/raw/master/unhinted/NotoSansSymbols-Regular.ttf>
+	* <https://fonts.google.com/download?family=Noto%20Sans>
+	* <https://fonts.google.com/download?family=Noto%20Sans%20Symbols>
 
  * Use an extended Latin font for your default face, such
    as Monaco, Consolas, or DejaVu Sans Mono.
 
-```elisp
-(require 'unicode-fonts)
-(unicode-fonts-setup)
-```
+ * Add the following to your `.emacs` file:
+   ```elisp
+   (add-to-list 'load-path "~/.emacs.d/unicode-fonts/")
+   (require 'unicode-fonts)
+   (unicode-fonts-setup)
+   ```
 
 ## Testing
 
