@@ -1421,6 +1421,7 @@
     ("Noto Sans Malayalam UI"              :licenses (free))
     ("Noto Sans Mandaic"                   :licenses (free))
     ("Noto Sans Meetei Mayek"              :licenses (free))
+    ("Noto Sans Modi"                      :licenses (free))
     ("Noto Sans Mongolian"                 :licenses (free))
     ("Noto Sans Myanmar"                   :licenses (free))
     ("Noto Sans Myanmar UI"                :licenses (free))
@@ -3407,6 +3408,7 @@ Set to nil to disable."
                                                          ))
     ("Modi"                                             (
                                                          "MarathiCursiveG"              ; 79/79
+                                                         "Noto Sans Modi"               ; 79/79
                                                          ))
     ("Modifier Tone Letters"                            (
                                                          "Apple Symbols"                ; 27/32
