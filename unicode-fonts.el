@@ -574,7 +574,6 @@
 
 ;; for cl-callf, cl-member, cl-incf, cl-remove-if, cl-remove-if-not, cl-assert, cl-loop, cl-copy-list
 (require 'cl-lib)
-(require 'seq)
 
 (autoload 'persistent-soft-store               "persistent-soft" "Under SYMBOL, store VALUE in the LOCATION persistent data store."    )
 (autoload 'persistent-soft-fetch               "persistent-soft" "Return the value for SYMBOL in the LOCATION persistent data store."  )
@@ -5108,7 +5107,7 @@ and regenerated."
           (cl-map 'list 
                   (lambda (x) 
                     (cons (car x) ;; get rid of symbols such as '\...
-                          (seq-filter #'consp (cdr x))))
+                          (cl-remove-if-not #'consp (cdr x))))
                   unicode-fonts--instructions))
     (eval
       (append
