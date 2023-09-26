@@ -5103,9 +5103,15 @@ Optional REGENERATE requests that the disk cache be invalidated
 and regenerated."
   (when (display-multi-font-p)
     (unicode-fonts--load-or-generate-instructions fontset-name regenerate)
+    (setq unicode-fonts--instructions
+          (cl-map 'list 
+                  (lambda (x) 
+                    (cons (car x) ;; get rid of symbols such as '\...
+                          (cl-remove-if-not #'consp (cdr x))))
+                  unicode-fonts--instructions))
     (eval
-     (append
-      '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))
+      (append
+        '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))
     ;; clean up the evaluated code, as it may be very large
     (setq unicode-fonts--instructions
           (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))))
