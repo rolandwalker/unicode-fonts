@@ -5114,12 +5114,13 @@ and regenerated."
         '(progn) (cdr (assoc fontset-name unicode-fonts--instructions))))
     ;; clean up the evaluated code, as it may be very large
     (setq unicode-fonts--instructions
-          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))))
+          (delq (assoc fontset-name unicode-fonts--instructions) unicode-fonts--instructions))
+    (push fontset-name unicode-fonts-setup-done)))
 
 ;;; main entry point
 
 ;;;###autoload
-(defun unicode-fonts-setup (&optional fontset-names regenerate)
+(defun unicode-fonts--setup-0 (&optional fontset-names regenerate frame)
   "Set up Unicode fonts for FONTSET-NAMES.
 
 Optional FONTSET-NAMES must be a list of strings.  Fontset names
@@ -5127,20 +5128,43 @@ which do not currently exist will be ignored.  The default value
 is `unicode-fonts-fontset-names'.
 
 Optional REGENERATE requests that the disk cache be invalidated
-and regenerated."
+and regenerated.
+
+FRAME must be a graphical frame. Default is the selected
+frame."
   (interactive)
   (unicode-fonts-compute-skipped-fonts)
   (cl-callf or fontset-names unicode-fonts-fontset-names)
   (dolist (fontset-name (cl-remove-if-not #'(lambda (fs) (ignore-errors (fontset-info fs))) fontset-names))
     ;; Cocoa Emacs often crashes if this is run more than once for a fontset
     (unless (member fontset-name unicode-fonts-setup-done)
-      (push fontset-name unicode-fonts-setup-done)
       (if (and (memq window-system '(ns))
                (not after-init-time))
           ;; Cocoa Emacs crashes unless this is deferred.  set-language-environment-hook
           ;; seems more logical than after-init-hook, but s-l-h appears to have already happened.
           (add-hook 'after-init-hook `(lambda () (unicode-fonts--setup-1 ,fontset-name)))
+        (when frame (select-frame frame))
         (unicode-fonts--setup-1 fontset-name regenerate)))))
+
+;;; main entry point
+
+;;;###autoload
+(defun unicode-fonts-setup (&optional fontset-names regenerate)
+  "Set up Unicode fonts for FONTSET-NAMES.
+
+FONTSET-NAMES must be a list of strings.  Fontset names
+which do not currently exist will be ignored.  The
+default value is `unicode-fonts-fontset-names'."
+  (interactive)
+  (add-hook 'after-init-hook
+            `(lambda ()
+               (if (display-multi-font-p)
+                   (unicode-fonts--setup-0 ,fontset-names ,regenerate)
+                 ;; The initial frame does not support fonts (emacs --daemon or -nw).
+                 ;; Defer until a graphical frame is created.
+                 (add-hook 'after-make-frame-functions
+                           (lambda (frame)
+                             (unicode-fonts--setup-0 ,fontset-names ,regenerate frame)))))))
 
 (provide 'unicode-fonts)
 
